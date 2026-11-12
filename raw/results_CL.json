@@ -1,20 +1,12 @@
 {
- "competition": {
-  "code": "CL",
-  "name": "チャンピオンズリーグ"
- },
- "count": 72,
  "matches": [
   {
    "away": {
-    "crest": "https://crests.football-data.org/58.png",
     "id": 58,
     "name": "Aston Villa FC",
     "shortName": "Aston Villa"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/851.png",
     "id": 851,
     "name": "Club Brugge KV",
     "shortName": "Club Brugge"
@@ -23,8 +15,7 @@
    "matchday": 1,
    "score": {
     "away": 3,
-    "home": 2,
-    "winner": "AWAY_TEAM"
+    "home": 2
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -32,14 +23,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/2016.png",
     "id": 2016,
     "name": "LASK Linz",
     "shortName": "LASK"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/1899.png",
     "id": 1899,
     "name": "PAE AEK",
     "shortName": "PAE AEK"
@@ -48,8 +36,7 @@
    "matchday": 1,
    "score": {
     "away": 0,
-    "home": 1,
-    "winner": "HOME_TEAM"
+    "home": 1
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -57,14 +44,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/108.png",
     "id": 108,
     "name": "FC Internazionale Milano",
     "shortName": "Inter"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/86.png",
     "id": 86,
     "name": "Real Madrid CF",
     "shortName": "Real Madrid"
@@ -73,8 +57,7 @@
    "matchday": 1,
    "score": {
     "away": 1,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -82,14 +65,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/65.png",
     "id": 65,
     "name": "Manchester City FC",
     "shortName": "Man City"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/503.png",
     "id": 503,
     "name": "FC Porto",
     "shortName": "Porto"
@@ -98,8 +78,7 @@
    "matchday": 1,
    "score": {
     "away": 2,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -107,14 +86,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/94.png",
     "id": 94,
     "name": "Villarreal CF",
     "shortName": "Villarreal"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/4.png",
     "id": 4,
     "name": "Borussia Dortmund",
     "shortName": "Dortmund"
@@ -123,8 +99,7 @@
    "matchday": 1,
    "score": {
     "away": 2,
-    "home": 3,
-    "winner": "HOME_TEAM"
+    "home": 3
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -132,14 +107,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/90.png",
     "id": 90,
     "name": "Real Betis Balompié",
     "shortName": "Real Betis"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/521.png",
     "id": 521,
     "name": "Lille OSC",
     "shortName": "Lille"
@@ -148,8 +120,7 @@
    "matchday": 1,
    "score": {
     "away": 3,
-    "home": 2,
-    "winner": "AWAY_TEAM"
+    "home": 2
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -157,14 +128,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/675.png",
     "id": 675,
     "name": "Feyenoord Rotterdam",
     "shortName": "Feyenoord"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/81.png",
     "id": 81,
     "name": "FC Barcelona",
     "shortName": "Barça"
@@ -173,8 +141,7 @@
    "matchday": 1,
    "score": {
     "away": 1,
-    "home": 5,
-    "winner": "HOME_TEAM"
+    "home": 5
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -182,14 +149,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/5720.png",
     "id": 5720,
     "name": "Viking FK",
     "shortName": "Viking"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/10.png",
     "id": 10,
     "name": "VfB Stuttgart",
     "shortName": "Stuttgart"
@@ -198,8 +162,7 @@
    "matchday": 1,
    "score": {
     "away": 1,
-    "home": 3,
-    "winner": "HOME_TEAM"
+    "home": 3
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -207,14 +170,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/78.png",
     "id": 78,
     "name": "Club Atlético de Madrid",
     "shortName": "Atleti"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/64.png",
     "id": 64,
     "name": "Liverpool FC",
     "shortName": "Liverpool"
@@ -223,8 +183,7 @@
    "matchday": 1,
    "score": {
     "away": 1,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -232,14 +191,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/7509.png",
     "id": 7509,
     "name": "ŠK Slovan Bratislava",
     "shortName": "Sl. Bratislava"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/524.png",
     "id": 524,
     "name": "Paris Saint-Germain FC",
     "shortName": "PSG"
@@ -248,8 +204,7 @@
    "matchday": 1,
    "score": {
     "away": 1,
-    "home": 6,
-    "winner": "HOME_TEAM"
+    "home": 6
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -257,14 +212,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/57.png",
     "id": 57,
     "name": "Arsenal FC",
     "shortName": "Arsenal"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/113.png",
     "id": 113,
     "name": "SSC Napoli",
     "shortName": "Napoli"
@@ -273,8 +225,7 @@
    "matchday": 1,
    "score": {
     "away": 1,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -282,14 +233,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/610.png",
     "id": 610,
     "name": "Galatasaray SK",
     "shortName": "Galatasaray"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/498.png",
     "id": 498,
     "name": "Sporting Clube de Portugal",
     "shortName": "Sporting CP"
@@ -298,8 +246,7 @@
    "matchday": 1,
    "score": {
     "away": 1,
-    "home": 3,
-    "winner": "HOME_TEAM"
+    "home": 3
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -307,14 +254,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/100.png",
     "id": 100,
     "name": "AS Roma",
     "shortName": "Roma"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/613.png",
     "id": 613,
     "name": "Fenerbahçe SK",
     "shortName": "Fenerbahçe"
@@ -323,8 +267,7 @@
    "matchday": 1,
    "score": {
     "away": 1,
-    "home": 1,
-    "winner": "DRAW"
+    "home": 1
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -332,14 +275,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/1887.png",
     "id": 1887,
     "name": "FK Shakhtar Donetsk",
     "shortName": "Shaktar"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/674.png",
     "id": 674,
     "name": "PSV",
     "shortName": "PSV"
@@ -348,8 +288,7 @@
    "matchday": 1,
    "score": {
     "away": 1,
-    "home": 1,
-    "winner": "DRAW"
+    "home": 1
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -357,14 +296,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/5721.png",
     "id": 5721,
     "name": "FK Bodø/Glimt",
     "shortName": "Bodø/Glimt"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/5.png",
     "id": 5,
     "name": "FC Bayern München",
     "shortName": "Bayern"
@@ -373,8 +309,7 @@
    "matchday": 1,
    "score": {
     "away": 0,
-    "home": 5,
-    "winner": "HOME_TEAM"
+    "home": 5
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -382,14 +317,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/10233.png",
     "id": 10233,
     "name": "Sabah FK",
     "shortName": "Sabah FK"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/66.png",
     "id": 66,
     "name": "Manchester United FC",
     "shortName": "Man United"
@@ -398,8 +330,7 @@
    "matchday": 1,
    "score": {
     "away": 0,
-    "home": 4,
-    "winner": "HOME_TEAM"
+    "home": 4
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -407,14 +338,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/721.png",
     "id": 721,
     "name": "RB Leipzig",
     "shortName": "RB Leipzig"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/7397.png",
     "id": 7397,
     "name": "Como 1907",
     "shortName": "Como 1907"
@@ -423,8 +351,7 @@
    "matchday": 1,
    "score": {
     "away": 1,
-    "home": 4,
-    "winner": "HOME_TEAM"
+    "home": 4
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -432,14 +359,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/546.png",
     "id": 546,
     "name": "Racing Club de Lens",
     "shortName": "RC Lens"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/930.png",
     "id": 930,
     "name": "SK Slavia Praha",
     "shortName": "Slavia Praha"
@@ -448,8 +372,7 @@
    "matchday": 1,
    "score": {
     "away": 3,
-    "home": 2,
-    "winner": "AWAY_TEAM"
+    "home": 2
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -457,14 +380,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/498.png",
     "id": 498,
     "name": "Sporting Clube de Portugal",
     "shortName": "Sporting CP"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/546.png",
     "id": 546,
     "name": "Racing Club de Lens",
     "shortName": "RC Lens"
@@ -473,8 +393,7 @@
    "matchday": 2,
    "score": {
     "away": 2,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -482,14 +401,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/930.png",
     "id": 930,
     "name": "SK Slavia Praha",
     "shortName": "Slavia Praha"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/10233.png",
     "id": 10233,
     "name": "Sabah FK",
     "shortName": "Sabah FK"
@@ -498,8 +414,7 @@
    "matchday": 2,
    "score": {
     "away": 0,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -507,14 +422,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/851.png",
     "id": 851,
     "name": "Club Brugge KV",
     "shortName": "Club Brugge"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/108.png",
     "id": 108,
     "name": "FC Internazionale Milano",
     "shortName": "Inter"
@@ -523,8 +435,7 @@
    "matchday": 2,
    "score": {
     "away": 4,
-    "home": 3,
-    "winner": "AWAY_TEAM"
+    "home": 3
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -532,14 +443,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/81.png",
     "id": 81,
     "name": "FC Barcelona",
     "shortName": "Barça"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/610.png",
     "id": 610,
     "name": "Galatasaray SK",
     "shortName": "Galatasaray"
@@ -548,8 +456,7 @@
    "matchday": 2,
    "score": {
     "away": 4,
-    "home": 1,
-    "winner": "AWAY_TEAM"
+    "home": 1
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -557,14 +464,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/66.png",
     "id": 66,
     "name": "Manchester United FC",
     "shortName": "Man United"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/78.png",
     "id": 78,
     "name": "Club Atlético de Madrid",
     "shortName": "Atleti"
@@ -573,8 +477,7 @@
    "matchday": 2,
    "score": {
     "away": 0,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -582,14 +485,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/521.png",
     "id": 521,
     "name": "Lille OSC",
     "shortName": "Lille"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/57.png",
     "id": 57,
     "name": "Arsenal FC",
     "shortName": "Arsenal"
@@ -598,8 +498,7 @@
    "matchday": 2,
    "score": {
     "away": 0,
-    "home": 3,
-    "winner": "HOME_TEAM"
+    "home": 3
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -607,14 +506,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/5.png",
     "id": 5,
     "name": "FC Bayern München",
     "shortName": "Bayern"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/5720.png",
     "id": 5720,
     "name": "Viking FK",
     "shortName": "Viking"
@@ -623,8 +519,7 @@
    "matchday": 2,
    "score": {
     "away": 3,
-    "home": 3,
-    "winner": "DRAW"
+    "home": 3
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -632,14 +527,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/674.png",
     "id": 674,
     "name": "PSV",
     "shortName": "PSV"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/721.png",
     "id": 721,
     "name": "RB Leipzig",
     "shortName": "RB Leipzig"
@@ -648,8 +540,7 @@
    "matchday": 2,
    "score": {
     "away": 0,
-    "home": 1,
-    "winner": "HOME_TEAM"
+    "home": 1
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -657,14 +548,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/113.png",
     "id": 113,
     "name": "SSC Napoli",
     "shortName": "Napoli"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/94.png",
     "id": 94,
     "name": "Villarreal CF",
     "shortName": "Villarreal"
@@ -673,8 +561,7 @@
    "matchday": 2,
    "score": {
     "away": 1,
-    "home": 3,
-    "winner": "HOME_TEAM"
+    "home": 3
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -682,14 +569,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/64.png",
     "id": 64,
     "name": "Liverpool FC",
     "shortName": "Liverpool"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/2016.png",
     "id": 2016,
     "name": "LASK Linz",
     "shortName": "LASK"
@@ -698,8 +582,7 @@
    "matchday": 2,
    "score": {
     "away": 6,
-    "home": 3,
-    "winner": "AWAY_TEAM"
+    "home": 3
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -707,14 +590,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/7397.png",
     "id": 7397,
     "name": "Como 1907",
     "shortName": "Como 1907"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/675.png",
     "id": 675,
     "name": "Feyenoord Rotterdam",
     "shortName": "Feyenoord"
@@ -723,8 +603,7 @@
    "matchday": 2,
    "score": {
     "away": 2,
-    "home": 3,
-    "winner": "HOME_TEAM"
+    "home": 3
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -732,14 +611,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/86.png",
     "id": 86,
     "name": "Real Madrid CF",
     "shortName": "Real Madrid"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/100.png",
     "id": 100,
     "name": "AS Roma",
     "shortName": "Roma"
@@ -748,8 +624,7 @@
    "matchday": 2,
    "score": {
     "away": 4,
-    "home": 3,
-    "winner": "AWAY_TEAM"
+    "home": 3
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -757,14 +632,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/524.png",
     "id": 524,
     "name": "Paris Saint-Germain FC",
     "shortName": "PSG"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/65.png",
     "id": 65,
     "name": "Manchester City FC",
     "shortName": "Man City"
@@ -773,8 +645,7 @@
    "matchday": 2,
    "score": {
     "away": 4,
-    "home": 2,
-    "winner": "AWAY_TEAM"
+    "home": 2
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -782,14 +653,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/4.png",
     "id": 4,
     "name": "Borussia Dortmund",
     "shortName": "Dortmund"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/5721.png",
     "id": 5721,
     "name": "FK Bodø/Glimt",
     "shortName": "Bodø/Glimt"
@@ -798,8 +666,7 @@
    "matchday": 2,
    "score": {
     "away": 0,
-    "home": 1,
-    "winner": "HOME_TEAM"
+    "home": 1
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -807,14 +674,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/613.png",
     "id": 613,
     "name": "Fenerbahçe SK",
     "shortName": "Fenerbahçe"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/58.png",
     "id": 58,
     "name": "Aston Villa FC",
     "shortName": "Aston Villa"
@@ -823,8 +687,7 @@
    "matchday": 2,
    "score": {
     "away": 0,
-    "home": 6,
-    "winner": "HOME_TEAM"
+    "home": 6
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -832,14 +695,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/503.png",
     "id": 503,
     "name": "FC Porto",
     "shortName": "Porto"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/90.png",
     "id": 90,
     "name": "Real Betis Balompié",
     "shortName": "Real Betis"
@@ -848,8 +708,7 @@
    "matchday": 2,
    "score": {
     "away": 2,
-    "home": 3,
-    "winner": "HOME_TEAM"
+    "home": 3
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -857,14 +716,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/1899.png",
     "id": 1899,
     "name": "PAE AEK",
     "shortName": "PAE AEK"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/1887.png",
     "id": 1887,
     "name": "FK Shakhtar Donetsk",
     "shortName": "Shaktar"
@@ -873,8 +729,7 @@
    "matchday": 2,
    "score": {
     "away": 1,
-    "home": 3,
-    "winner": "HOME_TEAM"
+    "home": 3
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -882,14 +737,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/10.png",
     "id": 10,
     "name": "VfB Stuttgart",
     "shortName": "Stuttgart"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/7509.png",
     "id": 7509,
     "name": "ŠK Slovan Bratislava",
     "shortName": "Sl. Bratislava"
@@ -898,8 +750,7 @@
    "matchday": 2,
    "score": {
     "away": 3,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -907,14 +758,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/4.png",
     "id": 4,
     "name": "Borussia Dortmund",
     "shortName": "Dortmund"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/10233.png",
     "id": 10233,
     "name": "Sabah FK",
     "shortName": "Sabah FK"
@@ -923,8 +771,7 @@
    "matchday": 3,
    "score": {
     "away": 2,
-    "home": 1,
-    "winner": "AWAY_TEAM"
+    "home": 1
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -932,14 +779,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/930.png",
     "id": 930,
     "name": "SK Slavia Praha",
     "shortName": "Slavia Praha"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/613.png",
     "id": 613,
     "name": "Fenerbahçe SK",
     "shortName": "Fenerbahçe"
@@ -948,8 +792,7 @@
    "matchday": 3,
    "score": {
     "away": 2,
-    "home": 2,
-    "winner": "DRAW"
+    "home": 2
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -957,14 +800,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/1899.png",
     "id": 1899,
     "name": "PAE AEK",
     "shortName": "PAE AEK"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/65.png",
     "id": 65,
     "name": "Manchester City FC",
     "shortName": "Man City"
@@ -973,8 +813,7 @@
    "matchday": 3,
    "score": {
     "away": 1,
-    "home": 5,
-    "winner": "HOME_TEAM"
+    "home": 5
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -982,14 +821,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/78.png",
     "id": 78,
     "name": "Club Atlético de Madrid",
     "shortName": "Atleti"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/10.png",
     "id": 10,
     "name": "VfB Stuttgart",
     "shortName": "Stuttgart"
@@ -998,8 +834,7 @@
    "matchday": 3,
    "score": {
     "away": 1,
-    "home": 1,
-    "winner": "DRAW"
+    "home": 1
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -1007,14 +842,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/94.png",
     "id": 94,
     "name": "Villarreal CF",
     "shortName": "Villarreal"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/64.png",
     "id": 64,
     "name": "Liverpool FC",
     "shortName": "Liverpool"
@@ -1023,8 +855,7 @@
    "matchday": 3,
    "score": {
     "away": 3,
-    "home": 4,
-    "winner": "HOME_TEAM"
+    "home": 4
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -1032,14 +863,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/7509.png",
     "id": 7509,
     "name": "ŠK Slovan Bratislava",
     "shortName": "Sl. Bratislava"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/100.png",
     "id": 100,
     "name": "AS Roma",
     "shortName": "Roma"
@@ -1048,8 +876,7 @@
    "matchday": 3,
    "score": {
     "away": 0,
-    "home": 4,
-    "winner": "HOME_TEAM"
+    "home": 4
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -1057,14 +884,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/674.png",
     "id": 674,
     "name": "PSV",
     "shortName": "PSV"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/503.png",
     "id": 503,
     "name": "FC Porto",
     "shortName": "Porto"
@@ -1073,8 +897,7 @@
    "matchday": 3,
    "score": {
     "away": 1,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -1082,14 +905,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/5721.png",
     "id": 5721,
     "name": "FK Bodø/Glimt",
     "shortName": "Bodø/Glimt"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/113.png",
     "id": 113,
     "name": "SSC Napoli",
     "shortName": "Napoli"
@@ -1098,8 +918,7 @@
    "matchday": 3,
    "score": {
     "away": 3,
-    "home": 4,
-    "winner": "HOME_TEAM"
+    "home": 4
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -1107,14 +926,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/81.png",
     "id": 81,
     "name": "FC Barcelona",
     "shortName": "Barça"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/524.png",
     "id": 524,
     "name": "Paris Saint-Germain FC",
     "shortName": "PSG"
@@ -1123,8 +939,7 @@
    "matchday": 3,
    "score": {
     "away": 2,
-    "home": 4,
-    "winner": "HOME_TEAM"
+    "home": 4
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -1132,14 +947,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/66.png",
     "id": 66,
     "name": "Manchester United FC",
     "shortName": "Man United"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/7397.png",
     "id": 7397,
     "name": "Como 1907",
     "shortName": "Como 1907"
@@ -1148,8 +960,7 @@
    "matchday": 3,
    "score": {
     "away": 1,
-    "home": 4,
-    "winner": "HOME_TEAM"
+    "home": 4
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -1157,14 +968,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/610.png",
     "id": 610,
     "name": "Galatasaray SK",
     "shortName": "Galatasaray"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/521.png",
     "id": 521,
     "name": "Lille OSC",
     "shortName": "Lille"
@@ -1173,8 +981,7 @@
    "matchday": 3,
    "score": {
     "away": 4,
-    "home": 2,
-    "winner": "AWAY_TEAM"
+    "home": 2
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -1182,14 +989,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/721.png",
     "id": 721,
     "name": "RB Leipzig",
     "shortName": "RB Leipzig"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/86.png",
     "id": 86,
     "name": "Real Madrid CF",
     "shortName": "Real Madrid"
@@ -1198,8 +1002,7 @@
    "matchday": 3,
    "score": {
     "away": 1,
-    "home": 4,
-    "winner": "HOME_TEAM"
+    "home": 4
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -1207,14 +1010,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/1887.png",
     "id": 1887,
     "name": "FK Shakhtar Donetsk",
     "shortName": "Shaktar"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/108.png",
     "id": 108,
     "name": "FC Internazionale Milano",
     "shortName": "Inter"
@@ -1223,8 +1023,7 @@
    "matchday": 3,
    "score": {
     "away": 0,
-    "home": 1,
-    "winner": "HOME_TEAM"
+    "home": 1
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -1232,14 +1031,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/57.png",
     "id": 57,
     "name": "Arsenal FC",
     "shortName": "Arsenal"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/5.png",
     "id": 5,
     "name": "FC Bayern München",
     "shortName": "Bayern"
@@ -1248,8 +1044,7 @@
    "matchday": 3,
    "score": {
     "away": 2,
-    "home": 2,
-    "winner": "DRAW"
+    "home": 2
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -1257,14 +1052,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/546.png",
     "id": 546,
     "name": "Racing Club de Lens",
     "shortName": "RC Lens"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/851.png",
     "id": 851,
     "name": "Club Brugge KV",
     "shortName": "Club Brugge"
@@ -1273,8 +1065,7 @@
    "matchday": 3,
    "score": {
     "away": 0,
-    "home": 3,
-    "winner": "HOME_TEAM"
+    "home": 3
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -1282,14 +1073,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/5720.png",
     "id": 5720,
     "name": "Viking FK",
     "shortName": "Viking"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/58.png",
     "id": 58,
     "name": "Aston Villa FC",
     "shortName": "Aston Villa"
@@ -1298,8 +1086,7 @@
    "matchday": 3,
    "score": {
     "away": 1,
-    "home": 3,
-    "winner": "HOME_TEAM"
+    "home": 3
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -1307,14 +1094,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/2016.png",
     "id": 2016,
     "name": "LASK Linz",
     "shortName": "LASK"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/498.png",
     "id": 498,
     "name": "Sporting Clube de Portugal",
     "shortName": "Sporting CP"
@@ -1323,8 +1107,7 @@
    "matchday": 3,
    "score": {
     "away": 3,
-    "home": 2,
-    "winner": "AWAY_TEAM"
+    "home": 2
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -1332,14 +1115,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/675.png",
     "id": 675,
     "name": "Feyenoord Rotterdam",
     "shortName": "Feyenoord"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/90.png",
     "id": 90,
     "name": "Real Betis Balompié",
     "shortName": "Real Betis"
@@ -1348,8 +1128,7 @@
    "matchday": 3,
    "score": {
     "away": 0,
-    "home": 1,
-    "winner": "HOME_TEAM"
+    "home": 1
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -1357,14 +1136,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/498.png",
     "id": 498,
     "name": "Sporting Clube de Portugal",
     "shortName": "Sporting CP"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/1887.png",
     "id": 1887,
     "name": "FK Shakhtar Donetsk",
     "shortName": "Shaktar"
@@ -1373,8 +1149,7 @@
    "matchday": 4,
    "score": {
     "away": 1,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -1382,14 +1157,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/10.png",
     "id": 10,
     "name": "VfB Stuttgart",
     "shortName": "Stuttgart"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/610.png",
     "id": 610,
     "name": "Galatasaray SK",
     "shortName": "Galatasaray"
@@ -1398,8 +1170,7 @@
    "matchday": 4,
    "score": {
     "away": 0,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -1407,14 +1178,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/108.png",
     "id": 108,
     "name": "FC Internazionale Milano",
     "shortName": "Inter"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/675.png",
     "id": 675,
     "name": "Feyenoord Rotterdam",
     "shortName": "Feyenoord"
@@ -1423,8 +1191,7 @@
    "matchday": 4,
    "score": {
     "away": 3,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -1432,14 +1199,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/58.png",
     "id": 58,
     "name": "Aston Villa FC",
     "shortName": "Aston Villa"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/81.png",
     "id": 81,
     "name": "FC Barcelona",
     "shortName": "Barça"
@@ -1448,8 +1212,7 @@
    "matchday": 4,
    "score": {
     "away": 0,
-    "home": 3,
-    "winner": "HOME_TEAM"
+    "home": 3
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -1457,14 +1220,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/5.png",
     "id": 5,
     "name": "FC Bayern München",
     "shortName": "Bayern"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/78.png",
     "id": 78,
     "name": "Club Atlético de Madrid",
     "shortName": "Atleti"
@@ -1473,8 +1233,7 @@
    "matchday": 4,
    "score": {
     "away": 2,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -1482,14 +1241,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/524.png",
     "id": 524,
     "name": "Paris Saint-Germain FC",
     "shortName": "PSG"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/94.png",
     "id": 94,
     "name": "Villarreal CF",
     "shortName": "Villarreal"
@@ -1498,8 +1254,7 @@
    "matchday": 4,
    "score": {
     "away": 6,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -1507,14 +1262,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/100.png",
     "id": 100,
     "name": "AS Roma",
     "shortName": "Roma"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/66.png",
     "id": 66,
     "name": "Manchester United FC",
     "shortName": "Man United"
@@ -1523,8 +1275,7 @@
    "matchday": 4,
    "score": {
     "away": 2,
-    "home": 3,
-    "winner": "HOME_TEAM"
+    "home": 3
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -1532,14 +1283,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/521.png",
     "id": 521,
     "name": "Lille OSC",
     "shortName": "Lille"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/5721.png",
     "id": 5721,
     "name": "FK Bodø/Glimt",
     "shortName": "Bodø/Glimt"
@@ -1548,8 +1296,7 @@
    "matchday": 4,
    "score": {
     "away": 0,
-    "home": 0,
-    "winner": "DRAW"
+    "home": 0
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -1557,14 +1304,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/7509.png",
     "id": 7509,
     "name": "ŠK Slovan Bratislava",
     "shortName": "Sl. Bratislava"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/2016.png",
     "id": 2016,
     "name": "LASK Linz",
     "shortName": "LASK"
@@ -1573,8 +1317,7 @@
    "matchday": 4,
    "score": {
     "away": 0,
-    "home": 4,
-    "winner": "HOME_TEAM"
+    "home": 4
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -1582,14 +1325,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/86.png",
     "id": 86,
     "name": "Real Madrid CF",
     "shortName": "Real Madrid"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/1899.png",
     "id": 1899,
     "name": "PAE AEK",
     "shortName": "PAE AEK"
@@ -1598,8 +1338,7 @@
    "matchday": 4,
    "score": {
     "away": 3,
-    "home": 2,
-    "winner": "AWAY_TEAM"
+    "home": 2
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -1607,14 +1346,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/64.png",
     "id": 64,
     "name": "Liverpool FC",
     "shortName": "Liverpool"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/613.png",
     "id": 613,
     "name": "Fenerbahçe SK",
     "shortName": "Fenerbahçe"
@@ -1623,8 +1359,7 @@
    "matchday": 4,
    "score": {
     "away": 2,
-    "home": 3,
-    "winner": "HOME_TEAM"
+    "home": 3
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -1632,14 +1367,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/65.png",
     "id": 65,
     "name": "Manchester City FC",
     "shortName": "Man City"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/721.png",
     "id": 721,
     "name": "RB Leipzig",
     "shortName": "RB Leipzig"
@@ -1648,8 +1380,7 @@
    "matchday": 4,
    "score": {
     "away": 3,
-    "home": 2,
-    "winner": "AWAY_TEAM"
+    "home": 2
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -1657,14 +1388,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/57.png",
     "id": 57,
     "name": "Arsenal FC",
     "shortName": "Arsenal"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/930.png",
     "id": 930,
     "name": "SK Slavia Praha",
     "shortName": "Slavia Praha"
@@ -1673,8 +1401,7 @@
    "matchday": 4,
    "score": {
     "away": 2,
-    "home": 1,
-    "winner": "AWAY_TEAM"
+    "home": 1
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -1682,14 +1409,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/851.png",
     "id": 851,
     "name": "Club Brugge KV",
     "shortName": "Club Brugge"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/674.png",
     "id": 674,
     "name": "PSV",
     "shortName": "PSV"
@@ -1698,8 +1422,7 @@
    "matchday": 4,
    "score": {
     "away": 2,
-    "home": 1,
-    "winner": "AWAY_TEAM"
+    "home": 1
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -1707,14 +1430,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/90.png",
     "id": 90,
     "name": "Real Betis Balompié",
     "shortName": "Real Betis"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/4.png",
     "id": 4,
     "name": "Borussia Dortmund",
     "shortName": "Dortmund"
@@ -1723,8 +1443,7 @@
    "matchday": 4,
    "score": {
     "away": 1,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -1732,14 +1451,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/113.png",
     "id": 113,
     "name": "SSC Napoli",
     "shortName": "Napoli"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/503.png",
     "id": 503,
     "name": "FC Porto",
     "shortName": "Porto"
@@ -1748,8 +1464,7 @@
    "matchday": 4,
    "score": {
     "away": 1,
-    "home": 4,
-    "winner": "HOME_TEAM"
+    "home": 4
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -1757,14 +1472,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/7397.png",
     "id": 7397,
     "name": "Como 1907",
     "shortName": "Como 1907"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/546.png",
     "id": 546,
     "name": "Racing Club de Lens",
     "shortName": "RC Lens"
@@ -1773,8 +1485,7 @@
    "matchday": 4,
    "score": {
     "away": 9,
-    "home": 1,
-    "winner": "AWAY_TEAM"
+    "home": 1
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
@@ -1782,14 +1493,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/10233.png",
     "id": 10233,
     "name": "Sabah FK",
     "shortName": "Sabah FK"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/5720.png",
     "id": 5720,
     "name": "Viking FK",
     "shortName": "Viking"
@@ -1798,8 +1506,7 @@
    "matchday": 4,
    "score": {
     "away": 1,
-    "home": 4,
-    "winner": "HOME_TEAM"
+    "home": 4
    },
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",

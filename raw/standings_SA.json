@@ -1,25 +1,16 @@
 {
- "competition": {
-  "code": "SA",
-  "name": "セリエA"
- },
- "season": "2026-08-23",
  "tables": [
   {
    "group": "Matchday",
    "rows": [
     {
      "draw": 2,
-     "form": null,
-     "ga": 9,
      "gd": 16,
-     "gf": 25,
      "lost": 0,
      "played": 11,
      "points": 29,
      "rank": 1,
      "team": {
-      "crest": "https://crests.football-data.org/110.png",
       "id": 110,
       "name": "SS Lazio",
       "shortName": "Lazio"
@@ -28,16 +19,12 @@
     },
     {
      "draw": 1,
-     "form": null,
-     "ga": 13,
      "gd": 15,
-     "gf": 28,
      "lost": 1,
      "played": 11,
      "points": 28,
      "rank": 2,
      "team": {
-      "crest": "https://crests.football-data.org/108.png",
       "id": 108,
       "name": "FC Internazionale Milano",
       "shortName": "Inter"
@@ -46,16 +33,12 @@
     },
     {
      "draw": 3,
-     "form": null,
-     "ga": 10,
      "gd": 21,
-     "gf": 31,
      "lost": 0,
      "played": 11,
      "points": 27,
      "rank": 3,
      "team": {
-      "crest": "https://crests.football-data.org/100.png",
       "id": 100,
       "name": "AS Roma",
       "shortName": "Roma"
@@ -64,16 +47,12 @@
     },
     {
      "draw": 3,
-     "form": null,
-     "ga": 13,
      "gd": 10,
-     "gf": 23,
      "lost": 1,
      "played": 11,
      "points": 24,
      "rank": 4,
      "team": {
-      "crest": "https://crests.football-data.org/98.png",
       "id": 98,
       "name": "AC Milan",
       "shortName": "Milan"
@@ -82,16 +61,12 @@
     },
     {
      "draw": 2,
-     "form": null,
-     "ga": 10,
      "gd": 8,
-     "gf": 18,
      "lost": 2,
      "played": 11,
      "points": 23,
      "rank": 5,
      "team": {
-      "crest": "https://crests.football-data.org/7397.png",
       "id": 7397,
       "name": "Como 1907",
       "shortName": "Como 1907"
@@ -100,16 +75,12 @@
     },
     {
      "draw": 2,
-     "form": null,
-     "ga": 15,
      "gd": 9,
-     "gf": 24,
      "lost": 3,
      "played": 11,
      "points": 20,
      "rank": 6,
      "team": {
-      "crest": "https://crests.football-data.org/470.png",
       "id": 470,
       "name": "Frosinone Calcio",
       "shortName": "Frosinone"
@@ -118,16 +89,12 @@
     },
     {
      "draw": 3,
-     "form": null,
-     "ga": 12,
      "gd": 3,
-     "gf": 15,
      "lost": 3,
      "played": 11,
      "points": 18,
      "rank": 7,
      "team": {
-      "crest": "https://crests.football-data.org/109.png",
       "id": 109,
       "name": "Juventus FC",
       "shortName": "Juventus"
@@ -136,16 +103,12 @@
     },
     {
      "draw": 2,
-     "form": null,
-     "ga": 14,
      "gd": 2,
-     "gf": 16,
      "lost": 4,
      "played": 11,
      "points": 17,
      "rank": 8,
      "team": {
-      "crest": "https://crests.football-data.org/103.png",
       "id": 103,
       "name": "Bologna FC 1909",
       "shortName": "Bologna"
@@ -154,16 +117,12 @@
     },
     {
      "draw": 1,
-     "form": null,
-     "ga": 15,
      "gd": -5,
-     "gf": 10,
      "lost": 5,
      "played": 11,
      "points": 16,
      "rank": 9,
      "team": {
-      "crest": "https://crests.football-data.org/104.png",
       "id": 104,
       "name": "Cagliari Calcio",
       "shortName": "Cagliari"
@@ -172,16 +131,12 @@
     },
     {
      "draw": 3,
-     "form": null,
-     "ga": 14,
      "gd": 4,
-     "gf": 18,
      "lost": 4,
      "played": 11,
      "points": 15,
      "rank": 10,
      "team": {
-      "crest": "https://crests.football-data.org/113.png",
       "id": 113,
       "name": "SSC Napoli",
       "shortName": "Napoli"
@@ -190,16 +145,12 @@
     },
     {
      "draw": 2,
-     "form": null,
-     "ga": 17,
      "gd": -2,
-     "gf": 15,
      "lost": 5,
      "played": 11,
      "points": 14,
      "rank": 11,
      "team": {
-      "crest": "https://crests.football-data.org/586.png",
       "id": 586,
       "name": "Torino FC",
       "shortName": "Torino"
@@ -208,16 +159,12 @@
     },
     {
      "draw": 2,
-     "form": null,
-     "ga": 20,
      "gd": -3,
-     "gf": 17,
      "lost": 5,
      "played": 11,
      "points": 14,
      "rank": 12,
      "team": {
-      "crest": "https://crests.football-data.org/102.png",
       "id": 102,
       "name": "Atalanta BC",
       "shortName": "Atalanta"
@@ -226,16 +173,12 @@
     },
     {
      "draw": 1,
-     "form": null,
-     "ga": 16,
      "gd": -5,
-     "gf": 11,
      "lost": 6,
      "played": 11,
      "points": 13,
      "rank": 13,
      "team": {
-      "crest": "https://crests.football-data.org/107.png",
       "id": 107,
       "name": "Genoa CFC",
       "shortName": "Genoa"
@@ -244,16 +187,12 @@
     },
     {
      "draw": 1,
-     "form": null,
-     "ga": 22,
      "gd": -10,
-     "gf": 12,
      "lost": 7,
      "played": 11,
      "points": 10,
      "rank": 14,
      "team": {
-      "crest": "https://crests.football-data.org/5890.png",
       "id": 5890,
       "name": "US Lecce",
       "shortName": "Lecce"
@@ -262,16 +201,12 @@
     },
     {
      "draw": 3,
-     "form": null,
-     "ga": 25,
      "gd": -8,
-     "gf": 17,
      "lost": 6,
      "played": 11,
      "points": 9,
      "rank": 15,
      "team": {
-      "crest": "https://crests.football-data.org/99.png",
       "id": 99,
       "name": "ACF Fiorentina",
       "shortName": "Fiorentina"
@@ -280,16 +215,12 @@
     },
     {
      "draw": 2,
-     "form": null,
-     "ga": 17,
      "gd": -8,
-     "gf": 9,
      "lost": 7,
      "played": 11,
      "points": 8,
      "rank": 16,
      "team": {
-      "crest": "https://crests.football-data.org/112.png",
       "id": 112,
       "name": "Parma Calcio 1913",
       "shortName": "Parma"
@@ -298,16 +229,12 @@
     },
     {
      "draw": 2,
-     "form": null,
-     "ga": 29,
      "gd": -13,
-     "gf": 16,
      "lost": 7,
      "played": 11,
      "points": 8,
      "rank": 17,
      "team": {
-      "crest": "https://crests.football-data.org/471.png",
       "id": 471,
       "name": "US Sassuolo Calcio",
       "shortName": "Sassuolo"
@@ -316,16 +243,12 @@
     },
     {
      "draw": 1,
-     "form": null,
-     "ga": 25,
      "gd": -8,
-     "gf": 17,
      "lost": 8,
      "played": 11,
      "points": 7,
      "rank": 18,
      "team": {
-      "crest": "https://crests.football-data.org/5911.png",
       "id": 5911,
       "name": "AC Monza",
       "shortName": "Monza"
@@ -334,16 +257,12 @@
     },
     {
      "draw": 0,
-     "form": null,
-     "ga": 21,
      "gd": -13,
-     "gf": 8,
      "lost": 9,
      "played": 11,
      "points": 6,
      "rank": 19,
      "team": {
-      "crest": "https://crests.football-data.org/454.png",
       "id": 454,
       "name": "Venezia FC",
       "shortName": "Venezia FC"
@@ -352,24 +271,19 @@
     },
     {
      "draw": 2,
-     "form": null,
-     "ga": 25,
      "gd": -13,
-     "gf": 12,
      "lost": 8,
      "played": 11,
      "points": 5,
      "rank": 20,
      "team": {
-      "crest": "https://crests.football-data.org/115.png",
       "id": 115,
       "name": "Udinese Calcio",
       "shortName": "Udinese"
      },
      "won": 1
     }
-   ],
-   "stage": "REGULAR_SEASON"
+   ]
   }
  ]
 }

@@ -1,25 +1,16 @@
 {
- "competition": {
-  "code": "BL1",
-  "name": "ブンデスリーガ"
- },
- "season": "2026-08-28",
  "tables": [
   {
    "group": "Matchday",
    "rows": [
     {
      "draw": 3,
-     "form": null,
-     "ga": 9,
      "gd": 20,
-     "gf": 29,
      "lost": 0,
      "played": 9,
      "points": 21,
      "rank": 1,
      "team": {
-      "crest": "https://crests.football-data.org/5.png",
       "id": 5,
       "name": "FC Bayern München",
       "shortName": "Bayern"
@@ -28,16 +19,12 @@
     },
     {
      "draw": 3,
-     "form": null,
-     "ga": 7,
      "gd": 9,
-     "gf": 16,
      "lost": 0,
      "played": 9,
      "points": 21,
      "rank": 2,
      "team": {
-      "crest": "https://crests.football-data.org/4.png",
       "id": 4,
       "name": "Borussia Dortmund",
       "shortName": "Dortmund"
@@ -46,16 +33,12 @@
     },
     {
      "draw": 1,
-     "form": null,
-     "ga": 10,
      "gd": 10,
-     "gf": 20,
      "lost": 2,
      "played": 9,
      "points": 19,
      "rank": 3,
      "team": {
-      "crest": "https://crests.football-data.org/17.png",
       "id": 17,
       "name": "SC Freiburg",
       "shortName": "Freiburg"
@@ -64,16 +47,12 @@
     },
     {
      "draw": 0,
-     "form": null,
-     "ga": 13,
      "gd": 14,
-     "gf": 27,
      "lost": 3,
      "played": 9,
      "points": 18,
      "rank": 4,
      "team": {
-      "crest": "https://crests.football-data.org/721.png",
       "id": 721,
       "name": "RB Leipzig",
       "shortName": "RB Leipzig"
@@ -82,16 +61,12 @@
     },
     {
      "draw": 1,
-     "form": null,
-     "ga": 17,
      "gd": 3,
-     "gf": 20,
      "lost": 3,
      "played": 9,
      "points": 16,
      "rank": 5,
      "team": {
-      "crest": "https://crests.football-data.org/3.png",
       "id": 3,
       "name": "Bayer 04 Leverkusen",
       "shortName": "Leverkusen"
@@ -100,16 +75,12 @@
     },
     {
      "draw": 3,
-     "form": null,
-     "ga": 15,
      "gd": 2,
-     "gf": 17,
      "lost": 2,
      "played": 9,
      "points": 15,
      "rank": 6,
      "team": {
-      "crest": "https://crests.football-data.org/12.png",
       "id": 12,
       "name": "SV Werder Bremen",
       "shortName": "Bremen"
@@ -118,16 +89,12 @@
     },
     {
      "draw": 1,
-     "form": null,
-     "ga": 18,
      "gd": -1,
-     "gf": 17,
      "lost": 4,
      "played": 9,
      "points": 13,
      "rank": 7,
      "team": {
-      "crest": "https://crests.football-data.org/719.png",
       "id": 719,
       "name": "SV 07 Elversberg",
       "shortName": "Elversberg"
@@ -136,16 +103,12 @@
     },
     {
      "draw": 0,
-     "form": null,
-     "ga": 15,
      "gd": 0,
-     "gf": 15,
      "lost": 5,
      "played": 9,
      "points": 12,
      "rank": 8,
      "team": {
-      "crest": "https://crests.football-data.org/10.png",
       "id": 10,
       "name": "VfB Stuttgart",
       "shortName": "Stuttgart"
@@ -154,16 +117,12 @@
     },
     {
      "draw": 0,
-     "form": null,
-     "ga": 17,
      "gd": -1,
-     "gf": 16,
      "lost": 5,
      "played": 9,
      "points": 12,
      "rank": 9,
      "team": {
-      "crest": "https://crests.football-data.org/2.png",
       "id": 2,
       "name": "TSG 1899 Hoffenheim",
       "shortName": "Hoffenheim"
@@ -172,16 +131,12 @@
     },
     {
      "draw": 3,
-     "form": null,
-     "ga": 20,
      "gd": -5,
-     "gf": 15,
      "lost": 3,
      "played": 9,
      "points": 12,
      "rank": 10,
      "team": {
-      "crest": "https://crests.football-data.org/19.png",
       "id": 19,
       "name": "Eintracht Frankfurt",
       "shortName": "Frankfurt"
@@ -190,16 +145,12 @@
     },
     {
      "draw": 0,
-     "form": null,
-     "ga": 20,
      "gd": -10,
-     "gf": 10,
      "lost": 5,
      "played": 9,
      "points": 12,
      "rank": 11,
      "team": {
-      "crest": "https://crests.football-data.org/7.png",
       "id": 7,
       "name": "Hamburger SV",
       "shortName": "HSV"
@@ -208,16 +159,12 @@
     },
     {
      "draw": 1,
-     "form": null,
-     "ga": 19,
      "gd": -1,
-     "gf": 18,
      "lost": 5,
      "played": 9,
      "points": 10,
      "rank": 12,
      "team": {
-      "crest": "https://crests.football-data.org/15.png",
       "id": 15,
       "name": "1. FSV Mainz 05",
       "shortName": "Mainz"
@@ -226,16 +173,12 @@
     },
     {
      "draw": 4,
-     "form": null,
-     "ga": 11,
      "gd": -3,
-     "gf": 8,
      "lost": 3,
      "played": 9,
      "points": 10,
      "rank": 13,
      "team": {
-      "crest": "https://crests.football-data.org/29.png",
       "id": 29,
       "name": "SC Paderborn 07",
       "shortName": "SC Paderborn"
@@ -244,16 +187,12 @@
     },
     {
      "draw": 3,
-     "form": null,
-     "ga": 20,
      "gd": 0,
-     "gf": 20,
      "lost": 4,
      "played": 9,
      "points": 9,
      "rank": 14,
      "team": {
-      "crest": "https://crests.football-data.org/16.png",
       "id": 16,
       "name": "FC Augsburg",
       "shortName": "Augsburg"
@@ -262,16 +201,12 @@
     },
     {
      "draw": 3,
-     "form": null,
-     "ga": 14,
      "gd": -4,
-     "gf": 10,
      "lost": 4,
      "played": 9,
      "points": 9,
      "rank": 15,
      "team": {
-      "crest": "https://crests.football-data.org/1.png",
       "id": 1,
       "name": "1. FC Köln",
       "shortName": "1. FC Köln"
@@ -280,16 +215,12 @@
     },
     {
      "draw": 4,
-     "form": null,
-     "ga": 21,
      "gd": -14,
-     "gf": 7,
      "lost": 4,
      "played": 9,
      "points": 7,
      "rank": 16,
      "team": {
-      "crest": "https://crests.football-data.org/28.png",
       "id": 28,
       "name": "1. FC Union Berlin",
       "shortName": "Union Berlin"
@@ -298,16 +229,12 @@
     },
     {
      "draw": 3,
-     "form": null,
-     "ga": 11,
      "gd": -6,
-     "gf": 5,
      "lost": 5,
      "played": 9,
      "points": 6,
      "rank": 17,
      "team": {
-      "crest": "https://crests.football-data.org/6.png",
       "id": 6,
       "name": "FC Schalke 04",
       "shortName": "Schalke"
@@ -316,24 +243,19 @@
     },
     {
      "draw": 1,
-     "form": null,
-     "ga": 25,
      "gd": -13,
-     "gf": 12,
      "lost": 7,
      "played": 9,
      "points": 4,
      "rank": 18,
      "team": {
-      "crest": "https://crests.football-data.org/18.png",
       "id": 18,
       "name": "Borussia Mönchengladbach",
       "shortName": "M'gladbach"
      },
      "won": 1
     }
-   ],
-   "stage": "REGULAR_SEASON"
+   ]
   }
  ]
 }

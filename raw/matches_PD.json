@@ -1,46 +1,12 @@
 {
- "competition": {
-  "code": "PD",
-  "emblem": "https://crests.football-data.org/laliga.png",
-  "name": "ラ・リーガ"
- },
- "count": 44,
  "matches": [
   {
    "away": {
-    "crest": "https://crests.football-data.org/79.png",
-    "id": 79,
-    "name": "CA Osasuna",
-    "shortName": "Osasuna"
-   },
-   "group": null,
-   "home": {
-    "crest": "https://crests.football-data.org/560.png",
-    "id": 560,
-    "name": "RC Deportivo La Coruña",
-    "shortName": "Deportivo"
-   },
-   "id": 564731,
-   "matchday": 11,
-   "score": {
-    "away": 1,
-    "home": 2,
-    "winner": "HOME_TEAM"
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "FINISHED",
-   "utcDate": "2026-11-02T20:00:00Z"
-  },
-  {
-   "away": {
-    "crest": "https://crests.football-data.org/263.png",
     "id": 263,
     "name": "Deportivo Alavés",
     "shortName": "Alavés"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/559.png",
     "id": 559,
     "name": "Sevilla FC",
     "shortName": "Sevilla FC"
@@ -49,8 +15,7 @@
    "matchday": 12,
    "score": {
     "away": 0,
-    "home": 0,
-    "winner": "DRAW"
+    "home": 0
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -58,14 +23,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/5335.png",
     "id": 5335,
     "name": "Real Racing Club de Santander",
     "shortName": "Santander"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/84.png",
     "id": 84,
     "name": "Málaga CF",
     "shortName": "Málaga"
@@ -74,8 +36,7 @@
    "matchday": 12,
    "score": {
     "away": 2,
-    "home": 1,
-    "winner": "AWAY_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -83,14 +44,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/560.png",
     "id": 560,
     "name": "RC Deportivo La Coruña",
     "shortName": "Deportivo"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/80.png",
     "id": 80,
     "name": "RCD Espanyol de Barcelona",
     "shortName": "Espanyol"
@@ -99,8 +57,7 @@
    "matchday": 12,
    "score": {
     "away": 0,
-    "home": 0,
-    "winner": "DRAW"
+    "home": 0
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -108,14 +65,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/77.png",
     "id": 77,
     "name": "Athletic Club",
     "shortName": "Athletic"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/79.png",
     "id": 79,
     "name": "CA Osasuna",
     "shortName": "Osasuna"
@@ -124,8 +78,7 @@
    "matchday": 12,
    "score": {
     "away": 1,
-    "home": 1,
-    "winner": "DRAW"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -133,14 +86,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/86.png",
     "id": 86,
     "name": "Real Madrid CF",
     "shortName": "Real Madrid"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/95.png",
     "id": 95,
     "name": "Valencia CF",
     "shortName": "Valencia"
@@ -149,8 +99,7 @@
    "matchday": 12,
    "score": {
     "away": 3,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -158,14 +107,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/90.png",
     "id": 90,
     "name": "Real Betis Balompié",
     "shortName": "Real Betis"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/285.png",
     "id": 285,
     "name": "Elche CF",
     "shortName": "Elche"
@@ -174,8 +120,7 @@
    "matchday": 12,
    "score": {
     "away": 2,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -183,14 +128,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/87.png",
     "id": 87,
     "name": "Rayo Vallecano de Madrid",
     "shortName": "Rayo Vallecano"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/92.png",
     "id": 92,
     "name": "Real Sociedad de Fútbol",
     "shortName": "Real Sociedad"
@@ -199,8 +141,7 @@
    "matchday": 12,
    "score": {
     "away": 0,
-    "home": 1,
-    "winner": "HOME_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -208,14 +149,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/88.png",
     "id": 88,
     "name": "Levante UD",
     "shortName": "Levante"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/558.png",
     "id": 558,
     "name": "RC Celta de Vigo",
     "shortName": "Celta"
@@ -224,8 +162,7 @@
    "matchday": 12,
    "score": {
     "away": 0,
-    "home": 0,
-    "winner": "DRAW"
+    "home": 0
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -233,14 +170,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/82.png",
     "id": 82,
     "name": "Getafe CF",
     "shortName": "Getafe"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/94.png",
     "id": 94,
     "name": "Villarreal CF",
     "shortName": "Villarreal"
@@ -249,8 +183,7 @@
    "matchday": 12,
    "score": {
     "away": 0,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -258,14 +191,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/81.png",
     "id": 81,
     "name": "FC Barcelona",
     "shortName": "Barça"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/78.png",
     "id": 78,
     "name": "Club Atlético de Madrid",
     "shortName": "Atleti"
@@ -274,8 +204,7 @@
    "matchday": 12,
    "score": {
     "away": 2,
-    "home": 1,
-    "winner": "AWAY_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -283,14 +212,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/80.png",
     "id": 80,
     "name": "RCD Espanyol de Barcelona",
     "shortName": "Espanyol"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/77.png",
     "id": 77,
     "name": "Athletic Club",
     "shortName": "Athletic"
@@ -299,8 +225,7 @@
    "matchday": 13,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -308,14 +233,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/560.png",
     "id": 560,
     "name": "RC Deportivo La Coruña",
     "shortName": "Deportivo"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/263.png",
     "id": 263,
     "name": "Deportivo Alavés",
     "shortName": "Alavés"
@@ -324,8 +246,7 @@
    "matchday": 13,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -333,14 +254,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/95.png",
     "id": 95,
     "name": "Valencia CF",
     "shortName": "Valencia"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/87.png",
     "id": 87,
     "name": "Rayo Vallecano de Madrid",
     "shortName": "Rayo Vallecano"
@@ -349,8 +267,7 @@
    "matchday": 13,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -358,14 +275,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/90.png",
     "id": 90,
     "name": "Real Betis Balompié",
     "shortName": "Real Betis"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/559.png",
     "id": 559,
     "name": "Sevilla FC",
     "shortName": "Sevilla FC"
@@ -374,8 +288,7 @@
    "matchday": 13,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -383,14 +296,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/558.png",
     "id": 558,
     "name": "RC Celta de Vigo",
     "shortName": "Celta"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/86.png",
     "id": 86,
     "name": "Real Madrid CF",
     "shortName": "Real Madrid"
@@ -399,8 +309,7 @@
    "matchday": 13,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -408,14 +317,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/94.png",
     "id": 94,
     "name": "Villarreal CF",
     "shortName": "Villarreal"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/81.png",
     "id": 81,
     "name": "FC Barcelona",
     "shortName": "Barça"
@@ -424,8 +330,7 @@
    "matchday": 13,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -433,14 +338,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/92.png",
     "id": 92,
     "name": "Real Sociedad de Fútbol",
     "shortName": "Real Sociedad"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/5335.png",
     "id": 5335,
     "name": "Real Racing Club de Santander",
     "shortName": "Santander"
@@ -449,8 +351,7 @@
    "matchday": 13,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -458,14 +359,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/84.png",
     "id": 84,
     "name": "Málaga CF",
     "shortName": "Málaga"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/79.png",
     "id": 79,
     "name": "CA Osasuna",
     "shortName": "Osasuna"
@@ -474,8 +372,7 @@
    "matchday": 13,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -483,14 +380,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/78.png",
     "id": 78,
     "name": "Club Atlético de Madrid",
     "shortName": "Atleti"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/82.png",
     "id": 82,
     "name": "Getafe CF",
     "shortName": "Getafe"
@@ -499,8 +393,7 @@
    "matchday": 13,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -508,14 +401,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/285.png",
     "id": 285,
     "name": "Elche CF",
     "shortName": "Elche"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/88.png",
     "id": 88,
     "name": "Levante UD",
     "shortName": "Levante"
@@ -524,8 +414,7 @@
    "matchday": 13,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -533,14 +422,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/5335.png",
     "id": 5335,
     "name": "Real Racing Club de Santander",
     "shortName": "Santander"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/88.png",
     "id": 88,
     "name": "Levante UD",
     "shortName": "Levante"
@@ -549,8 +435,7 @@
    "matchday": 14,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -558,14 +443,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/87.png",
     "id": 87,
     "name": "Rayo Vallecano de Madrid",
     "shortName": "Rayo Vallecano"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/90.png",
     "id": 90,
     "name": "Real Betis Balompié",
     "shortName": "Real Betis"
@@ -574,8 +456,7 @@
    "matchday": 14,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -583,14 +464,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/77.png",
     "id": 77,
     "name": "Athletic Club",
     "shortName": "Athletic"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/84.png",
     "id": 84,
     "name": "Málaga CF",
     "shortName": "Málaga"
@@ -599,8 +477,7 @@
    "matchday": 14,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -608,14 +485,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/78.png",
     "id": 78,
     "name": "Club Atlético de Madrid",
     "shortName": "Atleti"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/285.png",
     "id": 285,
     "name": "Elche CF",
     "shortName": "Elche"
@@ -624,8 +498,7 @@
    "matchday": 14,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -633,14 +506,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/263.png",
     "id": 263,
     "name": "Deportivo Alavés",
     "shortName": "Alavés"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/86.png",
     "id": 86,
     "name": "Real Madrid CF",
     "shortName": "Real Madrid"
@@ -649,8 +519,7 @@
    "matchday": 14,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -658,14 +527,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/79.png",
     "id": 79,
     "name": "CA Osasuna",
     "shortName": "Osasuna"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/95.png",
     "id": 95,
     "name": "Valencia CF",
     "shortName": "Valencia"
@@ -674,8 +540,7 @@
    "matchday": 14,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -683,14 +548,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/81.png",
     "id": 81,
     "name": "FC Barcelona",
     "shortName": "Barça"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/560.png",
     "id": 560,
     "name": "RC Deportivo La Coruña",
     "shortName": "Deportivo"
@@ -699,8 +561,7 @@
    "matchday": 14,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -708,14 +569,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/94.png",
     "id": 94,
     "name": "Villarreal CF",
     "shortName": "Villarreal"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/558.png",
     "id": 558,
     "name": "RC Celta de Vigo",
     "shortName": "Celta"
@@ -724,8 +582,7 @@
    "matchday": 14,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -733,14 +590,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/559.png",
     "id": 559,
     "name": "Sevilla FC",
     "shortName": "Sevilla FC"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/92.png",
     "id": 92,
     "name": "Real Sociedad de Fútbol",
     "shortName": "Real Sociedad"
@@ -749,8 +603,7 @@
    "matchday": 14,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -758,14 +611,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/82.png",
     "id": 82,
     "name": "Getafe CF",
     "shortName": "Getafe"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/80.png",
     "id": 80,
     "name": "RCD Espanyol de Barcelona",
     "shortName": "Espanyol"
@@ -774,8 +624,7 @@
    "matchday": 14,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -783,14 +632,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/86.png",
     "id": 86,
     "name": "Real Madrid CF",
     "shortName": "Real Madrid"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/92.png",
     "id": 92,
     "name": "Real Sociedad de Fútbol",
     "shortName": "Real Sociedad"
@@ -799,8 +645,7 @@
    "matchday": 23,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -808,14 +653,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/78.png",
     "id": 78,
     "name": "Club Atlético de Madrid",
     "shortName": "Atleti"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/81.png",
     "id": 81,
     "name": "FC Barcelona",
     "shortName": "Barça"
@@ -824,8 +666,7 @@
    "matchday": 23,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -833,14 +674,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/285.png",
     "id": 285,
     "name": "Elche CF",
     "shortName": "Elche"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/79.png",
     "id": 79,
     "name": "CA Osasuna",
     "shortName": "Osasuna"
@@ -849,8 +687,7 @@
    "matchday": 15,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "SCHEDULED",
@@ -858,14 +695,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/84.png",
     "id": 84,
     "name": "Málaga CF",
     "shortName": "Málaga"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/559.png",
     "id": 559,
     "name": "Sevilla FC",
     "shortName": "Sevilla FC"
@@ -874,8 +708,7 @@
    "matchday": 15,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "SCHEDULED",
@@ -883,14 +716,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/80.png",
     "id": 80,
     "name": "RCD Espanyol de Barcelona",
     "shortName": "Espanyol"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/263.png",
     "id": 263,
     "name": "Deportivo Alavés",
     "shortName": "Alavés"
@@ -899,8 +729,7 @@
    "matchday": 15,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "SCHEDULED",
@@ -908,14 +737,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/90.png",
     "id": 90,
     "name": "Real Betis Balompié",
     "shortName": "Real Betis"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/78.png",
     "id": 78,
     "name": "Club Atlético de Madrid",
     "shortName": "Atleti"
@@ -924,8 +750,7 @@
    "matchday": 15,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "SCHEDULED",
@@ -933,14 +758,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/560.png",
     "id": 560,
     "name": "RC Deportivo La Coruña",
     "shortName": "Deportivo"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/5335.png",
     "id": 5335,
     "name": "Real Racing Club de Santander",
     "shortName": "Santander"
@@ -949,8 +771,7 @@
    "matchday": 15,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "SCHEDULED",
@@ -958,14 +779,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/558.png",
     "id": 558,
     "name": "RC Celta de Vigo",
     "shortName": "Celta"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/81.png",
     "id": 81,
     "name": "FC Barcelona",
     "shortName": "Barça"
@@ -974,8 +792,7 @@
    "matchday": 15,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "SCHEDULED",
@@ -983,14 +800,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/95.png",
     "id": 95,
     "name": "Valencia CF",
     "shortName": "Valencia"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/82.png",
     "id": 82,
     "name": "Getafe CF",
     "shortName": "Getafe"
@@ -999,8 +813,7 @@
    "matchday": 15,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "SCHEDULED",
@@ -1008,14 +821,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/86.png",
     "id": 86,
     "name": "Real Madrid CF",
     "shortName": "Real Madrid"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/77.png",
     "id": 77,
     "name": "Athletic Club",
     "shortName": "Athletic"
@@ -1024,8 +834,7 @@
    "matchday": 15,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "SCHEDULED",
@@ -1033,14 +842,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/92.png",
     "id": 92,
     "name": "Real Sociedad de Fútbol",
     "shortName": "Real Sociedad"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/94.png",
     "id": 94,
     "name": "Villarreal CF",
     "shortName": "Villarreal"
@@ -1049,8 +855,7 @@
    "matchday": 15,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "SCHEDULED",
@@ -1058,14 +863,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/88.png",
     "id": 88,
     "name": "Levante UD",
     "shortName": "Levante"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/87.png",
     "id": 87,
     "name": "Rayo Vallecano de Madrid",
     "shortName": "Rayo Vallecano"
@@ -1074,8 +876,7 @@
    "matchday": 15,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "SCHEDULED",
@@ -1083,14 +884,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/77.png",
     "id": 77,
     "name": "Athletic Club",
     "shortName": "Athletic"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/87.png",
     "id": 87,
     "name": "Rayo Vallecano de Madrid",
     "shortName": "Rayo Vallecano"
@@ -1099,16 +897,225 @@
    "matchday": 8,
    "score": {
     "away": 0,
-    "home": 0,
-    "winner": "DRAW"
+    "home": 0
    },
    "stage": "REGULAR_SEASON",
    "status": "CANCELLED",
    "utcDate": "2026-12-09T19:00:00Z"
+  },
+  {
+   "away": {
+    "id": 558,
+    "name": "RC Celta de Vigo",
+    "shortName": "Celta"
+   },
+   "home": {
+    "id": 80,
+    "name": "RCD Espanyol de Barcelona",
+    "shortName": "Espanyol"
+   },
+   "id": 564778,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "id": 81,
+    "name": "FC Barcelona",
+    "shortName": "Barça"
+   },
+   "home": {
+    "id": 84,
+    "name": "Málaga CF",
+    "shortName": "Málaga"
+   },
+   "id": 564779,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "id": 79,
+    "name": "CA Osasuna",
+    "shortName": "Osasuna"
+   },
+   "home": {
+    "id": 86,
+    "name": "Real Madrid CF",
+    "shortName": "Real Madrid"
+   },
+   "id": 564780,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "id": 77,
+    "name": "Athletic Club",
+    "shortName": "Athletic"
+   },
+   "home": {
+    "id": 560,
+    "name": "RC Deportivo La Coruña",
+    "shortName": "Deportivo"
+   },
+   "id": 564781,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "id": 263,
+    "name": "Deportivo Alavés",
+    "shortName": "Alavés"
+   },
+   "home": {
+    "id": 88,
+    "name": "Levante UD",
+    "shortName": "Levante"
+   },
+   "id": 564782,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "id": 559,
+    "name": "Sevilla FC",
+    "shortName": "Sevilla FC"
+   },
+   "home": {
+    "id": 285,
+    "name": "Elche CF",
+    "shortName": "Elche"
+   },
+   "id": 564783,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "id": 87,
+    "name": "Rayo Vallecano de Madrid",
+    "shortName": "Rayo Vallecano"
+   },
+   "home": {
+    "id": 94,
+    "name": "Villarreal CF",
+    "shortName": "Villarreal"
+   },
+   "id": 564784,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "id": 5335,
+    "name": "Real Racing Club de Santander",
+    "shortName": "Santander"
+   },
+   "home": {
+    "id": 90,
+    "name": "Real Betis Balompié",
+    "shortName": "Real Betis"
+   },
+   "id": 564785,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "id": 82,
+    "name": "Getafe CF",
+    "shortName": "Getafe"
+   },
+   "home": {
+    "id": 92,
+    "name": "Real Sociedad de Fútbol",
+    "shortName": "Real Sociedad"
+   },
+   "id": 564786,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "id": 95,
+    "name": "Valencia CF",
+    "shortName": "Valencia"
+   },
+   "home": {
+    "id": 78,
+    "name": "Club Atlético de Madrid",
+    "shortName": "Atleti"
+   },
+   "id": 564787,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-13T00:00:00Z"
   }
  ],
  "window": {
-  "from": "2026-11-02",
-  "to": "2026-12-09"
+  "from": "2026-11-05",
+  "to": "2026-12-12"
  }
 }

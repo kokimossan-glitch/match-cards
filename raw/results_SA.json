@@ -1,20 +1,12 @@
 {
- "competition": {
-  "code": "SA",
-  "name": "セリエA"
- },
- "count": 110,
  "matches": [
   {
    "away": {
-    "crest": "https://crests.football-data.org/7397.png",
     "id": 7397,
     "name": "Como 1907",
     "shortName": "Como 1907"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/115.png",
     "id": 115,
     "name": "Udinese Calcio",
     "shortName": "Udinese"
@@ -23,8 +15,7 @@
    "matchday": 1,
    "score": {
     "away": 1,
-    "home": 1,
-    "winner": "DRAW"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -32,14 +23,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/5911.png",
     "id": 5911,
     "name": "AC Monza",
     "shortName": "Monza"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/108.png",
     "id": 108,
     "name": "FC Internazionale Milano",
     "shortName": "Inter"
@@ -48,8 +36,7 @@
    "matchday": 1,
    "score": {
     "away": 1,
-    "home": 4,
-    "winner": "HOME_TEAM"
+    "home": 4
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -57,14 +44,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/113.png",
     "id": 113,
     "name": "SSC Napoli",
     "shortName": "Napoli"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/107.png",
     "id": 107,
     "name": "Genoa CFC",
     "shortName": "Genoa"
@@ -73,8 +57,7 @@
    "matchday": 1,
    "score": {
     "away": 2,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -82,14 +65,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/104.png",
     "id": 104,
     "name": "Cagliari Calcio",
     "shortName": "Cagliari"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/112.png",
     "id": 112,
     "name": "Parma Calcio 1913",
     "shortName": "Parma"
@@ -98,8 +78,7 @@
    "matchday": 1,
    "score": {
     "away": 1,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -107,14 +86,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/109.png",
     "id": 109,
     "name": "Juventus FC",
     "shortName": "Juventus"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/470.png",
     "id": 470,
     "name": "Frosinone Calcio",
     "shortName": "Frosinone"
@@ -123,8 +99,7 @@
    "matchday": 1,
    "score": {
     "away": 1,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -132,14 +107,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/5890.png",
     "id": 5890,
     "name": "US Lecce",
     "shortName": "Lecce"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/454.png",
     "id": 454,
     "name": "Venezia FC",
     "shortName": "Venezia FC"
@@ -148,8 +120,7 @@
    "matchday": 1,
    "score": {
     "away": 2,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -157,14 +128,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/471.png",
     "id": 471,
     "name": "US Sassuolo Calcio",
     "shortName": "Sassuolo"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/102.png",
     "id": 102,
     "name": "Atalanta BC",
     "shortName": "Atalanta"
@@ -173,8 +141,7 @@
    "matchday": 1,
    "score": {
     "away": 1,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -182,14 +149,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/98.png",
     "id": 98,
     "name": "AC Milan",
     "shortName": "Milan"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/586.png",
     "id": 586,
     "name": "Torino FC",
     "shortName": "Torino"
@@ -198,8 +162,7 @@
    "matchday": 1,
    "score": {
     "away": 2,
-    "home": 1,
-    "winner": "AWAY_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -207,14 +170,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/110.png",
     "id": 110,
     "name": "SS Lazio",
     "shortName": "Lazio"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/103.png",
     "id": 103,
     "name": "Bologna FC 1909",
     "shortName": "Bologna"
@@ -223,8 +183,7 @@
    "matchday": 1,
    "score": {
     "away": 1,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -232,14 +191,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/99.png",
     "id": 99,
     "name": "ACF Fiorentina",
     "shortName": "Fiorentina"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/100.png",
     "id": 100,
     "name": "AS Roma",
     "shortName": "Roma"
@@ -248,8 +204,7 @@
    "matchday": 1,
    "score": {
     "away": 0,
-    "home": 4,
-    "winner": "HOME_TEAM"
+    "home": 4
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -257,14 +212,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/454.png",
     "id": 454,
     "name": "Venezia FC",
     "shortName": "Venezia FC"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/98.png",
     "id": 98,
     "name": "AC Milan",
     "shortName": "Milan"
@@ -273,8 +225,7 @@
    "matchday": 2,
    "score": {
     "away": 0,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -282,14 +233,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/586.png",
     "id": 586,
     "name": "Torino FC",
     "shortName": "Torino"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/471.png",
     "id": 471,
     "name": "US Sassuolo Calcio",
     "shortName": "Sassuolo"
@@ -298,8 +246,7 @@
    "matchday": 2,
    "score": {
     "away": 1,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -307,14 +254,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/115.png",
     "id": 115,
     "name": "Udinese Calcio",
     "shortName": "Udinese"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/5911.png",
     "id": 5911,
     "name": "AC Monza",
     "shortName": "Monza"
@@ -323,8 +267,7 @@
    "matchday": 2,
    "score": {
     "away": 3,
-    "home": 2,
-    "winner": "AWAY_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -332,14 +275,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/470.png",
     "id": 470,
     "name": "Frosinone Calcio",
     "shortName": "Frosinone"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/99.png",
     "id": 99,
     "name": "ACF Fiorentina",
     "shortName": "Fiorentina"
@@ -348,8 +288,7 @@
    "matchday": 2,
    "score": {
     "away": 3,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -357,14 +296,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/112.png",
     "id": 112,
     "name": "Parma Calcio 1913",
     "shortName": "Parma"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/109.png",
     "id": 109,
     "name": "Juventus FC",
     "shortName": "Juventus"
@@ -373,8 +309,7 @@
    "matchday": 2,
    "score": {
     "away": 0,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -382,14 +317,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/7397.png",
     "id": 7397,
     "name": "Como 1907",
     "shortName": "Como 1907"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/113.png",
     "id": 113,
     "name": "SSC Napoli",
     "shortName": "Napoli"
@@ -398,8 +330,7 @@
    "matchday": 2,
    "score": {
     "away": 2,
-    "home": 1,
-    "winner": "AWAY_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -407,14 +338,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/107.png",
     "id": 107,
     "name": "Genoa CFC",
     "shortName": "Genoa"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/110.png",
     "id": 110,
     "name": "SS Lazio",
     "shortName": "Lazio"
@@ -423,8 +351,7 @@
    "matchday": 2,
    "score": {
     "away": 0,
-    "home": 1,
-    "winner": "HOME_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -432,14 +359,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/108.png",
     "id": 108,
     "name": "FC Internazionale Milano",
     "shortName": "Inter"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/104.png",
     "id": 104,
     "name": "Cagliari Calcio",
     "shortName": "Cagliari"
@@ -448,8 +372,7 @@
    "matchday": 2,
    "score": {
     "away": 1,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -457,14 +380,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/100.png",
     "id": 100,
     "name": "AS Roma",
     "shortName": "Roma"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/5890.png",
     "id": 5890,
     "name": "US Lecce",
     "shortName": "Lecce"
@@ -473,8 +393,7 @@
    "matchday": 2,
    "score": {
     "away": 4,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -482,14 +401,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/103.png",
     "id": 103,
     "name": "Bologna FC 1909",
     "shortName": "Bologna"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/102.png",
     "id": 102,
     "name": "Atalanta BC",
     "shortName": "Atalanta"
@@ -498,8 +414,7 @@
    "matchday": 2,
    "score": {
     "away": 0,
-    "home": 1,
-    "winner": "HOME_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -507,14 +422,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/7397.png",
     "id": 7397,
     "name": "Como 1907",
     "shortName": "Como 1907"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/107.png",
     "id": 107,
     "name": "Genoa CFC",
     "shortName": "Genoa"
@@ -523,8 +435,7 @@
    "matchday": 3,
    "score": {
     "away": 4,
-    "home": 1,
-    "winner": "AWAY_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -532,14 +443,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/586.png",
     "id": 586,
     "name": "Torino FC",
     "shortName": "Torino"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/99.png",
     "id": 99,
     "name": "ACF Fiorentina",
     "shortName": "Fiorentina"
@@ -548,8 +456,7 @@
    "matchday": 3,
    "score": {
     "away": 2,
-    "home": 1,
-    "winner": "AWAY_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -557,14 +464,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/113.png",
     "id": 113,
     "name": "SSC Napoli",
     "shortName": "Napoli"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/108.png",
     "id": 108,
     "name": "FC Internazionale Milano",
     "shortName": "Inter"
@@ -573,8 +477,7 @@
    "matchday": 3,
    "score": {
     "away": 2,
-    "home": 3,
-    "winner": "HOME_TEAM"
+    "home": 3
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -582,14 +485,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/102.png",
     "id": 102,
     "name": "Atalanta BC",
     "shortName": "Atalanta"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/100.png",
     "id": 100,
     "name": "AS Roma",
     "shortName": "Roma"
@@ -598,8 +498,7 @@
    "matchday": 3,
    "score": {
     "away": 1,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -607,14 +506,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/5911.png",
     "id": 5911,
     "name": "AC Monza",
     "shortName": "Monza"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/112.png",
     "id": 112,
     "name": "Parma Calcio 1913",
     "shortName": "Parma"
@@ -623,8 +519,7 @@
    "matchday": 3,
    "score": {
     "away": 1,
-    "home": 1,
-    "winner": "DRAW"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -632,14 +527,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/454.png",
     "id": 454,
     "name": "Venezia FC",
     "shortName": "Venezia FC"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/470.png",
     "id": 470,
     "name": "Frosinone Calcio",
     "shortName": "Frosinone"
@@ -648,8 +540,7 @@
    "matchday": 3,
    "score": {
     "away": 2,
-    "home": 3,
-    "winner": "HOME_TEAM"
+    "home": 3
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -657,14 +548,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/471.png",
     "id": 471,
     "name": "US Sassuolo Calcio",
     "shortName": "Sassuolo"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/103.png",
     "id": 103,
     "name": "Bologna FC 1909",
     "shortName": "Bologna"
@@ -673,8 +561,7 @@
    "matchday": 3,
    "score": {
     "away": 2,
-    "home": 2,
-    "winner": "DRAW"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -682,14 +569,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/98.png",
     "id": 98,
     "name": "AC Milan",
     "shortName": "Milan"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/109.png",
     "id": 109,
     "name": "Juventus FC",
     "shortName": "Juventus"
@@ -698,8 +582,7 @@
    "matchday": 3,
    "score": {
     "away": 1,
-    "home": 1,
-    "winner": "DRAW"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -707,14 +590,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/5890.png",
     "id": 5890,
     "name": "US Lecce",
     "shortName": "Lecce"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/104.png",
     "id": 104,
     "name": "Cagliari Calcio",
     "shortName": "Cagliari"
@@ -723,8 +603,7 @@
    "matchday": 3,
    "score": {
     "away": 0,
-    "home": 1,
-    "winner": "HOME_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -732,14 +611,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/110.png",
     "id": 110,
     "name": "SS Lazio",
     "shortName": "Lazio"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/115.png",
     "id": 115,
     "name": "Udinese Calcio",
     "shortName": "Udinese"
@@ -748,8 +624,7 @@
    "matchday": 3,
    "score": {
     "away": 2,
-    "home": 1,
-    "winner": "AWAY_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -757,14 +632,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/99.png",
     "id": 99,
     "name": "ACF Fiorentina",
     "shortName": "Fiorentina"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/454.png",
     "id": 454,
     "name": "Venezia FC",
     "shortName": "Venezia FC"
@@ -773,8 +645,7 @@
    "matchday": 4,
    "score": {
     "away": 4,
-    "home": 2,
-    "winner": "AWAY_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -782,14 +653,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/470.png",
     "id": 470,
     "name": "Frosinone Calcio",
     "shortName": "Frosinone"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/107.png",
     "id": 107,
     "name": "Genoa CFC",
     "shortName": "Genoa"
@@ -798,8 +666,7 @@
    "matchday": 4,
    "score": {
     "away": 1,
-    "home": 1,
-    "winner": "DRAW"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -807,14 +674,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/98.png",
     "id": 98,
     "name": "AC Milan",
     "shortName": "Milan"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/110.png",
     "id": 110,
     "name": "SS Lazio",
     "shortName": "Lazio"
@@ -823,8 +687,7 @@
    "matchday": 4,
    "score": {
     "away": 2,
-    "home": 2,
-    "winner": "DRAW"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -832,14 +695,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/104.png",
     "id": 104,
     "name": "Cagliari Calcio",
     "shortName": "Cagliari"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/102.png",
     "id": 102,
     "name": "Atalanta BC",
     "shortName": "Atalanta"
@@ -848,8 +708,7 @@
    "matchday": 4,
    "score": {
     "away": 2,
-    "home": 1,
-    "winner": "AWAY_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -857,14 +716,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/5911.png",
     "id": 5911,
     "name": "AC Monza",
     "shortName": "Monza"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/5890.png",
     "id": 5890,
     "name": "US Lecce",
     "shortName": "Lecce"
@@ -873,8 +729,7 @@
    "matchday": 4,
    "score": {
     "away": 2,
-    "home": 3,
-    "winner": "HOME_TEAM"
+    "home": 3
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -882,14 +737,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/103.png",
     "id": 103,
     "name": "Bologna FC 1909",
     "shortName": "Bologna"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/113.png",
     "id": 113,
     "name": "SSC Napoli",
     "shortName": "Napoli"
@@ -898,8 +750,7 @@
    "matchday": 4,
    "score": {
     "away": 0,
-    "home": 1,
-    "winner": "HOME_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -907,14 +758,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/109.png",
     "id": 109,
     "name": "Juventus FC",
     "shortName": "Juventus"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/471.png",
     "id": 471,
     "name": "US Sassuolo Calcio",
     "shortName": "Sassuolo"
@@ -923,8 +771,7 @@
    "matchday": 4,
    "score": {
     "away": 2,
-    "home": 3,
-    "winner": "HOME_TEAM"
+    "home": 3
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -932,14 +779,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/112.png",
     "id": 112,
     "name": "Parma Calcio 1913",
     "shortName": "Parma"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/7397.png",
     "id": 7397,
     "name": "Como 1907",
     "shortName": "Como 1907"
@@ -948,8 +792,7 @@
    "matchday": 4,
    "score": {
     "away": 1,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -957,14 +800,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/100.png",
     "id": 100,
     "name": "AS Roma",
     "shortName": "Roma"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/586.png",
     "id": 586,
     "name": "Torino FC",
     "shortName": "Torino"
@@ -973,8 +813,7 @@
    "matchday": 4,
    "score": {
     "away": 2,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -982,14 +821,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/115.png",
     "id": 115,
     "name": "Udinese Calcio",
     "shortName": "Udinese"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/108.png",
     "id": 108,
     "name": "FC Internazionale Milano",
     "shortName": "Inter"
@@ -998,8 +834,7 @@
    "matchday": 4,
    "score": {
     "away": 3,
-    "home": 5,
-    "winner": "HOME_TEAM"
+    "home": 5
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1007,14 +842,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/471.png",
     "id": 471,
     "name": "US Sassuolo Calcio",
     "shortName": "Sassuolo"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/5911.png",
     "id": 5911,
     "name": "AC Monza",
     "shortName": "Monza"
@@ -1023,8 +855,7 @@
    "matchday": 5,
    "score": {
     "away": 1,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1032,14 +863,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/586.png",
     "id": 586,
     "name": "Torino FC",
     "shortName": "Torino"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/103.png",
     "id": 103,
     "name": "Bologna FC 1909",
     "shortName": "Bologna"
@@ -1048,8 +876,7 @@
    "matchday": 5,
    "score": {
     "away": 1,
-    "home": 1,
-    "winner": "DRAW"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1057,14 +884,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/104.png",
     "id": 104,
     "name": "Cagliari Calcio",
     "shortName": "Cagliari"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/115.png",
     "id": 115,
     "name": "Udinese Calcio",
     "shortName": "Udinese"
@@ -1073,8 +897,7 @@
    "matchday": 5,
    "score": {
     "away": 1,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1082,14 +905,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/108.png",
     "id": 108,
     "name": "FC Internazionale Milano",
     "shortName": "Inter"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/100.png",
     "id": 100,
     "name": "AS Roma",
     "shortName": "Roma"
@@ -1098,8 +918,7 @@
    "matchday": 5,
    "score": {
     "away": 2,
-    "home": 2,
-    "winner": "DRAW"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1107,14 +926,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/110.png",
     "id": 110,
     "name": "SS Lazio",
     "shortName": "Lazio"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/454.png",
     "id": 454,
     "name": "Venezia FC",
     "shortName": "Venezia FC"
@@ -1123,8 +939,7 @@
    "matchday": 5,
    "score": {
     "away": 2,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1132,14 +947,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/113.png",
     "id": 113,
     "name": "SSC Napoli",
     "shortName": "Napoli"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/99.png",
     "id": 99,
     "name": "ACF Fiorentina",
     "shortName": "Fiorentina"
@@ -1148,8 +960,7 @@
    "matchday": 5,
    "score": {
     "away": 1,
-    "home": 1,
-    "winner": "DRAW"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1157,14 +968,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/7397.png",
     "id": 7397,
     "name": "Como 1907",
     "shortName": "Como 1907"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/470.png",
     "id": 470,
     "name": "Frosinone Calcio",
     "shortName": "Frosinone"
@@ -1173,8 +981,7 @@
    "matchday": 5,
    "score": {
     "away": 0,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1182,14 +989,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/107.png",
     "id": 107,
     "name": "Genoa CFC",
     "shortName": "Genoa"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/112.png",
     "id": 112,
     "name": "Parma Calcio 1913",
     "shortName": "Parma"
@@ -1198,8 +1002,7 @@
    "matchday": 5,
    "score": {
     "away": 1,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1207,14 +1010,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/102.png",
     "id": 102,
     "name": "Atalanta BC",
     "shortName": "Atalanta"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/109.png",
     "id": 109,
     "name": "Juventus FC",
     "shortName": "Juventus"
@@ -1223,8 +1023,7 @@
    "matchday": 5,
    "score": {
     "away": 0,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1232,14 +1031,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/5890.png",
     "id": 5890,
     "name": "US Lecce",
     "shortName": "Lecce"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/98.png",
     "id": 98,
     "name": "AC Milan",
     "shortName": "Milan"
@@ -1248,8 +1044,7 @@
    "matchday": 5,
    "score": {
     "away": 0,
-    "home": 3,
-    "winner": "HOME_TEAM"
+    "home": 3
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1257,14 +1052,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/99.png",
     "id": 99,
     "name": "ACF Fiorentina",
     "shortName": "Fiorentina"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/107.png",
     "id": 107,
     "name": "Genoa CFC",
     "shortName": "Genoa"
@@ -1273,8 +1065,7 @@
    "matchday": 6,
    "score": {
     "away": 1,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1282,14 +1073,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/112.png",
     "id": 112,
     "name": "Parma Calcio 1913",
     "shortName": "Parma"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/108.png",
     "id": 108,
     "name": "FC Internazionale Milano",
     "shortName": "Inter"
@@ -1298,8 +1086,7 @@
    "matchday": 6,
    "score": {
     "away": 0,
-    "home": 3,
-    "winner": "HOME_TEAM"
+    "home": 3
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1307,14 +1094,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/470.png",
     "id": 470,
     "name": "Frosinone Calcio",
     "shortName": "Frosinone"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/113.png",
     "id": 113,
     "name": "SSC Napoli",
     "shortName": "Napoli"
@@ -1323,8 +1107,7 @@
    "matchday": 6,
    "score": {
     "away": 0,
-    "home": 3,
-    "winner": "HOME_TEAM"
+    "home": 3
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1332,14 +1115,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/100.png",
     "id": 100,
     "name": "AS Roma",
     "shortName": "Roma"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/7397.png",
     "id": 7397,
     "name": "Como 1907",
     "shortName": "Como 1907"
@@ -1348,8 +1128,7 @@
    "matchday": 6,
    "score": {
     "away": 0,
-    "home": 0,
-    "winner": "DRAW"
+    "home": 0
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1357,14 +1136,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/103.png",
     "id": 103,
     "name": "Bologna FC 1909",
     "shortName": "Bologna"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/5890.png",
     "id": 5890,
     "name": "US Lecce",
     "shortName": "Lecce"
@@ -1373,8 +1149,7 @@
    "matchday": 6,
    "score": {
     "away": 2,
-    "home": 1,
-    "winner": "AWAY_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1382,14 +1157,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/5911.png",
     "id": 5911,
     "name": "AC Monza",
     "shortName": "Monza"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/110.png",
     "id": 110,
     "name": "SS Lazio",
     "shortName": "Lazio"
@@ -1398,8 +1170,7 @@
    "matchday": 6,
    "score": {
     "away": 1,
-    "home": 3,
-    "winner": "HOME_TEAM"
+    "home": 3
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1407,14 +1178,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/98.png",
     "id": 98,
     "name": "AC Milan",
     "shortName": "Milan"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/471.png",
     "id": 471,
     "name": "US Sassuolo Calcio",
     "shortName": "Sassuolo"
@@ -1423,8 +1191,7 @@
    "matchday": 6,
    "score": {
     "away": 1,
-    "home": 1,
-    "winner": "DRAW"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1432,14 +1199,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/109.png",
     "id": 109,
     "name": "Juventus FC",
     "shortName": "Juventus"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/104.png",
     "id": 104,
     "name": "Cagliari Calcio",
     "shortName": "Cagliari"
@@ -1448,8 +1212,7 @@
    "matchday": 6,
    "score": {
     "away": 1,
-    "home": 1,
-    "winner": "DRAW"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1457,14 +1220,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/454.png",
     "id": 454,
     "name": "Venezia FC",
     "shortName": "Venezia FC"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/102.png",
     "id": 102,
     "name": "Atalanta BC",
     "shortName": "Atalanta"
@@ -1473,8 +1233,7 @@
    "matchday": 6,
    "score": {
     "away": 1,
-    "home": 3,
-    "winner": "HOME_TEAM"
+    "home": 3
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1482,14 +1241,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/115.png",
     "id": 115,
     "name": "Udinese Calcio",
     "shortName": "Udinese"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/586.png",
     "id": 586,
     "name": "Torino FC",
     "shortName": "Torino"
@@ -1498,8 +1254,7 @@
    "matchday": 6,
    "score": {
     "away": 1,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1507,14 +1262,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/471.png",
     "id": 471,
     "name": "US Sassuolo Calcio",
     "shortName": "Sassuolo"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/470.png",
     "id": 470,
     "name": "Frosinone Calcio",
     "shortName": "Frosinone"
@@ -1523,8 +1275,7 @@
    "matchday": 7,
    "score": {
     "away": 2,
-    "home": 4,
-    "winner": "HOME_TEAM"
+    "home": 4
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1532,14 +1283,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/113.png",
     "id": 113,
     "name": "SSC Napoli",
     "shortName": "Napoli"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/454.png",
     "id": 454,
     "name": "Venezia FC",
     "shortName": "Venezia FC"
@@ -1548,8 +1296,7 @@
    "matchday": 7,
    "score": {
     "away": 0,
-    "home": 1,
-    "winner": "HOME_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1557,14 +1304,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/108.png",
     "id": 108,
     "name": "FC Internazionale Milano",
     "shortName": "Inter"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/103.png",
     "id": 103,
     "name": "Bologna FC 1909",
     "shortName": "Bologna"
@@ -1573,8 +1317,7 @@
    "matchday": 7,
    "score": {
     "away": 3,
-    "home": 1,
-    "winner": "AWAY_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1582,14 +1325,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/107.png",
     "id": 107,
     "name": "Genoa CFC",
     "shortName": "Genoa"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/100.png",
     "id": 100,
     "name": "AS Roma",
     "shortName": "Roma"
@@ -1598,8 +1338,7 @@
    "matchday": 7,
    "score": {
     "away": 0,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1607,14 +1346,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/5890.png",
     "id": 5890,
     "name": "US Lecce",
     "shortName": "Lecce"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/115.png",
     "id": 115,
     "name": "Udinese Calcio",
     "shortName": "Udinese"
@@ -1623,8 +1359,7 @@
    "matchday": 7,
    "score": {
     "away": 3,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1632,14 +1367,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/7397.png",
     "id": 7397,
     "name": "Como 1907",
     "shortName": "Como 1907"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/99.png",
     "id": 99,
     "name": "ACF Fiorentina",
     "shortName": "Fiorentina"
@@ -1648,8 +1380,7 @@
    "matchday": 7,
    "score": {
     "away": 3,
-    "home": 1,
-    "winner": "AWAY_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1657,14 +1388,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/102.png",
     "id": 102,
     "name": "Atalanta BC",
     "shortName": "Atalanta"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/98.png",
     "id": 98,
     "name": "AC Milan",
     "shortName": "Milan"
@@ -1673,8 +1401,7 @@
    "matchday": 7,
    "score": {
     "away": 2,
-    "home": 3,
-    "winner": "HOME_TEAM"
+    "home": 3
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1682,14 +1409,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/110.png",
     "id": 110,
     "name": "SS Lazio",
     "shortName": "Lazio"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/109.png",
     "id": 109,
     "name": "Juventus FC",
     "shortName": "Juventus"
@@ -1698,8 +1422,7 @@
    "matchday": 7,
    "score": {
     "away": 3,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1707,14 +1430,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/104.png",
     "id": 104,
     "name": "Cagliari Calcio",
     "shortName": "Cagliari"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/5911.png",
     "id": 5911,
     "name": "AC Monza",
     "shortName": "Monza"
@@ -1723,8 +1443,7 @@
    "matchday": 7,
    "score": {
     "away": 0,
-    "home": 4,
-    "winner": "HOME_TEAM"
+    "home": 4
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1732,14 +1451,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/586.png",
     "id": 586,
     "name": "Torino FC",
     "shortName": "Torino"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/112.png",
     "id": 112,
     "name": "Parma Calcio 1913",
     "shortName": "Parma"
@@ -1748,8 +1464,7 @@
    "matchday": 7,
    "score": {
     "away": 3,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1757,14 +1472,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/5911.png",
     "id": 5911,
     "name": "AC Monza",
     "shortName": "Monza"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/586.png",
     "id": 586,
     "name": "Torino FC",
     "shortName": "Torino"
@@ -1773,8 +1485,7 @@
    "matchday": 8,
    "score": {
     "away": 2,
-    "home": 3,
-    "winner": "HOME_TEAM"
+    "home": 3
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1782,14 +1493,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/103.png",
     "id": 103,
     "name": "Bologna FC 1909",
     "shortName": "Bologna"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/104.png",
     "id": 104,
     "name": "Cagliari Calcio",
     "shortName": "Cagliari"
@@ -1798,8 +1506,7 @@
    "matchday": 8,
    "score": {
     "away": 2,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1807,14 +1514,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/471.png",
     "id": 471,
     "name": "US Sassuolo Calcio",
     "shortName": "Sassuolo"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/7397.png",
     "id": 7397,
     "name": "Como 1907",
     "shortName": "Como 1907"
@@ -1823,8 +1527,7 @@
    "matchday": 8,
    "score": {
     "away": 0,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1832,14 +1535,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/100.png",
     "id": 100,
     "name": "AS Roma",
     "shortName": "Roma"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/113.png",
     "id": 113,
     "name": "SSC Napoli",
     "shortName": "Napoli"
@@ -1848,8 +1548,7 @@
    "matchday": 8,
    "score": {
     "away": 3,
-    "home": 3,
-    "winner": "DRAW"
+    "home": 3
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1857,14 +1556,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/112.png",
     "id": 112,
     "name": "Parma Calcio 1913",
     "shortName": "Parma"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/110.png",
     "id": 110,
     "name": "SS Lazio",
     "shortName": "Lazio"
@@ -1873,8 +1569,7 @@
    "matchday": 8,
    "score": {
     "away": 1,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1882,14 +1577,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/99.png",
     "id": 99,
     "name": "ACF Fiorentina",
     "shortName": "Fiorentina"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/108.png",
     "id": 108,
     "name": "FC Internazionale Milano",
     "shortName": "Inter"
@@ -1898,8 +1590,7 @@
    "matchday": 8,
    "score": {
     "away": 1,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1907,14 +1598,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/470.png",
     "id": 470,
     "name": "Frosinone Calcio",
     "shortName": "Frosinone"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/102.png",
     "id": 102,
     "name": "Atalanta BC",
     "shortName": "Atalanta"
@@ -1923,8 +1611,7 @@
    "matchday": 8,
    "score": {
     "away": 4,
-    "home": 4,
-    "winner": "DRAW"
+    "home": 4
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1932,14 +1619,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/454.png",
     "id": 454,
     "name": "Venezia FC",
     "shortName": "Venezia FC"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/107.png",
     "id": 107,
     "name": "Genoa CFC",
     "shortName": "Genoa"
@@ -1948,8 +1632,7 @@
    "matchday": 8,
    "score": {
     "away": 0,
-    "home": 1,
-    "winner": "HOME_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1957,14 +1640,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/109.png",
     "id": 109,
     "name": "Juventus FC",
     "shortName": "Juventus"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/5890.png",
     "id": 5890,
     "name": "US Lecce",
     "shortName": "Lecce"
@@ -1973,8 +1653,7 @@
    "matchday": 8,
    "score": {
     "away": 2,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -1982,14 +1661,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/98.png",
     "id": 98,
     "name": "AC Milan",
     "shortName": "Milan"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/115.png",
     "id": 115,
     "name": "Udinese Calcio",
     "shortName": "Udinese"
@@ -1998,8 +1674,7 @@
    "matchday": 8,
    "score": {
     "away": 2,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -2007,14 +1682,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/110.png",
     "id": 110,
     "name": "SS Lazio",
     "shortName": "Lazio"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/471.png",
     "id": 471,
     "name": "US Sassuolo Calcio",
     "shortName": "Sassuolo"
@@ -2023,8 +1695,7 @@
    "matchday": 9,
    "score": {
     "away": 6,
-    "home": 2,
-    "winner": "AWAY_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -2032,14 +1703,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/104.png",
     "id": 104,
     "name": "Cagliari Calcio",
     "shortName": "Cagliari"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/100.png",
     "id": 100,
     "name": "AS Roma",
     "shortName": "Roma"
@@ -2048,8 +1716,7 @@
    "matchday": 9,
    "score": {
     "away": 2,
-    "home": 4,
-    "winner": "HOME_TEAM"
+    "home": 4
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -2057,14 +1724,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/7397.png",
     "id": 7397,
     "name": "Como 1907",
     "shortName": "Como 1907"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/586.png",
     "id": 586,
     "name": "Torino FC",
     "shortName": "Torino"
@@ -2073,8 +1737,7 @@
    "matchday": 9,
    "score": {
     "away": 3,
-    "home": 1,
-    "winner": "AWAY_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -2082,14 +1745,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/103.png",
     "id": 103,
     "name": "Bologna FC 1909",
     "shortName": "Bologna"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/98.png",
     "id": 98,
     "name": "AC Milan",
     "shortName": "Milan"
@@ -2098,8 +1758,7 @@
    "matchday": 9,
    "score": {
     "away": 4,
-    "home": 2,
-    "winner": "AWAY_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -2107,14 +1766,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/108.png",
     "id": 108,
     "name": "FC Internazionale Milano",
     "shortName": "Inter"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/454.png",
     "id": 454,
     "name": "Venezia FC",
     "shortName": "Venezia FC"
@@ -2123,8 +1779,7 @@
    "matchday": 9,
    "score": {
     "away": 2,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -2132,14 +1787,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/115.png",
     "id": 115,
     "name": "Udinese Calcio",
     "shortName": "Udinese"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/112.png",
     "id": 112,
     "name": "Parma Calcio 1913",
     "shortName": "Parma"
@@ -2148,8 +1800,7 @@
    "matchday": 9,
    "score": {
     "away": 0,
-    "home": 0,
-    "winner": "DRAW"
+    "home": 0
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -2157,14 +1808,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/109.png",
     "id": 109,
     "name": "Juventus FC",
     "shortName": "Juventus"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/107.png",
     "id": 107,
     "name": "Genoa CFC",
     "shortName": "Genoa"
@@ -2173,8 +1821,7 @@
    "matchday": 9,
    "score": {
     "away": 0,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -2182,14 +1829,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/113.png",
     "id": 113,
     "name": "SSC Napoli",
     "shortName": "Napoli"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/5911.png",
     "id": 5911,
     "name": "AC Monza",
     "shortName": "Monza"
@@ -2198,8 +1842,7 @@
    "matchday": 9,
    "score": {
     "away": 4,
-    "home": 1,
-    "winner": "AWAY_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -2207,14 +1850,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/5890.png",
     "id": 5890,
     "name": "US Lecce",
     "shortName": "Lecce"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/470.png",
     "id": 470,
     "name": "Frosinone Calcio",
     "shortName": "Frosinone"
@@ -2223,8 +1863,7 @@
    "matchday": 9,
    "score": {
     "away": 1,
-    "home": 5,
-    "winner": "HOME_TEAM"
+    "home": 5
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -2232,14 +1871,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/102.png",
     "id": 102,
     "name": "Atalanta BC",
     "shortName": "Atalanta"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/99.png",
     "id": 99,
     "name": "ACF Fiorentina",
     "shortName": "Fiorentina"
@@ -2248,8 +1884,7 @@
    "matchday": 9,
    "score": {
     "away": 2,
-    "home": 2,
-    "winner": "DRAW"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -2257,14 +1892,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/5911.png",
     "id": 5911,
     "name": "AC Monza",
     "shortName": "Monza"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/103.png",
     "id": 103,
     "name": "Bologna FC 1909",
     "shortName": "Bologna"
@@ -2273,8 +1905,7 @@
    "matchday": 10,
    "score": {
     "away": 1,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -2282,14 +1913,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/100.png",
     "id": 100,
     "name": "AS Roma",
     "shortName": "Roma"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/115.png",
     "id": 115,
     "name": "Udinese Calcio",
     "shortName": "Udinese"
@@ -2298,8 +1926,7 @@
    "matchday": 10,
    "score": {
     "away": 5,
-    "home": 2,
-    "winner": "AWAY_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -2307,14 +1934,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/108.png",
     "id": 108,
     "name": "FC Internazionale Milano",
     "shortName": "Inter"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/98.png",
     "id": 98,
     "name": "AC Milan",
     "shortName": "Milan"
@@ -2323,8 +1947,7 @@
    "matchday": 10,
    "score": {
     "away": 1,
-    "home": 3,
-    "winner": "HOME_TEAM"
+    "home": 3
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -2332,14 +1955,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/454.png",
     "id": 454,
     "name": "Venezia FC",
     "shortName": "Venezia FC"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/7397.png",
     "id": 7397,
     "name": "Como 1907",
     "shortName": "Como 1907"
@@ -2348,8 +1968,7 @@
    "matchday": 10,
    "score": {
     "away": 0,
-    "home": 1,
-    "winner": "HOME_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -2357,14 +1976,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/586.png",
     "id": 586,
     "name": "Torino FC",
     "shortName": "Torino"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/470.png",
     "id": 470,
     "name": "Frosinone Calcio",
     "shortName": "Frosinone"
@@ -2373,8 +1989,7 @@
    "matchday": 10,
    "score": {
     "away": 0,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -2382,14 +1997,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/104.png",
     "id": 104,
     "name": "Cagliari Calcio",
     "shortName": "Cagliari"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/110.png",
     "id": 110,
     "name": "SS Lazio",
     "shortName": "Lazio"
@@ -2398,8 +2010,7 @@
    "matchday": 10,
    "score": {
     "away": 1,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -2407,14 +2018,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/107.png",
     "id": 107,
     "name": "Genoa CFC",
     "shortName": "Genoa"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/5890.png",
     "id": 5890,
     "name": "US Lecce",
     "shortName": "Lecce"
@@ -2423,8 +2031,7 @@
    "matchday": 10,
    "score": {
     "away": 2,
-    "home": 1,
-    "winner": "AWAY_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -2432,14 +2039,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/113.png",
     "id": 113,
     "name": "SSC Napoli",
     "shortName": "Napoli"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/109.png",
     "id": 109,
     "name": "Juventus FC",
     "shortName": "Juventus"
@@ -2448,8 +2052,7 @@
    "matchday": 10,
    "score": {
     "away": 0,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -2457,14 +2060,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/99.png",
     "id": 99,
     "name": "ACF Fiorentina",
     "shortName": "Fiorentina"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/471.png",
     "id": 471,
     "name": "US Sassuolo Calcio",
     "shortName": "Sassuolo"
@@ -2473,8 +2073,7 @@
    "matchday": 10,
    "score": {
     "away": 4,
-    "home": 2,
-    "winner": "AWAY_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -2482,14 +2081,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/112.png",
     "id": 112,
     "name": "Parma Calcio 1913",
     "shortName": "Parma"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/102.png",
     "id": 102,
     "name": "Atalanta BC",
     "shortName": "Atalanta"
@@ -2498,8 +2094,7 @@
    "matchday": 10,
    "score": {
     "away": 3,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -2507,14 +2102,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/115.png",
     "id": 115,
     "name": "Udinese Calcio",
     "shortName": "Udinese"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/454.png",
     "id": 454,
     "name": "Venezia FC",
     "shortName": "Venezia FC"
@@ -2523,8 +2115,7 @@
    "matchday": 11,
    "score": {
     "away": 1,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -2532,14 +2123,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/5890.png",
     "id": 5890,
     "name": "US Lecce",
     "shortName": "Lecce"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/586.png",
     "id": 586,
     "name": "Torino FC",
     "shortName": "Torino"
@@ -2548,8 +2136,7 @@
    "matchday": 11,
    "score": {
     "away": 1,
-    "home": 1,
-    "winner": "DRAW"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -2557,14 +2144,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/470.png",
     "id": 470,
     "name": "Frosinone Calcio",
     "shortName": "Frosinone"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/104.png",
     "id": 104,
     "name": "Cagliari Calcio",
     "shortName": "Cagliari"
@@ -2573,8 +2157,7 @@
    "matchday": 11,
    "score": {
     "away": 0,
-    "home": 1,
-    "winner": "HOME_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -2582,14 +2165,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/103.png",
     "id": 103,
     "name": "Bologna FC 1909",
     "shortName": "Bologna"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/112.png",
     "id": 112,
     "name": "Parma Calcio 1913",
     "shortName": "Parma"
@@ -2598,8 +2178,7 @@
    "matchday": 11,
    "score": {
     "away": 2,
-    "home": 1,
-    "winner": "AWAY_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -2607,14 +2186,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/471.png",
     "id": 471,
     "name": "US Sassuolo Calcio",
     "shortName": "Sassuolo"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/100.png",
     "id": 100,
     "name": "AS Roma",
     "shortName": "Roma"
@@ -2623,8 +2199,7 @@
    "matchday": 11,
    "score": {
     "away": 0,
-    "home": 3,
-    "winner": "HOME_TEAM"
+    "home": 3
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -2632,14 +2207,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/110.png",
     "id": 110,
     "name": "SS Lazio",
     "shortName": "Lazio"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/113.png",
     "id": 113,
     "name": "SSC Napoli",
     "shortName": "Napoli"
@@ -2648,8 +2220,7 @@
    "matchday": 11,
    "score": {
     "away": 1,
-    "home": 1,
-    "winner": "DRAW"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -2657,14 +2228,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/98.png",
     "id": 98,
     "name": "AC Milan",
     "shortName": "Milan"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/107.png",
     "id": 107,
     "name": "Genoa CFC",
     "shortName": "Genoa"
@@ -2673,8 +2241,7 @@
    "matchday": 11,
    "score": {
     "away": 2,
-    "home": 1,
-    "winner": "AWAY_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -2682,14 +2249,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/102.png",
     "id": 102,
     "name": "Atalanta BC",
     "shortName": "Atalanta"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/5911.png",
     "id": 5911,
     "name": "AC Monza",
     "shortName": "Monza"
@@ -2698,8 +2262,7 @@
    "matchday": 11,
    "score": {
     "away": 1,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -2707,14 +2270,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/7397.png",
     "id": 7397,
     "name": "Como 1907",
     "shortName": "Como 1907"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/108.png",
     "id": 108,
     "name": "FC Internazionale Milano",
     "shortName": "Inter"
@@ -2723,8 +2283,7 @@
    "matchday": 11,
    "score": {
     "away": 0,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -2732,14 +2291,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/109.png",
     "id": 109,
     "name": "Juventus FC",
     "shortName": "Juventus"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/99.png",
     "id": 99,
     "name": "ACF Fiorentina",
     "shortName": "Fiorentina"
@@ -2748,8 +2304,7 @@
    "matchday": 11,
    "score": {
     "away": 2,
-    "home": 2,
-    "winner": "DRAW"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",

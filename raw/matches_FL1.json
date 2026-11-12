@@ -1,46 +1,12 @@
 {
- "competition": {
-  "code": "FL1",
-  "emblem": "https://crests.football-data.org/FL1.png",
-  "name": "リーグ・アン"
- },
- "count": 37,
  "matches": [
   {
    "away": {
-    "crest": "https://crests.football-data.org/512.png",
-    "id": 512,
-    "name": "Stade Brestois 29",
-    "shortName": "Brest"
-   },
-   "group": null,
-   "home": {
-    "crest": "https://crests.football-data.org/525.png",
-    "id": 525,
-    "name": "FC Lorient",
-    "shortName": "Lorient"
-   },
-   "id": 559641,
-   "matchday": 9,
-   "score": {
-    "away": 2,
-    "home": 0,
-    "winner": "AWAY_TEAM"
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "FINISHED",
-   "utcDate": "2026-11-02T19:45:00Z"
-  },
-  {
-   "away": {
-    "crest": "https://crests.football-data.org/576.png",
     "id": 576,
     "name": "RC Strasbourg Alsace",
     "shortName": "Strasbourg"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/511.png",
     "id": 511,
     "name": "Toulouse FC",
     "shortName": "Toulouse"
@@ -49,8 +15,7 @@
    "matchday": 10,
    "score": {
     "away": 1,
-    "home": 3,
-    "winner": "HOME_TEAM"
+    "home": 3
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -58,14 +23,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/1045.png",
     "id": 1045,
     "name": "Paris FC",
     "shortName": "Paris FC"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/519.png",
     "id": 519,
     "name": "AJ Auxerre",
     "shortName": "Auxerre"
@@ -74,8 +36,7 @@
    "matchday": 10,
    "score": {
     "away": 1,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -83,14 +44,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/531.png",
     "id": 531,
     "name": "ES Troyes AC",
     "shortName": "Troyes"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/524.png",
     "id": 524,
     "name": "Paris Saint-Germain FC",
     "shortName": "PSG"
@@ -99,8 +57,7 @@
    "matchday": 10,
    "score": {
     "away": 0,
-    "home": 1,
-    "winner": "HOME_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -108,14 +65,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/521.png",
     "id": 521,
     "name": "Lille OSC",
     "shortName": "Lille"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/529.png",
     "id": 529,
     "name": "Stade Rennais FC 1901",
     "shortName": "Stade Rennais"
@@ -124,8 +78,7 @@
    "matchday": 10,
    "score": {
     "away": 2,
-    "home": 1,
-    "winner": "AWAY_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -133,14 +86,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/548.png",
     "id": 548,
     "name": "AS Monaco FC",
     "shortName": "Monaco"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/535.png",
     "id": 535,
     "name": "Le Mans FC",
     "shortName": "Le Mans"
@@ -149,8 +99,7 @@
    "matchday": 10,
    "score": {
     "away": 1,
-    "home": 1,
-    "winner": "DRAW"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -158,14 +107,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/523.png",
     "id": 523,
     "name": "Olympique Lyonnais",
     "shortName": "Olympique Lyon"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/512.png",
     "id": 512,
     "name": "Stade Brestois 29",
     "shortName": "Brest"
@@ -174,8 +120,7 @@
    "matchday": 10,
    "score": {
     "away": 0,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -183,14 +128,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/525.png",
     "id": 525,
     "name": "FC Lorient",
     "shortName": "Lorient"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/533.png",
     "id": 533,
     "name": "Le Havre AC",
     "shortName": "Le Havre"
@@ -199,8 +141,7 @@
    "matchday": 10,
    "score": {
     "away": 2,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -208,14 +149,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/522.png",
     "id": 522,
     "name": "OGC Nice",
     "shortName": "Nice"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/532.png",
     "id": 532,
     "name": "Angers SCO",
     "shortName": "Angers SCO"
@@ -224,8 +162,7 @@
    "matchday": 10,
    "score": {
     "away": 2,
-    "home": 0,
-    "winner": "AWAY_TEAM"
+    "home": 0
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -233,14 +170,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/516.png",
     "id": 516,
     "name": "Olympique de Marseille",
     "shortName": "Marseille"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/546.png",
     "id": 546,
     "name": "Racing Club de Lens",
     "shortName": "RC Lens"
@@ -249,8 +183,7 @@
    "matchday": 10,
    "score": {
     "away": 2,
-    "home": 1,
-    "winner": "AWAY_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -258,14 +191,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/533.png",
     "id": 533,
     "name": "Le Havre AC",
     "shortName": "Le Havre"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/531.png",
     "id": 531,
     "name": "ES Troyes AC",
     "shortName": "Troyes"
@@ -274,8 +204,7 @@
    "matchday": 11,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -283,14 +212,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/524.png",
     "id": 524,
     "name": "Paris Saint-Germain FC",
     "shortName": "PSG"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/522.png",
     "id": 522,
     "name": "OGC Nice",
     "shortName": "Nice"
@@ -299,8 +225,7 @@
    "matchday": 11,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -308,14 +233,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/519.png",
     "id": 519,
     "name": "AJ Auxerre",
     "shortName": "Auxerre"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/548.png",
     "id": 548,
     "name": "AS Monaco FC",
     "shortName": "Monaco"
@@ -324,8 +246,7 @@
    "matchday": 11,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -333,14 +254,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/511.png",
     "id": 511,
     "name": "Toulouse FC",
     "shortName": "Toulouse"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/546.png",
     "id": 546,
     "name": "Racing Club de Lens",
     "shortName": "RC Lens"
@@ -349,8 +267,7 @@
    "matchday": 11,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -358,14 +275,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/523.png",
     "id": 523,
     "name": "Olympique Lyonnais",
     "shortName": "Olympique Lyon"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/521.png",
     "id": 521,
     "name": "Lille OSC",
     "shortName": "Lille"
@@ -374,8 +288,7 @@
    "matchday": 11,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -383,14 +296,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/512.png",
     "id": 512,
     "name": "Stade Brestois 29",
     "shortName": "Brest"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/576.png",
     "id": 576,
     "name": "RC Strasbourg Alsace",
     "shortName": "Strasbourg"
@@ -399,8 +309,7 @@
    "matchday": 11,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -408,14 +317,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/532.png",
     "id": 532,
     "name": "Angers SCO",
     "shortName": "Angers SCO"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/1045.png",
     "id": 1045,
     "name": "Paris FC",
     "shortName": "Paris FC"
@@ -424,8 +330,7 @@
    "matchday": 11,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -433,14 +338,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/529.png",
     "id": 529,
     "name": "Stade Rennais FC 1901",
     "shortName": "Stade Rennais"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/525.png",
     "id": 525,
     "name": "FC Lorient",
     "shortName": "Lorient"
@@ -449,8 +351,7 @@
    "matchday": 11,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -458,14 +359,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/535.png",
     "id": 535,
     "name": "Le Mans FC",
     "shortName": "Le Mans"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/516.png",
     "id": 516,
     "name": "Olympique de Marseille",
     "shortName": "Marseille"
@@ -474,8 +372,7 @@
    "matchday": 11,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -483,14 +380,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/1045.png",
     "id": 1045,
     "name": "Paris FC",
     "shortName": "Paris FC"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/512.png",
     "id": 512,
     "name": "Stade Brestois 29",
     "shortName": "Brest"
@@ -499,8 +393,7 @@
    "matchday": 12,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -508,14 +401,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/546.png",
     "id": 546,
     "name": "Racing Club de Lens",
     "shortName": "RC Lens"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/532.png",
     "id": 532,
     "name": "Angers SCO",
     "shortName": "Angers SCO"
@@ -524,8 +414,7 @@
    "matchday": 12,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -533,14 +422,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/521.png",
     "id": 521,
     "name": "Lille OSC",
     "shortName": "Lille"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/535.png",
     "id": 535,
     "name": "Le Mans FC",
     "shortName": "Le Mans"
@@ -549,8 +435,7 @@
    "matchday": 12,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -558,14 +443,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/531.png",
     "id": 531,
     "name": "ES Troyes AC",
     "shortName": "Troyes"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/522.png",
     "id": 522,
     "name": "OGC Nice",
     "shortName": "Nice"
@@ -574,8 +456,7 @@
    "matchday": 12,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -583,14 +464,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/576.png",
     "id": 576,
     "name": "RC Strasbourg Alsace",
     "shortName": "Strasbourg"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/533.png",
     "id": 533,
     "name": "Le Havre AC",
     "shortName": "Le Havre"
@@ -599,8 +477,7 @@
    "matchday": 12,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -608,14 +485,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/525.png",
     "id": 525,
     "name": "FC Lorient",
     "shortName": "Lorient"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/524.png",
     "id": 524,
     "name": "Paris Saint-Germain FC",
     "shortName": "PSG"
@@ -624,8 +498,7 @@
    "matchday": 12,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -633,14 +506,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/516.png",
     "id": 516,
     "name": "Olympique de Marseille",
     "shortName": "Marseille"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/519.png",
     "id": 519,
     "name": "AJ Auxerre",
     "shortName": "Auxerre"
@@ -649,8 +519,7 @@
    "matchday": 12,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -658,14 +527,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/529.png",
     "id": 529,
     "name": "Stade Rennais FC 1901",
     "shortName": "Stade Rennais"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/511.png",
     "id": 511,
     "name": "Toulouse FC",
     "shortName": "Toulouse"
@@ -674,8 +540,7 @@
    "matchday": 12,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -683,14 +548,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/548.png",
     "id": 548,
     "name": "AS Monaco FC",
     "shortName": "Monaco"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/523.png",
     "id": 523,
     "name": "Olympique Lyonnais",
     "shortName": "Olympique Lyon"
@@ -699,8 +561,7 @@
    "matchday": 12,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -708,14 +569,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/524.png",
     "id": 524,
     "name": "Paris Saint-Germain FC",
     "shortName": "PSG"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/511.png",
     "id": 511,
     "name": "Toulouse FC",
     "shortName": "Toulouse"
@@ -724,8 +582,7 @@
    "matchday": 13,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -733,14 +590,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/519.png",
     "id": 519,
     "name": "AJ Auxerre",
     "shortName": "Auxerre"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/521.png",
     "id": 521,
     "name": "Lille OSC",
     "shortName": "Lille"
@@ -749,8 +603,7 @@
    "matchday": 13,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -758,14 +611,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/532.png",
     "id": 532,
     "name": "Angers SCO",
     "shortName": "Angers SCO"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/548.png",
     "id": 548,
     "name": "AS Monaco FC",
     "shortName": "Monaco"
@@ -774,8 +624,7 @@
    "matchday": 13,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -783,14 +632,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/533.png",
     "id": 533,
     "name": "Le Havre AC",
     "shortName": "Le Havre"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/546.png",
     "id": 546,
     "name": "Racing Club de Lens",
     "shortName": "RC Lens"
@@ -799,8 +645,7 @@
    "matchday": 13,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -808,14 +653,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/525.png",
     "id": 525,
     "name": "FC Lorient",
     "shortName": "Lorient"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/576.png",
     "id": 576,
     "name": "RC Strasbourg Alsace",
     "shortName": "Strasbourg"
@@ -824,8 +666,7 @@
    "matchday": 13,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -833,14 +674,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/535.png",
     "id": 535,
     "name": "Le Mans FC",
     "shortName": "Le Mans"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/1045.png",
     "id": 1045,
     "name": "Paris FC",
     "shortName": "Paris FC"
@@ -849,8 +687,7 @@
    "matchday": 13,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -858,14 +695,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/523.png",
     "id": 523,
     "name": "Olympique Lyonnais",
     "shortName": "Olympique Lyon"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/531.png",
     "id": 531,
     "name": "ES Troyes AC",
     "shortName": "Troyes"
@@ -874,8 +708,7 @@
    "matchday": 13,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -883,14 +716,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/512.png",
     "id": 512,
     "name": "Stade Brestois 29",
     "shortName": "Brest"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/529.png",
     "id": 529,
     "name": "Stade Rennais FC 1901",
     "shortName": "Stade Rennais"
@@ -899,8 +729,7 @@
    "matchday": 13,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -908,14 +737,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/522.png",
     "id": 522,
     "name": "OGC Nice",
     "shortName": "Nice"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/516.png",
     "id": 516,
     "name": "Olympique de Marseille",
     "shortName": "Marseille"
@@ -924,16 +750,141 @@
    "matchday": 13,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
    "utcDate": "2026-12-06T19:45:00Z"
+  },
+  {
+   "away": {
+    "id": 511,
+    "name": "Toulouse FC",
+    "shortName": "Toulouse"
+   },
+   "home": {
+    "id": 519,
+    "name": "AJ Auxerre",
+    "shortName": "Auxerre"
+   },
+   "id": 559602,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-11T19:45:00Z"
+  },
+  {
+   "away": {
+    "id": 1045,
+    "name": "Paris FC",
+    "shortName": "Paris FC"
+   },
+   "home": {
+    "id": 524,
+    "name": "Paris Saint-Germain FC",
+    "shortName": "PSG"
+   },
+   "id": 559596,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-12T16:15:00Z"
+  },
+  {
+   "away": {
+    "id": 546,
+    "name": "Racing Club de Lens",
+    "shortName": "RC Lens"
+   },
+   "home": {
+    "id": 522,
+    "name": "OGC Nice",
+    "shortName": "Nice"
+   },
+   "id": 559595,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-12T19:45:00Z"
+  },
+  {
+   "away": {
+    "id": 576,
+    "name": "RC Strasbourg Alsace",
+    "shortName": "Strasbourg"
+   },
+   "home": {
+    "id": 532,
+    "name": "Angers SCO",
+    "shortName": "Angers SCO"
+   },
+   "id": 559597,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-12T19:45:00Z"
+  },
+  {
+   "away": {
+    "id": 531,
+    "name": "ES Troyes AC",
+    "shortName": "Troyes"
+   },
+   "home": {
+    "id": 512,
+    "name": "Stade Brestois 29",
+    "shortName": "Brest"
+   },
+   "id": 559598,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-12T19:45:00Z"
+  },
+  {
+   "away": {
+    "id": 535,
+    "name": "Le Mans FC",
+    "shortName": "Le Mans"
+   },
+   "home": {
+    "id": 533,
+    "name": "Le Havre AC",
+    "shortName": "Le Havre"
+   },
+   "id": 559599,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-12T19:45:00Z"
   }
  ],
  "window": {
-  "from": "2026-11-02",
-  "to": "2026-12-09"
+  "from": "2026-11-05",
+  "to": "2026-12-12"
  }
 }

@@ -1,21 +1,12 @@
 {
- "competition": {
-  "code": "BL1",
-  "emblem": "https://crests.football-data.org/BL1.png",
-  "name": "ブンデスリーガ"
- },
- "count": 36,
  "matches": [
   {
    "away": {
-    "crest": "https://crests.football-data.org/18.png",
     "id": 18,
     "name": "Borussia Mönchengladbach",
     "shortName": "M'gladbach"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/7.png",
     "id": 7,
     "name": "Hamburger SV",
     "shortName": "HSV"
@@ -24,8 +15,7 @@
    "matchday": 9,
    "score": {
     "away": 1,
-    "home": 3,
-    "winner": "HOME_TEAM"
+    "home": 3
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -33,14 +23,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/16.png",
     "id": 16,
     "name": "FC Augsburg",
     "shortName": "Augsburg"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/721.png",
     "id": 721,
     "name": "RB Leipzig",
     "shortName": "RB Leipzig"
@@ -49,8 +36,7 @@
    "matchday": 9,
    "score": {
     "away": 2,
-    "home": 5,
-    "winner": "HOME_TEAM"
+    "home": 5
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -58,14 +44,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/719.png",
     "id": 719,
     "name": "SV 07 Elversberg",
     "shortName": "Elversberg"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/4.png",
     "id": 4,
     "name": "Borussia Dortmund",
     "shortName": "Dortmund"
@@ -74,8 +57,7 @@
    "matchday": 9,
    "score": {
     "away": 1,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -83,14 +65,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/5.png",
     "id": 5,
     "name": "FC Bayern München",
     "shortName": "Bayern"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/15.png",
     "id": 15,
     "name": "1. FSV Mainz 05",
     "shortName": "Mainz"
@@ -99,8 +78,7 @@
    "matchday": 9,
    "score": {
     "away": 2,
-    "home": 1,
-    "winner": "AWAY_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -108,14 +86,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/19.png",
     "id": 19,
     "name": "Eintracht Frankfurt",
     "shortName": "Frankfurt"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/29.png",
     "id": 29,
     "name": "SC Paderborn 07",
     "shortName": "SC Paderborn"
@@ -124,8 +99,7 @@
    "matchday": 9,
    "score": {
     "away": 2,
-    "home": 2,
-    "winner": "DRAW"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -133,14 +107,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/12.png",
     "id": 12,
     "name": "SV Werder Bremen",
     "shortName": "Bremen"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/10.png",
     "id": 10,
     "name": "VfB Stuttgart",
     "shortName": "Stuttgart"
@@ -149,8 +120,7 @@
    "matchday": 9,
    "score": {
     "away": 0,
-    "home": 1,
-    "winner": "HOME_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -158,14 +128,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/3.png",
     "id": 3,
     "name": "Bayer 04 Leverkusen",
     "shortName": "Leverkusen"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/1.png",
     "id": 1,
     "name": "1. FC Köln",
     "shortName": "1. FC Köln"
@@ -174,8 +141,7 @@
    "matchday": 9,
    "score": {
     "away": 2,
-    "home": 1,
-    "winner": "AWAY_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -183,14 +149,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/28.png",
     "id": 28,
     "name": "1. FC Union Berlin",
     "shortName": "Union Berlin"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/17.png",
     "id": 17,
     "name": "SC Freiburg",
     "shortName": "Freiburg"
@@ -199,8 +162,7 @@
    "matchday": 9,
    "score": {
     "away": 0,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -208,14 +170,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/6.png",
     "id": 6,
     "name": "FC Schalke 04",
     "shortName": "Schalke"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/2.png",
     "id": 2,
     "name": "TSG 1899 Hoffenheim",
     "shortName": "Hoffenheim"
@@ -224,8 +183,7 @@
    "matchday": 9,
    "score": {
     "away": 1,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -233,14 +191,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/1.png",
     "id": 1,
     "name": "1. FC Köln",
     "shortName": "1. FC Köln"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/5.png",
     "id": 5,
     "name": "FC Bayern München",
     "shortName": "Bayern"
@@ -249,8 +204,7 @@
    "matchday": 10,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -258,14 +212,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/29.png",
     "id": 29,
     "name": "SC Paderborn 07",
     "shortName": "SC Paderborn"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/3.png",
     "id": 3,
     "name": "Bayer 04 Leverkusen",
     "shortName": "Leverkusen"
@@ -274,8 +225,7 @@
    "matchday": 10,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -283,14 +233,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/721.png",
     "id": 721,
     "name": "RB Leipzig",
     "shortName": "RB Leipzig"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/28.png",
     "id": 28,
     "name": "1. FC Union Berlin",
     "shortName": "Union Berlin"
@@ -299,8 +246,7 @@
    "matchday": 10,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -308,14 +254,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/17.png",
     "id": 17,
     "name": "SC Freiburg",
     "shortName": "Freiburg"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/719.png",
     "id": 719,
     "name": "SV 07 Elversberg",
     "shortName": "Elversberg"
@@ -324,8 +267,7 @@
    "matchday": 10,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -333,14 +275,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/4.png",
     "id": 4,
     "name": "Borussia Dortmund",
     "shortName": "Dortmund"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/18.png",
     "id": 18,
     "name": "Borussia Mönchengladbach",
     "shortName": "M'gladbach"
@@ -349,8 +288,7 @@
    "matchday": 10,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -358,14 +296,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/2.png",
     "id": 2,
     "name": "TSG 1899 Hoffenheim",
     "shortName": "Hoffenheim"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/19.png",
     "id": 19,
     "name": "Eintracht Frankfurt",
     "shortName": "Frankfurt"
@@ -374,8 +309,7 @@
    "matchday": 10,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -383,14 +317,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/10.png",
     "id": 10,
     "name": "VfB Stuttgart",
     "shortName": "Stuttgart"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/6.png",
     "id": 6,
     "name": "FC Schalke 04",
     "shortName": "Schalke"
@@ -399,8 +330,7 @@
    "matchday": 10,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -408,14 +338,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/15.png",
     "id": 15,
     "name": "1. FSV Mainz 05",
     "shortName": "Mainz"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/16.png",
     "id": 16,
     "name": "FC Augsburg",
     "shortName": "Augsburg"
@@ -424,8 +351,7 @@
    "matchday": 10,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -433,14 +359,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/7.png",
     "id": 7,
     "name": "Hamburger SV",
     "shortName": "HSV"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/12.png",
     "id": 12,
     "name": "SV Werder Bremen",
     "shortName": "Bremen"
@@ -449,8 +372,7 @@
    "matchday": 10,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -458,14 +380,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/18.png",
     "id": 18,
     "name": "Borussia Mönchengladbach",
     "shortName": "M'gladbach"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/12.png",
     "id": 12,
     "name": "SV Werder Bremen",
     "shortName": "Bremen"
@@ -474,8 +393,7 @@
    "matchday": 11,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -483,14 +401,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/719.png",
     "id": 719,
     "name": "SV 07 Elversberg",
     "shortName": "Elversberg"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/1.png",
     "id": 1,
     "name": "1. FC Köln",
     "shortName": "1. FC Köln"
@@ -499,8 +414,7 @@
    "matchday": 11,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -508,14 +422,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/28.png",
     "id": 28,
     "name": "1. FC Union Berlin",
     "shortName": "Union Berlin"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/15.png",
     "id": 15,
     "name": "1. FSV Mainz 05",
     "shortName": "Mainz"
@@ -524,8 +435,7 @@
    "matchday": 11,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -533,14 +443,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/6.png",
     "id": 6,
     "name": "FC Schalke 04",
     "shortName": "Schalke"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/29.png",
     "id": 29,
     "name": "SC Paderborn 07",
     "shortName": "SC Paderborn"
@@ -549,8 +456,7 @@
    "matchday": 11,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -558,14 +464,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/5.png",
     "id": 5,
     "name": "FC Bayern München",
     "shortName": "Bayern"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/7.png",
     "id": 7,
     "name": "Hamburger SV",
     "shortName": "HSV"
@@ -574,8 +477,7 @@
    "matchday": 11,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -583,14 +485,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/19.png",
     "id": 19,
     "name": "Eintracht Frankfurt",
     "shortName": "Frankfurt"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/10.png",
     "id": 10,
     "name": "VfB Stuttgart",
     "shortName": "Stuttgart"
@@ -599,8 +498,7 @@
    "matchday": 11,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -608,14 +506,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/721.png",
     "id": 721,
     "name": "RB Leipzig",
     "shortName": "RB Leipzig"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/17.png",
     "id": 17,
     "name": "SC Freiburg",
     "shortName": "Freiburg"
@@ -624,8 +519,7 @@
    "matchday": 11,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -633,14 +527,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/16.png",
     "id": 16,
     "name": "FC Augsburg",
     "shortName": "Augsburg"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/2.png",
     "id": 2,
     "name": "TSG 1899 Hoffenheim",
     "shortName": "Hoffenheim"
@@ -649,8 +540,7 @@
    "matchday": 11,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -658,14 +548,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/3.png",
     "id": 3,
     "name": "Bayer 04 Leverkusen",
     "shortName": "Leverkusen"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/4.png",
     "id": 4,
     "name": "Borussia Dortmund",
     "shortName": "Dortmund"
@@ -674,8 +561,7 @@
    "matchday": 11,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -683,14 +569,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/29.png",
     "id": 29,
     "name": "SC Paderborn 07",
     "shortName": "SC Paderborn"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/5.png",
     "id": 5,
     "name": "FC Bayern München",
     "shortName": "Bayern"
@@ -699,8 +582,7 @@
    "matchday": 12,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -708,14 +590,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/7.png",
     "id": 7,
     "name": "Hamburger SV",
     "shortName": "HSV"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/28.png",
     "id": 28,
     "name": "1. FC Union Berlin",
     "shortName": "Union Berlin"
@@ -724,8 +603,7 @@
    "matchday": 12,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -733,14 +611,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/18.png",
     "id": 18,
     "name": "Borussia Mönchengladbach",
     "shortName": "M'gladbach"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/3.png",
     "id": 3,
     "name": "Bayer 04 Leverkusen",
     "shortName": "Leverkusen"
@@ -749,8 +624,7 @@
    "matchday": 12,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -758,14 +632,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/15.png",
     "id": 15,
     "name": "1. FSV Mainz 05",
     "shortName": "Mainz"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/721.png",
     "id": 721,
     "name": "RB Leipzig",
     "shortName": "RB Leipzig"
@@ -774,8 +645,7 @@
    "matchday": 12,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -783,14 +653,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/2.png",
     "id": 2,
     "name": "TSG 1899 Hoffenheim",
     "shortName": "Hoffenheim"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/17.png",
     "id": 17,
     "name": "SC Freiburg",
     "shortName": "Freiburg"
@@ -799,8 +666,7 @@
    "matchday": 12,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -808,14 +674,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/1.png",
     "id": 1,
     "name": "1. FC Köln",
     "shortName": "1. FC Köln"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/16.png",
     "id": 16,
     "name": "FC Augsburg",
     "shortName": "Augsburg"
@@ -824,8 +687,7 @@
    "matchday": 12,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -833,14 +695,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/12.png",
     "id": 12,
     "name": "SV Werder Bremen",
     "shortName": "Bremen"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/19.png",
     "id": 19,
     "name": "Eintracht Frankfurt",
     "shortName": "Frankfurt"
@@ -849,8 +708,7 @@
    "matchday": 12,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -858,14 +716,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/4.png",
     "id": 4,
     "name": "Borussia Dortmund",
     "shortName": "Dortmund"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/6.png",
     "id": 6,
     "name": "FC Schalke 04",
     "shortName": "Schalke"
@@ -874,8 +729,7 @@
    "matchday": 12,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -883,14 +737,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/10.png",
     "id": 10,
     "name": "VfB Stuttgart",
     "shortName": "Stuttgart"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/719.png",
     "id": 719,
     "name": "SV 07 Elversberg",
     "shortName": "Elversberg"
@@ -899,16 +750,141 @@
    "matchday": 12,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
    "utcDate": "2026-12-06T16:30:00Z"
+  },
+  {
+   "away": {
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "home": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "id": 565888,
+   "matchday": 13,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-11T19:30:00Z"
+  },
+  {
+   "away": {
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "home": {
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "id": 565884,
+   "matchday": 13,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-12T14:30:00Z"
+  },
+  {
+   "away": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "home": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "id": 565886,
+   "matchday": 13,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-12T14:30:00Z"
+  },
+  {
+   "away": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "home": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "id": 565887,
+   "matchday": 13,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-12T14:30:00Z"
+  },
+  {
+   "away": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "home": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "id": 565890,
+   "matchday": 13,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-12T14:30:00Z"
+  },
+  {
+   "away": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "home": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "id": 565892,
+   "matchday": 13,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-12T17:30:00Z"
   }
  ],
  "window": {
-  "from": "2026-11-02",
-  "to": "2026-12-09"
+  "from": "2026-11-05",
+  "to": "2026-12-12"
  }
 }

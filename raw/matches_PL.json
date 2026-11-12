@@ -1,46 +1,12 @@
 {
- "competition": {
-  "code": "PL",
-  "emblem": "https://crests.football-data.org/PL.png",
-  "name": "プレミアリーグ"
- },
- "count": 51,
  "matches": [
   {
    "away": {
-    "crest": "https://crests.football-data.org/62.png",
-    "id": 62,
-    "name": "Everton FC",
-    "shortName": "Everton"
-   },
-   "group": null,
-   "home": {
-    "crest": "https://crests.football-data.org/67.png",
-    "id": 67,
-    "name": "Newcastle United FC",
-    "shortName": "Newcastle"
-   },
-   "id": 560622,
-   "matchday": 9,
-   "score": {
-    "away": 1,
-    "home": 0,
-    "winner": "AWAY_TEAM"
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "FINISHED",
-   "utcDate": "2026-11-02T20:00:00Z"
-  },
-  {
-   "away": {
-    "crest": "https://crests.football-data.org/1076.png",
     "id": 1076,
     "name": "Coventry City FC",
     "shortName": "Coventry City"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/62.png",
     "id": 62,
     "name": "Everton FC",
     "shortName": "Everton"
@@ -49,8 +15,7 @@
    "matchday": 10,
    "score": {
     "away": 1,
-    "home": 3,
-    "winner": "HOME_TEAM"
+    "home": 3
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -58,14 +23,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/73.png",
     "id": 73,
     "name": "Tottenham Hotspur FC",
     "shortName": "Tottenham"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/341.png",
     "id": 341,
     "name": "Leeds United FC",
     "shortName": "Leeds United"
@@ -74,8 +36,7 @@
    "matchday": 10,
    "score": {
     "away": 0,
-    "home": 1,
-    "winner": "HOME_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -83,14 +44,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/322.png",
     "id": 322,
     "name": "Hull City AFC",
     "shortName": "Hull City"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/57.png",
     "id": 57,
     "name": "Arsenal FC",
     "shortName": "Arsenal"
@@ -99,8 +57,7 @@
    "matchday": 10,
    "score": {
     "away": 0,
-    "home": 1,
-    "winner": "HOME_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -108,14 +65,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/67.png",
     "id": 67,
     "name": "Newcastle United FC",
     "shortName": "Newcastle"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/63.png",
     "id": 63,
     "name": "Fulham FC",
     "shortName": "Fulham"
@@ -124,8 +78,7 @@
    "matchday": 10,
    "score": {
     "away": 1,
-    "home": 1,
-    "winner": "DRAW"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -133,14 +86,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/65.png",
     "id": 65,
     "name": "Manchester City FC",
     "shortName": "Man City"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/351.png",
     "id": 351,
     "name": "Nottingham Forest FC",
     "shortName": "Nottingham"
@@ -149,8 +99,7 @@
    "matchday": 10,
    "score": {
     "away": 1,
-    "home": 3,
-    "winner": "HOME_TEAM"
+    "home": 3
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -158,14 +107,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/64.png",
     "id": 64,
     "name": "Liverpool FC",
     "shortName": "Liverpool"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/354.png",
     "id": 354,
     "name": "Crystal Palace FC",
     "shortName": "Crystal Palace"
@@ -174,8 +120,7 @@
    "matchday": 10,
    "score": {
     "away": 3,
-    "home": 1,
-    "winner": "AWAY_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -183,14 +128,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/61.png",
     "id": 61,
     "name": "Chelsea FC",
     "shortName": "Chelsea"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/71.png",
     "id": 71,
     "name": "Sunderland AFC",
     "shortName": "Sunderland"
@@ -199,8 +141,7 @@
    "matchday": 10,
    "score": {
     "away": 0,
-    "home": 1,
-    "winner": "HOME_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -208,14 +149,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/bournemouth.png",
     "id": 1044,
     "name": "AFC Bournemouth",
     "shortName": "Bournemouth"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/349.png",
     "id": 349,
     "name": "Ipswich Town FC",
     "shortName": "Ipswich Town"
@@ -224,8 +162,7 @@
    "matchday": 10,
    "score": {
     "away": 2,
-    "home": 1,
-    "winner": "AWAY_TEAM"
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -233,14 +170,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/402.png",
     "id": 402,
     "name": "Brentford FC",
     "shortName": "Brentford"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/397.png",
     "id": 397,
     "name": "Brighton & Hove Albion FC",
     "shortName": "Brighton Hove"
@@ -249,8 +183,7 @@
    "matchday": 10,
    "score": {
     "away": 0,
-    "home": 2,
-    "winner": "HOME_TEAM"
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -258,14 +191,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/58.png",
     "id": 58,
     "name": "Aston Villa FC",
     "shortName": "Aston Villa"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/66.png",
     "id": 66,
     "name": "Manchester United FC",
     "shortName": "Man United"
@@ -274,8 +204,7 @@
    "matchday": 10,
    "score": {
     "away": 4,
-    "home": 4,
-    "winner": "DRAW"
+    "home": 4
    },
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
@@ -283,14 +212,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/63.png",
     "id": 63,
     "name": "Fulham FC",
     "shortName": "Fulham"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/65.png",
     "id": 65,
     "name": "Manchester City FC",
     "shortName": "Man City"
@@ -299,8 +225,7 @@
    "matchday": 11,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -308,14 +233,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/341.png",
     "id": 341,
     "name": "Leeds United FC",
     "shortName": "Leeds United"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/61.png",
     "id": 61,
     "name": "Chelsea FC",
     "shortName": "Chelsea"
@@ -324,8 +246,7 @@
    "matchday": 11,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -333,14 +254,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/71.png",
     "id": 71,
     "name": "Sunderland AFC",
     "shortName": "Sunderland"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/58.png",
     "id": 58,
     "name": "Aston Villa FC",
     "shortName": "Aston Villa"
@@ -349,8 +267,7 @@
    "matchday": 11,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -358,14 +275,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/351.png",
     "id": 351,
     "name": "Nottingham Forest FC",
     "shortName": "Nottingham"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/bournemouth.png",
     "id": 1044,
     "name": "AFC Bournemouth",
     "shortName": "Bournemouth"
@@ -374,8 +288,7 @@
    "matchday": 11,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -383,14 +296,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/349.png",
     "id": 349,
     "name": "Ipswich Town FC",
     "shortName": "Ipswich Town"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/73.png",
     "id": 73,
     "name": "Tottenham Hotspur FC",
     "shortName": "Tottenham"
@@ -399,8 +309,7 @@
    "matchday": 11,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -408,14 +317,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/354.png",
     "id": 354,
     "name": "Crystal Palace FC",
     "shortName": "Crystal Palace"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/1076.png",
     "id": 1076,
     "name": "Coventry City FC",
     "shortName": "Coventry City"
@@ -424,8 +330,7 @@
    "matchday": 11,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -433,14 +338,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/57.png",
     "id": 57,
     "name": "Arsenal FC",
     "shortName": "Arsenal"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/67.png",
     "id": 67,
     "name": "Newcastle United FC",
     "shortName": "Newcastle"
@@ -449,8 +351,7 @@
    "matchday": 11,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -458,14 +359,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/397.png",
     "id": 397,
     "name": "Brighton & Hove Albion FC",
     "shortName": "Brighton Hove"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/322.png",
     "id": 322,
     "name": "Hull City AFC",
     "shortName": "Hull City"
@@ -474,8 +372,7 @@
    "matchday": 11,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -483,14 +380,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/66.png",
     "id": 66,
     "name": "Manchester United FC",
     "shortName": "Man United"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/64.png",
     "id": 64,
     "name": "Liverpool FC",
     "shortName": "Liverpool"
@@ -499,8 +393,7 @@
    "matchday": 11,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -508,14 +401,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/62.png",
     "id": 62,
     "name": "Everton FC",
     "shortName": "Everton"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/402.png",
     "id": 402,
     "name": "Brentford FC",
     "shortName": "Brentford"
@@ -524,8 +414,7 @@
    "matchday": 11,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -533,14 +422,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/61.png",
     "id": 61,
     "name": "Chelsea FC",
     "shortName": "Chelsea"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/351.png",
     "id": 351,
     "name": "Nottingham Forest FC",
     "shortName": "Nottingham"
@@ -549,8 +435,7 @@
    "matchday": 12,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -558,14 +443,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/1076.png",
     "id": 1076,
     "name": "Coventry City FC",
     "shortName": "Coventry City"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/341.png",
     "id": 341,
     "name": "Leeds United FC",
     "shortName": "Leeds United"
@@ -574,8 +456,7 @@
    "matchday": 12,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -583,14 +464,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/402.png",
     "id": 402,
     "name": "Brentford FC",
     "shortName": "Brentford"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/66.png",
     "id": 66,
     "name": "Manchester United FC",
     "shortName": "Man United"
@@ -599,8 +477,7 @@
    "matchday": 12,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -608,14 +485,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/58.png",
     "id": 58,
     "name": "Aston Villa FC",
     "shortName": "Aston Villa"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/349.png",
     "id": 349,
     "name": "Ipswich Town FC",
     "shortName": "Ipswich Town"
@@ -624,8 +498,7 @@
    "matchday": 12,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -633,14 +506,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/64.png",
     "id": 64,
     "name": "Liverpool FC",
     "shortName": "Liverpool"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/62.png",
     "id": 62,
     "name": "Everton FC",
     "shortName": "Everton"
@@ -649,8 +519,7 @@
    "matchday": 12,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -658,14 +527,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/bournemouth.png",
     "id": 1044,
     "name": "AFC Bournemouth",
     "shortName": "Bournemouth"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/63.png",
     "id": 63,
     "name": "Fulham FC",
     "shortName": "Fulham"
@@ -674,8 +540,7 @@
    "matchday": 12,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -683,14 +548,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/67.png",
     "id": 67,
     "name": "Newcastle United FC",
     "shortName": "Newcastle"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/397.png",
     "id": 397,
     "name": "Brighton & Hove Albion FC",
     "shortName": "Brighton Hove"
@@ -699,8 +561,7 @@
    "matchday": 12,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -708,14 +569,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/73.png",
     "id": 73,
     "name": "Tottenham Hotspur FC",
     "shortName": "Tottenham"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/71.png",
     "id": 71,
     "name": "Sunderland AFC",
     "shortName": "Sunderland"
@@ -724,8 +582,7 @@
    "matchday": 12,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -733,14 +590,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/322.png",
     "id": 322,
     "name": "Hull City AFC",
     "shortName": "Hull City"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/354.png",
     "id": 354,
     "name": "Crystal Palace FC",
     "shortName": "Crystal Palace"
@@ -749,8 +603,7 @@
    "matchday": 12,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -758,14 +611,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/65.png",
     "id": 65,
     "name": "Manchester City FC",
     "shortName": "Man City"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/57.png",
     "id": 57,
     "name": "Arsenal FC",
     "shortName": "Arsenal"
@@ -774,8 +624,7 @@
    "matchday": 12,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -783,14 +632,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/349.png",
     "id": 349,
     "name": "Ipswich Town FC",
     "shortName": "Ipswich Town"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/1076.png",
     "id": 1076,
     "name": "Coventry City FC",
     "shortName": "Coventry City"
@@ -799,8 +645,7 @@
    "matchday": 13,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -808,14 +653,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/71.png",
     "id": 71,
     "name": "Sunderland AFC",
     "shortName": "Sunderland"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/64.png",
     "id": 64,
     "name": "Liverpool FC",
     "shortName": "Liverpool"
@@ -824,8 +666,7 @@
    "matchday": 13,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -833,14 +674,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/351.png",
     "id": 351,
     "name": "Nottingham Forest FC",
     "shortName": "Nottingham"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/322.png",
     "id": 322,
     "name": "Hull City AFC",
     "shortName": "Hull City"
@@ -849,8 +687,7 @@
    "matchday": 13,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -858,14 +695,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/354.png",
     "id": 354,
     "name": "Crystal Palace FC",
     "shortName": "Crystal Palace"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/61.png",
     "id": 61,
     "name": "Chelsea FC",
     "shortName": "Chelsea"
@@ -874,8 +708,7 @@
    "matchday": 13,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -883,14 +716,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/341.png",
     "id": 341,
     "name": "Leeds United FC",
     "shortName": "Leeds United"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/65.png",
     "id": 65,
     "name": "Manchester City FC",
     "shortName": "Man City"
@@ -899,8 +729,7 @@
    "matchday": 13,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -908,14 +737,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/62.png",
     "id": 62,
     "name": "Everton FC",
     "shortName": "Everton"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/58.png",
     "id": 58,
     "name": "Aston Villa FC",
     "shortName": "Aston Villa"
@@ -924,8 +750,7 @@
    "matchday": 13,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -933,14 +758,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/57.png",
     "id": 57,
     "name": "Arsenal FC",
     "shortName": "Arsenal"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/402.png",
     "id": 402,
     "name": "Brentford FC",
     "shortName": "Brentford"
@@ -949,8 +771,7 @@
    "matchday": 13,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -958,14 +779,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/66.png",
     "id": 66,
     "name": "Manchester United FC",
     "shortName": "Man United"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/67.png",
     "id": 67,
     "name": "Newcastle United FC",
     "shortName": "Newcastle"
@@ -974,8 +792,7 @@
    "matchday": 13,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -983,14 +800,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/397.png",
     "id": 397,
     "name": "Brighton & Hove Albion FC",
     "shortName": "Brighton Hove"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/bournemouth.png",
     "id": 1044,
     "name": "AFC Bournemouth",
     "shortName": "Bournemouth"
@@ -999,8 +813,7 @@
    "matchday": 13,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -1008,14 +821,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/63.png",
     "id": 63,
     "name": "Fulham FC",
     "shortName": "Fulham"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/73.png",
     "id": 73,
     "name": "Tottenham Hotspur FC",
     "shortName": "Tottenham"
@@ -1024,8 +834,7 @@
    "matchday": 13,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -1033,14 +842,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/64.png",
     "id": 64,
     "name": "Liverpool FC",
     "shortName": "Liverpool"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/61.png",
     "id": 61,
     "name": "Chelsea FC",
     "shortName": "Chelsea"
@@ -1049,8 +855,7 @@
    "matchday": 14,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -1058,14 +863,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/1076.png",
     "id": 1076,
     "name": "Coventry City FC",
     "shortName": "Coventry City"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/66.png",
     "id": 66,
     "name": "Manchester United FC",
     "shortName": "Man United"
@@ -1074,8 +876,7 @@
    "matchday": 14,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -1083,14 +884,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/349.png",
     "id": 349,
     "name": "Ipswich Town FC",
     "shortName": "Ipswich Town"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/341.png",
     "id": 341,
     "name": "Leeds United FC",
     "shortName": "Leeds United"
@@ -1099,8 +897,7 @@
    "matchday": 14,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -1108,14 +905,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/322.png",
     "id": 322,
     "name": "Hull City AFC",
     "shortName": "Hull City"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/bournemouth.png",
     "id": 1044,
     "name": "AFC Bournemouth",
     "shortName": "Bournemouth"
@@ -1124,8 +918,7 @@
    "matchday": 14,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -1133,14 +926,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/354.png",
     "id": 354,
     "name": "Crystal Palace FC",
     "shortName": "Crystal Palace"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/58.png",
     "id": 58,
     "name": "Aston Villa FC",
     "shortName": "Aston Villa"
@@ -1149,8 +939,7 @@
    "matchday": 14,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -1158,14 +947,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/397.png",
     "id": 397,
     "name": "Brighton & Hove Albion FC",
     "shortName": "Brighton Hove"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/351.png",
     "id": 351,
     "name": "Nottingham Forest FC",
     "shortName": "Nottingham"
@@ -1174,8 +960,7 @@
    "matchday": 14,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -1183,14 +968,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/65.png",
     "id": 65,
     "name": "Manchester City FC",
     "shortName": "Man City"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/402.png",
     "id": 402,
     "name": "Brentford FC",
     "shortName": "Brentford"
@@ -1199,8 +981,7 @@
    "matchday": 14,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -1208,14 +989,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/71.png",
     "id": 71,
     "name": "Sunderland AFC",
     "shortName": "Sunderland"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/67.png",
     "id": 67,
     "name": "Newcastle United FC",
     "shortName": "Newcastle"
@@ -1224,8 +1002,7 @@
    "matchday": 14,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -1233,14 +1010,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/63.png",
     "id": 63,
     "name": "Fulham FC",
     "shortName": "Fulham"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/62.png",
     "id": 62,
     "name": "Everton FC",
     "shortName": "Everton"
@@ -1249,8 +1023,7 @@
    "matchday": 14,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
@@ -1258,14 +1031,11 @@
   },
   {
    "away": {
-    "crest": "https://crests.football-data.org/57.png",
     "id": 57,
     "name": "Arsenal FC",
     "shortName": "Arsenal"
    },
-   "group": null,
    "home": {
-    "crest": "https://crests.football-data.org/73.png",
     "id": 73,
     "name": "Tottenham Hotspur FC",
     "shortName": "Tottenham"
@@ -1274,16 +1044,99 @@
    "matchday": 14,
    "score": {
     "away": null,
-    "home": null,
-    "winner": null
+    "home": null
    },
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
    "utcDate": "2026-12-06T16:30:00Z"
+  },
+  {
+   "away": {
+    "id": 67,
+    "name": "Newcastle United FC",
+    "shortName": "Newcastle"
+   },
+   "home": {
+    "id": 349,
+    "name": "Ipswich Town FC",
+    "shortName": "Ipswich Town"
+   },
+   "id": 560686,
+   "matchday": 15,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-12T15:00:00Z"
+  },
+  {
+   "away": {
+    "id": 341,
+    "name": "Leeds United FC",
+    "shortName": "Leeds United"
+   },
+   "home": {
+    "id": 64,
+    "name": "Liverpool FC",
+    "shortName": "Liverpool"
+   },
+   "id": 560690,
+   "matchday": 15,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-12T15:00:00Z"
+  },
+  {
+   "away": {
+    "id": 402,
+    "name": "Brentford FC",
+    "shortName": "Brentford"
+   },
+   "home": {
+    "id": 63,
+    "name": "Fulham FC",
+    "shortName": "Fulham"
+   },
+   "id": 560691,
+   "matchday": 15,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-12T15:00:00Z"
+  },
+  {
+   "away": {
+    "id": 61,
+    "name": "Chelsea FC",
+    "shortName": "Chelsea"
+   },
+   "home": {
+    "id": 65,
+    "name": "Manchester City FC",
+    "shortName": "Man City"
+   },
+   "id": 560689,
+   "matchday": 15,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-12T17:30:00Z"
   }
  ],
  "window": {
-  "from": "2026-11-02",
-  "to": "2026-12-09"
+  "from": "2026-11-05",
+  "to": "2026-12-12"
  }
 }
