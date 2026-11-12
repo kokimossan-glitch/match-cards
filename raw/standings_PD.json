@@ -1,0 +1,375 @@
+{
+ "competition": {
+  "code": "PD",
+  "name": "ラ・リーガ"
+ },
+ "season": "2026-08-16",
+ "tables": [
+  {
+   "group": "Matchday",
+   "rows": [
+    {
+     "draw": 0,
+     "form": null,
+     "ga": 13,
+     "gd": 35,
+     "gf": 48,
+     "lost": 1,
+     "played": 12,
+     "points": 33,
+     "rank": 1,
+     "team": {
+      "crest": "https://crests.football-data.org/81.png",
+      "id": 81,
+      "name": "FC Barcelona",
+      "shortName": "Barça"
+     },
+     "won": 11
+    },
+    {
+     "draw": 0,
+     "form": null,
+     "ga": 10,
+     "gd": 21,
+     "gf": 31,
+     "lost": 2,
+     "played": 12,
+     "points": 30,
+     "rank": 2,
+     "team": {
+      "crest": "https://crests.football-data.org/86.png",
+      "id": 86,
+      "name": "Real Madrid CF",
+      "shortName": "Real Madrid"
+     },
+     "won": 10
+    },
+    {
+     "draw": 1,
+     "form": null,
+     "ga": 10,
+     "gd": 13,
+     "gf": 23,
+     "lost": 2,
+     "played": 12,
+     "points": 28,
+     "rank": 3,
+     "team": {
+      "crest": "https://crests.football-data.org/78.png",
+      "id": 78,
+      "name": "Club Atlético de Madrid",
+      "shortName": "Atleti"
+     },
+     "won": 9
+    },
+    {
+     "draw": 2,
+     "form": null,
+     "ga": 15,
+     "gd": 5,
+     "gf": 20,
+     "lost": 2,
+     "played": 12,
+     "points": 26,
+     "rank": 4,
+     "team": {
+      "crest": "https://crests.football-data.org/90.png",
+      "id": 90,
+      "name": "Real Betis Balompié",
+      "shortName": "Real Betis"
+     },
+     "won": 8
+    },
+    {
+     "draw": 1,
+     "form": null,
+     "ga": 20,
+     "gd": 1,
+     "gf": 21,
+     "lost": 4,
+     "played": 12,
+     "points": 22,
+     "rank": 5,
+     "team": {
+      "crest": "https://crests.football-data.org/92.png",
+      "id": 92,
+      "name": "Real Sociedad de Fútbol",
+      "shortName": "Real Sociedad"
+     },
+     "won": 7
+    },
+    {
+     "draw": 3,
+     "form": null,
+     "ga": 19,
+     "gd": -2,
+     "gf": 17,
+     "lost": 4,
+     "played": 12,
+     "points": 18,
+     "rank": 6,
+     "team": {
+      "crest": "https://crests.football-data.org/559.png",
+      "id": 559,
+      "name": "Sevilla FC",
+      "shortName": "Sevilla FC"
+     },
+     "won": 5
+    },
+    {
+     "draw": 4,
+     "form": null,
+     "ga": 11,
+     "gd": 4,
+     "gf": 15,
+     "lost": 3,
+     "played": 11,
+     "points": 16,
+     "rank": 7,
+     "team": {
+      "crest": "https://crests.football-data.org/77.png",
+      "id": 77,
+      "name": "Athletic Club",
+      "shortName": "Athletic"
+     },
+     "won": 4
+    },
+    {
+     "draw": 3,
+     "form": null,
+     "ga": 15,
+     "gd": 2,
+     "gf": 17,
+     "lost": 5,
+     "played": 12,
+     "points": 15,
+     "rank": 8,
+     "team": {
+      "crest": "https://crests.football-data.org/94.png",
+      "id": 94,
+      "name": "Villarreal CF",
+      "shortName": "Villarreal"
+     },
+     "won": 4
+    },
+    {
+     "draw": 6,
+     "form": null,
+     "ga": 14,
+     "gd": 1,
+     "gf": 15,
+     "lost": 3,
+     "played": 12,
+     "points": 15,
+     "rank": 9,
+     "team": {
+      "crest": "https://crests.football-data.org/560.png",
+      "id": 560,
+      "name": "RC Deportivo La Coruña",
+      "shortName": "Deportivo"
+     },
+     "won": 3
+    },
+    {
+     "draw": 2,
+     "form": null,
+     "ga": 30,
+     "gd": -13,
+     "gf": 17,
+     "lost": 6,
+     "played": 12,
+     "points": 14,
+     "rank": 10,
+     "team": {
+      "crest": "https://crests.football-data.org/5335.png",
+      "id": 5335,
+      "name": "Real Racing Club de Santander",
+      "shortName": "Santander"
+     },
+     "won": 4
+    },
+    {
+     "draw": 7,
+     "form": null,
+     "ga": 10,
+     "gd": 0,
+     "gf": 10,
+     "lost": 3,
+     "played": 12,
+     "points": 13,
+     "rank": 11,
+     "team": {
+      "crest": "https://crests.football-data.org/558.png",
+      "id": 558,
+      "name": "RC Celta de Vigo",
+      "shortName": "Celta"
+     },
+     "won": 2
+    },
+    {
+     "draw": 4,
+     "form": null,
+     "ga": 17,
+     "gd": -2,
+     "gf": 15,
+     "lost": 5,
+     "played": 12,
+     "points": 13,
+     "rank": 12,
+     "team": {
+      "crest": "https://crests.football-data.org/263.png",
+      "id": 263,
+      "name": "Deportivo Alavés",
+      "shortName": "Alavés"
+     },
+     "won": 3
+    },
+    {
+     "draw": 3,
+     "form": null,
+     "ga": 14,
+     "gd": -1,
+     "gf": 13,
+     "lost": 6,
+     "played": 12,
+     "points": 12,
+     "rank": 13,
+     "team": {
+      "crest": "https://crests.football-data.org/80.png",
+      "id": 80,
+      "name": "RCD Espanyol de Barcelona",
+      "shortName": "Espanyol"
+     },
+     "won": 3
+    },
+    {
+     "draw": 3,
+     "form": null,
+     "ga": 21,
+     "gd": -6,
+     "gf": 15,
+     "lost": 5,
+     "played": 11,
+     "points": 12,
+     "rank": 14,
+     "team": {
+      "crest": "https://crests.football-data.org/87.png",
+      "id": 87,
+      "name": "Rayo Vallecano de Madrid",
+      "shortName": "Rayo Vallecano"
+     },
+     "won": 3
+    },
+    {
+     "draw": 3,
+     "form": null,
+     "ga": 18,
+     "gd": -10,
+     "gf": 8,
+     "lost": 6,
+     "played": 12,
+     "points": 12,
+     "rank": 15,
+     "team": {
+      "crest": "https://crests.football-data.org/82.png",
+      "id": 82,
+      "name": "Getafe CF",
+      "shortName": "Getafe"
+     },
+     "won": 3
+    },
+    {
+     "draw": 3,
+     "form": null,
+     "ga": 23,
+     "gd": -11,
+     "gf": 12,
+     "lost": 6,
+     "played": 12,
+     "points": 12,
+     "rank": 16,
+     "team": {
+      "crest": "https://crests.football-data.org/79.png",
+      "id": 79,
+      "name": "CA Osasuna",
+      "shortName": "Osasuna"
+     },
+     "won": 3
+    },
+    {
+     "draw": 5,
+     "form": null,
+     "ga": 21,
+     "gd": -5,
+     "gf": 16,
+     "lost": 5,
+     "played": 12,
+     "points": 11,
+     "rank": 17,
+     "team": {
+      "crest": "https://crests.football-data.org/88.png",
+      "id": 88,
+      "name": "Levante UD",
+      "shortName": "Levante"
+     },
+     "won": 2
+    },
+    {
+     "draw": 4,
+     "form": null,
+     "ga": 20,
+     "gd": -6,
+     "gf": 14,
+     "lost": 6,
+     "played": 12,
+     "points": 10,
+     "rank": 18,
+     "team": {
+      "crest": "https://crests.football-data.org/285.png",
+      "id": 285,
+      "name": "Elche CF",
+      "shortName": "Elche"
+     },
+     "won": 2
+    },
+    {
+     "draw": 3,
+     "form": null,
+     "ga": 20,
+     "gd": -12,
+     "gf": 8,
+     "lost": 7,
+     "played": 12,
+     "points": 9,
+     "rank": 19,
+     "team": {
+      "crest": "https://crests.football-data.org/95.png",
+      "id": 95,
+      "name": "Valencia CF",
+      "shortName": "Valencia"
+     },
+     "won": 2
+    },
+    {
+     "draw": 5,
+     "form": null,
+     "ga": 23,
+     "gd": -14,
+     "gf": 9,
+     "lost": 7,
+     "played": 12,
+     "points": 5,
+     "rank": 20,
+     "team": {
+      "crest": "https://crests.football-data.org/84.png",
+      "id": 84,
+      "name": "Málaga CF",
+      "shortName": "Málaga"
+     },
+     "won": 0
+    }
+   ],
+   "stage": "REGULAR_SEASON"
+  }
+ ]
+}

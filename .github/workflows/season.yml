@@ -1,0 +1,39 @@
+name: Season schedule
+
+# リーグ戦の全日程と、CLの対戦が決まっている試合を年1回まとめて取る
+on:
+  schedule:
+    # 毎年 9/5 21:00 UTC（9/6 6:00 JST）：各リーグの日程発表と CL 抽選のあと
+    - cron: "0 21 5 9 *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: match-cards-data
+  cancel-in-progress: false
+
+jobs:
+  season:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch
+        env:
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+        run: python3 scripts/fetch.py season
+
+      - name: Build app.json
+        run: python3 scripts/build_app.py
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git add raw data
+          git diff --cached --quiet && exit 0
+          git commit -m "season: $(date -u +%F)"
+          for i in 1 2 3; do git pull --rebase -q && git push && exit 0; sleep 5; done
+          exit 1

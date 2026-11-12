@@ -1,0 +1,39 @@
+name: Daily update
+
+# 毎朝、直近の日程・結果・順位表を取り直して data/app.json を作り直す
+on:
+  schedule:
+    # 21:30 UTC = 翌 6:30 JST（データリポジトリの更新 22:00 UTC とずらしてAPIの回数制限を避ける）
+    - cron: "30 21 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: match-cards-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch
+        env:
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+        run: python3 scripts/fetch.py daily
+
+      - name: Build app.json
+        run: python3 scripts/build_app.py
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git add raw data
+          git diff --cached --quiet && exit 0
+          git commit -m "data: $(date -u +%F)"
+          for i in 1 2 3; do git pull --rebase -q && git push && exit 0; sleep 5; done
+          exit 1

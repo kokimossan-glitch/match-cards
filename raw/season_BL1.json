@@ -1,0 +1,7659 @@
+{
+ "competition": {
+  "code": "BL1"
+ },
+ "count": 306,
+ "fetched_at": "2026-11-05T02:59:37+00:00",
+ "matches": [
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "id": 565776,
+   "matchday": 1,
+   "score": {
+    "away": 1,
+    "home": 5,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-08-28T18:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "id": 565777,
+   "matchday": 1,
+   "score": {
+    "away": 0,
+    "home": 3,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-08-29T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "id": 565778,
+   "matchday": 1,
+   "score": {
+    "away": 0,
+    "home": 0,
+    "winner": "DRAW"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-08-29T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "id": 565779,
+   "matchday": 1,
+   "score": {
+    "away": 3,
+    "home": 3,
+    "winner": "DRAW"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-08-29T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "id": 565780,
+   "matchday": 1,
+   "score": {
+    "away": 2,
+    "home": 3,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-08-29T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "id": 565783,
+   "matchday": 1,
+   "score": {
+    "away": 2,
+    "home": 3,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-08-29T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "id": 565781,
+   "matchday": 1,
+   "score": {
+    "away": 0,
+    "home": 2,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-08-29T16:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "id": 565784,
+   "matchday": 1,
+   "score": {
+    "away": 1,
+    "home": 4,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-08-30T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "id": 565782,
+   "matchday": 1,
+   "score": {
+    "away": 0,
+    "home": 3,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-08-30T15:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "id": 565791,
+   "matchday": 2,
+   "score": {
+    "away": 1,
+    "home": 4,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-09-04T18:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "id": 565785,
+   "matchday": 2,
+   "score": {
+    "away": 1,
+    "home": 3,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-09-05T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "id": 565787,
+   "matchday": 2,
+   "score": {
+    "away": 3,
+    "home": 2,
+    "winner": "AWAY_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-09-05T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "id": 565790,
+   "matchday": 2,
+   "score": {
+    "away": 0,
+    "home": 4,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-09-05T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "id": 565792,
+   "matchday": 2,
+   "score": {
+    "away": 4,
+    "home": 3,
+    "winner": "AWAY_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-09-05T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "id": 565793,
+   "matchday": 2,
+   "score": {
+    "away": 1,
+    "home": 0,
+    "winner": "AWAY_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-09-05T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "id": 565789,
+   "matchday": 2,
+   "score": {
+    "away": 0,
+    "home": 0,
+    "winner": "DRAW"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-09-05T16:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "id": 565788,
+   "matchday": 2,
+   "score": {
+    "away": 5,
+    "home": 0,
+    "winner": "AWAY_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-09-06T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "id": 565786,
+   "matchday": 2,
+   "score": {
+    "away": 4,
+    "home": 1,
+    "winner": "AWAY_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-09-06T15:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "id": 565797,
+   "matchday": 3,
+   "score": {
+    "away": 3,
+    "home": 1,
+    "winner": "AWAY_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-09-11T18:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "id": 565794,
+   "matchday": 3,
+   "score": {
+    "away": 1,
+    "home": 2,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-09-12T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "id": 565795,
+   "matchday": 3,
+   "score": {
+    "away": 0,
+    "home": 3,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-09-12T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "id": 565796,
+   "matchday": 3,
+   "score": {
+    "away": 2,
+    "home": 2,
+    "winner": "DRAW"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-09-12T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "id": 565801,
+   "matchday": 3,
+   "score": {
+    "away": 3,
+    "home": 1,
+    "winner": "AWAY_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-09-12T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "id": 565802,
+   "matchday": 3,
+   "score": {
+    "away": 0,
+    "home": 5,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-09-12T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "id": 565798,
+   "matchday": 3,
+   "score": {
+    "away": 1,
+    "home": 1,
+    "winner": "DRAW"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-09-12T16:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "id": 565799,
+   "matchday": 3,
+   "score": {
+    "away": 0,
+    "home": 5,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-09-13T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "id": 565800,
+   "matchday": 3,
+   "score": {
+    "away": 2,
+    "home": 1,
+    "winner": "AWAY_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-09-13T15:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "id": 565804,
+   "matchday": 4,
+   "score": {
+    "away": 0,
+    "home": 7,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-09-18T18:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "id": 565808,
+   "matchday": 4,
+   "score": {
+    "away": 1,
+    "home": 2,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-09-19T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "id": 565809,
+   "matchday": 4,
+   "score": {
+    "away": 4,
+    "home": 3,
+    "winner": "AWAY_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-09-19T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "id": 565810,
+   "matchday": 4,
+   "score": {
+    "away": 2,
+    "home": 3,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-09-19T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "id": 565811,
+   "matchday": 4,
+   "score": {
+    "away": 2,
+    "home": 2,
+    "winner": "DRAW"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-09-19T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "id": 565806,
+   "matchday": 4,
+   "score": {
+    "away": 1,
+    "home": 0,
+    "winner": "AWAY_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-09-19T16:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "id": 565807,
+   "matchday": 4,
+   "score": {
+    "away": 0,
+    "home": 2,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-09-20T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "id": 565805,
+   "matchday": 4,
+   "score": {
+    "away": 0,
+    "home": 0,
+    "winner": "DRAW"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-09-20T15:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "id": 565803,
+   "matchday": 4,
+   "score": {
+    "away": 1,
+    "home": 3,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-09-20T17:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "id": 565820,
+   "matchday": 5,
+   "score": {
+    "away": 2,
+    "home": 2,
+    "winner": "DRAW"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-09T18:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "id": 565812,
+   "matchday": 5,
+   "score": {
+    "away": 4,
+    "home": 3,
+    "winner": "AWAY_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-10T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "id": 565813,
+   "matchday": 5,
+   "score": {
+    "away": 2,
+    "home": 0,
+    "winner": "AWAY_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-10T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "id": 565817,
+   "matchday": 5,
+   "score": {
+    "away": 0,
+    "home": 1,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-10T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "id": 565818,
+   "matchday": 5,
+   "score": {
+    "away": 3,
+    "home": 2,
+    "winner": "AWAY_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-10T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "id": 565819,
+   "matchday": 5,
+   "score": {
+    "away": 2,
+    "home": 2,
+    "winner": "DRAW"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-10T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "id": 565815,
+   "matchday": 5,
+   "score": {
+    "away": 0,
+    "home": 6,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-10T16:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "id": 565814,
+   "matchday": 5,
+   "score": {
+    "away": 1,
+    "home": 2,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-11T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "id": 565816,
+   "matchday": 5,
+   "score": {
+    "away": 1,
+    "home": 2,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-11T15:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "id": 565828,
+   "matchday": 6,
+   "score": {
+    "away": 0,
+    "home": 1,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-16T18:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "id": 565821,
+   "matchday": 6,
+   "score": {
+    "away": 0,
+    "home": 0,
+    "winner": "DRAW"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-17T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "id": 565822,
+   "matchday": 6,
+   "score": {
+    "away": 0,
+    "home": 1,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-17T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "id": 565823,
+   "matchday": 6,
+   "score": {
+    "away": 2,
+    "home": 2,
+    "winner": "DRAW"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-17T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "id": 565824,
+   "matchday": 6,
+   "score": {
+    "away": 3,
+    "home": 4,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-17T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "id": 565829,
+   "matchday": 6,
+   "score": {
+    "away": 1,
+    "home": 0,
+    "winner": "AWAY_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-17T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "id": 565825,
+   "matchday": 6,
+   "score": {
+    "away": 1,
+    "home": 6,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-17T16:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "id": 565827,
+   "matchday": 6,
+   "score": {
+    "away": 1,
+    "home": 2,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-18T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "id": 565826,
+   "matchday": 6,
+   "score": {
+    "away": 2,
+    "home": 1,
+    "winner": "AWAY_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-18T15:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "id": 565833,
+   "matchday": 7,
+   "score": {
+    "away": 3,
+    "home": 2,
+    "winner": "AWAY_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-23T18:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "id": 565830,
+   "matchday": 7,
+   "score": {
+    "away": 3,
+    "home": 2,
+    "winner": "AWAY_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-24T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "id": 565831,
+   "matchday": 7,
+   "score": {
+    "away": 0,
+    "home": 0,
+    "winner": "DRAW"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-24T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "id": 565832,
+   "matchday": 7,
+   "score": {
+    "away": 0,
+    "home": 4,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-24T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "id": 565834,
+   "matchday": 7,
+   "score": {
+    "away": 0,
+    "home": 1,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-24T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "id": 565838,
+   "matchday": 7,
+   "score": {
+    "away": 1,
+    "home": 1,
+    "winner": "DRAW"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-24T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "id": 565837,
+   "matchday": 7,
+   "score": {
+    "away": 0,
+    "home": 1,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-24T16:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "id": 565835,
+   "matchday": 7,
+   "score": {
+    "away": 0,
+    "home": 3,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-25T14:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "id": 565836,
+   "matchday": 7,
+   "score": {
+    "away": 3,
+    "home": 1,
+    "winner": "AWAY_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-25T16:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "id": 565846,
+   "matchday": 8,
+   "score": {
+    "away": 1,
+    "home": 4,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-30T19:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "id": 565839,
+   "matchday": 8,
+   "score": {
+    "away": 0,
+    "home": 0,
+    "winner": "DRAW"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-31T14:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "id": 565840,
+   "matchday": 8,
+   "score": {
+    "away": 2,
+    "home": 0,
+    "winner": "AWAY_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-31T14:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "id": 565842,
+   "matchday": 8,
+   "score": {
+    "away": 2,
+    "home": 1,
+    "winner": "AWAY_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-31T14:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "id": 565843,
+   "matchday": 8,
+   "score": {
+    "away": 0,
+    "home": 2,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-31T14:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "id": 565847,
+   "matchday": 8,
+   "score": {
+    "away": 4,
+    "home": 2,
+    "winner": "AWAY_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-31T14:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "id": 565845,
+   "matchday": 8,
+   "score": {
+    "away": 2,
+    "home": 2,
+    "winner": "DRAW"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-10-31T17:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "id": 565841,
+   "matchday": 8,
+   "score": {
+    "away": 1,
+    "home": 1,
+    "winner": "DRAW"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-01T14:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "id": 565844,
+   "matchday": 8,
+   "score": {
+    "away": 1,
+    "home": 3,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-01T16:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "id": 565852,
+   "matchday": 9,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-06T19:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "id": 565848,
+   "matchday": 9,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-07T14:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "id": 565850,
+   "matchday": 9,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-07T14:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "id": 565851,
+   "matchday": 9,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-07T14:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "id": 565853,
+   "matchday": 9,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-07T14:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "id": 565849,
+   "matchday": 9,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-07T17:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "id": 565855,
+   "matchday": 9,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-08T14:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "id": 565854,
+   "matchday": 9,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-08T16:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "id": 565856,
+   "matchday": 9,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-08T18:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "id": 565859,
+   "matchday": 10,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-20T19:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "id": 565857,
+   "matchday": 10,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-21T14:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "id": 565858,
+   "matchday": 10,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-21T14:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "id": 565860,
+   "matchday": 10,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-21T14:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "id": 565862,
+   "matchday": 10,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-21T14:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "id": 565865,
+   "matchday": 10,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-21T14:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "id": 565861,
+   "matchday": 10,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-21T17:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "id": 565864,
+   "matchday": 10,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-22T14:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "id": 565863,
+   "matchday": 10,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-22T16:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "id": 565869,
+   "matchday": 11,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-27T19:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "id": 565866,
+   "matchday": 11,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-28T14:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "id": 565867,
+   "matchday": 11,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-28T14:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "id": 565868,
+   "matchday": 11,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-28T14:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "id": 565874,
+   "matchday": 11,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-28T14:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "id": 565870,
+   "matchday": 11,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-28T17:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "id": 565873,
+   "matchday": 11,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-29T14:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "id": 565871,
+   "matchday": 11,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-29T16:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "id": 565872,
+   "matchday": 11,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-29T18:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "id": 565875,
+   "matchday": 12,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-05T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "id": 565876,
+   "matchday": 12,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-05T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "id": 565877,
+   "matchday": 12,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-05T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "id": 565878,
+   "matchday": 12,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-05T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "id": 565879,
+   "matchday": 12,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-05T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "id": 565880,
+   "matchday": 12,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-05T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "id": 565881,
+   "matchday": 12,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-05T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "id": 565882,
+   "matchday": 12,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-05T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "id": 565883,
+   "matchday": 12,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-05T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "id": 565884,
+   "matchday": 13,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-12T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "id": 565885,
+   "matchday": 13,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-12T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "id": 565886,
+   "matchday": 13,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-12T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "id": 565887,
+   "matchday": 13,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-12T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "id": 565888,
+   "matchday": 13,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-12T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "id": 565889,
+   "matchday": 13,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-12T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "id": 565890,
+   "matchday": 13,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-12T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "id": 565891,
+   "matchday": 13,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-12T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "id": 565892,
+   "matchday": 13,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-12T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "id": 565893,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-19T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "id": 565894,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-19T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "id": 565895,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-19T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "id": 565896,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-19T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "id": 565897,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-19T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "id": 565898,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-19T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "id": 565899,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-19T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "id": 565900,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-19T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "id": 565901,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-19T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "id": 565902,
+   "matchday": 15,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-09T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "id": 565903,
+   "matchday": 15,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-09T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "id": 565904,
+   "matchday": 15,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-09T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "id": 565905,
+   "matchday": 15,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-09T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "id": 565906,
+   "matchday": 15,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-09T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "id": 565907,
+   "matchday": 15,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-09T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "id": 565908,
+   "matchday": 15,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-09T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "id": 565909,
+   "matchday": 15,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-09T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "id": 565910,
+   "matchday": 15,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-09T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "id": 565911,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "id": 565912,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "id": 565913,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "id": 565914,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "id": 565915,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "id": 565916,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "id": 565917,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "id": 565918,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "id": 565919,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "id": 565920,
+   "matchday": 17,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-16T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "id": 565921,
+   "matchday": 17,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-16T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "id": 565922,
+   "matchday": 17,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-16T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "id": 565923,
+   "matchday": 17,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-16T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "id": 565924,
+   "matchday": 17,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-16T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "id": 565925,
+   "matchday": 17,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-16T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "id": 565926,
+   "matchday": 17,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-16T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "id": 565927,
+   "matchday": 17,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-16T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "id": 565928,
+   "matchday": 17,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-16T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "id": 565929,
+   "matchday": 18,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-23T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "id": 565930,
+   "matchday": 18,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-23T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "id": 565931,
+   "matchday": 18,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-23T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "id": 565932,
+   "matchday": 18,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-23T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "id": 565933,
+   "matchday": 18,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-23T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "id": 565934,
+   "matchday": 18,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-23T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "id": 565935,
+   "matchday": 18,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-23T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "id": 565936,
+   "matchday": 18,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-23T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "id": 565937,
+   "matchday": 18,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-23T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "id": 565938,
+   "matchday": 19,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-30T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "id": 565939,
+   "matchday": 19,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-30T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "id": 565940,
+   "matchday": 19,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-30T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "id": 565941,
+   "matchday": 19,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-30T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "id": 565942,
+   "matchday": 19,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-30T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "id": 565943,
+   "matchday": 19,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-30T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "id": 565944,
+   "matchday": 19,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-30T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "id": 565945,
+   "matchday": 19,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-30T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "id": 565946,
+   "matchday": 19,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-01-30T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "id": 565947,
+   "matchday": 20,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-06T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "id": 565948,
+   "matchday": 20,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-06T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "id": 565949,
+   "matchday": 20,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-06T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "id": 565950,
+   "matchday": 20,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-06T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "id": 565951,
+   "matchday": 20,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-06T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "id": 565952,
+   "matchday": 20,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-06T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "id": 565953,
+   "matchday": 20,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-06T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "id": 565954,
+   "matchday": 20,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-06T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "id": 565955,
+   "matchday": 20,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-06T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "id": 565956,
+   "matchday": 21,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "id": 565957,
+   "matchday": 21,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "id": 565958,
+   "matchday": 21,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "id": 565959,
+   "matchday": 21,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "id": 565960,
+   "matchday": 21,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "id": 565961,
+   "matchday": 21,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "id": 565962,
+   "matchday": 21,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "id": 565963,
+   "matchday": 21,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "id": 565964,
+   "matchday": 21,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "id": 565965,
+   "matchday": 22,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-20T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "id": 565966,
+   "matchday": 22,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-20T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "id": 565967,
+   "matchday": 22,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-20T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "id": 565968,
+   "matchday": 22,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-20T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "id": 565969,
+   "matchday": 22,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-20T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "id": 565970,
+   "matchday": 22,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-20T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "id": 565971,
+   "matchday": 22,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-20T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "id": 565972,
+   "matchday": 22,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-20T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "id": 565973,
+   "matchday": 22,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-20T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "id": 565974,
+   "matchday": 23,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-27T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "id": 565975,
+   "matchday": 23,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-27T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "id": 565976,
+   "matchday": 23,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-27T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "id": 565977,
+   "matchday": 23,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-27T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "id": 565978,
+   "matchday": 23,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-27T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "id": 565979,
+   "matchday": 23,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-27T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "id": 565980,
+   "matchday": 23,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-27T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "id": 565981,
+   "matchday": 23,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-27T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "id": 565982,
+   "matchday": 23,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-02-27T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "id": 565983,
+   "matchday": 24,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-03T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "id": 565984,
+   "matchday": 24,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-03T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "id": 565985,
+   "matchday": 24,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-03T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "id": 565986,
+   "matchday": 24,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-03T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "id": 565987,
+   "matchday": 24,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-03T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "id": 565988,
+   "matchday": 24,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-03T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "id": 565989,
+   "matchday": 24,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-03T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "id": 565990,
+   "matchday": 24,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-03T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "id": 565991,
+   "matchday": 24,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-03T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "id": 565992,
+   "matchday": 25,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-06T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "id": 565993,
+   "matchday": 25,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-06T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "id": 565994,
+   "matchday": 25,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-06T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "id": 565995,
+   "matchday": 25,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-06T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "id": 565996,
+   "matchday": 25,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-06T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "id": 565997,
+   "matchday": 25,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-06T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "id": 565998,
+   "matchday": 25,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-06T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "id": 565999,
+   "matchday": 25,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-06T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "id": 566000,
+   "matchday": 25,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-06T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "id": 566001,
+   "matchday": 26,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "id": 566002,
+   "matchday": 26,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "id": 566003,
+   "matchday": 26,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "id": 566004,
+   "matchday": 26,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "id": 566005,
+   "matchday": 26,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "id": 566006,
+   "matchday": 26,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "id": 566007,
+   "matchday": 26,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "id": 566008,
+   "matchday": 26,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "id": 566009,
+   "matchday": 26,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "id": 566016,
+   "matchday": 27,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-20T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "id": 566017,
+   "matchday": 27,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-20T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "id": 566018,
+   "matchday": 27,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-20T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "id": 566010,
+   "matchday": 27,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-20T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "id": 566011,
+   "matchday": 27,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-20T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "id": 566012,
+   "matchday": 27,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-20T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "id": 566013,
+   "matchday": 27,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-20T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "id": 566014,
+   "matchday": 27,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-20T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "id": 566015,
+   "matchday": 27,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-03-20T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "id": 566019,
+   "matchday": 28,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-03T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "id": 566020,
+   "matchday": 28,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-03T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "id": 566021,
+   "matchday": 28,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-03T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "id": 566022,
+   "matchday": 28,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-03T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "id": 566023,
+   "matchday": 28,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-03T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "id": 566024,
+   "matchday": 28,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-03T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "id": 566025,
+   "matchday": 28,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-03T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "id": 566026,
+   "matchday": 28,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-03T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "id": 566027,
+   "matchday": 28,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-03T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "id": 566028,
+   "matchday": 29,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-10T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "id": 566029,
+   "matchday": 29,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-10T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "id": 566030,
+   "matchday": 29,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-10T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "id": 566031,
+   "matchday": 29,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-10T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "id": 566032,
+   "matchday": 29,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-10T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "id": 566033,
+   "matchday": 29,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-10T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "id": 566034,
+   "matchday": 29,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-10T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "id": 566035,
+   "matchday": 29,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-10T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "id": 566036,
+   "matchday": 29,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-10T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "id": 566037,
+   "matchday": 30,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-17T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "id": 566038,
+   "matchday": 30,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-17T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "id": 566039,
+   "matchday": 30,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-17T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "id": 566040,
+   "matchday": 30,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-17T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "id": 566041,
+   "matchday": 30,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-17T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "id": 566042,
+   "matchday": 30,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-17T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "id": 566043,
+   "matchday": 30,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-17T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "id": 566044,
+   "matchday": 30,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-17T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "id": 566045,
+   "matchday": 30,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-17T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "id": 566046,
+   "matchday": 31,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-24T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "id": 566047,
+   "matchday": 31,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-24T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "id": 566048,
+   "matchday": 31,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-24T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "id": 566049,
+   "matchday": 31,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-24T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "id": 566050,
+   "matchday": 31,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-24T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "id": 566051,
+   "matchday": 31,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-24T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "id": 566052,
+   "matchday": 31,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-24T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "id": 566053,
+   "matchday": 31,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-24T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "id": 566054,
+   "matchday": 31,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-04-24T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "id": 566055,
+   "matchday": 32,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-05-08T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "id": 566056,
+   "matchday": 32,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-05-08T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "id": 566057,
+   "matchday": 32,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-05-08T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "id": 566058,
+   "matchday": 32,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-05-08T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "id": 566059,
+   "matchday": 32,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-05-08T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "id": 566060,
+   "matchday": 32,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-05-08T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "id": 566061,
+   "matchday": 32,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-05-08T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "id": 566062,
+   "matchday": 32,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-05-08T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "id": 566063,
+   "matchday": 32,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-05-08T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "id": 566064,
+   "matchday": 33,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-05-15T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "id": 566065,
+   "matchday": 33,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-05-15T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "id": 566066,
+   "matchday": 33,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-05-15T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "id": 566067,
+   "matchday": 33,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-05-15T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "id": 566068,
+   "matchday": 33,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-05-15T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "id": 566069,
+   "matchday": 33,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-05-15T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "id": 566070,
+   "matchday": 33,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-05-15T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "id": 566071,
+   "matchday": 33,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-05-15T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "id": 566072,
+   "matchday": 33,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2027-05-15T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/2.png",
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/721.png",
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "id": 566073,
+   "matchday": 34,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2027-05-22T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/18.png",
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/28.png",
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "id": 566074,
+   "matchday": 34,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2027-05-22T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/10.png",
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/15.png",
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "id": 566075,
+   "matchday": 34,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2027-05-22T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/3.png",
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/6.png",
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "id": 566076,
+   "matchday": 34,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2027-05-22T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/12.png",
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/719.png",
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "id": 566077,
+   "matchday": 34,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2027-05-22T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/19.png",
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/5.png",
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "id": 566078,
+   "matchday": 34,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2027-05-22T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/7.png",
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/16.png",
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "id": 566079,
+   "matchday": 34,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2027-05-22T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/4.png",
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/17.png",
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "id": 566080,
+   "matchday": 34,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2027-05-22T13:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/29.png",
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/1.png",
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "id": 566081,
+   "matchday": 34,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2027-05-22T13:30:00Z"
+  }
+ ]
+}

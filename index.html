@@ -1,0 +1,1041 @@
+<!doctype html>
+<html lang="ja"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Match Cards</title>
+<meta name="description" content="欧州サッカーの試合をカードで集めるウォレット">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Match Cards">
+<meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px);-webkit-text-size-adjust:100%}body{margin:0;padding:0;-webkit-tap-highlight-color:transparent}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=El+Messiri:wght@400&family=Emblema+One&family=IBM+Plex+Mono:wght@500;600&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap">
+<style>
+/* Layout: 日付ごとに「ウォレット」。試合カードを縦に重ね、上端の帯だけ見せる。タップしたカードが引き出される */
+:root{
+  --title:#000000;
+  --gold:#D4A500;
+  --bg:#FFFFFF; --surface:#FFFFFF; --ink:#16202B; --muted:#5D6874; --line:#D3D9E0; --soft:#F5F6F8;
+  --accent:#1E4ED6; --accent-ink:#FFFFFF;
+  --pl:#5B2A86; --pd:#C2410C; --sa:#1D5FA8; --bl1:#B91C1C; --fl1:#0F7A6E; --cl:#22336B;
+  --t-easy:#A67A00; --t-mid:#1F6FB5; --t-hard:#1B7F52;
+  --shadow:0 10px 24px rgba(20,32,48,.16), 0 2px 6px rgba(20,32,48,.10);
+  --f-title:"El Messiri","Times New Roman",serif;
+  --f-display:"Dela Gothic One","Hiragino Kaku Gothic StdN","Yu Gothic",sans-serif;
+  --f-body:"Zen Kaku Gothic New","Hiragino Kaku Gothic ProN","Yu Gothic","Noto Sans JP",system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+  --peek:62px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --title:#F2F4F7;
+  --bg:#000000; --surface:#17202A; --ink:#E4EAF0; --muted:#8F9CA8; --line:#2A3541; --soft:#1C2631;
+  --accent:#86A2FF; --accent-ink:#0E141A;
+  --pl:#B48BE0; --pd:#F5975F; --sa:#7DB2F0; --bl1:#F07C7C; --fl1:#5CC9BB; --cl:#9AAEF0;
+  --t-easy:#F0C840; --t-mid:#6CB2F2; --t-hard:#5ACB92;
+  --shadow:0 10px 24px rgba(0,0,0,.5), 0 2px 6px rgba(0,0,0,.4);
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --title:#F2F4F7;
+  --bg:#000000; --surface:#17202A; --ink:#E4EAF0; --muted:#8F9CA8; --line:#2A3541; --soft:#1C2631;
+  --accent:#86A2FF; --accent-ink:#0E141A;
+  --pl:#B48BE0; --pd:#F5975F; --sa:#7DB2F0; --bl1:#F07C7C; --fl1:#5CC9BB; --cl:#9AAEF0;
+  --t-easy:#F0C840; --t-mid:#6CB2F2; --t-hard:#5ACB92;
+  --shadow:0 10px 24px rgba(0,0,0,.5), 0 2px 6px rgba(0,0,0,.4);
+  color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:440px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:16px 48px}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+
+/* アプリ名（Figma「見出し」ページ）：El Messiri 40px・行の高さ詰め */
+/* ロゴ（Figma「観戦予定（390×844）」）：2枚重ねのカードにICチップと「Match / Cards」 */
+/* iPhoneのカメラ（ノッチ・Dynamic Island）を想定：画面上端からロゴまで約71pxあける。
+   アプリ側で上の余白（safe-area）が取られている端末では、その分を差し引いて二重にならないようにする */
+:root{--notch:59px}
+header.top{display:flex;justify-content:center;
+  padding-top:max(4px, calc(var(--notch) + 12px - 16px - env(safe-area-inset-top,0px)));
+  padding-bottom:28px}
+header.top h1{margin:0}
+.logo{position:relative;display:block;width:125px;height:80px}
+.logo .lc{position:absolute;width:109.4px;height:68.6px;border-radius:14.7px;background:#FFFFFF;border:2.45px solid #000000;box-shadow:0 3.3px 3.3px rgba(0,0,0,.25)}
+.logo .lc.back{left:15.4px;top:0}
+.logo .lc.front{left:0;top:10.5px}
+.logo .lchip{position:absolute;left:11.7px;top:27.2px;width:14.9px;height:14.9px;border-radius:3.7px;
+  background:linear-gradient(135deg,#E1D096 0%,#E8BD46 36%,#F5DA86 56%,#DCAF34 72%,#A97B08 100%)}
+.logo .w{position:absolute;font-family:"Emblema One","Dela Gothic One",sans-serif;font-weight:400;font-size:19.8px;line-height:18.3px;color:#000000;white-space:nowrap}
+.logo .w1{left:30.3px;top:29.7px}
+.logo .w2{left:36.5px;top:45.1px}
+.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+
+.filters{position:sticky;top:env(safe-area-inset-top,0px);z-index:6;background:var(--bg);margin:12px calc(-1*max(16px,env(safe-area-inset-left,0px))) 0;padding:10px max(16px,env(safe-area-inset-left,0px));display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;border-bottom:1px solid var(--line)}
+.chip{flex:0 0 auto;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:5px 12px;font-size:.8rem;font-weight:700;color:var(--muted);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--lg,var(--ink));border-color:var(--lg,var(--ink));color:var(--bg)}
+
+h2.day{margin:26px 0 12px;font-size:1rem;display:flex;align-items:baseline;gap:10px}
+h2.day .rel{font-size:.7rem;font-weight:700;letter-spacing:.08em;color:var(--accent-ink);background:var(--accent);padding:1px 8px;border-radius:4px}
+h2.day .cnt{margin-left:auto;font-size:.75rem;font-weight:500;color:var(--muted)}
+/* 日付は、その日で一番早い試合のカード（重なりの一番手前＝下端）の下に置く */
+.stack + h2.day{margin:14px 0 30px}
+.stack:first-child{margin-top:22px}
+.empty{padding:28px 14px;text-align:center;color:var(--muted);font-size:.88rem}
+
+/* ---- ウォレット：カードを重ねる ---- */
+.stack{display:flex;flex-direction:column}
+.mcard{
+  --A:#333; --B:#666; --tA:#fff; --tB:#fff;
+  position:relative;width:100%;aspect-ratio:1.586/1;max-width:100%;border-radius:18px;border:0;padding:0;text-align:left;cursor:pointer;
+  /* 2チームの色の境目をグラデーションでなめらかにつなぐ（両端の約3割は各チームの色のまま） */
+  background:
+    radial-gradient(120% 90% at 0% 0%, rgba(255,255,255,.18), transparent 55%),
+    linear-gradient(118deg, var(--A) 0 28%, var(--B) 72% 100%);
+  background:
+    radial-gradient(120% 90% at 0% 0%, rgba(255,255,255,.18), transparent 55%),
+    linear-gradient(118deg in oklab, var(--A) 0 28%, var(--B) 72% 100%);
+  box-shadow:var(--shadow);overflow:hidden;color:var(--tA);
+  margin-top:calc(var(--peek) - (100% / 1.586));
+}
+.stack .mcard:first-child{margin-top:0}
+/* 早い試合ほど手前（下）。遅い試合は後ろで上端の帯だけ見せる。引き出したカードの次のカードを下げて全体を見せる */
+.mcard.open + .mcard{margin-top:14px}
+/* 横スワイプ：右でマイウォレットに追加、左で解除。縦スクロールはそのまま */
+.mcard{touch-action:pan-y}
+.mcard.dragging{transition:none!important}
+.mcard .swipe-hint{position:absolute;inset:0;z-index:3;display:grid;place-items:center;pointer-events:none;opacity:0;font-weight:700;font-size:.95rem;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.4);border-radius:inherit}
+.mcard .swipe-hint.add{background:linear-gradient(90deg, rgba(212,165,0,.55), transparent 70%)}
+.mcard .swipe-hint.del{background:linear-gradient(270deg, rgba(20,26,34,.6), transparent 70%)}
+.toast{position:fixed;z-index:30;left:50%;transform:translateX(-50%);bottom:calc(var(--nav-h) + var(--dock-h,0px) + 22px + env(safe-area-inset-bottom,0px));background:var(--ink);color:var(--bg);font-weight:700;font-size:.82rem;padding:9px 16px;border-radius:999px;box-shadow:var(--shadow);white-space:nowrap}
+.toast.gold{background:var(--gold);color:#1A1406}
+/* マイウォレット：金色の枠 */
+/* 1. 金箔のような枠（5px・グラデーションと光の筋） */
+.mcard.picked::after{box-shadow:none;z-index:2;padding:5px;
+  background:
+    linear-gradient(115deg, transparent 38%, rgba(255,255,255,.85) 47%, transparent 56%),
+    linear-gradient(135deg,#FFF1B8 0%,#E6B93C 22%,#A87A06 42%,#FFE07A 54%,#C99418 74%,#FFEFA8 100%);
+  -webkit-mask:linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite:xor; mask:linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0)}
+/* 2. カードの外側ににじむ金色の光 */
+.mcard.picked{box-shadow:var(--shadow), 0 0 0 1px rgba(212,165,0,.8), 0 0 18px 4px rgba(245,196,40,.6)}
+/* 3. 登録した瞬間に一度だけ光が走る */
+.mcard .shine{position:absolute;inset:0;z-index:4;pointer-events:none;border-radius:inherit;overflow:hidden}
+.mcard .shine::before{content:"";position:absolute;top:-20%;bottom:-20%;left:-60%;width:45%;transform:skewX(-20deg);
+  background:linear-gradient(90deg, transparent, rgba(255,236,150,.15) 20%, rgba(255,248,210,.85) 50%, rgba(255,236,150,.15) 80%, transparent)}
+@media (prefers-reduced-motion:no-preference){
+  .mcard .shine::before{animation:shine .9s cubic-bezier(.3,.6,.3,1) forwards}
+  .mcard.just-picked{animation:pickpop .5s ease-out}
+}
+@media (prefers-reduced-motion:reduce){ .mcard .shine{display:none} }
+@keyframes shine{to{left:120%}}
+@keyframes pickpop{0%{box-shadow:var(--shadow), 0 0 0 1px rgba(212,165,0,.75), 0 0 0 0 rgba(245,196,40,0)}40%{box-shadow:var(--shadow), 0 0 0 1px rgba(212,165,0,.9), 0 0 30px 8px rgba(255,210,60,.8)}100%{box-shadow:var(--shadow), 0 0 0 1px rgba(212,165,0,.75), 0 0 16px 3px rgba(245,196,40,.55)}}
+.mcard.open{transform:translateY(-2px)}
+@media (prefers-reduced-motion:no-preference){.mcard{transition:margin-top .32s cubic-bezier(.2,.8,.2,1), transform .32s cubic-bezier(.2,.8,.2,1)}}
+/* 光沢と細いギョーシェ模様 */
+.mcard::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.12;
+  background:repeating-radial-gradient(circle at 110% 120%, transparent 0 9px, rgba(255,255,255,.9) 9px 10px)}
+.mcard::after{content:"";position:absolute;inset:0;pointer-events:none;z-index:2;border-radius:inherit;box-shadow:inset 0 0 0 1px rgba(255,255,255,.22)}
+
+/* カードデザイン1：上段＝HOMEとAWAY（重ねたときも見える）、左＝ICチップ、中央＝得点、下＝視聴リンクのタブ */
+.band{position:absolute;inset:0 0 auto 0;height:var(--peek);z-index:1}
+.lgtag{font-size:.68rem;font-weight:700;letter-spacing:.06em;padding:2px 8px;border-radius:999px;background:rgba(0,0,0,.28);color:#fff;white-space:nowrap}
+/* リーグ表示：ICチップ */
+.mcard .ic{position:absolute;z-index:1;left:30px;top:70px;width:54px;height:46px;border-radius:10px;overflow:hidden;
+  /* 各リーグのテーマカラーを金属風に：明るい縁 → 地の色 → 光の筋 → 影 */
+  --l:#F6E3A1; --b:#D4AE55; --h:#F0D88D; --d:#B8892E; color:rgba(92,62,8,.55);
+  background:
+    linear-gradient(115deg, transparent 42%, rgba(255,255,255,.38) 50%, transparent 58%),
+    linear-gradient(135deg,var(--l) 0%,var(--b) 36%,var(--h) 56%,var(--b) 72%,var(--d) 100%);
+  box-shadow:inset 0 0 0 1px rgba(0,0,0,.35), inset 0 1px 0 rgba(255,255,255,.5), inset 0 -1px 0 rgba(0,0,0,.25), 0 1px 3px rgba(0,0,0,.3)}
+.mcard [data-lg="PL"], .lgbtn[data-lg="PL"]{--l:#DCCBF2; --b:#7442A8; --h:#C9B0EC; --d:#3E1A63; color:rgba(255,255,255,.32)}
+.mcard [data-lg="PD"], .lgbtn[data-lg="PD"]{--l:#FFC6A8; --b:#E8461E; --h:#FFB18C; --d:#8A2408; color:rgba(255,255,255,.34)}
+.mcard [data-lg="SA"], .lgbtn[data-lg="SA"]{--l:#BDE3FA; --b:#1C72BC; --h:#A9D8F5; --d:#0A3563; color:rgba(255,255,255,.34)}
+.mcard [data-lg="BL1"], .lgbtn[data-lg="BL1"]{--l:#FFB9BE; --b:#E8081E; --h:#FF9AA2; --d:#7A0510; color:rgba(255,255,255,.32)}
+.mcard [data-lg="FL1"], .lgbtn[data-lg="FL1"]{--l:#B4C1E0; --b:#1E2F66; --h:#8EA1D2; --d:#0A1230; color:rgba(255,255,255,.3)}
+.mcard [data-lg="CL"], .lgbtn[data-lg="CL"]{--l:#FFFFFF; --b:#A8B0BE; --h:#F4F6FA; --d:#5B6374; color:rgba(30,40,60,.42)}
+.mcard .ic .ic-pads{position:absolute;inset:0;width:100%;height:100%}
+.mcard .ic .lgi{position:absolute;left:50%;top:50%;width:24.6px;height:34px;transform:translate(-50%,-50%);object-fit:contain;
+  background:#FFFFFF;padding:3px;border-radius:5px;box-shadow:inset 0 0 0 1px rgba(0,0,0,.12)}
+/* リーグのマーク：VISAのロゴの位置（右下） */
+.mcard .brand{position:absolute;z-index:3;right:22px;bottom:20px;display:flex;align-items:center;gap:7px}
+.mcard .brand .bname{font-family:var(--f-body);font-weight:700;font-size:10.5px;line-height:1.15;letter-spacing:.05em;text-align:right;color:#FFFFFF;white-space:nowrap;text-shadow:0 1px 2px rgba(0,0,0,.35)}
+.mcard .brand .bbox{width:37px;height:40px;flex:0 0 37px;border-radius:9px;background:#FFFFFF;display:grid;place-items:center;box-shadow:0 1px 3px rgba(0,0,0,.25)}
+.mcard .brand .lgi{width:28px;height:30px;object-fit:contain;background:none;padding:0;border-radius:0}
+.mcard .lgname{position:absolute;z-index:1;left:51.8px;top:108px;transform:translateX(-50%);font-size:.66rem;font-weight:700;letter-spacing:.06em;white-space:nowrap;
+  padding:1px 7px;border-radius:999px;background:rgba(0,0,0,.28);color:#fff}
+.band .kt{position:absolute;left:50%;top:17px;transform:translateX(-50%);white-space:nowrap}
+.band .tm{position:absolute;top:12px;display:flex;flex-direction:column;align-items:center;gap:2px}
+.band .tm .crest{width:32px;height:32px}
+.band .tm small{font-size:8px;font-weight:500;letter-spacing:.06em;color:#fff;opacity:.85;text-shadow:0 1px 2px rgba(0,0,0,.3)}
+.band .th{left:17px} .band .ta{right:17px}
+.band .nm{position:absolute;top:19px;max-width:calc(50% - 104px);font-weight:700;font-size:11px;line-height:1.5;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-shadow:0 1px 2px rgba(0,0,0,.3)}
+.band .nh{left:57px} .band .na{right:57px;text-align:right}
+.mcard .md{position:absolute;z-index:1;left:24px;bottom:16px;font-size:12px;font-weight:500;color:#fff;opacity:.85;text-shadow:0 1px 2px rgba(0,0,0,.3)}
+.mcard .bstrip{position:absolute;z-index:1;left:0;right:0;bottom:0;height:12px;background:#15202A}
+/* 時刻のラベル＝リーグ色のミニチップ：重ねたときもリーグが分かる */
+.band .kt{font-family:var(--f-mono);font-weight:600;font-size:14.7px;font-variant-numeric:tabular-nums;
+  display:inline-flex;align-items:center;gap:5px;padding:2px 8px 2px 3px;border-radius:6px;
+  /* マット：リーグの地の色に、ごく弱い上下の明暗だけ。光の筋やハイライトは入れない */
+  background:linear-gradient(180deg, rgba(255,255,255,.08), rgba(0,0,0,.08)), var(--b);
+  box-shadow:inset 0 0 0 1px rgba(0,0,0,.16), 0 1px 2px rgba(0,0,0,.22);
+  color:#FFFFFF !important;text-shadow:none}
+.band .kt[data-lg="CL"]{color:#1A2232 !important}
+.band .kt .lgi{width:18px;height:18px;flex:0 0 18px;border-radius:50%;background:#FFFFFF;padding:2px;object-fit:contain;box-shadow:0 0 0 1px rgba(0,0,0,.15)}
+
+/* カード本体 */
+.body{position:absolute;inset:var(--peek) 0 0 0;padding:0 16px 14px;display:flex;flex-direction:column;justify-content:space-between;z-index:1}
+.side{position:absolute;top:37%;display:flex;flex-direction:column;gap:2px;font-weight:700;font-size:1.02rem;line-height:1.35;max-width:calc(50% - 68px);text-shadow:0 1px 2px rgba(0,0,0,.2)}
+.side .nm{display:block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.side{overflow:hidden}
+.side.a{align-items:flex-end}
+.side small{font-size:.62rem;font-weight:500;letter-spacing:.08em;opacity:.8;text-transform:uppercase}
+.side.h{left:16px;color:var(--tA)} .side.a{right:16px;text-align:right;color:var(--tB)}
+.side .lab{display:flex;align-items:center;gap:6px;margin-bottom:2px}
+.side.a .lab{flex-direction:row-reverse}
+.mono{display:inline-grid;place-items:center;width:24px;height:24px;border-radius:50%;font-size:.7rem;font-weight:700;border:1.5px solid currentColor}
+/* 時刻：マイルの数字のような分割フラップ */
+.flap{position:absolute;z-index:1;left:50%;top:51.8%;transform:translate(-50%,-50%);display:flex;gap:4px;align-items:center}
+.flap b{display:grid;place-items:center;width:clamp(30px,9vw,36px);height:clamp(42px,12.5vw,48px);border-radius:6px;font-family:var(--f-mono);font-weight:600;font-size:clamp(1.4rem,6.4vw,1.9rem);color:#fff;
+  background:linear-gradient(rgba(255,255,255,.16) 0 49%, rgba(0,0,0,.12) 51% 100%), rgba(10,14,20,.42);box-shadow:inset 0 0 0 1px rgba(255,255,255,.2);position:relative}
+.flap b{isolation:isolate}
+.flap b::after{z-index:-1;content:"";position:absolute;left:0;right:0;top:50%;height:1px;background:rgba(0,0,0,.35)}
+.flap i{font-style:normal;font-family:var(--f-mono);font-weight:600;color:#fff;font-size:1.3rem;opacity:.85;width:12px;text-align:center}
+.flap{gap:6px}
+.foot{position:absolute;left:16px;right:16px;bottom:12px;display:flex;align-items:flex-end;justify-content:space-between;gap:8px;font-size:.7rem;color:#fff}
+/* 視聴サービスのリンク：カード中央の下部 */
+.mcard .svc{position:absolute;left:50%;bottom:5px;transform:translateX(-50%);z-index:3;display:inline-flex;align-items:center;justify-content:center;min-width:92px;height:31px;
+  font-family:var(--f-display);font-size:14px;line-height:1;letter-spacing:.02em;color:#EDF0F3;background:#15202A;text-decoration:none;
+  padding:0 9px 3px;border-radius:8px 8px 0 0;font-size:14.7px}
+.mcard .svc:hover{background:#000}
+.mcard .svc:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.foot .md{opacity:.85;text-shadow:0 1px 2px rgba(0,0,0,.3)}
+.watch{display:inline-flex;align-items:center;gap:5px;background:rgba(10,14,20,.42);border-radius:999px;padding:3px 10px 3px 8px;font-weight:700}
+.watch svg{width:11px;height:11px;fill:currentColor}
+.watch .zz{font-family:var(--f-mono);font-style:italic;letter-spacing:-.04em}
+.watch.easy{color:#FFE27A} .watch.mid{color:#A9D3FF} .watch.hard{color:#9BEBC2}
+.hint{font-size:.74rem;color:var(--muted);margin-top:14px}
+/* 過去の試合：スコア表示。少し彩度を落として「使用済み」のカードに見せる */
+.mcard.done{filter:saturate(.72)}
+.watch.fin{color:#fff}
+h2.day.past{color:var(--muted)}
+h2.day .rel.past{background:var(--muted);color:var(--bg)}
+.edge{margin:22px 0 0;text-align:center;font-size:.74rem;color:var(--muted)}
+.today-btn{position:fixed;z-index:8;left:50%;transform:translateX(-50%);bottom:calc(16px + env(safe-area-inset-bottom,0px));border:0;border-radius:999px;padding:9px 16px;font-weight:700;font-size:.82rem;background:var(--ink);color:var(--bg);box-shadow:var(--shadow);cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+.today-btn svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:2}
+
+/* ---- 下部メニューバー ---- */
+:root{--nav-h:58px}
+body{padding-bottom:calc(var(--nav-h) + env(safe-area-inset-bottom,0px))}
+.tabbar{position:fixed;left:0;right:0;bottom:0;z-index:20;background:rgba(0,0,0,.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  border-top:1px solid var(--line);padding:0 max(8px,env(safe-area-inset-right,0px)) env(safe-area-inset-bottom,0px) max(8px,env(safe-area-inset-left,0px))}
+.tabbar .in{max-width:440px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);height:var(--nav-h)}
+.tabbar button{border:0;background:transparent;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;font-size:10.5px;font-weight:700;color:#959595;cursor:pointer;position:relative}
+.tabbar svg{width:24px;height:24px;overflow:visible}
+.tabbar button[aria-current="page"]{color:#FFFFFF}
+.tabbar .count{position:absolute;top:6px;left:calc(50% + 6px);min-width:16px;height:16px;padding:0 4px;border-radius:8px;background:var(--accent);color:var(--accent-ink);font-size:.6rem;line-height:16px;font-family:var(--f-mono)}
+/* ---- ヘッダーのマーク（新しい案） ---- */
+.logo2{display:flex;align-items:center;gap:10px;height:80px}
+.logo2 .mark{height:68px;width:auto;display:block;overflow:visible}
+.logo2 .wm{display:flex;flex-direction:column;font-family:"Emblema One","Dela Gothic One",sans-serif;font-size:22px;line-height:20px;color:var(--title);white-space:nowrap}
+.logo2 .wm span:last-child{padding-left:8px}
+.logo-row{display:block !important;padding-block:12px !important}
+.logo-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(92px,1fr));gap:8px}
+.logo-opt{display:flex;flex-direction:column;align-items:center;gap:6px;padding:8px 4px 6px;border:1px solid var(--line);border-radius:12px;background:var(--soft);cursor:pointer;color:var(--ink)}
+.logo-opt[aria-checked="true"]{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent);background:var(--surface)}
+.logo-opt .pv{height:52px;display:grid;place-items:center;overflow:hidden;width:100%}
+.logo-opt .pv .mark{height:46px;width:auto}
+.logo-opt .pv .logo{zoom:.55}
+.logo-opt .nm{font-size:.68rem;font-weight:700;color:var(--muted);white-space:nowrap}
+.seg button:disabled{opacity:.45;cursor:not-allowed}
+/* ---- カルーセル方式（1日＝1ページ） ---- */
+.carousel{display:flex;gap:16px;overflow-x:auto;overflow-y:visible;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;
+  margin-inline:-16px;padding-inline:16px;scroll-padding-inline:16px;scrollbar-width:none;align-items:flex-start}
+.carousel::-webkit-scrollbar{display:none}
+.cpage{flex:0 0 100%;min-width:0;scroll-snap-align:start;scroll-snap-stop:always;padding-bottom:16px}
+.carousel .mcard{touch-action:pan-x pan-y;-webkit-touch-callout:none;-webkit-user-select:none;user-select:none}
+.cdots{position:fixed;z-index:14;left:50%;transform:translateX(-50%);bottom:calc(var(--nav-h) + var(--dock-h,0px) + 10px + env(safe-area-inset-bottom,0px));
+  display:flex;align-items:center;gap:6px;padding:6px 10px;border-radius:999px;max-width:calc(100% - 32px);overflow:hidden;
+  background:color-mix(in srgb, var(--surface) 88%, transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);box-shadow:0 2px 8px rgba(10,16,24,.15)}
+.cdot{flex:0 0 auto;width:6px;height:6px;padding:0;border:0;border-radius:3px;background:var(--muted);opacity:.4;cursor:pointer;transition:width .2s, opacity .2s}
+.cdot.today{opacity:.8;background:var(--accent)}
+.cdot.on{width:18px;opacity:1;background:var(--ink)}
+.cdot.on.today{background:var(--accent)}
+/* 長押し中：震え（JSで揺らす）と、時間とともに強くなる金色の光 */
+.mcard.pressing{transition:none !important;box-shadow:var(--shadow), 0 0 calc(var(--p,0) * 22px) calc(var(--p,0) * 5px) rgba(245,196,40,calc(var(--p,0) * .75))}
+.mcard.pressing::after{box-shadow:inset 0 0 0 calc(var(--p,0) * 5px) rgba(232,190,60,calc(.25 + var(--p,0) * .75))}
+/* 「Back to Today」は左下。下の検索パネルの上に浮かせる */
+.today-btn{left:max(12px, calc(env(safe-area-inset-left,0px) + 8px));right:auto;transform:none;padding:8px 12px;font-size:.72rem;gap:5px;
+  bottom:calc(var(--nav-h) + var(--dock-h,0px) + var(--dots-h,0px) + 22px + env(safe-area-inset-bottom,0px));font-family:var(--f-body);letter-spacing:.02em}
+/* 画面中央下：いま見ている日付。スクロールしても常に表示 */
+.datepill{position:fixed;z-index:8;left:50%;transform:translateX(-50%);pointer-events:none;
+  bottom:calc(var(--nav-h) + var(--dock-h,0px) + var(--dots-h,0px) + 22px + env(safe-area-inset-bottom,0px));
+  display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border-radius:999px;white-space:nowrap;
+  background:color-mix(in srgb, var(--surface) 92%, transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  border:1px solid var(--line);box-shadow:var(--shadow);font-weight:700;font-size:.84rem;color:var(--ink);font-variant-numeric:tabular-nums}
+/* 「Today」ボタン：右下の検索ボタンと同じ丸いボタン（左下・同じ高さ） */
+.today-btn{width:52px;height:52px;padding:0;border-radius:50%;flex-direction:column;justify-content:center;gap:1px;
+  left:max(16px, calc(env(safe-area-inset-left,0px) + 12px));
+  bottom:calc(var(--nav-h) + 14px + env(safe-area-inset-bottom,0px));font-size:.6rem;letter-spacing:.03em;z-index:16}
+.today-btn svg{width:18px;height:18px;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.datepill .rel{font-size:.64rem;font-weight:700;letter-spacing:.06em;color:var(--accent-ink);background:var(--accent);padding:1px 7px;border-radius:4px}
+.datepill.past{color:var(--muted)} .datepill.past .rel{background:var(--muted);color:var(--bg)}
+/* マッチ検索：検索欄とリーグ選択を、画面下部に浮かぶパネルにする */
+#v-search .dock{position:fixed;z-index:15;top:auto;margin:0;
+  left:max(12px, calc(env(safe-area-inset-left,0px) + 8px));right:max(12px, calc(env(safe-area-inset-right,0px) + 8px));
+  bottom:calc(var(--nav-h) + 10px + env(safe-area-inset-bottom,0px));
+  max-width:420px;margin-inline:auto;padding:10px 12px 8px;border:1px solid var(--line);border-radius:20px;
+  background:color-mix(in srgb, var(--surface) 94%, transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  box-shadow:0 12px 32px rgba(10,16,24,.22), 0 2px 6px rgba(10,16,24,.12);gap:8px}
+#v-search #days{padding-bottom:calc(var(--dock-h,0px) + var(--dots-h,0px) + 90px)}
+/* 検索・絞り込みは常駐させず、右下のアイコンを押すとポップアップで開く */
+.fab{position:fixed;z-index:16;right:max(16px, calc(env(safe-area-inset-right,0px) + 12px));bottom:calc(var(--nav-h) + 14px + env(safe-area-inset-bottom,0px));
+  width:52px;height:52px;border-radius:50%;border:0;background:var(--ink);color:var(--bg);box-shadow:var(--shadow);display:grid;place-items:center;cursor:pointer}
+.fab svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round}
+.fab[aria-expanded="true"]{background:var(--accent);color:var(--accent-ink)}
+.fab .fdot{position:absolute;top:9px;right:9px;width:10px;height:10px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 2px var(--ink)}
+.fab[aria-expanded="true"] .fdot{box-shadow:0 0 0 2px var(--accent)}
+#v-search .dock{bottom:calc(var(--nav-h) + 76px + env(safe-area-inset-bottom,0px)) !important}
+@media (prefers-reduced-motion:no-preference){ #v-search .dock:not([hidden]){animation:dockIn .18s ease-out} @keyframes dockIn{from{opacity:0;transform:translateY(12px) scale(.98)}to{opacity:1;transform:none}} }
+#v-plan{padding-bottom:var(--dots-h,0px)}
+
+/* ---- 共通の上部 ---- */
+.sticky{position:sticky;top:env(safe-area-inset-top,0px);z-index:6;background:var(--bg);margin:12px calc(-1*max(16px,env(safe-area-inset-left,0px))) 0;padding:10px max(16px,env(safe-area-inset-left,0px)) 10px;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:10px}
+.sticky .filters{position:static;margin:0;padding:0;border:0;background:none}
+.search{display:flex;align-items:center;gap:8px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:0 12px;height:42px}
+.search svg{width:18px;height:18px;flex:0 0 18px;fill:none;stroke:var(--muted);stroke-width:2;stroke-linecap:round}
+.search input{flex:1;min-width:0;border:0;background:transparent;font:inherit;font-size:.95rem;color:var(--ink);outline:none}
+.search:focus-within{border-color:var(--accent)}
+.search .clear{border:0;background:var(--soft);border-radius:999px;width:24px;height:24px;cursor:pointer;color:var(--muted);font-size:.8rem}
+.view-title{font-family:var(--f-display);font-weight:400;font-size:1.25rem;margin:0}
+.lead{margin:4px 0 0;font-size:.8rem;color:var(--muted)}
+
+/* ---- 星（マイウォレットに入れる） ---- */
+.mcard{display:block}
+.stack{position:relative;z-index:0;isolation:isolate}
+[hidden]{display:none!important}
+
+/* ---- 順位表 ---- */
+.tbl-wrap{margin-top:14px;background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow-x:auto}
+table.st{width:100%;border-collapse:collapse;font-size:.8rem;font-variant-numeric:tabular-nums}
+table.st th{font-size:.64rem;font-weight:700;color:var(--muted);letter-spacing:.02em;text-align:right;padding:9px 4px;border-bottom:1px solid var(--line);white-space:nowrap}
+table.st th.tm,table.st td.tm{text-align:left}
+table.st td{padding:0 4px;height:42px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap}
+table.st tr:last-child td{border-bottom:0}
+table.st td.rk{font-family:var(--f-mono);font-weight:600;width:30px;text-align:center}
+table.st td.pts{font-family:var(--f-mono);font-weight:600}
+table.st td.num{font-family:var(--f-mono);color:var(--muted)}
+.trow{cursor:pointer}
+.trow:hover td{background:var(--soft)}
+.tname{display:flex;align-items:center;gap:8px;font-weight:700;max-width:10.5em}
+.tname em{font-style:normal;min-width:0;overflow:hidden;text-overflow:ellipsis}
+.swatch{width:18px;height:12px;border-radius:3px;flex:0 0 18px;background:linear-gradient(118deg,var(--A) 0 50%,var(--B) 50% 100%);box-shadow:inset 0 0 0 1px rgba(0,0,0,.12)}
+.legend{display:flex;gap:12px;flex-wrap:wrap;margin-top:10px;font-size:.72rem;color:var(--muted)}
+td.rk.z1{box-shadow:inset 3px 0 0 var(--accent)} td.rk.z3{box-shadow:inset 3px 0 0 var(--bl1)}
+.legend i{display:inline-block;width:3px;height:12px;margin-right:5px;vertical-align:-2px}
+
+/* ---- 設定 ---- */
+.set-group{margin-top:18px;background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.set-group h3{margin:0;padding:12px 14px 4px;font-size:.7rem;letter-spacing:.08em;color:var(--muted)}
+.set-row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 14px;border-top:1px solid var(--line)}
+.set-group h3 + .set-row{border-top:0}
+.set-row .lbl{min-width:0}
+.set-row .lbl b{display:block;font-size:.92rem}
+.set-row .lbl span{font-size:.74rem;color:var(--muted)}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:9px;overflow:hidden;flex:0 0 auto}
+.seg button{border:0;background:var(--soft);padding:6px 11px;font-size:.78rem;font-weight:700;color:var(--muted);cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.switch{position:relative;width:46px;height:28px;flex:0 0 46px}
+.switch input{position:absolute;inset:0;opacity:0;margin:0;cursor:pointer}
+.switch span{position:absolute;inset:0;border-radius:999px;background:var(--line);transition:background .2s}
+.switch span::after{content:"";position:absolute;top:3px;left:3px;width:22px;height:22px;border-radius:50%;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.25);transition:transform .2s}
+.switch input:checked + span{background:var(--accent)}
+.switch input:checked + span::after{transform:translateX(18px)}
+.switch input:focus-visible + span{outline:2px solid var(--accent);outline-offset:2px}
+.btn-danger{border:1px solid var(--line);background:var(--soft);color:var(--bl1);font-weight:700;font-size:.8rem;padding:7px 12px;border-radius:9px;cursor:pointer}
+.btn-danger.arm{background:var(--bl1);border-color:var(--bl1);color:var(--bg)}
+/* ---- エンブレムと大会アイコン ---- */
+.crest{display:inline-grid;place-items:center;flex:0 0 auto;border-radius:50%;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.22);overflow:hidden}
+.crest img{width:78%;height:78%;object-fit:contain;display:block}
+.crest.ph{font-size:.7rem;font-weight:700;color:#3A4654}
+.side .crest{width:30px;height:30px}
+.lgi{width:16px;height:16px;flex:0 0 16px;object-fit:contain;border-radius:4px;background:#fff;padding:1px;display:block}
+.lgtag{display:inline-flex;align-items:center;gap:5px;padding-left:3px}
+.chip{display:inline-flex;align-items:center;gap:6px}
+.chip .lgi{width:15px;height:15px;flex-basis:15px}
+.view-title{display:flex;align-items:center;gap:8px}
+.tname .crest{width:22px;height:22px}
+/* 順位表のリーグ選択＝カードと同じICチップ（リーグ色の金属感）＋リーグ名 */
+.chip.lgbtn{flex-direction:column;gap:5px;padding:2px 4px;border:0;border-radius:12px;background:none !important;
+  opacity:.45;filter:saturate(.5);transition:opacity .15s, filter .15s}
+.chip.lgbtn:hover{opacity:.8}
+.chip.lgbtn[aria-pressed="true"]{opacity:1;filter:none}
+.lgbtn .ic2{position:relative;width:46px;height:46px;border-radius:11px;overflow:hidden;
+  background:
+    linear-gradient(115deg, transparent 42%, rgba(255,255,255,.38) 50%, transparent 58%),
+    linear-gradient(135deg,var(--l) 0%,var(--b) 36%,var(--h) 56%,var(--b) 72%,var(--d) 100%);
+  box-shadow:inset 0 0 0 1px rgba(0,0,0,.35), inset 0 1px 0 rgba(255,255,255,.5), inset 0 -1px 0 rgba(0,0,0,.25), 0 1px 3px rgba(0,0,0,.3)}
+.lgbtn[aria-pressed="true"] .ic2{box-shadow:inset 0 0 0 1px rgba(0,0,0,.35), inset 0 1px 0 rgba(255,255,255,.5), 0 0 0 2px var(--bg), 0 0 0 4px var(--b)}
+.lgbtn .ic2 .ic-pads{position:absolute;inset:0;width:100%;height:100%}
+.lgbtn .ic2 .lgi{position:absolute;left:50%;top:50%;width:26px;height:36px;transform:translate(-50%,-50%);object-fit:contain;
+  background:#FFFFFF;padding:3px;border-radius:5px;box-shadow:inset 0 0 0 1px rgba(0,0,0,.12)}
+.lgbtn .nm2{font-size:.66rem;font-weight:700;letter-spacing:.04em;white-space:nowrap;padding:1px 8px;border-radius:999px;
+  background:linear-gradient(180deg, rgba(255,255,255,.08), rgba(0,0,0,.08)), var(--b);color:#FFFFFF}
+.lgbtn[data-lg="CL"] .nm2{color:#1A2232}
+.sticky .filters.lgbtn-row{gap:10px}
+.lgbtn[data-lg="ALL"]{--l:#8A95A3; --b:#2A333D; --h:#6B7785; --d:#0E1319; color:rgba(255,255,255,.3)}
+.lgbtn .allmark{display:grid;place-items:center;background:#FFFFFF;color:#16202B;font-family:var(--f-mono);font-weight:600;letter-spacing:.02em}
+.lgbtn .ic2 .allmark{position:absolute;left:50%;top:50%;width:26px;height:36px;transform:translate(-50%,-50%);border-radius:5px;font-size:9px;box-shadow:inset 0 0 0 1px rgba(0,0,0,.12)}
+.lgbtn.matte .allmark{width:20px;height:20px;flex:0 0 20px;border-radius:50%;font-size:6.5px;box-shadow:0 0 0 1px rgba(0,0,0,.15)}
+/* マット（ミニチップ）：カード上段の時刻ラベルと同じ */
+.chip.lgbtn.matte{flex-direction:row;gap:6px;padding:4px 11px 4px 4px;border-radius:7px;font-size:.8rem;font-weight:700;
+  background:linear-gradient(180deg, rgba(255,255,255,.08), rgba(0,0,0,.08)), var(--b) !important;
+  color:#FFFFFF !important;box-shadow:inset 0 0 0 1px rgba(0,0,0,.16), 0 1px 2px rgba(0,0,0,.22);opacity:.5;filter:saturate(.55)}
+.chip.lgbtn.matte[data-lg="CL"]{color:#1A2232 !important}
+.chip.lgbtn.matte[aria-pressed="true"]{opacity:1;filter:none;box-shadow:inset 0 0 0 1px rgba(0,0,0,.16), 0 0 0 2px var(--bg), 0 0 0 4px var(--b)}
+.chip.lgbtn.matte .lgi{width:20px;height:20px;flex:0 0 20px;border-radius:50%;background:#FFFFFF;padding:2px;object-fit:contain;box-shadow:0 0 0 1px rgba(0,0,0,.15)}
+.lg-preview{justify-content:flex-start !important;gap:10px !important;flex-wrap:wrap;padding-block:14px !important;border-top:0 !important;pointer-events:none}
+.lg-preview .chip{display:inline-flex;align-items:center}
+.sticky .filters.lgbtn-row{padding:5px;margin:-5px}
+.about{font-size:.74rem;color:var(--muted);margin:16px 2px 0;line-height:1.7}
+</style>
+
+</head><body>
+<div class="wrap">
+  <header class="top">
+    <h1 aria-label="Match Cards" id="brand"><span class="logo" aria-hidden="true"><span class="lc back"></span><span class="lc front"></span><span class="lchip"></span><span class="w w1">Match</span><span class="w w2">Cards</span></span></h1>
+    <p id="asof" hidden></p>
+  </header>
+  <section id="v-plan" hidden></section>
+  <section id="v-search" hidden></section>
+  <section id="v-table" hidden></section>
+  <section id="v-settings" hidden></section>
+</div>
+<button class="today-btn" id="todayBtn" aria-label="Today" hidden><svg viewBox="0 0 16 16" aria-hidden="true"><path id="tbArrow" d="M4 10l4-4 4 4"/></svg><span>Today</span></button>
+<div class="datepill" id="datePill" role="status" aria-live="polite" hidden></div>
+
+<nav class="tabbar" aria-label="メニュー"><div class="in" id="tabbar"></div></nav>
+
+<script>
+(function(){
+  let MATCHES = [{"id":575368,"c":"CL","ts":"2026-10-21T16:45:00Z","md":3,"h":{"id":7397,"n":"コモ"},"a":{"id":66,"n":"マンチェスター・U"},"st":"FINISHED","sc":[4,1]},{"id":575369,"c":"CL","ts":"2026-10-21T16:45:00Z","md":3,"h":{"id":521,"n":"リール"},"a":{"id":610,"n":"ガラタサライ"},"st":"FINISHED","sc":[2,4]},{"id":564685,"c":"PD","ts":"2026-10-21T18:00:00Z","md":6,"h":{"id":88,"n":"レバンテ"},"a":{"id":77,"n":"ビルバオ"},"st":"FINISHED","sc":[3,1]},{"id":575370,"c":"CL","ts":"2026-10-21T19:00:00Z","md":3,"h":{"id":86,"n":"レアル・マドリード"},"a":{"id":721,"n":"ライプツィヒ"},"st":"FINISHED","sc":[4,1]},{"id":575371,"c":"CL","ts":"2026-10-21T19:00:00Z","md":3,"h":{"id":108,"n":"インテル"},"a":{"id":1887,"n":"シャフタール"},"st":"FINISHED","sc":[1,0]},{"id":575372,"c":"CL","ts":"2026-10-21T19:00:00Z","md":3,"h":{"id":5,"n":"バイエルン"},"a":{"id":57,"n":"アーセナル"},"st":"FINISHED","sc":[2,2]},{"id":575373,"c":"CL","ts":"2026-10-21T19:00:00Z","md":3,"h":{"id":851,"n":"クラブ・ブルッヘ"},"a":{"id":546,"n":"ランス"},"st":"FINISHED","sc":[3,0]},{"id":575374,"c":"CL","ts":"2026-10-21T19:00:00Z","md":3,"h":{"id":58,"n":"アストン・ヴィラ"},"a":{"id":5720,"n":"ヴァイキング"},"st":"FINISHED","sc":[3,1]},{"id":575375,"c":"CL","ts":"2026-10-21T19:00:00Z","md":3,"h":{"id":498,"n":"スポルティング"},"a":{"id":2016,"n":"リンツ"},"st":"FINISHED","sc":[2,3]},{"id":575376,"c":"CL","ts":"2026-10-21T19:00:00Z","md":3,"h":{"id":90,"n":"ベティス"},"a":{"id":675,"n":"フェイエノールト"},"st":"FINISHED","sc":[1,0]},{"id":565833,"c":"BL1","ts":"2026-10-23T18:30:00Z","md":7,"h":{"id":10,"n":"シュトゥットガルト"},"a":{"id":18,"n":"グラッドバッハ"},"st":"FINISHED","sc":[2,3]},{"id":559654,"c":"FL1","ts":"2026-10-23T18:45:00Z","md":8,"h":{"id":512,"n":"ブレスト"},"a":{"id":522,"n":"ニース"},"st":"FINISHED","sc":[1,2]},{"id":558567,"c":"SA","ts":"2026-10-23T18:45:00Z","md":8,"h":{"id":586,"n":"トリノ"},"a":{"id":5911,"n":"モンツァ"},"st":"FINISHED","sc":[3,2]},{"id":564719,"c":"PD","ts":"2026-10-23T19:00:00Z","md":10,"h":{"id":263,"n":"アラベス"},"a":{"id":84,"n":"マラガ"},"st":"FINISHED","sc":[1,1]},{"id":560620,"c":"PL","ts":"2026-10-23T19:00:00Z","md":8,"h":{"id":349,"n":"イプスウィッチ"},"a":{"id":351,"n":"ノッティンガム"},"st":"FINISHED","sc":[1,1]},{"id":560614,"c":"PL","ts":"2026-10-24T11:30:00Z","md":8,"h":{"id":58,"n":"アストン・ヴィラ"},"a":{"id":65,"n":"マンチェスター・C"},"st":"FINISHED","sc":[2,1]},{"id":564718,"c":"PD","ts":"2026-10-24T12:00:00Z","md":10,"h":{"id":87,"n":"ラージョ"},"a":{"id":285,"n":"エルチェ"},"st":"FINISHED","sc":[0,3]},{"id":558560,"c":"SA","ts":"2026-10-24T13:00:00Z","md":8,"h":{"id":104,"n":"カリアリ"},"a":{"id":103,"n":"ボローニャ"},"st":"FINISHED","sc":[0,2]},{"id":558561,"c":"SA","ts":"2026-10-24T13:00:00Z","md":8,"h":{"id":7397,"n":"コモ"},"a":{"id":471,"n":"サッスオーロ"},"st":"FINISHED","sc":[2,0]},{"id":565830,"c":"BL1","ts":"2026-10-24T13:30:00Z","md":7,"h":{"id":15,"n":"マインツ"},"a":{"id":12,"n":"ブレーメン"},"st":"FINISHED","sc":[2,3]},{"id":565831,"c":"BL1","ts":"2026-10-24T13:30:00Z","md":7,"h":{"id":1,"n":"ケルン"},"a":{"id":6,"n":"シャルケ"},"st":"FINISHED","sc":[0,0]},{"id":565832,"c":"BL1","ts":"2026-10-24T13:30:00Z","md":7,"h":{"id":721,"n":"ライプツィヒ"},"a":{"id":719,"n":"エルヴァースベルク"},"st":"FINISHED","sc":[4,0]},{"id":565834,"c":"BL1","ts":"2026-10-24T13:30:00Z","md":7,"h":{"id":29,"n":"パーダーボルン"},"a":{"id":7,"n":"ハンブルク"},"st":"FINISHED","sc":[1,0]},{"id":565838,"c":"BL1","ts":"2026-10-24T13:30:00Z","md":7,"h":{"id":16,"n":"アウクスブルク"},"a":{"id":28,"n":"ウニオン・ベルリン"},"st":"FINISHED","sc":[1,1]},{"id":560616,"c":"PL","ts":"2026-10-24T14:00:00Z","md":8,"h":{"id":57,"n":"アーセナル"},"a":{"id":62,"n":"エヴァートン"},"st":"FINISHED","sc":[2,0]},{"id":560618,"c":"PL","ts":"2026-10-24T14:00:00Z","md":8,"h":{"id":1076,"n":"コヴェントリー"},"a":{"id":63,"n":"フラム"},"st":"FINISHED","sc":[0,1]},{"id":564727,"c":"PD","ts":"2026-10-24T14:15:00Z","md":10,"h":{"id":5335,"n":"ラシン"},"a":{"id":80,"n":"エスパニョール"},"st":"FINISHED","sc":[2,1]},{"id":558564,"c":"SA","ts":"2026-10-24T16:00:00Z","md":8,"h":{"id":113,"n":"ナポリ"},"a":{"id":100,"n":"ローマ"},"st":"FINISHED","sc":[3,3]},{"id":565837,"c":"BL1","ts":"2026-10-24T16:30:00Z","md":7,"h":{"id":4,"n":"ドルトムント"},"a":{"id":19,"n":"フランクフルト"},"st":"FINISHED","sc":[1,0]},{"id":564722,"c":"PD","ts":"2026-10-24T16:30:00Z","md":10,"h":{"id":95,"n":"バレンシア"},"a":{"id":94,"n":"ビジャレアル"},"st":"FINISHED","sc":[1,2]},{"id":560617,"c":"PL","ts":"2026-10-24T16:30:00Z","md":8,"h":{"id":61,"n":"チェルシー"},"a":{"id":73,"n":"トッテナム"},"st":"FINISHED","sc":[0,2]},{"id":559652,"c":"FL1","ts":"2026-10-24T18:45:00Z","md":8,"h":{"id":546,"n":"ランス"},"a":{"id":1045,"n":"パリFC"},"st":"FINISHED","sc":[2,1]},{"id":558565,"c":"SA","ts":"2026-10-24T18:45:00Z","md":8,"h":{"id":110,"n":"ラツィオ"},"a":{"id":112,"n":"パルマ"},"st":"FINISHED","sc":[2,1]},{"id":564724,"c":"PD","ts":"2026-10-24T19:00:00Z","md":10,"h":{"id":78,"n":"アトレティコ"},"a":{"id":560,"n":"デポルティーボ"},"st":"FINISHED","sc":[1,0]},{"id":558563,"c":"SA","ts":"2026-10-25T11:30:00Z","md":8,"h":{"id":108,"n":"インテル"},"a":{"id":99,"n":"フィオレンティーナ"},"st":"FINISHED","sc":[2,1]},{"id":564720,"c":"PD","ts":"2026-10-25T13:00:00Z","md":10,"h":{"id":77,"n":"ビルバオ"},"a":{"id":82,"n":"ヘタフェ"},"st":"FINISHED","sc":[4,0]},{"id":559650,"c":"FL1","ts":"2026-10-25T14:00:00Z","md":8,"h":{"id":548,"n":"モナコ"},"a":{"id":521,"n":"リール"},"st":"FINISHED","sc":[1,1]},{"id":560612,"c":"PL","ts":"2026-10-25T14:00:00Z","md":8,"h":{"id":64,"n":"リヴァプール"},"a":{"id":397,"n":"ブライトン"},"st":"FINISHED","sc":[2,0]},{"id":560613,"c":"PL","ts":"2026-10-25T14:00:00Z","md":8,"h":{"id":354,"n":"クリスタル・パレス"},"a":{"id":67,"n":"ニューカッスル"},"st":"FINISHED","sc":[0,2]},{"id":560615,"c":"PL","ts":"2026-10-25T14:00:00Z","md":8,"h":{"id":66,"n":"マンチェスター・U"},"a":{"id":1044,"n":"ボーンマス"},"st":"FINISHED","sc":[0,3]},{"id":560619,"c":"PL","ts":"2026-10-25T14:00:00Z","md":8,"h":{"id":322,"n":"ハル・シティ"},"a":{"id":402,"n":"ブレントフォード"},"st":"FINISHED","sc":[1,1]},{"id":558562,"c":"SA","ts":"2026-10-25T14:00:00Z","md":8,"h":{"id":102,"n":"アタランタ"},"a":{"id":470,"n":"フロジノーネ"},"st":"FINISHED","sc":[4,4]},{"id":558568,"c":"SA","ts":"2026-10-25T14:00:00Z","md":8,"h":{"id":107,"n":"ジェノア"},"a":{"id":454,"n":"ヴェネツィア"},"st":"FINISHED","sc":[1,0]},{"id":565835,"c":"BL1","ts":"2026-10-25T14:30:00Z","md":7,"h":{"id":2,"n":"ホッフェンハイム"},"a":{"id":3,"n":"レヴァークーゼン"},"st":"FINISHED","sc":[3,0]},{"id":564725,"c":"PD","ts":"2026-10-25T15:15:00Z","md":10,"h":{"id":558,"n":"セルタ"},"a":{"id":90,"n":"ベティス"},"st":"FINISHED","sc":[0,0]},{"id":559649,"c":"FL1","ts":"2026-10-25T16:15:00Z","md":8,"h":{"id":516,"n":"マルセイユ"},"a":{"id":533,"n":"ル・アーヴル"},"st":"FINISHED","sc":[4,3]},{"id":559651,"c":"FL1","ts":"2026-10-25T16:15:00Z","md":8,"h":{"id":529,"n":"レンヌ"},"a":{"id":576,"n":"ストラスブール"},"st":"FINISHED","sc":[3,0]},{"id":559653,"c":"FL1","ts":"2026-10-25T16:15:00Z","md":8,"h":{"id":532,"n":"アンジェ"},"a":{"id":525,"n":"ロリアン"},"st":"FINISHED","sc":[0,0]},{"id":559655,"c":"FL1","ts":"2026-10-25T16:15:00Z","md":8,"h":{"id":511,"n":"トゥールーズ"},"a":{"id":531,"n":"トロワ"},"st":"FINISHED","sc":[0,0]},{"id":559656,"c":"FL1","ts":"2026-10-25T16:15:00Z","md":8,"h":{"id":519,"n":"オセール"},"a":{"id":535,"n":"ル・マン"},"st":"FINISHED","sc":[1,1]},{"id":565836,"c":"BL1","ts":"2026-10-25T16:30:00Z","md":7,"h":{"id":17,"n":"フライブルク"},"a":{"id":5,"n":"バイエルン"},"st":"FINISHED","sc":[1,3]},{"id":560621,"c":"PL","ts":"2026-10-25T16:30:00Z","md":8,"h":{"id":71,"n":"サンダーランド"},"a":{"id":341,"n":"リーズ"},"st":"FINISHED","sc":[0,0]},{"id":558566,"c":"SA","ts":"2026-10-25T17:00:00Z","md":8,"h":{"id":5890,"n":"レッチェ"},"a":{"id":109,"n":"ユヴェントス"},"st":"FINISHED","sc":[0,2]},{"id":564726,"c":"PD","ts":"2026-10-25T17:30:00Z","md":10,"h":{"id":92,"n":"レアル・ソシエダ"},"a":{"id":88,"n":"レバンテ"},"st":"FINISHED","sc":[2,1]},{"id":558559,"c":"SA","ts":"2026-10-25T19:45:00Z","md":8,"h":{"id":115,"n":"ウディネーゼ"},"a":{"id":98,"n":"ミラン"},"st":"FINISHED","sc":[0,2]},{"id":564723,"c":"PD","ts":"2026-10-25T20:00:00Z","md":10,"h":{"id":81,"n":"バルセロナ"},"a":{"id":86,"n":"レアル・マドリード"},"st":"FINISHED","sc":[1,2]},{"id":559648,"c":"FL1","ts":"2026-10-26T19:30:00Z","md":8,"h":{"id":524,"n":"パリ・サンジェルマン"},"a":{"id":523,"n":"リヨン"},"st":"FINISHED","sc":[2,0]},{"id":564721,"c":"PD","ts":"2026-10-26T20:00:00Z","md":10,"h":{"id":559,"n":"セビージャ"},"a":{"id":79,"n":"オサスナ"},"st":"FINISHED","sc":[2,0]},{"id":558556,"c":"SA","ts":"2026-10-27T17:30:00Z","md":9,"h":{"id":471,"n":"サッスオーロ"},"a":{"id":110,"n":"ラツィオ"},"st":"FINISHED","sc":[2,6]},{"id":558555,"c":"SA","ts":"2026-10-27T19:45:00Z","md":9,"h":{"id":100,"n":"ローマ"},"a":{"id":104,"n":"カリアリ"},"st":"FINISHED","sc":[4,2]},{"id":558557,"c":"SA","ts":"2026-10-27T19:45:00Z","md":9,"h":{"id":586,"n":"トリノ"},"a":{"id":7397,"n":"コモ"},"st":"FINISHED","sc":[1,3]},{"id":558549,"c":"SA","ts":"2026-10-28T17:30:00Z","md":9,"h":{"id":98,"n":"ミラン"},"a":{"id":103,"n":"ボローニャ"},"st":"TIMED"},{"id":558550,"c":"SA","ts":"2026-10-28T17:30:00Z","md":9,"h":{"id":454,"n":"ヴェネツィア"},"a":{"id":108,"n":"インテル"},"st":"TIMED"},{"id":558553,"c":"SA","ts":"2026-10-28T17:30:00Z","md":9,"h":{"id":112,"n":"パルマ"},"a":{"id":115,"n":"ウディネーゼ"},"st":"TIMED"},{"id":558552,"c":"SA","ts":"2026-10-28T19:45:00Z","md":9,"h":{"id":107,"n":"ジェノア"},"a":{"id":109,"n":"ユヴェントス"},"st":"TIMED"},{"id":558554,"c":"SA","ts":"2026-10-28T19:45:00Z","md":9,"h":{"id":5911,"n":"モンツァ"},"a":{"id":113,"n":"ナポリ"},"st":"TIMED"},{"id":558558,"c":"SA","ts":"2026-10-29T17:30:00Z","md":9,"h":{"id":470,"n":"フロジノーネ"},"a":{"id":5890,"n":"レッチェ"},"st":"TIMED"},{"id":558551,"c":"SA","ts":"2026-10-29T19:45:00Z","md":9,"h":{"id":99,"n":"フィオレンティーナ"},"a":{"id":102,"n":"アタランタ"},"st":"TIMED"},{"id":559644,"c":"FL1","ts":"2026-10-30T18:00:00Z","md":9,"h":{"id":533,"n":"ル・アーヴル"},"a":{"id":524,"n":"パリ・サンジェルマン"},"st":"TIMED"},{"id":559646,"c":"FL1","ts":"2026-10-30T18:00:00Z","md":9,"h":{"id":522,"n":"ニース"},"a":{"id":529,"n":"レンヌ"},"st":"TIMED"},{"id":565846,"c":"BL1","ts":"2026-10-30T19:30:00Z","md":8,"h":{"id":719,"n":"エルヴァースベルク"},"a":{"id":15,"n":"マインツ"},"st":"TIMED"},{"id":564737,"c":"PD","ts":"2026-10-30T20:00:00Z","md":11,"h":{"id":94,"n":"ビジャレアル"},"a":{"id":80,"n":"エスパニョール"},"st":"TIMED"},{"id":559639,"c":"FL1","ts":"2026-10-30T20:05:00Z","md":9,"h":{"id":521,"n":"リール"},"a":{"id":546,"n":"ランス"},"st":"TIMED"},{"id":560626,"c":"PL","ts":"2026-10-31T12:30:00Z","md":9,"h":{"id":61,"n":"チェルシー"},"a":{"id":66,"n":"マンチェスター・U"},"st":"TIMED"},{"id":564730,"c":"PD","ts":"2026-10-31T13:00:00Z","md":11,"h":{"id":88,"n":"レバンテ"},"a":{"id":78,"n":"アトレティコ"},"st":"TIMED"},{"id":558539,"c":"SA","ts":"2026-10-31T14:00:00Z","md":10,"h":{"id":103,"n":"ボローニャ"},"a":{"id":5911,"n":"モンツァ"},"st":"TIMED"},{"id":565839,"c":"BL1","ts":"2026-10-31T14:30:00Z","md":8,"h":{"id":18,"n":"グラッドバッハ"},"a":{"id":29,"n":"パーダーボルン"},"st":"TIMED"},{"id":565840,"c":"BL1","ts":"2026-10-31T14:30:00Z","md":8,"h":{"id":6,"n":"シャルケ"},"a":{"id":721,"n":"ライプツィヒ"},"st":"TIMED"},{"id":565842,"c":"BL1","ts":"2026-10-31T14:30:00Z","md":8,"h":{"id":16,"n":"アウクスブルク"},"a":{"id":17,"n":"フライブルク"},"st":"TIMED"},{"id":565843,"c":"BL1","ts":"2026-10-31T14:30:00Z","md":8,"h":{"id":12,"n":"ブレーメン"},"a":{"id":2,"n":"ホッフェンハイム"},"st":"TIMED"},{"id":565847,"c":"BL1","ts":"2026-10-31T14:30:00Z","md":8,"h":{"id":3,"n":"レヴァークーゼン"},"a":{"id":10,"n":"シュトゥットガルト"},"st":"TIMED"},{"id":560623,"c":"PL","ts":"2026-10-31T15:00:00Z","md":9,"h":{"id":65,"n":"マンチェスター・C"},"a":{"id":397,"n":"ブライトン"},"st":"TIMED"},{"id":560624,"c":"PL","ts":"2026-10-31T15:00:00Z","md":9,"h":{"id":1044,"n":"ボーンマス"},"a":{"id":341,"n":"リーズ"},"st":"TIMED"},{"id":560625,"c":"PL","ts":"2026-10-31T15:00:00Z","md":9,"h":{"id":1076,"n":"コヴェントリー"},"a":{"id":71,"n":"サンダーランド"},"st":"TIMED"},{"id":560629,"c":"PL","ts":"2026-10-31T15:00:00Z","md":9,"h":{"id":322,"n":"ハル・シティ"},"a":{"id":349,"n":"イプスウィッチ"},"st":"TIMED"},{"id":560630,"c":"PL","ts":"2026-10-31T15:00:00Z","md":9,"h":{"id":402,"n":"ブレントフォード"},"a":{"id":351,"n":"ノッティンガム"},"st":"TIMED"},{"id":564735,"c":"PD","ts":"2026-10-31T15:15:00Z","md":11,"h":{"id":87,"n":"ラージョ"},"a":{"id":558,"n":"セルタ"},"st":"TIMED"},{"id":558542,"c":"SA","ts":"2026-10-31T17:00:00Z","md":10,"h":{"id":115,"n":"ウディネーゼ"},"a":{"id":100,"n":"ローマ"},"st":"TIMED"},{"id":565845,"c":"BL1","ts":"2026-10-31T17:30:00Z","md":8,"h":{"id":5,"n":"バイエルン"},"a":{"id":4,"n":"ドルトムント"},"st":"TIMED"},{"id":564736,"c":"PD","ts":"2026-10-31T17:30:00Z","md":11,"h":{"id":90,"n":"ベティス"},"a":{"id":84,"n":"マラガ"},"st":"TIMED"},{"id":560627,"c":"PL","ts":"2026-10-31T17:30:00Z","md":9,"h":{"id":73,"n":"トッテナム"},"a":{"id":354,"n":"クリスタル・パレス"},"st":"TIMED"},{"id":559643,"c":"FL1","ts":"2026-10-31T19:45:00Z","md":9,"h":{"id":531,"n":"トロワ"},"a":{"id":535,"n":"ル・マン"},"st":"TIMED"},{"id":558548,"c":"SA","ts":"2026-10-31T19:45:00Z","md":10,"h":{"id":98,"n":"ミラン"},"a":{"id":108,"n":"インテル"},"st":"TIMED"},{"id":564732,"c":"PD","ts":"2026-10-31T20:00:00Z","md":11,"h":{"id":81,"n":"バルセロナ"},"a":{"id":263,"n":"アラベス"},"st":"TIMED"},{"id":560628,"c":"PL","ts":"2026-10-31T20:00:00Z","md":9,"h":{"id":58,"n":"アストン・ヴィラ"},"a":{"id":63,"n":"フラム"},"st":"TIMED"},{"id":558543,"c":"SA","ts":"2026-11-01T11:30:00Z","md":10,"h":{"id":7397,"n":"コモ"},"a":{"id":454,"n":"ヴェネツィア"},"st":"TIMED"},{"id":564733,"c":"PD","ts":"2026-11-01T13:00:00Z","md":11,"h":{"id":82,"n":"ヘタフェ"},"a":{"id":559,"n":"セビージャ"},"st":"TIMED"},{"id":559647,"c":"FL1","ts":"2026-11-01T14:00:00Z","md":9,"h":{"id":576,"n":"ストラスブール"},"a":{"id":519,"n":"オセール"},"st":"TIMED"},{"id":558544,"c":"SA","ts":"2026-11-01T14:00:00Z","md":10,"h":{"id":470,"n":"フロジノーネ"},"a":{"id":586,"n":"トリノ"},"st":"TIMED"},{"id":558546,"c":"SA","ts":"2026-11-01T14:00:00Z","md":10,"h":{"id":110,"n":"ラツィオ"},"a":{"id":104,"n":"カリアリ"},"st":"TIMED"},{"id":565841,"c":"BL1","ts":"2026-11-01T14:30:00Z","md":8,"h":{"id":28,"n":"ウニオン・ベルリン"},"a":{"id":1,"n":"ケルン"},"st":"TIMED"},{"id":564734,"c":"PD","ts":"2026-11-01T15:15:00Z","md":11,"h":{"id":5335,"n":"ラシン"},"a":{"id":86,"n":"レアル・マドリード"},"st":"TIMED"},{"id":559640,"c":"FL1","ts":"2026-11-01T16:15:00Z","md":9,"h":{"id":523,"n":"リヨン"},"a":{"id":532,"n":"アンジェ"},"st":"TIMED"},{"id":559642,"c":"FL1","ts":"2026-11-01T16:15:00Z","md":9,"h":{"id":1045,"n":"パリFC"},"a":{"id":548,"n":"モナコ"},"st":"TIMED"},{"id":565844,"c":"BL1","ts":"2026-11-01T16:30:00Z","md":8,"h":{"id":19,"n":"フランクフルト"},"a":{"id":7,"n":"ハンブルク"},"st":"TIMED"},{"id":560631,"c":"PL","ts":"2026-11-01T16:30:00Z","md":9,"h":{"id":64,"n":"リヴァプール"},"a":{"id":57,"n":"アーセナル"},"st":"TIMED"},{"id":558540,"c":"SA","ts":"2026-11-01T17:00:00Z","md":10,"h":{"id":5890,"n":"レッチェ"},"a":{"id":107,"n":"ジェノア"},"st":"TIMED"},{"id":564728,"c":"PD","ts":"2026-11-01T17:30:00Z","md":11,"h":{"id":285,"n":"エルチェ"},"a":{"id":95,"n":"バレンシア"},"st":"TIMED"},{"id":559645,"c":"FL1","ts":"2026-11-01T19:45:00Z","md":9,"h":{"id":516,"n":"マルセイユ"},"a":{"id":511,"n":"トゥールーズ"},"st":"TIMED"},{"id":558547,"c":"SA","ts":"2026-11-01T19:45:00Z","md":10,"h":{"id":109,"n":"ユヴェントス"},"a":{"id":113,"n":"ナポリ"},"st":"TIMED"},{"id":564729,"c":"PD","ts":"2026-11-01T20:00:00Z","md":11,"h":{"id":77,"n":"ビルバオ"},"a":{"id":92,"n":"レアル・ソシエダ"},"st":"TIMED"},{"id":558541,"c":"SA","ts":"2026-11-02T17:30:00Z","md":10,"h":{"id":471,"n":"サッスオーロ"},"a":{"id":99,"n":"フィオレンティーナ"},"st":"TIMED"},{"id":559641,"c":"FL1","ts":"2026-11-02T19:45:00Z","md":9,"h":{"id":525,"n":"ロリアン"},"a":{"id":512,"n":"ブレスト"},"st":"TIMED"},{"id":558545,"c":"SA","ts":"2026-11-02T19:45:00Z","md":10,"h":{"id":102,"n":"アタランタ"},"a":{"id":112,"n":"パルマ"},"st":"TIMED"},{"id":564731,"c":"PD","ts":"2026-11-02T20:00:00Z","md":11,"h":{"id":560,"n":"デポルティーボ"},"a":{"id":79,"n":"オサスナ"},"st":"TIMED"},{"id":560622,"c":"PL","ts":"2026-11-02T20:00:00Z","md":9,"h":{"id":67,"n":"ニューカッスル"},"a":{"id":62,"n":"エヴァートン"},"st":"TIMED"},{"id":575377,"c":"CL","ts":"2026-11-03T17:45:00Z","md":4,"h":{"id":1887,"n":"シャフタール"},"a":{"id":498,"n":"スポルティング"},"st":"TIMED"},{"id":575378,"c":"CL","ts":"2026-11-03T17:45:00Z","md":4,"h":{"id":610,"n":"ガラタサライ"},"a":{"id":10,"n":"シュトゥットガルト"},"st":"TIMED"},{"id":575379,"c":"CL","ts":"2026-11-03T20:00:00Z","md":4,"h":{"id":675,"n":"フェイエノールト"},"a":{"id":108,"n":"インテル"},"st":"TIMED"},{"id":575380,"c":"CL","ts":"2026-11-03T20:00:00Z","md":4,"h":{"id":81,"n":"バルセロナ"},"a":{"id":58,"n":"アストン・ヴィラ"},"st":"TIMED"},{"id":575381,"c":"CL","ts":"2026-11-03T20:00:00Z","md":4,"h":{"id":78,"n":"アトレティコ"},"a":{"id":5,"n":"バイエルン"},"st":"TIMED"},{"id":575382,"c":"CL","ts":"2026-11-03T20:00:00Z","md":4,"h":{"id":94,"n":"ビジャレアル"},"a":{"id":524,"n":"パリ・サンジェルマン"},"st":"TIMED"},{"id":575383,"c":"CL","ts":"2026-11-03T20:00:00Z","md":4,"h":{"id":66,"n":"マンチェスター・U"},"a":{"id":100,"n":"ローマ"},"st":"TIMED"},{"id":575384,"c":"CL","ts":"2026-11-03T20:00:00Z","md":4,"h":{"id":5721,"n":"ボデ／グリムト"},"a":{"id":521,"n":"リール"},"st":"TIMED"},{"id":575385,"c":"CL","ts":"2026-11-03T20:00:00Z","md":4,"h":{"id":2016,"n":"リンツ"},"a":{"id":7509,"n":"ブラチスラヴァ"},"st":"TIMED"},{"id":575386,"c":"CL","ts":"2026-11-04T17:45:00Z","md":4,"h":{"id":1899,"n":"AEKアテネ"},"a":{"id":86,"n":"レアル・マドリード"},"st":"TIMED"},{"id":575387,"c":"CL","ts":"2026-11-04T17:45:00Z","md":4,"h":{"id":613,"n":"フェネルバフチェ"},"a":{"id":64,"n":"リヴァプール"},"st":"TIMED"},{"id":575388,"c":"CL","ts":"2026-11-04T20:00:00Z","md":4,"h":{"id":721,"n":"ライプツィヒ"},"a":{"id":65,"n":"マンチェスター・C"},"st":"TIMED"},{"id":575389,"c":"CL","ts":"2026-11-04T20:00:00Z","md":4,"h":{"id":930,"n":"スラヴィア・プラハ"},"a":{"id":57,"n":"アーセナル"},"st":"TIMED"},{"id":575390,"c":"CL","ts":"2026-11-04T20:00:00Z","md":4,"h":{"id":674,"n":"アイントホーフェン"},"a":{"id":851,"n":"クラブ・ブルッヘ"},"st":"TIMED"},{"id":575391,"c":"CL","ts":"2026-11-04T20:00:00Z","md":4,"h":{"id":4,"n":"ドルトムント"},"a":{"id":90,"n":"ベティス"},"st":"TIMED"},{"id":575392,"c":"CL","ts":"2026-11-04T20:00:00Z","md":4,"h":{"id":503,"n":"ポルト"},"a":{"id":113,"n":"ナポリ"},"st":"TIMED"},{"id":575393,"c":"CL","ts":"2026-11-04T20:00:00Z","md":4,"h":{"id":546,"n":"ランス"},"a":{"id":7397,"n":"コモ"},"st":"TIMED"},{"id":575394,"c":"CL","ts":"2026-11-04T20:00:00Z","md":4,"h":{"id":5720,"n":"ヴァイキング"},"a":{"id":10233,"n":"サバー"},"st":"TIMED"}];
+  let STANDINGS = {"PL":[[1,65,"マンチェスター・C",8,7,0,1,11,21],[2,57,"アーセナル",8,7,0,1,8,21],[3,397,"ブライトン",8,5,1,2,16,16],[4,64,"リヴァプール",8,4,3,1,3,15],[5,61,"チェルシー",8,4,1,3,2,13],[6,402,"ブレントフォード",8,2,5,1,5,11],[7,341,"リーズ",8,2,5,1,3,11],[8,67,"ニューカッスル",8,3,2,3,-2,11],[9,58,"アストン・ヴィラ",8,3,2,3,-3,11],[10,322,"ハル・シティ",8,2,4,2,1,10],[11,62,"エヴァートン",8,2,4,2,-1,10],[12,349,"イプスウィッチ",8,3,1,4,-4,10],[13,1044,"ボーンマス",8,2,3,3,-1,9],[14,73,"トッテナム",8,2,3,3,-2,9],[15,63,"フラム",8,2,2,4,-2,8],[16,66,"マンチェスター・U",8,1,4,3,-3,7],[17,354,"クリスタル・パレス",8,2,1,5,-10,7],[18,351,"ノッティンガム",8,1,3,4,-4,6],[19,1076,"コヴェントリー",8,2,0,6,-9,6],[20,71,"サンダーランド",8,1,2,5,-8,5]],"PD":[[1,81,"バルセロナ",10,9,0,1,29,27],[2,78,"アトレティコ",10,8,1,1,12,25],[3,86,"レアル・マドリード",10,8,0,2,15,24],[4,90,"ベティス",10,6,2,2,2,20],[5,92,"レアル・ソシエダ",10,6,1,3,1,19],[6,559,"セビージャ",10,5,2,3,0,17],[7,263,"アラベス",10,3,3,4,3,12],[8,77,"ビルバオ",9,3,3,3,3,12],[9,558,"セルタ",10,2,6,2,3,12],[10,94,"ビジャレアル",10,3,3,4,1,12],[11,560,"デポルティーボ",10,2,5,3,0,11],[12,79,"オサスナ",10,3,2,5,-10,11],[13,5335,"ラシン",10,3,2,5,-11,11],[14,88,"レバンテ",10,2,4,4,-3,10],[15,285,"エルチェ",10,2,4,4,-3,10],[16,87,"ラージョ",9,2,3,4,-8,9],[17,82,"ヘタフェ",10,2,3,5,-10,9],[18,80,"エスパニョール",10,2,2,6,-2,8],[19,95,"バレンシア",10,1,3,6,-10,6],[20,84,"マラガ",10,0,5,5,-12,5]],"SA":[[1,110,"ラツィオ",9,8,1,0,15,25],[2,108,"インテル",8,7,1,0,13,22],[3,100,"ローマ",9,6,3,0,15,21],[4,7397,"コモ",9,6,2,1,9,20],[5,98,"ミラン",8,5,3,0,9,18],[6,470,"フロジノーネ",8,4,2,2,4,14],[7,109,"ユヴェントス",8,4,2,2,3,14],[8,586,"トリノ",9,4,1,4,0,13],[9,104,"カリアリ",9,4,1,4,-5,13],[10,113,"ナポリ",8,3,2,3,3,11],[11,102,"アタランタ",8,3,1,4,-1,10],[12,5890,"レッチェ",8,3,0,5,-5,9],[13,103,"ボローニャ",8,2,2,4,-2,8],[14,471,"サッスオーロ",9,2,2,5,-8,8],[15,5911,"モンツァ",8,2,1,5,-3,7],[16,107,"ジェノア",8,2,1,5,-7,7],[17,115,"ウディネーゼ",8,1,1,6,-9,4],[18,99,"フィオレンティーナ",8,1,1,6,-10,4],[19,112,"パルマ",8,1,1,6,-10,4],[20,454,"ヴェネツィア",8,1,0,7,-11,3]],"BL1":[[1,5,"バイエルン",7,5,2,0,19,17],[2,4,"ドルトムント",7,5,2,0,8,17],[3,17,"フライブルク",7,4,1,2,7,13],[4,3,"レヴァークーゼン",7,4,1,2,4,13],[5,721,"ライプツィヒ",7,4,0,3,9,12],[6,12,"ブレーメン",7,3,3,1,1,12],[7,15,"マインツ",7,3,1,3,3,10],[8,719,"エルヴァースベルク",7,3,1,3,-3,10],[9,16,"アウクスブルク",7,2,3,2,4,9],[10,2,"ホッフェンハイム",7,3,0,4,0,9],[11,7,"ハンブルク",7,3,0,4,-10,9],[12,1,"ケルン",7,2,2,3,-3,8],[13,29,"パーダーボルン",7,2,2,3,-3,8],[14,19,"フランクフルト",7,2,2,3,-7,8],[15,10,"シュトゥットガルト",7,2,0,5,-3,6],[16,6,"シャルケ",7,1,3,3,-3,6],[17,28,"ウニオン・ベルリン",7,1,3,3,-12,6],[18,18,"グラッドバッハ",7,1,0,6,-11,3]],"FL1":[[1,524,"パリ・サンジェルマン",8,5,2,1,7,17],[2,529,"レンヌ",8,5,1,2,4,16],[3,521,"リール",8,4,3,1,5,15],[4,548,"モナコ",8,4,3,1,4,15],[5,523,"リヨン",8,4,2,2,6,14],[6,1045,"パリFC",8,4,2,2,4,14],[7,546,"ランス",8,4,1,3,4,13],[8,516,"マルセイユ",8,4,0,4,5,12],[9,525,"ロリアン",8,3,3,2,1,12],[10,522,"ニース",8,3,2,3,-2,11],[11,511,"トゥールーズ",8,2,4,2,1,10],[12,519,"オセール",8,3,1,4,-6,10],[13,512,"ブレスト",8,2,3,3,2,9],[14,532,"アンジェ",8,2,2,4,-6,8],[15,535,"ル・マン",8,1,4,3,-5,7],[16,576,"ストラスブール",8,2,1,5,-6,7],[17,531,"トロワ",8,1,2,5,-11,5],[18,533,"ル・アーヴル",8,0,2,6,-7,2]],"CL":[[1,524,"パリ・サンジェルマン",3,3,0,0,9,9],[2,58,"アストン・ヴィラ",3,3,0,0,9,9],[3,64,"リヴァプール",3,3,0,0,5,9],[4,86,"レアル・マドリード",3,3,0,0,5,9],[5,90,"ベティス",3,3,0,0,3,9],[6,10,"シュトゥットガルト",3,2,1,0,5,7],[7,57,"アーセナル",3,2,1,0,4,7],[8,81,"バルセロナ",3,2,0,1,5,6],[9,7397,"コモ",3,2,0,1,5,6],[10,65,"マンチェスター・C",3,2,0,1,4,6],[11,851,"クラブ・ブルッヘ",3,2,0,1,3,6],[12,498,"スポルティング",3,2,0,1,3,6],[13,4,"ドルトムント",3,2,0,1,1,6],[14,5,"バイエルン",3,1,2,0,5,5],[15,100,"ローマ",3,1,1,1,3,4],[16,78,"アトレティコ",3,1,1,1,1,4],[17,1887,"シャフタール",3,1,1,1,1,4],[18,674,"アイントホーフェン",3,1,1,1,0,4],[19,94,"ビジャレアル",3,1,0,2,0,3],[20,108,"インテル",3,1,0,2,-1,3],[20,66,"マンチェスター・U",3,1,0,2,-1,3],[22,113,"ナポリ",3,1,0,2,-2,3],[23,610,"ガラタサライ",3,1,0,2,-3,3],[24,2016,"リンツ",3,1,0,2,-3,3],[25,10233,"サバー",3,1,0,2,-3,3],[26,675,"フェイエノールト",3,1,0,2,-4,3],[27,546,"ランス",3,1,0,2,-4,3],[28,5721,"ボデ／グリムト",3,1,0,2,-5,3],[29,1899,"AEKアテネ",3,1,0,2,-5,3],[29,721,"ライプツィヒ",3,1,0,2,-5,3],[31,613,"フェネルバフチェ",3,0,2,1,-6,2],[32,930,"スラヴィア・プラハ",3,0,1,2,-3,1],[33,5720,"ヴァイキング",3,0,1,2,-4,1],[34,503,"ポルト",3,0,0,3,-4,0],[35,521,"リール",3,0,0,3,-6,0],[36,7509,"ブラチスラヴァ",3,0,0,3,-12,0]]};
+  let ASOF = "2026-10-29";
+  // チーム名のカタカナ表記（観戦ハブと同じ。データ元のチームIDで引く）
+  const JA = {
+    // ブンデスリーガ
+    1:"ケルン",16:"アウクスブルク",5:"バイエルン",12:"ブレーメン",4:"ドルトムント",719:"エルヴァースベルク",19:"フランクフルト",
+    17:"フライブルク",7:"ハンブルク",2:"ホッフェンハイム",3:"レヴァークーゼン",18:"グラッドバッハ",15:"マインツ",721:"ライプツィヒ",
+    29:"パーダーボルン",6:"シャルケ",10:"シュトゥットガルト",28:"ウニオン・ベルリン",
+    // プレミアリーグ
+    57:"アーセナル",58:"アストン・ヴィラ",1044:"ボーンマス",402:"ブレントフォード",397:"ブライトン",61:"チェルシー",1076:"コヴェントリー",
+    354:"クリスタル・パレス",62:"エヴァートン",63:"フラム",322:"ハル・シティ",349:"イプスウィッチ",341:"リーズ",64:"リヴァプール",
+    65:"マンチェスター・C",66:"マンチェスター・U",67:"ニューカッスル",351:"ノッティンガム",71:"サンダーランド",73:"トッテナム",
+    // ラ・リーガ
+    263:"アラベス",77:"ビルバオ",78:"アトレティコ",81:"バルセロナ",558:"セルタ",560:"デポルティーボ",285:"エルチェ",80:"エスパニョール",
+    82:"ヘタフェ",88:"レバンテ",84:"マラガ",79:"オサスナ",87:"ラージョ",90:"ベティス",86:"レアル・マドリード",92:"レアル・ソシエダ",
+    5335:"ラシン",559:"セビージャ",95:"バレンシア",94:"ビジャレアル",
+    // セリエA
+    102:"アタランタ",103:"ボローニャ",104:"カリアリ",7397:"コモ",99:"フィオレンティーナ",470:"フロジノーネ",107:"ジェノア",108:"インテル",
+    109:"ユヴェントス",110:"ラツィオ",5890:"レッチェ",98:"ミラン",5911:"モンツァ",113:"ナポリ",112:"パルマ",100:"ローマ",471:"サッスオーロ",
+    586:"トリノ",115:"ウディネーゼ",454:"ヴェネツィア",
+    // リーグ・アン
+    532:"アンジェ",519:"オセール",512:"ブレスト",533:"ル・アーヴル",535:"ル・マン",521:"リール",525:"ロリアン",516:"マルセイユ",
+    548:"モナコ",522:"ニース",523:"リヨン",524:"パリ・サンジェルマン",1045:"パリFC",546:"ランス",529:"レンヌ",576:"ストラスブール",
+    511:"トゥールーズ",531:"トロワ",
+    // CLのみ
+    5721:"ボデ／グリムト",851:"クラブ・ブルッヘ",613:"フェネルバフチェ",675:"フェイエノールト",610:"ガラタサライ",2016:"リンツ",
+    1899:"AEKアテネ",674:"アイントホーフェン",503:"ポルト",10233:"サバー",1887:"シャフタール",7509:"ブラチスラヴァ",930:"スラヴィア・プラハ",
+    498:"スポルティング",5720:"ヴァイキング",
+  };
+
+  // エンブレム（チームID）と大会アイコン（comp_コード）。このアーティファクトに保存した画像
+  const CRESTS = {"1":"crests/1.png","2":"crests/2.png","3":"crests/3.png","4":"crests/4.png","5":"crests/5.png","6":"crests/6.png","7":"crests/7.png","10":"crests/10.png","12":"crests/12.png","15":"crests/15.png","16":"crests/16.png","17":"crests/17.png","18":"crests/18.png","19":"crests/19.png","28":"crests/28.png","29":"crests/29.png","57":"crests/57.png","58":"crests/58.png","61":"crests/61.png","62":"crests/62.png","63":"crests/63.png","64":"crests/64.png","65":"crests/65.png","66":"crests/66.png","67":"crests/67.png","71":"crests/71.png","73":"crests/73.png","77":"crests/77.png","78":"crests/78.png","79":"crests/79.png","80":"crests/80.png","81":"crests/81.png","82":"crests/82.png","84":"crests/84.png","86":"crests/86.png","87":"crests/87.png","88":"crests/88.png","90":"crests/90.png","92":"crests/92.png","94":"crests/94.png","95":"crests/95.png","98":"crests/98.png","99":"crests/99.png","100":"crests/100.png","102":"crests/102.png","103":"crests/103.png","104":"crests/104.png","107":"crests/107.png","108":"crests/108.png","109":"crests/109.png","110":"crests/110.png","112":"crests/112.png","113":"crests/113.png","115":"crests/115.png","263":"crests/263.png","285":"crests/285.png","322":"crests/322.png","341":"crests/341.png","349":"crests/349.png","351":"crests/351.png","354":"crests/354.png","397":"crests/397.png","402":"crests/402.png","454":"crests/454.png","470":"crests/470.png","471":"crests/471.png","498":"crests/498.png","503":"crests/503.png","511":"crests/511.png","512":"crests/512.png","516":"crests/516.png","519":"crests/519.png","521":"crests/521.png","522":"crests/522.png","523":"crests/523.png","524":"crests/524.png","525":"crests/525.png","529":"crests/529.png","531":"crests/531.png","532":"crests/532.png","533":"crests/533.png","535":"crests/535.png","546":"crests/546.png","548":"crests/548.png","558":"crests/558.png","559":"crests/559.png","560":"crests/560.png","576":"crests/576.png","586":"crests/586.png","610":"crests/610.png","613":"crests/613.png","674":"crests/674.png","675":"crests/675.png","719":"crests/719.png","721":"crests/721.png","851":"crests/851.png","930":"crests/930.png","1044":"crests/1044.png","1045":"crests/1045.png","1076":"crests/1076.png","1887":"crests/1887.png","1899":"crests/1899.png","2016":"crests/2016.png","5335":"crests/5335.png","5720":"crests/5720.png","5721":"crests/5721.png","5890":"crests/5890.png","5911":"crests/5911.png","7397":"crests/7397.png","7509":"crests/7509.png","10233":"crests/10233.png","comp_BL1":"crests/comp_BL1.png","comp_CL":"crests/comp_CL.png","comp_FL1":"crests/comp_FL1.png","comp_PD":"crests/comp_PD.png","comp_PL":"crests/comp_PL.png","comp_SA":"crests/comp_SA.png"};
+  const COMP = {PL:"プレミア",PD:"ラ・リーガ",SA:"セリエA",BL1:"ブンデス",FL1:"リーグ・アン",CL:"CL"};
+  const ORDER = ["PL","PD","SA","BL1","FL1","CL"];
+  const WD = ["日","月","火","水","木","金","土"];
+  const COLORS = {
+    1887:["#F26E21","#111111"],498:["#008057","#FFFFFF"],610:["#A90432","#FDB912"],10:["#E32219","#FFFFFF"],675:["#E30613","#FFFFFF"],
+    108:["#0068A8","#111111"],81:["#A50044","#004D98"],58:["#670E36","#95BFE5"],78:["#CB3524","#272E61"],5:["#DC052D","#0066B2"],
+    94:["#FFE667","#005187"],524:["#004170","#DA291C"],66:["#DA291C","#FBE122"],100:["#8E1F2F","#F0BC42"],5721:["#FFD200","#111111"],
+    521:["#E01E13","#20325F"],2016:["#111111","#FFFFFF"],7509:["#0072CE","#FFFFFF"],1899:["#FFD100","#111111"],86:["#F2F2F2","#00529F"],
+    613:["#163962","#FFED00"],64:["#C8102E","#00B2A9"],721:["#DD0741","#001F47"],65:["#6CABDD","#1C2C5B"],930:["#D7141A","#FFFFFF"],
+    57:["#EF0107","#063672"],674:["#ED1C24","#FFFFFF"],851:["#0067CE","#111111"],4:["#FDE100","#111111"],90:["#0BB363","#FFFFFF"],
+    503:["#003893","#FFFFFF"],113:["#12A0D7","#003C82"],546:["#FFD400","#D6001C"],7397:["#0055A4","#FFFFFF"],5720:["#003B7A","#FFFFFF"],
+    10233:["#0A3D91","#F2C200"],61:["#034694","#DBA111"],397:["#0057B8","#FFFFFF"],1044:["#DA291C","#111111"],341:["#1D428A","#FFCD00"],
+    1076:["#3FB4E5","#0A2240"],71:["#EB172B","#FFFFFF"],322:["#F5A12D","#111111"],349:["#0044A9","#FFFFFF"],402:["#E30613","#FFFFFF"],
+    351:["#DD0000","#FFFFFF"],73:["#132257","#FFFFFF"],354:["#1B458F","#C4122E"],63:["#1A1A1A","#CC0000"],67:["#241F20","#FFFFFF"],
+    62:["#003399","#FFFFFF"],80:["#007FC8","#FFFFFF"],88:["#B4053F","#004F9F"],87:["#E53027","#FFFFFF"],558:["#8AC3EE","#E5254E"],
+    84:["#0075BF","#FFFFFF"],263:["#0761AF","#FFFFFF"],82:["#005999","#FFFFFF"],559:["#D81E05","#FFFFFF"],5335:["#00A650","#FFFFFF"],
+    285:["#05642C","#FFFFFF"],95:["#EE7623","#111111"],77:["#EE2523","#FFFFFF"],92:["#0067B1","#FFFFFF"],560:["#1B5FAA","#FFFFFF"],
+    79:["#D91A21","#0A346F"],719:["#1A1A1A","#FFFFFF"],15:["#C3141E","#FFFFFF"],18:["#1F1F1F","#16A34A"],29:["#005CA9","#111111"],
+    6:["#004D9D","#FFFFFF"],16:["#BA3733","#46714D"],17:["#D50019","#111111"],12:["#1D9053","#FFFFFF"],2:["#1961B5","#FFFFFF"],
+    3:["#E32221","#111111"],28:["#EB1923","#FFED00"],1:["#ED1C24","#FFFFFF"],19:["#E1000F","#111111"],7:["#00539F","#111111"],
+    470:["#FFD100","#004C9F"],5890:["#FFDD00","#D7141A"],99:["#482E92","#FFFFFF"],102:["#1E71B8","#111111"],103:["#A21C26","#1A2F48"],
+    5911:["#E1001A","#FFFFFF"],115:["#1A1A1A","#FFFFFF"],98:["#FB090B","#111111"],454:["#E87511","#00704A"],586:["#8A1E03","#FFFFFF"],
+    110:["#87D8F7","#15366F"],104:["#A6192E","#002350"],107:["#A41F35","#002C5F"],109:["#1A1A1A","#FFFFFF"],471:["#00A752","#111111"],
+    112:["#FFD200","#1B4594"],533:["#6FB6E6","#0E2E5C"],522:["#E2001A","#111111"],529:["#E13327","#111111"],531:["#0054A6","#FFFFFF"],
+    535:["#D5001C","#FFD400"],576:["#009FE3","#FFFFFF"],519:["#1E5BA8","#FFFFFF"],523:["#14387F","#DA0812"],532:["#1A1A1A","#FFFFFF"],
+    1045:["#0E1E44","#7DC4E8"],548:["#E51B22","#FFFFFF"],516:["#2FAEE0","#FFFFFF"],511:["#5B2D86","#FFFFFF"],525:["#F58113","#111111"],
+    512:["#E2001A","#FFFFFF"],
+  };
+  const rgb = h => [1,3,5].map(i=>parseInt(h.slice(i,i+2),16));
+  const lum = h => { const [r,g,b]=rgb(h).map(v=>{v/=255;return v<=.03928?v/12.92:Math.pow((v+.055)/1.055,2.4);}); return .2126*r+.7152*g+.0722*b; };
+  const dist = (a,b) => { const x=rgb(a), y=rgb(b); return Math.hypot(x[0]-y[0],x[1]-y[1],x[2]-y[2]); };
+  const onText = h => lum(h) > .42 ? "#141A22" : "#FFFFFF";
+  const colorsOf = id => COLORS[id] || ["#4A5866","#C9D2DB"];
+  // 2色を決める：ホームのメインとアウェイのメイン。近すぎる色ならアウェイをサブに替える
+  function pair(m){
+    const H = colorsOf(m.h.id), A = colorsOf(m.a.id);
+    let a = H[0], b = A[0];
+    if(dist(a,b) < 90){ b = (dist(a,A[1])>=90) ? A[1] : (dist(a,H[1])>=90 ? (a=H[1], b) : "#1A1A1A"); }
+    return [a,b];
+  }
+  // 観戦しやすさ（元の観戦ハブと同じ区分）
+  const J = 9*3600e3;
+  function jst(ts){ const d=new Date(Date.parse(ts)+J); return {h:d.getUTCHours(),mi:d.getUTCMinutes(),key:d.toISOString().slice(0,10)}; }
+  function cat(ts){ const j=jst(ts), m=j.h*60+j.mi;
+    if((m>=1080&&m<=1380)||(m>=360&&m<=480)) return ["easy","ライブで見やすい",0];
+    if(m>=1381||m<=60||(m>=300&&m<=359)) return ["mid","夜ふかし・早起き",2];
+    if(m>=61&&m<=299) return ["hard","深夜",4];
+    return ["day","日中",0]; }
+  const MOON='<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M13 10.6A6 6 0 0 1 5.4 3a6 6 0 1 0 7.6 7.6z"/></svg>';
+  // クレジットカードのICチップ。中央のパッドに大会のロゴを刻印のように置く
+  const IC='<svg class="ic-pads" viewBox="0 0 43 43" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1"><path d="M9.2 0.5V4.5M9.2 38.5V42.5M33.8 0.5V4.5M33.8 38.5V42.5M0.5 14.3H9.2M0.5 28.7H9.2M33.8 14.3H42.5M33.8 28.7H42.5"/><rect x="9.2" y="4.5" width="24.6" height="34" rx="5.3"/></g></svg>';
+  // 視聴サービス（2026-27シーズン）。プレミア・ラ・リーガはU-NEXT、セリエA・ブンデス・リーグ・アンはDAZN、CLはWOWOW
+  const SVC = {
+    PL:{name:"U-NEXT",url:"https://video.unext.jp/"}, PD:{name:"U-NEXT",url:"https://video.unext.jp/"},
+    SA:{name:"DAZN",url:"https://www.dazn.com/ja-JP/home"}, BL1:{name:"DAZN",url:"https://www.dazn.com/ja-JP/home"}, FL1:{name:"DAZN",url:"https://www.dazn.com/ja-JP/home"},
+    CL:{name:"WOWOW",url:"https://wod.wowow.co.jp/"},
+  };
+  // カード用のICチップ：サッカーボールをデフォルメ。左寄りの五角形と、右に六角形のパネルを1枚だけ（左右非対称）
+  // カード右下のリーグ名（英語）
+  const LGEN={PL:"PREMIER<br>LEAGUE",PD:"LALIGA",SA:"SERIE A",BL1:"BUNDESLIGA",FL1:"LIGUE 1",CL:"CHAMPIONS<br>LEAGUE"};
+  const CARDIC='<svg class="ic-pads" viewBox="0 0 54 46" preserveAspectRatio="none" aria-hidden="true"><path d="M19.2 16.6 L27.1 20.5 L25.9 29.2 L17.2 30.7 L13.1 23.0Z M19.2 16.6 L19 -2 M27.1 20.5 L37 14.5 L55 9 M37 14.5 L41 31 L55 35 M25.9 29.2 L41 31 M17.2 30.7 L13 48 M13.1 23.0 L-2 21" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/></svg>';
+  const STAR='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.2l2.7 5.5 6 .9-4.35 4.25 1.03 6L12 17l-5.38 2.85 1.03-6L3.3 9.6l6-.9z"/></svg>';
+  const pad = n => String(n).padStart(2,"0");
+  const esc = s => String(s).replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+  const addDays = (k,n) => new Date(Date.parse(k+"T00:00:00Z")+n*864e5).toISOString().slice(0,10);
+  const today = () => new Date(Date.now()+J).toISOString().slice(0,10);
+  function rel(k){ const t=today(); return k===t?"今日":k===addDays(t,1)?"明日":k===addDays(t,-1)?"昨日":""; }
+  function crest(id, name){
+    const u=CRESTS[id];
+    return u ? `<span class="crest"><img src="${u}" alt="" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('ph');this.parentNode.textContent='${esc(name[0])}'"></span>`
+             : `<span class="crest ph">${esc(name[0])}</span>`;
+  }
+  const lgi = code => CRESTS["comp_"+code] ? `<img class="lgi" src="${CRESTS["comp_"+code]}" alt="" loading="lazy" decoding="async">` : "";
+  // 開始から2時間を過ぎたのに結果が入っていない試合（データが古いとき）は「終了・結果未取得」として扱う
+  const isStale = m => !(m.st==="FINISHED" && m.sc) && Date.parse(m.ts) + 2*3600e3 < Date.now();
+  const isPast = m => (m.st==="FINISHED" && m.sc) || isStale(m);
+  const isDone = m => m.st==="FINISHED" && m.sc;
+
+  // ---- 閲覧者ごとの保存（この端末のブラウザだけ） ----
+  const store = {
+    get(k,fb){ try{ const v=localStorage.getItem("mw."+k); return v==null?fb:JSON.parse(v); }catch(e){ return fb; } },
+    set(k,v){ try{ localStorage.setItem("mw."+k, JSON.stringify(v)); }catch(e){} }
+  };
+  const S = {
+    tab: "search",
+    // リーグの絞り込み（複数選択）。空＝すべて。以前の1つだけ選ぶ形式の保存値も読めるようにする
+    sel: (v=>Array.isArray(v)? v.filter(c=>ORDER.includes(c)) : (v && v!=="ALL" && ORDER.includes(v) ? [v] : []))(store.get("sel",[])), q: "", tbl: store.get("tbl","PL"),
+    picks: new Set(store.get("picks",[])),
+    theme: store.get("theme","system"), showPast: store.get("showPast",true), lgStyle: store.get("lgStyle","chip"), dateMode: store.get("dateMode","vertical"), logo: store.get("logo","current"), logoColor: store.get("logoColor","mono"),
+    openId: null,
+  };
+  function applyTheme(){ const r=document.documentElement; if(S.theme==="system") r.removeAttribute("data-theme"); else r.setAttribute("data-theme",S.theme); }
+  applyTheme();
+
+  // ---- ヘッダーのマーク（マイページで選べる）----
+  // current：今のマーク（2枚のカード＋チップ＋文字）／A：ボールのICチップ／B：ウォレットのポケット／AB：ポケット＋ボールのチップ
+  // C：ピッチになったカード／D：観戦チケット／E：重なりでできた M と C。配色はモノクロ（白黒＋金）かリーグ色
+  const BALL="M19.2 16.6 L27.1 20.5 L25.9 29.2 L17.2 30.7 L13.1 23.0Z M19.2 16.6 L19 -2 M27.1 20.5 L37 14.5 L55 9 M37 14.5 L41 31 L55 35 M25.9 29.2 L41 31 M17.2 30.7 L13 48 M13.1 23.0 L-2 21";
+  const LOGOS=[["current","今のマーク"],["A","ボールのチップ"],["B","ポケット"],["AB","ポケット＋チップ"],["C","ピッチ"],["D","チケット"],["E","M と C"]];
+  const CURRENT_LOGO='<span class="logo" aria-hidden="true"><span class="lc back"></span><span class="lc front"></span><span class="lchip"></span><span class="w w1">Match</span><span class="w w2">Cards</span></span>';
+  let logoSeq=0;
+  function logoMark(kind,color){
+    const L=color==="league", u="lg"+(++logoSeq), K="#000000", W="#FFFFFF";
+    const defs=`<defs>
+      <linearGradient id="${u}g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F3E3A6"/><stop offset=".36" stop-color="#E8BD46"/><stop offset=".56" stop-color="#F7DE8E"/><stop offset=".72" stop-color="#DCAF34"/><stop offset="1" stop-color="#A97B08"/></linearGradient>
+      <linearGradient id="${u}m" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C9B0EC"/><stop offset=".28" stop-color="#7442A8"/><stop offset=".52" stop-color="#1C72BC"/><stop offset=".6" stop-color="#A9D8F5"/><stop offset=".78" stop-color="#E8081E"/><stop offset="1" stop-color="#7A0510"/></linearGradient>
+      <linearGradient id="${u}t" x1="0" y1="0" x2="1" y2="1"><stop offset=".25" stop-color="#C8102E"/><stop offset=".75" stop-color="#063672"/></linearGradient>
+      <linearGradient id="${u}s" x1="0" y1="0" x2="1" y2="0"><stop offset=".4" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".38"/><stop offset=".6" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    </defs>`;
+    const seams=(x,y,w,h,col,sw)=>`<svg x="${x}" y="${y}" width="${w}" height="${h}" viewBox="0 0 54 46" preserveAspectRatio="none"><path d="${BALL}" fill="none" stroke="${col}" stroke-width="${sw}" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+    const chip=(x,y,w,h,r,gold=true)=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${r}" fill="url(#${u}${gold?"g":"m"})" stroke="rgba(0,0,0,.45)" stroke-width="1"/>`+seams(x,y,w,h,gold?"rgba(92,62,0,.6)":"rgba(255,255,255,.6)",2);
+    const card=(x,y,w,h,fill,sw=2.4)=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="9" fill="${fill}" stroke="${K}" stroke-width="${sw}"/>`;
+    const pocket=()=>`<path d="M4 40 Q48 30 92 40 V62 a8 8 0 0 1 -8 8 H12 a8 8 0 0 1 -8 -8Z" fill="${L?"#16202B":"#111111"}" stroke="${K}" stroke-width="2.4" stroke-linejoin="round"/>
+      <path d="M10 45 Q48 37 86 45 V60 a4 4 0 0 1 -4 4 H14 a4 4 0 0 1 -4 -4Z" fill="none" stroke="#FFFFFF" stroke-opacity=".45" stroke-width="1.2" stroke-dasharray="3 3"/>`;
+    const peek=()=>card(20,4,64,44,L?"#1C72BC":W)+card(16,12,64,44,L?"#E8081E":W)+card(12,20,64,44,L?"#7442A8":W);
+    let b="";
+    if(kind==="A"){
+      b=`<clipPath id="${u}c"><rect x="8" y="6" width="80" height="60" rx="15"/></clipPath>
+        <rect x="8" y="6" width="80" height="60" rx="15" fill="url(#${u}${L?"m":"g"})"/>
+        <g clip-path="url(#${u}c)">${seams(8,6,80,60,L?"rgba(255,255,255,.7)":"rgba(92,62,0,.6)",1.3)}<rect x="8" y="6" width="80" height="60" fill="url(#${u}s)" transform="rotate(-25 48 36)"/></g>
+        <rect x="8" y="6" width="80" height="60" rx="15" fill="none" stroke="${K}" stroke-width="2.4"/>`;
+    } else if(kind==="B"){ b=peek()+pocket(); }
+    else if(kind==="AB"){ b=peek()+chip(20,24,16,13,3.5,!L)+pocket(); }
+    else if(kind==="C"){
+      const ln=L?"rgba(255,255,255,.9)":K;
+      b=card(20,4,70,48,W)+card(6,16,72,50,L?`url(#${u}t)`:W)+
+        `<g fill="none" stroke="${ln}" stroke-width="1.5"><path d="M42 16V66"/><circle cx="42" cy="41" r="8.5"/><rect x="6" y="31" width="9" height="20"/><rect x="69" y="31" width="9" height="20"/></g><circle cx="42" cy="41" r="1.6" fill="${ln}"/>`;
+    } else if(kind==="D"){
+      // 観戦チケット：右に半券（ミシン目と切り欠き）
+      const ln=L?"rgba(255,255,255,.85)":K;
+      b=`<path d="M13 12H63A5 5 0 0 0 73 12H83A9 9 0 0 1 92 21V53A9 9 0 0 1 83 62H73A5 5 0 0 0 63 62H13A9 9 0 0 1 4 53V21A9 9 0 0 1 13 12Z" fill="${L?`url(#${u}t)`:W}" stroke="${K}" stroke-width="2.4" stroke-linejoin="round"/>
+         <path d="M68 20V54" stroke="${ln}" stroke-width="1.6" stroke-dasharray="2 3" stroke-linecap="round"/>`+
+        chip(13,26,24,20,4.5,true)+
+        `<g fill="${ln}"><rect x="76" y="24" width="2" height="26"/><rect x="80" y="24" width="1" height="26"/><rect x="83" y="24" width="2.5" height="26"/></g>`;
+    } else if(kind==="E"){
+      b=card(4,6,58,46,W)+`<text x="24" y="43" text-anchor="middle" font-family="'Emblema One','Dela Gothic One',sans-serif" font-size="30" fill="${K}">M</text>`+
+        card(40,24,52,44,L?`url(#${u}m)`:K)+`<text x="66" y="57" text-anchor="middle" font-family="'Emblema One','Dela Gothic One',sans-serif" font-size="30" fill="#FFFFFF">C</text>`+
+        chip(9,11,13,11,3,true);
+    }
+    return `<svg class="mark" viewBox="0 0 96 72" aria-hidden="true">${defs}${b}</svg>`;
+  }
+  function logoHTML(kind,color,withWord=true){
+    if(kind==="current") return CURRENT_LOGO;
+    return `<span class="logo2" aria-hidden="true">${logoMark(kind,color)}${withWord?'<span class="wm"><span>Match</span><span>Cards</span></span>':""}</span>`;
+  }
+  function renderBrand(){ const h=document.getElementById("brand"); if(h) h.innerHTML=logoHTML(S.logo,S.logoColor); }
+  renderBrand();
+
+  const nPast=MATCHES.filter(isDone).length;
+  document.getElementById("asof").textContent = `${ASOF.slice(5).replace("-","/")}時点・直近の結果 ${nPast}試合／今後 ${MATCHES.length-nPast}試合`;
+
+  // ---- メニューバー ----
+  // メニュー（Figma「観戦予定（390×844）」）：選んでいるタブは白、ほかはグレー
+  const TABS = [
+    ["plan","マイウォレット",'<svg viewBox="0 0 24 24"><path fill="currentColor" d="M18 4H6C3.79 4 2 5.79 2 8V16C2 18.21 3.79 20 6 20H18C20.21 20 22 18.21 22 16V8C22 5.79 20.21 4 18 4ZM16.14 13.77C15.9 13.97 15.57 14.05 15.26 13.97L4.15 11.25C4.45 10.52 5.16 10 6 10H18C18.67 10 19.26 10.34 19.63 10.84L16.14 13.77ZM6 6H18C19.1 6 20 6.9 20 8V8.55C19.41 8.21 18.73 8 18 8H6C5.27 8 4.59 8.21 4 8.55V8C4 6.9 4.9 6 6 6Z"/></svg>'],
+    ["search","マッチ検索",'<svg viewBox="0 0 25 24"><path fill="currentColor" d="M20 4H4C2.89 4 2.01 4.89 2.01 6L2 18C2 19.11 2.89 20 4 20H20C21.11 20 22 19.11 22 18V6C22 4.89 21.11 4 20 4ZM20 18H4V12H20V18ZM20 8H4V6H20V8Z"/><path d="M7 2H24M24 2V17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>'],
+    ["table","順位表",'<svg viewBox="0 0 23 23"><path d="M3.83 19.17V10.54M9.58 19.17V4.79M15.33 19.17V13.42M2.88 19.17H20.13" fill="none" stroke="currentColor" stroke-width="1.63" stroke-linecap="round"/></svg>'],
+    ["settings","マイページ",'<svg viewBox="0 0 24 24"><g fill="currentColor"><path d="M10 9C10 7.9 10.9 7 12 7C13.1 7 14 7.9 14 9C14 10.1 13.1 11 12 11C10.9 11 10 10.1 10 9Z"/><path d="M11 12.5C9.34 12.5 8 13.84 8 15.5C8 16.05 8.45 16.5 9 16.5H15C15.55 16.5 16 16.05 16 15.5C16 13.84 14.66 12.5 13 12.5H11Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M7.54 2.88C10.5 2.46 13.5 2.46 16.46 2.88C17.92 3.09 19.05 4.28 19.19 5.76L19.31 7.15C19.61 10.38 19.61 13.62 19.31 16.85L19.19 18.24C19.05 19.72 17.92 20.91 16.46 21.12C13.5 21.54 10.5 21.54 7.54 21.12C6.08 20.91 4.95 19.72 4.81 18.24L4.69 16.85C4.39 13.62 4.39 10.38 4.69 7.15L4.81 5.76C4.95 4.28 6.08 3.09 7.54 2.88ZM16.24 4.37C13.43 3.96 10.57 3.96 7.76 4.37C6.98 4.48 6.38 5.11 6.31 5.89L6.18 7.29C5.9 10.42 5.9 13.58 6.18 16.71L6.31 18.11C6.38 18.89 6.98 19.52 7.76 19.63C10.57 20.04 13.43 20.04 16.24 19.63C17.02 19.52 17.62 18.89 17.69 18.11L17.82 16.71C18.1 13.58 18.1 10.42 17.82 7.29L17.69 5.89C17.62 5.11 17.02 4.48 16.24 4.37Z"/></g></svg>'],
+  ];
+  function renderTabbar(){
+    const bar=document.getElementById("tabbar"); bar.innerHTML="";
+    for(const [id,label,icon] of TABS){
+      const b=document.createElement("button"); b.type="button";
+      b.innerHTML = icon + `<span>${label}</span>`;
+      if(S.tab===id) b.setAttribute("aria-current","page");
+      b.onclick=()=>{ if(S.tab===id){ scrollTo({top:0}); return; } location.hash=id; };
+      bar.appendChild(b);
+    }
+  }
+
+  // ---- カード ----
+  function card(m){
+    const [A,B]=pair(m), j=jst(m.ts), hh=pad(j.h), mm=pad(j.mi), done=isDone(m), stale=isStale(m), picked=S.picks.has(m.id);
+    const b=document.createElement("div");
+    b.className="mcard"+(S.openId===m.id?" open":"")+(done||stale?" done":"")+(picked?" picked":"");
+    b.tabIndex=0; b.setAttribute("role","button"); b.dataset.id=m.id;
+    b.style.setProperty("--A",A); b.style.setProperty("--B",B);
+    b.style.setProperty("--tA",onText(A)); b.style.setProperty("--tB",onText(B));
+    b.setAttribute("aria-expanded", String(S.openId===m.id));
+    b.setAttribute("aria-label", stale ? `${COMP[m.c]} ${m.h.n} 対 ${m.a.n} ${hh}時${mm}分開始・試合終了（結果未取得）` : (done ? `${COMP[m.c]} ${m.h.n} ${m.sc[0]} 対 ${m.sc[1]} ${m.a.n} 試合終了` : `${COMP[m.c]} ${m.h.n} 対 ${m.a.n} ${hh}時${mm}分開始`) + (picked?"・マイウォレット":""));
+    const round = m.c==="CL" ? `リーグフェーズ 第${m.md}節` : `第${m.md}節`;
+    // 中央は得点で統一。試合前は「-」
+    const s1 = done ? m.sc[0] : stale ? "?" : "-", s2 = done ? m.sc[1] : stale ? "?" : "-";
+    b.innerHTML = `
+      <div class="band">
+        <span class="tm th">${crest(m.h.id,m.h.n)}<small>HOME</small></span>
+        <span class="nm nh">${esc(m.h.n)}</span>
+        <span class="kt" data-lg="${m.c}">${lgi(m.c)}${hh}:${mm}</span>
+        <span class="nm na">${esc(m.a.n)}</span>
+        <span class="tm ta">${crest(m.a.id,m.a.n)}<small>AWAY</small></span></div>
+      <span class="ic" data-lg="${m.c}" aria-hidden="true">${CARDIC}</span>
+      <span class="brand" aria-hidden="true"><span class="bname">${LGEN[m.c]||""}</span></span>
+      <div class="flap" aria-hidden="true"><b>${s1}</b><i>${done?"−":":"}</i><b>${s2}</b></div>
+      <span class="md">${round}</span>
+      <span class="bstrip" aria-hidden="true"></span>
+      ${SVC[m.c] ? `<a class="svc" href="${SVC[m.c].url}" target="_blank" rel="noopener" aria-label="${SVC[m.c].name}で見る（新しいタブ）">${SVC[m.c].name}</a>` : ""}`;
+    const sv=b.querySelector(".svc"); if(sv){ sv.addEventListener("click",e=>e.stopPropagation()); sv.addEventListener("pointerdown",e=>e.stopPropagation()); }
+    const toggle=()=>{ S.openId = S.openId===m.id ? null : m.id;
+      // 開けるのは1枚だけ。前に引き出していたカードは収納する
+      document.querySelectorAll(".mcard").forEach(x=>{ const on=Number(x.dataset.id)===S.openId; x.classList.toggle("open",on); x.setAttribute("aria-expanded",String(on)); }); };
+    let moved=false;
+    b.onclick=()=>{ if(moved){ moved=false; return; } toggle(); };
+    const carousel = S.dateMode==="carousel";
+    b.onkeydown=e=>{
+      if((e.key==="Enter"||e.key===" ") && e.target===b){ e.preventDefault(); toggle(); }
+      else if(carousel && (e.key==="ArrowRight"||e.key==="ArrowLeft")){ e.preventDefault(); const car=b.closest(".carousel"); if(car) goPage(car, curPage(car)+(e.key==="ArrowRight"?1:-1), true); }
+      else if(carousel && (e.key==="f"||e.key==="F")){ e.preventDefault(); setPick(m, !S.picks.has(m.id)); }
+      else if(!carousel && e.key==="ArrowRight"){ e.preventDefault(); setPick(m, true); }
+      else if(!carousel && e.key==="ArrowLeft"){ e.preventDefault(); setPick(m, false); } };
+    if(carousel){
+      // ---- 長押し（カルーセル方式）：0.2秒後から震え始め、だんだん大きく。0.9秒で縁が金色に光って登録／解除 ----
+      b.addEventListener("contextmenu",e=>e.preventDefault());
+      const START=200, DONE=900, reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+      let pid=null, sx=0, sy=0, t0=0, raf=0, fired=false;
+      const reset=()=>{ cancelAnimationFrame(raf); raf=0; b.classList.remove("pressing"); b.style.transform=""; b.style.removeProperty("--p"); };
+      const tick=now=>{
+        const el=now-t0, p=Math.max(0,Math.min(1,(el-START)/(DONE-START)));
+        if(el>=START) b.classList.add("pressing");
+        b.style.setProperty("--p", p.toFixed(3));
+        if(!reduce && el>=START){ const a=0.4+2.6*p, k=el/1000;
+          b.style.transform=`translate(${(a*Math.sin(k*70)).toFixed(2)}px, ${(a*.35*Math.cos(k*83)).toFixed(2)}px) rotate(${(a*.32*Math.sin(k*61)).toFixed(2)}deg)`; }
+        if(el>=DONE){ fired=true; moved=true; pid=null; reset(); try{ navigator.vibrate&&navigator.vibrate(18); }catch(_){}
+          setPick(m, !S.picks.has(m.id)); setTimeout(()=>{ moved=false; },400); return; }
+        raf=requestAnimationFrame(tick); };
+      b.addEventListener("pointerdown",e=>{ if(e.button!==0||e.target.closest(".svc")) return; pid=e.pointerId; sx=e.clientX; sy=e.clientY; t0=performance.now(); fired=false; raf=requestAnimationFrame(tick); });
+      b.addEventListener("pointermove",e=>{ if(e.pointerId!==pid) return; if(Math.hypot(e.clientX-sx,e.clientY-sy)>8){ pid=null; reset(); } });
+      const stop=e=>{ if(e.pointerId!==pid) return; pid=null; if(!fired) reset(); };
+      b.addEventListener("pointerup",stop); b.addEventListener("pointercancel",stop);
+      return b;
+    }
+    // ---- 横スワイプ（縦スクロール方式） ----
+    const hint=document.createElement("div"); hint.className="swipe-hint"; hint.setAttribute("aria-hidden","true"); b.appendChild(hint);
+    const TH=70; let sx=0, sy=0, dx=0, id=null, horiz=null;
+    b.addEventListener("pointerdown",e=>{ if(e.button!==0) return; id=e.pointerId; sx=e.clientX; sy=e.clientY; dx=0; horiz=null; });
+    b.addEventListener("pointermove",e=>{
+      if(e.pointerId!==id) return;
+      const x=e.clientX-sx, y=e.clientY-sy;
+      if(horiz===null){ if(Math.abs(x)<8 && Math.abs(y)<8) return; horiz = Math.abs(x)>Math.abs(y)*1.2; if(horiz){ b.setPointerCapture(id); b.classList.add("dragging"); } else { id=null; return; } }
+      dx=x; const lim=Math.max(-140,Math.min(140,dx));
+      b.style.transform=`translateX(${lim}px) rotate(${lim/60}deg)`;
+      const add=dx>0; hint.className="swipe-hint "+(add?"add":"del");
+      hint.textContent = add ? (S.picks.has(m.id)?"マイウォレットに登録済み":"マイウォレットに追加") : (S.picks.has(m.id)?"マイウォレットから外す":"マイウォレットに入っていません");
+      hint.style.opacity=String(Math.min(1,Math.abs(dx)/TH));
+    });
+    const end=e=>{ if(e.pointerId!==id) return; id=null;
+      if(horiz){ moved=true; b.classList.remove("dragging"); b.style.transform=""; hint.style.opacity="0";
+        if(dx>=TH) setPick(m,true); else if(dx<=-TH) setPick(m,false);
+        setTimeout(()=>{ moved=false; },350); } horiz=null; };
+    b.addEventListener("pointerup",end); b.addEventListener("pointercancel",end);
+    return b;
+  }
+  let toastTimer=null;
+  function toast(msg, gold){
+    let el=document.getElementById("toast"); if(!el){ el=document.createElement("div"); el.id="toast"; el.setAttribute("role","status"); document.body.appendChild(el); }
+    el.className="toast"+(gold?" gold":""); el.textContent=msg; el.hidden=false;
+    clearTimeout(toastTimer); toastTimer=setTimeout(()=>{ el.hidden=true; },1600);
+  }
+  // マイウォレットの登録・解除。カードは金色の枠で示す
+  function setPick(m, on){
+    const had=S.picks.has(m.id);
+    if(on===had){ toast(on?"すでにマイウォレットに入っています":"マイウォレットに入っていません"); return; }
+    if(on) S.picks.add(m.id); else S.picks.delete(m.id);
+    store.set("picks",[...S.picks]);
+    document.querySelectorAll(`.mcard[data-id="${m.id}"]`).forEach(c=>{
+      c.classList.toggle("picked",on);
+      if(on){ // 登録した瞬間だけ光を走らせる
+        c.querySelectorAll(".shine").forEach(x=>x.remove());
+        const sh=document.createElement("div"); sh.className="shine"; sh.setAttribute("aria-hidden","true"); c.appendChild(sh);
+        c.classList.remove("just-picked"); void c.offsetWidth; c.classList.add("just-picked");
+        setTimeout(()=>{ sh.remove(); c.classList.remove("just-picked"); }, 1000);
+      } });
+    toast(on?`マイウォレットに追加：${m.h.n} vs ${m.a.n}`:`マイウォレットから外しました`, on);
+    renderTabbar();
+    if(S.tab==="plan") renderPlan();
+  }
+
+
+  // 日付ごとのウォレット。縦スクロール方式：上が未来・下が過去。カルーセル方式：左が過去・右が未来（1日＝1ページ）
+  // 1日の中は上から遅い試合→早い試合、早いほど手前
+  function dayHead(k,n){
+    const d=new Date(k+"T00:00:00Z"), r=rel(k), past=k<today();
+    const h=document.createElement("h2"); h.className="day"+(past?" past":""); h.dataset.key=k;
+    h.innerHTML=`${d.getUTCMonth()+1}/${d.getUTCDate()}（${WD[d.getUTCDay()]}）${r?`<span class="rel${past?" past":""}">${r}</span>`:""}<span class="cnt">${n}試合</span>`;
+    return h;
+  }
+  function stackOf(ms){
+    const s=document.createElement("div"); s.className="stack";
+    ms.slice().reverse().forEach((m,i)=>{ const c=card(m); c.style.zIndex=String(i+1); s.appendChild(c); });
+    return s;
+  }
+  function nextKey(list){ const n=list.filter(m=>!isPast(m)).sort((a,b)=>a.ts<b.ts?-1:1)[0]; return n? jst(n.ts).key : today(); }
+  function curPage(car){ const p=car.children; if(!p.length) return 0; const w=p[0].offsetWidth+16; return Math.max(0,Math.min(p.length-1,Math.round(car.scrollLeft/w))); }
+  function goPage(car,i,smooth){ const p=car.children; if(!p.length) return; i=Math.max(0,Math.min(p.length-1,i)); const w=p[0].offsetWidth+16;
+    car.scrollTo({left:i*w, behavior: smooth && !matchMedia("(prefers-reduced-motion: reduce)").matches ? "smooth":"auto"}); }
+  function wallet(list){
+    const by={}; for(const m of list){ const k=jst(m.ts).key; (by[k]=by[k]||[]).push(m); }
+    const keys=Object.keys(by).sort();
+    if(S.dateMode!=="carousel"){
+      const frag=document.createDocumentFragment();
+      for(const k of keys.slice().reverse()) frag.append(stackOf(by[k]), dayHead(k,by[k].length));
+      return frag;
+    }
+    const wrap=document.createElement("div"); wrap.className="cwrap";
+    const car=document.createElement("div"); car.className="carousel";
+    const dots=document.createElement("div"); dots.className="cdots"; dots.setAttribute("aria-label","日付");
+    keys.forEach((k,i)=>{
+      const pg=document.createElement("section"); pg.className="cpage"; pg.dataset.key=k;
+      pg.append(stackOf(by[k]), dayHead(k,by[k].length)); car.appendChild(pg);
+      const d=document.createElement("button"); d.type="button"; d.className="cdot"+(k===today()?" today":"");
+      const dd=new Date(k+"T00:00:00Z"); d.setAttribute("aria-label",`${dd.getUTCMonth()+1}月${dd.getUTCDate()}日`);
+      d.onclick=()=>goPage(car,i,true); dots.appendChild(d);
+    });
+    let last=-1, settle=0;
+    const sync=()=>{ const i=curPage(car); if(i!==last){ last=i; [...dots.children].forEach((d,j)=>{ d.classList.toggle("on",j===i); d.setAttribute("aria-current",j===i?"true":"false"); }); }
+      onScroll(); };
+    car.addEventListener("scroll",()=>{ sync(); clearTimeout(settle); settle=setTimeout(()=>{
+      // ページが変わったら、その日で一番早い試合のカードと日付が見える位置に縦位置を合わせる
+      const pg=car.children[curPage(car)]; alignBase(pg && pg.querySelector(":scope > h2.day"), true); },140); },{passive:true});
+    wrap.append(car,dots);
+    // はじめは「次の試合がある日」を表示
+    requestAnimationFrame(()=>{ const nk=nextKey(list); let i=keys.findIndex(k=>k>=nk); if(i<0) i=keys.length-1; goPage(car,i,false); sync(); });
+    return wrap;
+  }
+  function filtered(list){
+    return list.filter(m=>S.showPast||!isPast(m));
+  }
+
+  // ---- マイウォレット ----
+  function renderPlan(){
+    const v=document.getElementById("v-plan"); v.innerHTML="";
+    const list=filtered(MATCHES.filter(m=>S.picks.has(m.id)));
+    v.insertAdjacentHTML("beforeend",`<h2 class="sr-only">マイウォレット ${S.picks.size}試合</h2>`);
+    if(!list.length){
+      const e=document.createElement("p"); e.className="empty";
+      e.innerHTML = S.picks.size ? "表示中の条件に合う試合がありません。設定で過去の結果や時間帯の絞り込みを確認してください。" : (S.dateMode==="carousel" ? "「マッチ検索」でカードを長押しすると、ここに集まります。" : "「マッチ検索」でカードを右にスワイプすると、ここに集まります。");
+      v.appendChild(e); return;
+    }
+    const box=document.createElement("div"); box.appendChild(wallet(list)); v.appendChild(box);
+  }
+
+  // ---- 試合検索 ----
+  function renderSearch(keepFocus){
+    const v=document.getElementById("v-search");
+    if(!v.firstChild){
+      v.innerHTML=`<button type="button" class="fab" id="fab" aria-expanded="false" aria-controls="dock" aria-label="検索・絞り込みを開く">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L20.5 20.5"/></svg><span class="fdot" hidden></span></button>
+        <div class="sticky dock" id="dock" role="dialog" aria-label="検索・絞り込み" hidden>
+        <label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L20.5 20.5"/></svg>
+          <input id="q" type="search" placeholder="チーム名で探す（例：バイエルン）" autocomplete="off" aria-label="チーム名で探す">
+          <button type="button" class="clear" id="qclear" aria-label="検索語を消す" hidden>✕</button></label>
+        <nav class="filters lgbtn-row" id="filters" aria-label="大会で絞り込む"></nav></div>
+        <div id="days"></div>
+        <p class="hint" id="shint">上へスワイプすると過去の結果、下へスワイプすると今後の試合です。カードの上の帯をタップすると引き出されます。カードを右にスワイプでマイウォレットに追加、左にスワイプで解除（マイウォレットのカードは金色の枠）。時刻はすべて日本時間です。</p>`;
+      const q=v.querySelector("#q");
+      q.addEventListener("input",()=>{ S.q=q.value; renderSearchBody(); });
+      v.querySelector("#qclear").onclick=()=>{ S.q=""; q.value=""; renderSearchBody(); q.focus(); };
+      // アイコンで開閉。パネルの外をタップするか Esc で閉じる
+      const fab=v.querySelector("#fab"), dock=v.querySelector("#dock");
+      // 開いている間に条件を変えたら、閉じたときに一番早い試合の位置へ合わせ直す
+      let snap="";
+      const setOpen=on=>{ if(on===!dock.hidden) return;
+        if(on) snap=S.q+"|"+S.sel.join(); else if(snap!==S.q+"|"+S.sel.join()) requestAnimationFrame(()=>toToday(true));
+        dock.hidden=!on; fab.setAttribute("aria-expanded",String(on)); fab.setAttribute("aria-label", on?"検索・絞り込みを閉じる":"検索・絞り込みを開く"); };
+      fab.onclick=()=>setOpen(dock.hidden);
+      document.addEventListener("pointerdown",e=>{ if(!dock.hidden && !dock.contains(e.target) && !fab.contains(e.target)) setOpen(false); });
+      document.addEventListener("keydown",e=>{ if(e.key==="Escape" && !dock.hidden){ setOpen(false); fab.focus(); } });
+      addEventListener("hashchange",()=>setOpen(false));
+    }
+    v.querySelector("#q").value=S.q;
+    renderSearchBody();
+  }
+  const inSel = m => !S.sel.length || S.sel.includes(m.c);
+  function renderSearchBody(){
+    const f=document.getElementById("filters"); f.innerHTML="";
+    const mk=(code,label)=>{ const b=document.createElement("button"); b.type="button"; lgButton(b,code,label);
+      b.setAttribute("aria-pressed", String(code==="ALL" ? !S.sel.length : S.sel.includes(code)));
+      b.onclick=()=>{
+        if(code==="ALL") S.sel=[];
+        else { S.sel = S.sel.includes(code) ? S.sel.filter(c=>c!==code) : [...S.sel, code];
+          if(S.sel.length===ORDER.length) S.sel=[]; }   // 全部選んだら「すべて」に戻す
+        store.set("sel",S.sel); renderSearchBody(); }; f.appendChild(b); };
+    mk("ALL","すべて"); ORDER.forEach(c=>mk(c,COMP[c]));
+    document.getElementById("qclear").hidden=!S.q;
+    // 絞り込み中は、閉じていてもアイコンに金色の点を付ける
+    const fd=document.querySelector("#fab .fdot"); if(fd) fd.hidden = !(S.q.trim() || S.sel.length);
+    const q=S.q.trim();
+    const list=filtered(MATCHES.filter(m=>inSel(m) && (!q || m.h.n.includes(q) || m.a.n.includes(q))));
+    const days=document.getElementById("days"); days.innerHTML="";
+    if(!list.length){ days.innerHTML=`<p class="empty">${q? `「${esc(q)}」の試合は見つかりませんでした。`:"この条件の試合はありません。"}</p>`; onScroll(); return; }
+    days.appendChild(wallet(list));
+    const hn=document.getElementById("shint"); if(hn) hn.textContent = S.dateMode==="carousel" ? "左右にスワイプすると日付が変わります（左が過去・右が今後）。カードを長押しするとマイウォレットに追加、もう一度長押しで解除。時刻はすべて日本時間です。" : "上へスワイプすると過去の結果、下へスワイプすると今後の試合です。カードの上の帯をタップすると引き出されます。カードを右にスワイプでマイウォレットに追加、左にスワイプで解除（マイウォレットのカードは金色の枠）。時刻はすべて日本時間です。";
+    requestAnimationFrame(()=>{ toToday(false); onScroll(); });
+  }
+
+  // 順位表のリーグ選択ボタン。見た目はマイページで「ICチップ」か「マット」を選べる
+  // マッチ検索の大会ボタンも同じ部品。「すべて」はエンブレムの代わりに ALL の刻印
+  function lgButton(b,c,label){
+    label = label || COMP[c]; b.dataset.lg=c;
+    const em = c==="ALL" ? `<span class="allmark">ALL</span>` : lgi(c);
+    if(S.lgStyle==="matte"){ b.className="chip lgbtn matte"; b.innerHTML=em+`<span>${esc(label)}</span>`; }
+    else { b.className="chip lgbtn"; b.innerHTML=`<span class="ic2" aria-hidden="true">${IC}${em}</span><span class="nm2">${esc(label)}</span>`; }
+  }
+  // ---- 順位表 ----
+  const ZONE = {PL:[4,18],PD:[4,18],SA:[4,18],BL1:[4,16],FL1:[3,16],CL:[8,25]};
+  function renderTable(){
+    const v=document.getElementById("v-table"); v.innerHTML="";
+    const head=document.createElement("div"); head.className="sticky";
+    head.innerHTML=`<h2 class="sr-only">順位表</h2><nav class="filters lgbtn-row" aria-label="大会を選ぶ"></nav>`;
+    const f=head.querySelector("nav");
+    for(const c of ORDER){ const b=document.createElement("button"); b.type="button"; lgButton(b,c); b.setAttribute("aria-pressed",String(S.tbl===c));
+      b.onclick=()=>{ S.tbl=c; store.set("tbl",c); renderTable(); }; f.appendChild(b); }
+    v.appendChild(head);
+    const [top,bottom]=ZONE[S.tbl], rows=STANDINGS[S.tbl]||[];
+    const wrap=document.createElement("div"); wrap.className="tbl-wrap";
+    wrap.innerHTML=`<table class="st"><thead><tr><th>#</th><th class="tm">チーム</th><th>試合</th><th>勝</th><th>分</th><th>敗</th><th>得失</th><th>勝点</th></tr></thead><tbody></tbody></table>`;
+    const tb=wrap.querySelector("tbody");
+    for(const [rk,id,n,pl,w,d,l,gd,pts] of rows){
+      const [a,b]=colorsOf(id), tr=document.createElement("tr"); tr.className="trow"; tr.tabIndex=0;
+      const z = rk<=top ? " z1" : rk>bottom ? " z3" : "";
+      tr.innerHTML=`<td class="rk${z}">${rk}</td><td class="tm"><span class="tname">${crest(id,n)}<em>${esc(n)}</em></span></td>
+        <td class="num">${pl}</td><td class="num">${w}</td><td class="num">${d}</td><td class="num">${l}</td><td class="num">${gd>0?"+"+gd:gd}</td><td class="pts">${pts}</td>`;
+      const go=()=>{ S.q=n; S.sel=[]; store.set("sel",[]); location.hash="search"; };
+      tr.onclick=go; tr.onkeydown=e=>{ if(e.key==="Enter"){ e.preventDefault(); go(); } };
+      tb.appendChild(tr);
+    }
+    v.appendChild(wrap);
+    const lg=document.createElement("div"); lg.className="legend";
+    lg.innerHTML = S.tbl==="CL"
+      ? `<span><i style="background:var(--accent)"></i>1〜8位：ベスト16へ直接</span><span><i style="background:var(--bl1)"></i>25位以下：敗退</span><span>行をタップするとその試合を検索</span>`
+      : `<span><i style="background:var(--accent)"></i>CL出場圏</span><span><i style="background:var(--bl1)"></i>降格圏</span><span>行をタップするとその試合を検索</span>`;
+    v.appendChild(lg);
+  }
+
+  // ---- 設定 ----
+  let armReset=false;
+  function renderSettings(){
+    const v=document.getElementById("v-settings"); v.innerHTML="";
+    v.innerHTML=`<h2 class="sr-only">マイページ</h2>
+      <div class="set-group"><h3>表示</h3>
+        <div class="set-row"><div class="lbl"><b>テーマ</b><span>画面の明るさ</span></div>
+          <div class="seg" id="seg-theme"></div></div>
+        <div class="set-row"><div class="lbl"><b>過去の結果を表示</b><span>終わった試合のカードを出す</span></div>
+          <label class="switch"><input type="checkbox" id="sw-past" ${S.showPast?"checked":""} aria-label="過去の結果を表示"><span></span></label></div>
+        <div class="set-row"><div class="lbl"><b>日付の移動</b><span>${S.dateMode==="carousel" ? "左右で日付、長押しでマイウォレット" : "上下で日付、左右スワイプでマイウォレット"}</span></div>
+          <div class="seg" id="seg-date"></div></div>
+        <div class="set-row"><div class="lbl"><b>順位表のリーグボタン</b><span>リーグを選ぶボタンの見た目</span></div>
+          <div class="seg" id="seg-lg"></div></div>
+        <div class="set-row lg-preview" id="lg-preview" aria-hidden="true"></div>
+      </div>
+      <div class="set-group"><h3>ヘッダーのマーク</h3>
+        <div class="set-row logo-row"><div class="logo-grid" id="logo-grid" role="radiogroup" aria-label="マーク"></div></div>
+        <div class="set-row"><div class="lbl"><b>配色</b><span>新しいマークの色（今のマークは白黒＋金のまま）</span></div>
+          <div class="seg" id="seg-logo-color"></div></div>
+      </div>
+      <div class="set-group"><h3>マイウォレット</h3>
+        <div class="set-row"><div class="lbl"><b>マイウォレットを空にする</b><span>マイウォレットの ${S.picks.size}試合をすべて外す</span></div>
+          <button type="button" class="btn-danger" id="reset" ${S.picks.size?"":"disabled"}>空にする</button></div>
+      </div>
+      <p class="about">日程・結果・順位は ${ASOF.slice(5).replace("-","/")} 時点の内容です。マイウォレットと設定はこの端末のブラウザに保存され、ほかの端末とは共有されません。</p>`;
+    const seg=v.querySelector("#seg-theme");
+    for(const [k,l] of [["system","自動"],["light","ライト"],["dark","ダーク"]]){
+      const b=document.createElement("button"); b.type="button"; b.textContent=l; b.setAttribute("aria-pressed",String(S.theme===k));
+      b.onclick=()=>{ S.theme=k; store.set("theme",k); applyTheme(); renderSettings(); }; seg.appendChild(b); }
+    const lgGrid=v.querySelector("#logo-grid");
+    for(const [k,l] of LOGOS){
+      const b=document.createElement("button"); b.type="button"; b.className="logo-opt"; b.setAttribute("role","radio"); b.setAttribute("aria-checked",String(S.logo===k));
+      b.innerHTML=`<span class="pv">${k==="current" ? CURRENT_LOGO : logoMark(k,S.logoColor)}</span><span class="nm">${l}</span>`;
+      b.onclick=()=>{ S.logo=k; store.set("logo",k); renderBrand(); renderSettings(); }; lgGrid.appendChild(b); }
+    const slc=v.querySelector("#seg-logo-color");
+    for(const [k,l] of [["mono","モノクロ"],["league","リーグ色"]]){
+      const b=document.createElement("button"); b.type="button"; b.textContent=l; b.setAttribute("aria-pressed",String(S.logoColor===k));
+      b.onclick=()=>{ S.logoColor=k; store.set("logoColor",k); renderBrand(); renderSettings(); }; slc.appendChild(b); }
+    const sd=v.querySelector("#seg-date");
+    for(const [k,l] of [["vertical","縦スクロール"],["carousel","カルーセル"]]){
+      const b=document.createElement("button"); b.type="button"; b.textContent=l; b.setAttribute("aria-pressed",String(S.dateMode===k));
+      b.onclick=()=>{ S.dateMode=k; store.set("dateMode",k); renderSettings(); }; sd.appendChild(b); }
+    const sl=v.querySelector("#seg-lg");
+    for(const [k,l] of [["chip","ICチップ"],["matte","マット"]]){
+      const b=document.createElement("button"); b.type="button"; b.textContent=l; b.setAttribute("aria-pressed",String(S.lgStyle===k));
+      b.onclick=()=>{ S.lgStyle=k; store.set("lgStyle",k); renderSettings(); }; sl.appendChild(b); }
+    const pv=v.querySelector("#lg-preview");
+    for(const c of ["PL","PD","SA"]){ const b=document.createElement("span"); lgButton(b,c); b.setAttribute("aria-pressed",String(c==="PL")); pv.appendChild(b); }
+    v.querySelector("#sw-past").onchange=e=>{ S.showPast=e.target.checked; store.set("showPast",S.showPast); };
+    const r=v.querySelector("#reset");
+    if(armReset){ r.classList.add("arm"); r.textContent="もう一度押すと空にします"; }
+    r.onclick=()=>{ if(!armReset){ armReset=true; renderSettings(); setTimeout(()=>{ if(armReset){ armReset=false; if(S.tab==="settings") renderSettings(); } },4000); return; }
+      armReset=false; S.picks.clear(); store.set("picks",[]); renderTabbar(); renderSettings(); };
+  }
+
+  // ---- 今日へ戻る（試合検索のみ） ----
+  const btn=document.getElementById("todayBtn"), arrow=document.getElementById("tbArrow");
+  function anchor(){ if(S.tab!=="search") return null; const hs=[...document.querySelectorAll("#days h2.day")]; // 「今日」は、まだ始まっていない次の試合がある日（今朝すでに終わった試合だけの日は飛ばす）
+    const next=MATCHES.filter(m=>!isPast(m) && inSel(m)).sort((a,b)=>a.ts<b.ts?-1:1)[0];
+    const nk=next? jst(next.ts).key : today();
+    return hs.filter(h=>h.dataset.key>=nk).pop() || hs[0] || null; }
+  // 日付の基準＝その日で一番早い試合のカード（束の一番手前＝下端）と、その下の日付
+  const baseCard = h => { const s=h && h.previousElementSibling; return s && s.classList.contains("stack") && s.lastElementChild ? s.lastElementChild : h; };
+  // 画面の下に浮かぶメニュー・検索パネル・ボタンを除いた、見える範囲の下端
+  function viewBottom(){ const cs=getComputedStyle(document.documentElement), px=v=>parseFloat(cs.getPropertyValue(v))||0;
+    return innerHeight - px("--nav-h") - px("--dock-h") - px("--dots-h") - 64; }
+  // 一番早い試合のカードの下の日付が、見える範囲の下端に来るように縦位置を合わせる（遅い試合はその上に重なって見える）
+  function alignBase(h, smooth){ if(!h) return; setDock();   // 下のパネルの高さを測ってから合わせる
+    const top=h.getBoundingClientRect().bottom + scrollY - viewBottom();
+    scrollTo({top:Math.max(0,top), behavior: smooth && !matchMedia("(prefers-reduced-motion: reduce)").matches ? "smooth":"auto"}); }
+  function curCar(){ return S.tab==="search" ? document.querySelector("#v-search .carousel") : null; }
+  function todayIndex(car){ const keys=[...car.children].map(p=>p.dataset.key);
+    const nk=nextKey(MATCHES.filter(inSel)); let i=keys.findIndex(k=>k>=nk); return i<0? keys.length-1 : i; }
+  function toToday(smooth){ const car=curCar(); if(car){ goPage(car,todayIndex(car),smooth); return; }
+    alignBase(anchor(), smooth); }
+  // いま見ている日：日付（カードの束の下）が基準線（見える範囲の下端）より下にある最初の日＝基準線をまたいでいる日
+  const pill=document.getElementById("datePill");
+  function curDayHead(){
+    const root = S.tab==="search" ? document.getElementById("days") : S.tab==="plan" ? document.getElementById("v-plan") : null;
+    if(!root || root.closest("[hidden]")) return null;
+    const car=root.querySelector(".carousel");
+    if(car){ const pg=car.children[curPage(car)]; return pg ? pg.querySelector(":scope > h2.day") : null; }
+    const hs=[...root.querySelectorAll("h2.day")]; if(!hs.length) return null;
+    const line=viewBottom(); return hs.find(h=>h.getBoundingClientRect().bottom >= line-2) || hs[hs.length-1];
+  }
+  let pillKey=null;
+  function renderPill(){
+    const h=curDayHead(); if(!h){ pill.hidden=true; pillKey=null; return; }
+    pill.hidden=false; const k=h.dataset.key; if(k===pillKey) return; pillKey=k;
+    const d=new Date(k+"T00:00:00Z"), r=rel(k), past=k<today();
+    pill.className="datepill"+(past?" past":"");
+    pill.innerHTML=`${d.getUTCMonth()+1}/${d.getUTCDate()}（${WD[d.getUTCDay()]}）${r?`<span class="rel">${r}</span>`:""}`;
+  }
+  function onScroll(){ const car=curCar(); renderPill();
+    if(car){ if(!car.children.length){ btn.hidden=true; return; } const c=curPage(car), ti=todayIndex(car); btn.hidden = c===ti;
+      arrow.setAttribute("d", ti>c ? "M6 4l4 4-4 4" : "M10 4l-4 4 4 4"); return; }
+    const a=anchor(); if(!a){ btn.hidden=true; return; }
+    const y=baseCard(a).getBoundingClientRect().top, hb=a.getBoundingClientRect().bottom;
+    btn.hidden = y>-40 && hb<viewBottom()+80;
+    arrow.setAttribute("d", y<0 ? "M4 10l4-4 4 4" : "M4 6l4 4 4-4"); }
+  btn.onclick=()=>toToday(true);
+  // 下のパネルの高さを測って、ボタンや一覧の余白に使う
+  const setDock=()=>{ const d=document.getElementById("dock"); const h=(d && !d.hidden && !document.getElementById("v-search").hidden) ? d.offsetHeight+76 : 0; document.documentElement.style.setProperty("--dock-h", h+"px");
+    const dv=[...document.querySelectorAll(".cdots")].some(x=>x.getClientRects().length); document.documentElement.style.setProperty("--dots-h", dv? "30px":"0px"); };
+  addEventListener("resize", setDock); new MutationObserver(()=>requestAnimationFrame(setDock)).observe(document.body,{subtree:true,childList:true,attributes:true,attributeFilter:["hidden"]}); setDock();
+  addEventListener("scroll", onScroll, {passive:true});
+
+  // ---- 画面の切り替え（#plan / #search / #table / #settings） ----
+  const VIEWS={plan:renderPlan, search:renderSearch, table:renderTable, settings:renderSettings};
+  function route(){
+    const h=location.hash.slice(1); S.tab = VIEWS[h] ? h : "search"; S.openId=null; armReset=false;
+    for(const k in VIEWS) document.getElementById("v-"+k).hidden = k!==S.tab;
+    renderTabbar(); VIEWS[S.tab]();
+    if(S.tab!=="search"){ scrollTo({top:0}); btn.hidden=true; }
+    requestAnimationFrame(renderPill);
+  }
+  addEventListener("hashchange", route);
+  route();
+
+  // ---- 毎朝の更新データを読む（GitHub Actions が data/app.json を更新する）----
+  // 読めないとき（電波がない等）は、サービスワーカーが保存した前回のデータ、それもなければページに書き込んである時点のデータで表示する
+  (async()=>{
+    const load=async()=>{
+      let d=null; try{ const r=await fetch("data/app.json",{cache:"no-cache"}); if(r.ok) d=await r.json(); }catch(e){}
+      if(!d) return;
+      const fx=d.fixtures||{}, st=d.standings||{}, syncAt=d.meta && d.meta.last_sync_at;
+      const jaT=x=>({id:x.id, n:(x.id!=null && JA[x.id]) || x.n});
+      const now=Date.now(), from=now-8*864e5, to=now+400*864e5, out=[];
+      for(const code of Object.keys(fx)) for(const it of (fx[code].items||[])){
+        const t=Date.parse(it.ts); if(!(t>=from && t<=to)) continue;
+        const o={id:it.id, c:code, ts:it.ts, md:it.md, h:jaT(it.h), a:jaT(it.a), st:it.st};
+        if(it.sc && it.sc[0]!=null && it.sc[1]!=null) o.sc=it.sc;
+        out.push(o); }
+      let changed=false;
+      if(out.length){ MATCHES=out.sort((a,b)=>a.ts<b.ts?-1:a.ts>b.ts?1:(a.c<b.c?-1:1)); changed=true; }
+      for(const code of Object.keys(st)){ const tb=(st[code].tables||[])[0]; if(!tb) continue;
+        STANDINGS[code]=tb.rows.map(r=>[r.rank, r.team.id, (JA[r.team.id]||r.team.n), r.played, r.w, r.d, r.l, r.gd, r.pts]); changed=true; }
+      if(syncAt){ ASOF=new Date(Date.parse(syncAt)+9*3600e3).toISOString().slice(0,10); }
+      if(changed){ const keep=S.openId; renderTabbar(); VIEWS[S.tab](); S.openId=keep; }
+    };
+    await load();
+    // アプリに戻ってきたとき、前回の読み込みから30分以上たっていれば読み直す
+    let last=Date.now();
+    document.addEventListener("visibilitychange",()=>{ if(document.visibilityState==="visible" && Date.now()-last>30*60e3){ last=Date.now(); load(); } });
+  })();
+})();
+</script>
+<script>if('serviceWorker' in navigator) addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));</script>
+</body></html>

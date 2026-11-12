@@ -1,0 +1,1114 @@
+{
+ "competition": {
+  "code": "PD",
+  "emblem": "https://crests.football-data.org/laliga.png",
+  "name": "ラ・リーガ"
+ },
+ "count": 44,
+ "matches": [
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/79.png",
+    "id": 79,
+    "name": "CA Osasuna",
+    "shortName": "Osasuna"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/560.png",
+    "id": 560,
+    "name": "RC Deportivo La Coruña",
+    "shortName": "Deportivo"
+   },
+   "id": 564731,
+   "matchday": 11,
+   "score": {
+    "away": 1,
+    "home": 2,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-02T20:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/263.png",
+    "id": 263,
+    "name": "Deportivo Alavés",
+    "shortName": "Alavés"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/559.png",
+    "id": 559,
+    "name": "Sevilla FC",
+    "shortName": "Sevilla FC"
+   },
+   "id": 564740,
+   "matchday": 12,
+   "score": {
+    "away": 0,
+    "home": 0,
+    "winner": "DRAW"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-06T20:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/5335.png",
+    "id": 5335,
+    "name": "Real Racing Club de Santander",
+    "shortName": "Santander"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/84.png",
+    "id": 84,
+    "name": "Málaga CF",
+    "shortName": "Málaga"
+   },
+   "id": 564744,
+   "matchday": 12,
+   "score": {
+    "away": 2,
+    "home": 1,
+    "winner": "AWAY_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-07T13:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/560.png",
+    "id": 560,
+    "name": "RC Deportivo La Coruña",
+    "shortName": "Deportivo"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/80.png",
+    "id": 80,
+    "name": "RCD Espanyol de Barcelona",
+    "shortName": "Espanyol"
+   },
+   "id": 564745,
+   "matchday": 12,
+   "score": {
+    "away": 0,
+    "home": 0,
+    "winner": "DRAW"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-07T15:15:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/77.png",
+    "id": 77,
+    "name": "Athletic Club",
+    "shortName": "Athletic"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/79.png",
+    "id": 79,
+    "name": "CA Osasuna",
+    "shortName": "Osasuna"
+   },
+   "id": 564739,
+   "matchday": 12,
+   "score": {
+    "away": 1,
+    "home": 1,
+    "winner": "DRAW"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-07T17:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/86.png",
+    "id": 86,
+    "name": "Real Madrid CF",
+    "shortName": "Real Madrid"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/95.png",
+    "id": 95,
+    "name": "Valencia CF",
+    "shortName": "Valencia"
+   },
+   "id": 564741,
+   "matchday": 12,
+   "score": {
+    "away": 3,
+    "home": 0,
+    "winner": "AWAY_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-07T20:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/90.png",
+    "id": 90,
+    "name": "Real Betis Balompié",
+    "shortName": "Real Betis"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/285.png",
+    "id": 285,
+    "name": "Elche CF",
+    "shortName": "Elche"
+   },
+   "id": 564738,
+   "matchday": 12,
+   "score": {
+    "away": 2,
+    "home": 0,
+    "winner": "AWAY_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-08T13:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/87.png",
+    "id": 87,
+    "name": "Rayo Vallecano de Madrid",
+    "shortName": "Rayo Vallecano"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/92.png",
+    "id": 92,
+    "name": "Real Sociedad de Fútbol",
+    "shortName": "Real Sociedad"
+   },
+   "id": 564743,
+   "matchday": 12,
+   "score": {
+    "away": 0,
+    "home": 1,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-08T15:15:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/88.png",
+    "id": 88,
+    "name": "Levante UD",
+    "shortName": "Levante"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/558.png",
+    "id": 558,
+    "name": "RC Celta de Vigo",
+    "shortName": "Celta"
+   },
+   "id": 564742,
+   "matchday": 12,
+   "score": {
+    "away": 0,
+    "home": 0,
+    "winner": "DRAW"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-08T17:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/82.png",
+    "id": 82,
+    "name": "Getafe CF",
+    "shortName": "Getafe"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/94.png",
+    "id": 94,
+    "name": "Villarreal CF",
+    "shortName": "Villarreal"
+   },
+   "id": 564747,
+   "matchday": 12,
+   "score": {
+    "away": 0,
+    "home": 2,
+    "winner": "HOME_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-08T17:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/81.png",
+    "id": 81,
+    "name": "FC Barcelona",
+    "shortName": "Barça"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/78.png",
+    "id": 78,
+    "name": "Club Atlético de Madrid",
+    "shortName": "Atleti"
+   },
+   "id": 564746,
+   "matchday": 12,
+   "score": {
+    "away": 2,
+    "home": 1,
+    "winner": "AWAY_TEAM"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-08T20:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/80.png",
+    "id": 80,
+    "name": "RCD Espanyol de Barcelona",
+    "shortName": "Espanyol"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/77.png",
+    "id": 77,
+    "name": "Athletic Club",
+    "shortName": "Athletic"
+   },
+   "id": 564748,
+   "matchday": 13,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-20T20:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/560.png",
+    "id": 560,
+    "name": "RC Deportivo La Coruña",
+    "shortName": "Deportivo"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/263.png",
+    "id": 263,
+    "name": "Deportivo Alavés",
+    "shortName": "Alavés"
+   },
+   "id": 564755,
+   "matchday": 13,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-21T13:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/95.png",
+    "id": 95,
+    "name": "Valencia CF",
+    "shortName": "Valencia"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/87.png",
+    "id": 87,
+    "name": "Rayo Vallecano de Madrid",
+    "shortName": "Rayo Vallecano"
+   },
+   "id": 564751,
+   "matchday": 13,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-21T15:15:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/90.png",
+    "id": 90,
+    "name": "Real Betis Balompié",
+    "shortName": "Real Betis"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/559.png",
+    "id": 559,
+    "name": "Sevilla FC",
+    "shortName": "Sevilla FC"
+   },
+   "id": 564756,
+   "matchday": 13,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-21T17:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/558.png",
+    "id": 558,
+    "name": "RC Celta de Vigo",
+    "shortName": "Celta"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/86.png",
+    "id": 86,
+    "name": "Real Madrid CF",
+    "shortName": "Real Madrid"
+   },
+   "id": 564754,
+   "matchday": 13,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-21T20:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/94.png",
+    "id": 94,
+    "name": "Villarreal CF",
+    "shortName": "Villarreal"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/81.png",
+    "id": 81,
+    "name": "FC Barcelona",
+    "shortName": "Barça"
+   },
+   "id": 564749,
+   "matchday": 13,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-22T13:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/92.png",
+    "id": 92,
+    "name": "Real Sociedad de Fútbol",
+    "shortName": "Real Sociedad"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/5335.png",
+    "id": 5335,
+    "name": "Real Racing Club de Santander",
+    "shortName": "Santander"
+   },
+   "id": 564750,
+   "matchday": 13,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-22T15:15:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/84.png",
+    "id": 84,
+    "name": "Málaga CF",
+    "shortName": "Málaga"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/79.png",
+    "id": 79,
+    "name": "CA Osasuna",
+    "shortName": "Osasuna"
+   },
+   "id": 564752,
+   "matchday": 13,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-22T17:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/78.png",
+    "id": 78,
+    "name": "Club Atlético de Madrid",
+    "shortName": "Atleti"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/82.png",
+    "id": 82,
+    "name": "Getafe CF",
+    "shortName": "Getafe"
+   },
+   "id": 564753,
+   "matchday": 13,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-22T20:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/285.png",
+    "id": 285,
+    "name": "Elche CF",
+    "shortName": "Elche"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/88.png",
+    "id": 88,
+    "name": "Levante UD",
+    "shortName": "Levante"
+   },
+   "id": 564757,
+   "matchday": 13,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-23T20:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/5335.png",
+    "id": 5335,
+    "name": "Real Racing Club de Santander",
+    "shortName": "Santander"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/88.png",
+    "id": 88,
+    "name": "Levante UD",
+    "shortName": "Levante"
+   },
+   "id": 564765,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-27T20:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/87.png",
+    "id": 87,
+    "name": "Rayo Vallecano de Madrid",
+    "shortName": "Rayo Vallecano"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/90.png",
+    "id": 90,
+    "name": "Real Betis Balompié",
+    "shortName": "Real Betis"
+   },
+   "id": 564760,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-28T13:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/77.png",
+    "id": 77,
+    "name": "Athletic Club",
+    "shortName": "Athletic"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/84.png",
+    "id": 84,
+    "name": "Málaga CF",
+    "shortName": "Málaga"
+   },
+   "id": 564767,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-28T15:15:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/78.png",
+    "id": 78,
+    "name": "Club Atlético de Madrid",
+    "shortName": "Atleti"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/285.png",
+    "id": 285,
+    "name": "Elche CF",
+    "shortName": "Elche"
+   },
+   "id": 564759,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-28T17:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/263.png",
+    "id": 263,
+    "name": "Deportivo Alavés",
+    "shortName": "Alavés"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/86.png",
+    "id": 86,
+    "name": "Real Madrid CF",
+    "shortName": "Real Madrid"
+   },
+   "id": 564762,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-28T20:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/79.png",
+    "id": 79,
+    "name": "CA Osasuna",
+    "shortName": "Osasuna"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/95.png",
+    "id": 95,
+    "name": "Valencia CF",
+    "shortName": "Valencia"
+   },
+   "id": 564761,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-29T13:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/81.png",
+    "id": 81,
+    "name": "FC Barcelona",
+    "shortName": "Barça"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/560.png",
+    "id": 560,
+    "name": "RC Deportivo La Coruña",
+    "shortName": "Deportivo"
+   },
+   "id": 564766,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-29T15:15:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/94.png",
+    "id": 94,
+    "name": "Villarreal CF",
+    "shortName": "Villarreal"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/558.png",
+    "id": 558,
+    "name": "RC Celta de Vigo",
+    "shortName": "Celta"
+   },
+   "id": 564758,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-29T17:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/559.png",
+    "id": 559,
+    "name": "Sevilla FC",
+    "shortName": "Sevilla FC"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/92.png",
+    "id": 92,
+    "name": "Real Sociedad de Fútbol",
+    "shortName": "Real Sociedad"
+   },
+   "id": 564764,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-29T20:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/82.png",
+    "id": 82,
+    "name": "Getafe CF",
+    "shortName": "Getafe"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/80.png",
+    "id": 80,
+    "name": "RCD Espanyol de Barcelona",
+    "shortName": "Espanyol"
+   },
+   "id": 564763,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-11-30T20:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/86.png",
+    "id": 86,
+    "name": "Real Madrid CF",
+    "shortName": "Real Madrid"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/92.png",
+    "id": 92,
+    "name": "Real Sociedad de Fútbol",
+    "shortName": "Real Sociedad"
+   },
+   "id": 564855,
+   "matchday": 23,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-02T18:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/78.png",
+    "id": 78,
+    "name": "Club Atlético de Madrid",
+    "shortName": "Atleti"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/81.png",
+    "id": 81,
+    "name": "FC Barcelona",
+    "shortName": "Barça"
+   },
+   "id": 564857,
+   "matchday": 23,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-02T20:30:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/285.png",
+    "id": 285,
+    "name": "Elche CF",
+    "shortName": "Elche"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/79.png",
+    "id": 79,
+    "name": "CA Osasuna",
+    "shortName": "Osasuna"
+   },
+   "id": 564768,
+   "matchday": 15,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-06T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/84.png",
+    "id": 84,
+    "name": "Málaga CF",
+    "shortName": "Málaga"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/559.png",
+    "id": 559,
+    "name": "Sevilla FC",
+    "shortName": "Sevilla FC"
+   },
+   "id": 564769,
+   "matchday": 15,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-06T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/80.png",
+    "id": 80,
+    "name": "RCD Espanyol de Barcelona",
+    "shortName": "Espanyol"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/263.png",
+    "id": 263,
+    "name": "Deportivo Alavés",
+    "shortName": "Alavés"
+   },
+   "id": 564770,
+   "matchday": 15,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-06T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/90.png",
+    "id": 90,
+    "name": "Real Betis Balompié",
+    "shortName": "Real Betis"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/78.png",
+    "id": 78,
+    "name": "Club Atlético de Madrid",
+    "shortName": "Atleti"
+   },
+   "id": 564771,
+   "matchday": 15,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-06T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/560.png",
+    "id": 560,
+    "name": "RC Deportivo La Coruña",
+    "shortName": "Deportivo"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/5335.png",
+    "id": 5335,
+    "name": "Real Racing Club de Santander",
+    "shortName": "Santander"
+   },
+   "id": 564772,
+   "matchday": 15,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-06T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/558.png",
+    "id": 558,
+    "name": "RC Celta de Vigo",
+    "shortName": "Celta"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/81.png",
+    "id": 81,
+    "name": "FC Barcelona",
+    "shortName": "Barça"
+   },
+   "id": 564773,
+   "matchday": 15,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-06T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/95.png",
+    "id": 95,
+    "name": "Valencia CF",
+    "shortName": "Valencia"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/82.png",
+    "id": 82,
+    "name": "Getafe CF",
+    "shortName": "Getafe"
+   },
+   "id": 564774,
+   "matchday": 15,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-06T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/86.png",
+    "id": 86,
+    "name": "Real Madrid CF",
+    "shortName": "Real Madrid"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/77.png",
+    "id": 77,
+    "name": "Athletic Club",
+    "shortName": "Athletic"
+   },
+   "id": 564775,
+   "matchday": 15,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-06T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/92.png",
+    "id": 92,
+    "name": "Real Sociedad de Fútbol",
+    "shortName": "Real Sociedad"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/94.png",
+    "id": 94,
+    "name": "Villarreal CF",
+    "shortName": "Villarreal"
+   },
+   "id": 564776,
+   "matchday": 15,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-06T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/88.png",
+    "id": 88,
+    "name": "Levante UD",
+    "shortName": "Levante"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/87.png",
+    "id": 87,
+    "name": "Rayo Vallecano de Madrid",
+    "shortName": "Rayo Vallecano"
+   },
+   "id": 564777,
+   "matchday": 15,
+   "score": {
+    "away": null,
+    "home": null,
+    "winner": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-06T00:00:00Z"
+  },
+  {
+   "away": {
+    "crest": "https://crests.football-data.org/77.png",
+    "id": 77,
+    "name": "Athletic Club",
+    "shortName": "Athletic"
+   },
+   "group": null,
+   "home": {
+    "crest": "https://crests.football-data.org/87.png",
+    "id": 87,
+    "name": "Rayo Vallecano de Madrid",
+    "shortName": "Rayo Vallecano"
+   },
+   "id": 564698,
+   "matchday": 8,
+   "score": {
+    "away": 0,
+    "home": 0,
+    "winner": "DRAW"
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "CANCELLED",
+   "utcDate": "2026-12-09T19:00:00Z"
+  }
+ ],
+ "window": {
+  "from": "2026-11-02",
+  "to": "2026-12-09"
+ }
+}
