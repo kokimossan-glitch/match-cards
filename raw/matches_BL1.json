@@ -881,10 +881,73 @@
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
    "utcDate": "2026-12-12T17:30:00Z"
+  },
+  {
+   "away": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "home": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "id": 565889,
+   "matchday": 13,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-13T14:30:00Z"
+  },
+  {
+   "away": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "home": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "id": 565891,
+   "matchday": 13,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-13T16:30:00Z"
+  },
+  {
+   "away": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "home": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "id": 565885,
+   "matchday": 13,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-13T18:30:00Z"
   }
  ],
  "window": {
-  "from": "2026-11-05",
-  "to": "2026-12-12"
+  "from": "2026-11-06",
+  "to": "2026-12-13"
  }
 }
