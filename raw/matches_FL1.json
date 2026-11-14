@@ -2,27 +2,6 @@
  "matches": [
   {
    "away": {
-    "id": 576,
-    "name": "RC Strasbourg Alsace",
-    "shortName": "Strasbourg"
-   },
-   "home": {
-    "id": 511,
-    "name": "Toulouse FC",
-    "shortName": "Toulouse"
-   },
-   "id": 559638,
-   "matchday": 10,
-   "score": {
-    "away": 1,
-    "home": 3
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "FINISHED",
-   "utcDate": "2026-11-06T19:45:00Z"
-  },
-  {
-   "away": {
     "id": 1045,
     "name": "Paris FC",
     "shortName": "Paris FC"
@@ -947,7 +926,7 @@
   }
  ],
  "window": {
-  "from": "2026-11-06",
-  "to": "2026-12-13"
+  "from": "2026-11-07",
+  "to": "2026-12-14"
  }
 }

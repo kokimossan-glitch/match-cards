@@ -2,27 +2,6 @@
  "matches": [
   {
    "away": {
-    "id": 1076,
-    "name": "Coventry City FC",
-    "shortName": "Coventry City"
-   },
-   "home": {
-    "id": 62,
-    "name": "Everton FC",
-    "shortName": "Everton"
-   },
-   "id": 560634,
-   "matchday": 10,
-   "score": {
-    "away": 1,
-    "home": 3
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "FINISHED",
-   "utcDate": "2026-11-06T20:00:00Z"
-  },
-  {
-   "away": {
     "id": 73,
     "name": "Tottenham Hotspur FC",
     "shortName": "Tottenham"
@@ -1238,10 +1217,31 @@
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
    "utcDate": "2026-12-13T19:00:00Z"
+  },
+  {
+   "away": {
+    "id": 73,
+    "name": "Tottenham Hotspur FC",
+    "shortName": "Tottenham"
+   },
+   "home": {
+    "id": 322,
+    "name": "Hull City AFC",
+    "shortName": "Hull City"
+   },
+   "id": 560684,
+   "matchday": 15,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-14T20:00:00Z"
   }
  ],
  "window": {
-  "from": "2026-11-06",
-  "to": "2026-12-13"
+  "from": "2026-11-07",
+  "to": "2026-12-14"
  }
 }

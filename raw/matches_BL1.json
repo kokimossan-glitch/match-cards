@@ -2,27 +2,6 @@
  "matches": [
   {
    "away": {
-    "id": 18,
-    "name": "Borussia Mönchengladbach",
-    "shortName": "M'gladbach"
-   },
-   "home": {
-    "id": 7,
-    "name": "Hamburger SV",
-    "shortName": "HSV"
-   },
-   "id": 565852,
-   "matchday": 9,
-   "score": {
-    "away": 1,
-    "home": 3
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "FINISHED",
-   "utcDate": "2026-11-06T19:30:00Z"
-  },
-  {
-   "away": {
     "id": 16,
     "name": "FC Augsburg",
     "shortName": "Augsburg"
@@ -947,7 +926,7 @@
   }
  ],
  "window": {
-  "from": "2026-11-06",
-  "to": "2026-12-13"
+  "from": "2026-11-07",
+  "to": "2026-12-14"
  }
 }

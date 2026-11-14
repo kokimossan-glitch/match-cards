@@ -2,27 +2,6 @@
  "matches": [
   {
    "away": {
-    "id": 263,
-    "name": "Deportivo Alavés",
-    "shortName": "Alavés"
-   },
-   "home": {
-    "id": 559,
-    "name": "Sevilla FC",
-    "shortName": "Sevilla FC"
-   },
-   "id": 564740,
-   "matchday": 12,
-   "score": {
-    "away": 0,
-    "home": 0
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "FINISHED",
-   "utcDate": "2026-11-06T20:00:00Z"
-  },
-  {
-   "away": {
     "id": 5335,
     "name": "Real Racing Club de Santander",
     "shortName": "Santander"
@@ -1115,7 +1094,7 @@
   }
  ],
  "window": {
-  "from": "2026-11-06",
-  "to": "2026-12-13"
+  "from": "2026-11-07",
+  "to": "2026-12-14"
  }
 }

@@ -2,27 +2,6 @@
  "matches": [
   {
    "away": {
-    "id": 115,
-    "name": "Udinese Calcio",
-    "shortName": "Udinese"
-   },
-   "home": {
-    "id": 454,
-    "name": "Venezia FC",
-    "shortName": "Venezia FC"
-   },
-   "id": 558537,
-   "matchday": 11,
-   "score": {
-    "away": 1,
-    "home": 2
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "FINISHED",
-   "utcDate": "2026-11-06T19:45:00Z"
-  },
-  {
-   "away": {
     "id": 5890,
     "name": "US Lecce",
     "shortName": "Lecce"
@@ -1007,10 +986,52 @@
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
    "utcDate": "2026-12-13T19:45:00Z"
+  },
+  {
+   "away": {
+    "id": 107,
+    "name": "Genoa CFC",
+    "shortName": "Genoa"
+   },
+   "home": {
+    "id": 102,
+    "name": "Atalanta BC",
+    "shortName": "Atalanta"
+   },
+   "id": 558497,
+   "matchday": 15,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-14T17:30:00Z"
+  },
+  {
+   "away": {
+    "id": 5911,
+    "name": "AC Monza",
+    "shortName": "Monza"
+   },
+   "home": {
+    "id": 109,
+    "name": "Juventus FC",
+    "shortName": "Juventus"
+   },
+   "id": 558496,
+   "matchday": 15,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-14T19:45:00Z"
   }
  ],
  "window": {
-  "from": "2026-11-06",
-  "to": "2026-12-13"
+  "from": "2026-11-07",
+  "to": "2026-12-14"
  }
 }
