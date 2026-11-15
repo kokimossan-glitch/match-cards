@@ -2,90 +2,6 @@
  "matches": [
   {
    "away": {
-    "id": 5890,
-    "name": "US Lecce",
-    "shortName": "Lecce"
-   },
-   "home": {
-    "id": 586,
-    "name": "Torino FC",
-    "shortName": "Torino"
-   },
-   "id": 558532,
-   "matchday": 11,
-   "score": {
-    "away": 1,
-    "home": 1
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "FINISHED",
-   "utcDate": "2026-11-07T14:00:00Z"
-  },
-  {
-   "away": {
-    "id": 470,
-    "name": "Frosinone Calcio",
-    "shortName": "Frosinone"
-   },
-   "home": {
-    "id": 104,
-    "name": "Cagliari Calcio",
-    "shortName": "Cagliari"
-   },
-   "id": 558534,
-   "matchday": 11,
-   "score": {
-    "away": 0,
-    "home": 1
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "FINISHED",
-   "utcDate": "2026-11-07T14:00:00Z"
-  },
-  {
-   "away": {
-    "id": 103,
-    "name": "Bologna FC 1909",
-    "shortName": "Bologna"
-   },
-   "home": {
-    "id": 112,
-    "name": "Parma Calcio 1913",
-    "shortName": "Parma"
-   },
-   "id": 558535,
-   "matchday": 11,
-   "score": {
-    "away": 2,
-    "home": 1
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "FINISHED",
-   "utcDate": "2026-11-07T17:00:00Z"
-  },
-  {
-   "away": {
-    "id": 471,
-    "name": "US Sassuolo Calcio",
-    "shortName": "Sassuolo"
-   },
-   "home": {
-    "id": 100,
-    "name": "AS Roma",
-    "shortName": "Roma"
-   },
-   "id": 558531,
-   "matchday": 11,
-   "score": {
-    "away": 0,
-    "home": 3
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "FINISHED",
-   "utcDate": "2026-11-07T19:45:00Z"
-  },
-  {
-   "away": {
     "id": 110,
     "name": "SS Lazio",
     "shortName": "Lazio"
@@ -1031,7 +947,7 @@
   }
  ],
  "window": {
-  "from": "2026-11-07",
-  "to": "2026-12-14"
+  "from": "2026-11-08",
+  "to": "2026-12-15"
  }
 }

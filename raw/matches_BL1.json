@@ -2,111 +2,6 @@
  "matches": [
   {
    "away": {
-    "id": 16,
-    "name": "FC Augsburg",
-    "shortName": "Augsburg"
-   },
-   "home": {
-    "id": 721,
-    "name": "RB Leipzig",
-    "shortName": "RB Leipzig"
-   },
-   "id": 565848,
-   "matchday": 9,
-   "score": {
-    "away": 2,
-    "home": 5
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "FINISHED",
-   "utcDate": "2026-11-07T14:30:00Z"
-  },
-  {
-   "away": {
-    "id": 719,
-    "name": "SV 07 Elversberg",
-    "shortName": "Elversberg"
-   },
-   "home": {
-    "id": 4,
-    "name": "Borussia Dortmund",
-    "shortName": "Dortmund"
-   },
-   "id": 565850,
-   "matchday": 9,
-   "score": {
-    "away": 1,
-    "home": 2
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "FINISHED",
-   "utcDate": "2026-11-07T14:30:00Z"
-  },
-  {
-   "away": {
-    "id": 5,
-    "name": "FC Bayern München",
-    "shortName": "Bayern"
-   },
-   "home": {
-    "id": 15,
-    "name": "1. FSV Mainz 05",
-    "shortName": "Mainz"
-   },
-   "id": 565851,
-   "matchday": 9,
-   "score": {
-    "away": 2,
-    "home": 1
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "FINISHED",
-   "utcDate": "2026-11-07T14:30:00Z"
-  },
-  {
-   "away": {
-    "id": 19,
-    "name": "Eintracht Frankfurt",
-    "shortName": "Frankfurt"
-   },
-   "home": {
-    "id": 29,
-    "name": "SC Paderborn 07",
-    "shortName": "SC Paderborn"
-   },
-   "id": 565853,
-   "matchday": 9,
-   "score": {
-    "away": 2,
-    "home": 2
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "FINISHED",
-   "utcDate": "2026-11-07T14:30:00Z"
-  },
-  {
-   "away": {
-    "id": 12,
-    "name": "SV Werder Bremen",
-    "shortName": "Bremen"
-   },
-   "home": {
-    "id": 10,
-    "name": "VfB Stuttgart",
-    "shortName": "Stuttgart"
-   },
-   "id": 565849,
-   "matchday": 9,
-   "score": {
-    "away": 0,
-    "home": 1
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "FINISHED",
-   "utcDate": "2026-11-07T17:30:00Z"
-  },
-  {
-   "away": {
     "id": 3,
     "name": "Bayer 04 Leverkusen",
     "shortName": "Leverkusen"
@@ -926,7 +821,7 @@
   }
  ],
  "window": {
-  "from": "2026-11-07",
-  "to": "2026-12-14"
+  "from": "2026-11-08",
+  "to": "2026-12-15"
  }
 }
