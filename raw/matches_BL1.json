@@ -2,69 +2,6 @@
  "matches": [
   {
    "away": {
-    "id": 3,
-    "name": "Bayer 04 Leverkusen",
-    "shortName": "Leverkusen"
-   },
-   "home": {
-    "id": 1,
-    "name": "1. FC Köln",
-    "shortName": "1. FC Köln"
-   },
-   "id": 565855,
-   "matchday": 9,
-   "score": {
-    "away": 2,
-    "home": 1
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "FINISHED",
-   "utcDate": "2026-11-08T14:30:00Z"
-  },
-  {
-   "away": {
-    "id": 28,
-    "name": "1. FC Union Berlin",
-    "shortName": "Union Berlin"
-   },
-   "home": {
-    "id": 17,
-    "name": "SC Freiburg",
-    "shortName": "Freiburg"
-   },
-   "id": 565854,
-   "matchday": 9,
-   "score": {
-    "away": 0,
-    "home": 2
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "FINISHED",
-   "utcDate": "2026-11-08T16:30:00Z"
-  },
-  {
-   "away": {
-    "id": 6,
-    "name": "FC Schalke 04",
-    "shortName": "Schalke"
-   },
-   "home": {
-    "id": 2,
-    "name": "TSG 1899 Hoffenheim",
-    "shortName": "Hoffenheim"
-   },
-   "id": 565856,
-   "matchday": 9,
-   "score": {
-    "away": 1,
-    "home": 2
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "FINISHED",
-   "utcDate": "2026-11-08T18:30:00Z"
-  },
-  {
-   "away": {
     "id": 1,
     "name": "1. FC Köln",
     "shortName": "1. FC Köln"
@@ -821,7 +758,7 @@
   }
  ],
  "window": {
-  "from": "2026-11-08",
-  "to": "2026-12-15"
+  "from": "2026-11-09",
+  "to": "2026-12-16"
  }
 }

@@ -2,111 +2,6 @@
  "matches": [
   {
    "away": {
-    "id": 110,
-    "name": "SS Lazio",
-    "shortName": "Lazio"
-   },
-   "home": {
-    "id": 113,
-    "name": "SSC Napoli",
-    "shortName": "Napoli"
-   },
-   "id": 558533,
-   "matchday": 11,
-   "score": {
-    "away": 1,
-    "home": 1
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "FINISHED",
-   "utcDate": "2026-11-08T11:30:00Z"
-  },
-  {
-   "away": {
-    "id": 98,
-    "name": "AC Milan",
-    "shortName": "Milan"
-   },
-   "home": {
-    "id": 107,
-    "name": "Genoa CFC",
-    "shortName": "Genoa"
-   },
-   "id": 558536,
-   "matchday": 11,
-   "score": {
-    "away": 2,
-    "home": 1
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "FINISHED",
-   "utcDate": "2026-11-08T14:00:00Z"
-  },
-  {
-   "away": {
-    "id": 102,
-    "name": "Atalanta BC",
-    "shortName": "Atalanta"
-   },
-   "home": {
-    "id": 5911,
-    "name": "AC Monza",
-    "shortName": "Monza"
-   },
-   "id": 558538,
-   "matchday": 11,
-   "score": {
-    "away": 1,
-    "home": 0
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "FINISHED",
-   "utcDate": "2026-11-08T14:00:00Z"
-  },
-  {
-   "away": {
-    "id": 7397,
-    "name": "Como 1907",
-    "shortName": "Como 1907"
-   },
-   "home": {
-    "id": 108,
-    "name": "FC Internazionale Milano",
-    "shortName": "Inter"
-   },
-   "id": 558530,
-   "matchday": 11,
-   "score": {
-    "away": 0,
-    "home": 2
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "FINISHED",
-   "utcDate": "2026-11-08T17:00:00Z"
-  },
-  {
-   "away": {
-    "id": 109,
-    "name": "Juventus FC",
-    "shortName": "Juventus"
-   },
-   "home": {
-    "id": 99,
-    "name": "ACF Fiorentina",
-    "shortName": "Fiorentina"
-   },
-   "id": 558529,
-   "matchday": 11,
-   "score": {
-    "away": 2,
-    "home": 2
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "FINISHED",
-   "utcDate": "2026-11-08T19:45:00Z"
-  },
-  {
-   "away": {
     "id": 104,
     "name": "Cagliari Calcio",
     "shortName": "Cagliari"
@@ -947,7 +842,7 @@
   }
  ],
  "window": {
-  "from": "2026-11-08",
-  "to": "2026-12-15"
+  "from": "2026-11-09",
+  "to": "2026-12-16"
  }
 }
