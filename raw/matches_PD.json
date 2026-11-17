@@ -569,48 +569,6 @@
   },
   {
    "away": {
-    "id": 84,
-    "name": "Málaga CF",
-    "shortName": "Málaga"
-   },
-   "home": {
-    "id": 559,
-    "name": "Sevilla FC",
-    "shortName": "Sevilla FC"
-   },
-   "id": 564769,
-   "matchday": 15,
-   "score": {
-    "away": null,
-    "home": null
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "SCHEDULED",
-   "utcDate": "2026-12-06T00:00:00Z"
-  },
-  {
-   "away": {
-    "id": 90,
-    "name": "Real Betis Balompié",
-    "shortName": "Real Betis"
-   },
-   "home": {
-    "id": 78,
-    "name": "Club Atlético de Madrid",
-    "shortName": "Atleti"
-   },
-   "id": 564771,
-   "matchday": 15,
-   "score": {
-    "away": null,
-    "home": null
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "SCHEDULED",
-   "utcDate": "2026-12-06T00:00:00Z"
-  },
-  {
-   "away": {
     "id": 285,
     "name": "Elche CF",
     "shortName": "Elche"
@@ -671,6 +629,48 @@
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
    "utcDate": "2026-12-06T17:30:00Z"
+  },
+  {
+   "away": {
+    "id": 90,
+    "name": "Real Betis Balompié",
+    "shortName": "Real Betis"
+   },
+   "home": {
+    "id": 78,
+    "name": "Club Atlético de Madrid",
+    "shortName": "Atleti"
+   },
+   "id": 564771,
+   "matchday": 15,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-06T20:00:00Z"
+  },
+  {
+   "away": {
+    "id": 84,
+    "name": "Málaga CF",
+    "shortName": "Málaga"
+   },
+   "home": {
+    "id": 559,
+    "name": "Sevilla FC",
+    "shortName": "Sevilla FC"
+   },
+   "id": 564769,
+   "matchday": 15,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-07T20:00:00Z"
   },
   {
    "away": {
@@ -905,7 +905,7 @@
   }
  ],
  "window": {
-  "from": "2026-11-09",
-  "to": "2026-12-16"
+  "from": "2026-11-10",
+  "to": "2026-12-17"
  }
 }
