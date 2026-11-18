@@ -839,10 +839,52 @@
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
    "utcDate": "2026-12-14T19:45:00Z"
+  },
+  {
+   "away": {
+    "id": 110,
+    "name": "SS Lazio",
+    "shortName": "Lazio"
+   },
+   "home": {
+    "id": 470,
+    "name": "Frosinone Calcio",
+    "shortName": "Frosinone"
+   },
+   "id": 558482,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-18T17:30:00Z"
+  },
+  {
+   "away": {
+    "id": 108,
+    "name": "FC Internazionale Milano",
+    "shortName": "Inter"
+   },
+   "home": {
+    "id": 5890,
+    "name": "US Lecce",
+    "shortName": "Lecce"
+   },
+   "id": 558486,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-18T19:45:00Z"
   }
  ],
  "window": {
-  "from": "2026-11-10",
-  "to": "2026-12-17"
+  "from": "2026-11-11",
+  "to": "2026-12-18"
  }
 }

@@ -755,10 +755,31 @@
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
    "utcDate": "2026-12-13T18:30:00Z"
+  },
+  {
+   "away": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "home": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "id": 565894,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-18T19:30:00Z"
   }
  ],
  "window": {
-  "from": "2026-11-10",
-  "to": "2026-12-17"
+  "from": "2026-11-11",
+  "to": "2026-12-18"
  }
 }
