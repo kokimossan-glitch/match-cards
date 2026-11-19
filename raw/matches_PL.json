@@ -1049,10 +1049,115 @@
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
    "utcDate": "2026-12-14T20:00:00Z"
+  },
+  {
+   "away": {
+    "id": 67,
+    "name": "Newcastle United FC",
+    "shortName": "Newcastle"
+   },
+   "home": {
+    "id": 402,
+    "name": "Brentford FC",
+    "shortName": "Brentford"
+   },
+   "id": 560695,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-19T12:30:00Z"
+  },
+  {
+   "away": {
+    "id": 63,
+    "name": "Fulham FC",
+    "shortName": "Fulham"
+   },
+   "home": {
+    "id": 341,
+    "name": "Leeds United FC",
+    "shortName": "Leeds United"
+   },
+   "id": 560692,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-19T15:00:00Z"
+  },
+  {
+   "away": {
+    "id": 322,
+    "name": "Hull City AFC",
+    "shortName": "Hull City"
+   },
+   "home": {
+    "id": 65,
+    "name": "Manchester City FC",
+    "shortName": "Man City"
+   },
+   "id": 560696,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-19T15:00:00Z"
+  },
+  {
+   "away": {
+    "id": 1076,
+    "name": "Coventry City FC",
+    "shortName": "Coventry City"
+   },
+   "home": {
+    "id": 1044,
+    "name": "AFC Bournemouth",
+    "shortName": "Bournemouth"
+   },
+   "id": 560698,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-19T15:00:00Z"
+  },
+  {
+   "away": {
+    "id": 73,
+    "name": "Tottenham Hotspur FC",
+    "shortName": "Tottenham"
+   },
+   "home": {
+    "id": 64,
+    "name": "Liverpool FC",
+    "shortName": "Liverpool"
+   },
+   "id": 560700,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-19T17:30:00Z"
   }
  ],
  "window": {
-  "from": "2026-11-11",
-  "to": "2026-12-18"
+  "from": "2026-11-12",
+  "to": "2026-12-19"
  }
 }

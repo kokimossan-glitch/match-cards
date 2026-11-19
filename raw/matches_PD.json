@@ -902,10 +902,220 @@
    "stage": "REGULAR_SEASON",
    "status": "SCHEDULED",
    "utcDate": "2026-12-13T00:00:00Z"
+  },
+  {
+   "away": {
+    "id": 90,
+    "name": "Real Betis Balompié",
+    "shortName": "Real Betis"
+   },
+   "home": {
+    "id": 77,
+    "name": "Athletic Club",
+    "shortName": "Athletic"
+   },
+   "id": 564788,
+   "matchday": 17,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-20T00:00:00Z"
+  },
+  {
+   "away": {
+    "id": 88,
+    "name": "Levante UD",
+    "shortName": "Levante"
+   },
+   "home": {
+    "id": 82,
+    "name": "Getafe CF",
+    "shortName": "Getafe"
+   },
+   "id": 564789,
+   "matchday": 17,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-20T00:00:00Z"
+  },
+  {
+   "away": {
+    "id": 285,
+    "name": "Elche CF",
+    "shortName": "Elche"
+   },
+   "home": {
+    "id": 263,
+    "name": "Deportivo Alavés",
+    "shortName": "Alavés"
+   },
+   "id": 564790,
+   "matchday": 17,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-20T00:00:00Z"
+  },
+  {
+   "away": {
+    "id": 80,
+    "name": "RCD Espanyol de Barcelona",
+    "shortName": "Espanyol"
+   },
+   "home": {
+    "id": 95,
+    "name": "Valencia CF",
+    "shortName": "Valencia"
+   },
+   "id": 564791,
+   "matchday": 17,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-20T00:00:00Z"
+  },
+  {
+   "away": {
+    "id": 94,
+    "name": "Villarreal CF",
+    "shortName": "Villarreal"
+   },
+   "home": {
+    "id": 79,
+    "name": "CA Osasuna",
+    "shortName": "Osasuna"
+   },
+   "id": 564792,
+   "matchday": 17,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-20T00:00:00Z"
+  },
+  {
+   "away": {
+    "id": 92,
+    "name": "Real Sociedad de Fútbol",
+    "shortName": "Real Sociedad"
+   },
+   "home": {
+    "id": 81,
+    "name": "FC Barcelona",
+    "shortName": "Barça"
+   },
+   "id": 564793,
+   "matchday": 17,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-20T00:00:00Z"
+  },
+  {
+   "away": {
+    "id": 78,
+    "name": "Club Atlético de Madrid",
+    "shortName": "Atleti"
+   },
+   "home": {
+    "id": 558,
+    "name": "RC Celta de Vigo",
+    "shortName": "Celta"
+   },
+   "id": 564794,
+   "matchday": 17,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-20T00:00:00Z"
+  },
+  {
+   "away": {
+    "id": 84,
+    "name": "Málaga CF",
+    "shortName": "Málaga"
+   },
+   "home": {
+    "id": 87,
+    "name": "Rayo Vallecano de Madrid",
+    "shortName": "Rayo Vallecano"
+   },
+   "id": 564795,
+   "matchday": 17,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-20T00:00:00Z"
+  },
+  {
+   "away": {
+    "id": 86,
+    "name": "Real Madrid CF",
+    "shortName": "Real Madrid"
+   },
+   "home": {
+    "id": 560,
+    "name": "RC Deportivo La Coruña",
+    "shortName": "Deportivo"
+   },
+   "id": 564796,
+   "matchday": 17,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-20T00:00:00Z"
+  },
+  {
+   "away": {
+    "id": 5335,
+    "name": "Real Racing Club de Santander",
+    "shortName": "Santander"
+   },
+   "home": {
+    "id": 559,
+    "name": "Sevilla FC",
+    "shortName": "Sevilla FC"
+   },
+   "id": 564797,
+   "matchday": 17,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "SCHEDULED",
+   "utcDate": "2026-12-20T00:00:00Z"
   }
  ],
  "window": {
-  "from": "2026-11-11",
-  "to": "2026-12-18"
+  "from": "2026-11-12",
+  "to": "2026-12-19"
  }
 }

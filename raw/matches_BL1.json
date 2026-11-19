@@ -776,10 +776,115 @@
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
    "utcDate": "2026-12-18T19:30:00Z"
+  },
+  {
+   "away": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "home": {
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "id": 565895,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-19T14:30:00Z"
+  },
+  {
+   "away": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "home": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "id": 565896,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-19T14:30:00Z"
+  },
+  {
+   "away": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "home": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "id": 565899,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-19T14:30:00Z"
+  },
+  {
+   "away": {
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "home": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "id": 565901,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-19T14:30:00Z"
+  },
+  {
+   "away": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "home": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "id": 565898,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-19T17:30:00Z"
   }
  ],
  "window": {
-  "from": "2026-11-11",
-  "to": "2026-12-18"
+  "from": "2026-11-12",
+  "to": "2026-12-19"
  }
 }
