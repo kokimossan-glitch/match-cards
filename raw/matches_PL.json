@@ -1154,10 +1154,94 @@
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
    "utcDate": "2026-12-19T17:30:00Z"
+  },
+  {
+   "away": {
+    "id": 349,
+    "name": "Ipswich Town FC",
+    "shortName": "Ipswich Town"
+   },
+   "home": {
+    "id": 397,
+    "name": "Brighton & Hove Albion FC",
+    "shortName": "Brighton Hove"
+   },
+   "id": 560693,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-20T14:00:00Z"
+  },
+  {
+   "away": {
+    "id": 62,
+    "name": "Everton FC",
+    "shortName": "Everton"
+   },
+   "home": {
+    "id": 351,
+    "name": "Nottingham Forest FC",
+    "shortName": "Nottingham"
+   },
+   "id": 560694,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-20T14:00:00Z"
+  },
+  {
+   "away": {
+    "id": 354,
+    "name": "Crystal Palace FC",
+    "shortName": "Crystal Palace"
+   },
+   "home": {
+    "id": 71,
+    "name": "Sunderland AFC",
+    "shortName": "Sunderland"
+   },
+   "id": 560697,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-20T14:00:00Z"
+  },
+  {
+   "away": {
+    "id": 66,
+    "name": "Manchester United FC",
+    "shortName": "Man United"
+   },
+   "home": {
+    "id": 57,
+    "name": "Arsenal FC",
+    "shortName": "Arsenal"
+   },
+   "id": 560699,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-20T16:30:00Z"
   }
  ],
  "window": {
-  "from": "2026-11-12",
-  "to": "2026-12-19"
+  "from": "2026-11-13",
+  "to": "2026-12-20"
  }
 }

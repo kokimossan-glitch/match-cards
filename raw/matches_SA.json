@@ -944,10 +944,115 @@
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
    "utcDate": "2026-12-19T19:45:00Z"
+  },
+  {
+   "away": {
+    "id": 103,
+    "name": "Bologna FC 1909",
+    "shortName": "Bologna"
+   },
+   "home": {
+    "id": 99,
+    "name": "ACF Fiorentina",
+    "shortName": "Fiorentina"
+   },
+   "id": 558484,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-20T11:30:00Z"
+  },
+  {
+   "away": {
+    "id": 104,
+    "name": "Cagliari Calcio",
+    "shortName": "Cagliari"
+   },
+   "home": {
+    "id": 586,
+    "name": "Torino FC",
+    "shortName": "Torino"
+   },
+   "id": 558487,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-20T14:00:00Z"
+  },
+  {
+   "away": {
+    "id": 5911,
+    "name": "AC Monza",
+    "shortName": "Monza"
+   },
+   "home": {
+    "id": 454,
+    "name": "Venezia FC",
+    "shortName": "Venezia FC"
+   },
+   "id": 558488,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-20T14:00:00Z"
+  },
+  {
+   "away": {
+    "id": 115,
+    "name": "Udinese Calcio",
+    "shortName": "Udinese"
+   },
+   "home": {
+    "id": 107,
+    "name": "Genoa CFC",
+    "shortName": "Genoa"
+   },
+   "id": 558485,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-20T17:00:00Z"
+  },
+  {
+   "away": {
+    "id": 113,
+    "name": "SSC Napoli",
+    "shortName": "Napoli"
+   },
+   "home": {
+    "id": 102,
+    "name": "Atalanta BC",
+    "shortName": "Atalanta"
+   },
+   "id": 558483,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-20T19:45:00Z"
   }
  ],
  "window": {
-  "from": "2026-11-12",
-  "to": "2026-12-19"
+  "from": "2026-11-13",
+  "to": "2026-12-20"
  }
 }

@@ -881,10 +881,73 @@
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
    "utcDate": "2026-12-19T17:30:00Z"
+  },
+  {
+   "away": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "home": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "id": 565897,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-20T14:30:00Z"
+  },
+  {
+   "away": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "home": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "id": 565900,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-20T16:30:00Z"
+  },
+  {
+   "away": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "home": {
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "id": 565893,
+   "matchday": 14,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-20T18:30:00Z"
   }
  ],
  "window": {
-  "from": "2026-11-12",
-  "to": "2026-12-19"
+  "from": "2026-11-13",
+  "to": "2026-12-20"
  }
 }
