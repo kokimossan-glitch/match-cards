@@ -4,11 +4,11 @@
    "group": "Matchday",
    "rows": [
     {
-     "draw": 3,
+     "draw": 4,
      "gd": 20,
      "lost": 0,
-     "played": 9,
-     "points": 21,
+     "played": 10,
+     "points": 22,
      "rank": 1,
      "team": {
       "id": 5,
@@ -186,30 +186,30 @@
      "won": 2
     },
     {
-     "draw": 3,
-     "gd": 0,
+     "draw": 4,
+     "gd": -4,
      "lost": 4,
-     "played": 9,
-     "points": 9,
+     "played": 10,
+     "points": 10,
      "rank": 14,
      "team": {
-      "id": 16,
-      "name": "FC Augsburg",
-      "shortName": "Augsburg"
+      "id": 1,
+      "name": "1. FC Köln",
+      "shortName": "1. FC Köln"
      },
      "won": 2
     },
     {
      "draw": 3,
-     "gd": -4,
+     "gd": 0,
      "lost": 4,
      "played": 9,
      "points": 9,
      "rank": 15,
      "team": {
-      "id": 1,
-      "name": "1. FC Köln",
-      "shortName": "1. FC Köln"
+      "id": 16,
+      "name": "FC Augsburg",
+      "shortName": "Augsburg"
      },
      "won": 2
     },

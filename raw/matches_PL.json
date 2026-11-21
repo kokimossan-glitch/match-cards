@@ -1238,10 +1238,31 @@
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
    "utcDate": "2026-12-20T16:30:00Z"
+  },
+  {
+   "away": {
+    "id": 58,
+    "name": "Aston Villa FC",
+    "shortName": "Aston Villa"
+   },
+   "home": {
+    "id": 61,
+    "name": "Chelsea FC",
+    "shortName": "Chelsea"
+   },
+   "id": 560701,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-21T20:00:00Z"
   }
  ],
  "window": {
-  "from": "2026-11-13",
-  "to": "2026-12-20"
+  "from": "2026-11-14",
+  "to": "2026-12-21"
  }
 }

@@ -89,9 +89,9 @@
     },
     {
      "draw": 4,
-     "gd": 4,
-     "lost": 3,
-     "played": 11,
+     "gd": 3,
+     "lost": 4,
+     "played": 12,
      "points": 16,
      "rank": 7,
      "team": {
@@ -130,12 +130,26 @@
      "won": 3
     },
     {
+     "draw": 3,
+     "gd": 0,
+     "lost": 6,
+     "played": 13,
+     "points": 15,
+     "rank": 10,
+     "team": {
+      "id": 80,
+      "name": "RCD Espanyol de Barcelona",
+      "shortName": "Espanyol"
+     },
+     "won": 4
+    },
+    {
      "draw": 2,
      "gd": -13,
      "lost": 6,
      "played": 12,
      "points": 14,
-     "rank": 10,
+     "rank": 11,
      "team": {
       "id": 5335,
       "name": "Real Racing Club de Santander",
@@ -149,7 +163,7 @@
      "lost": 3,
      "played": 12,
      "points": 13,
-     "rank": 11,
+     "rank": 12,
      "team": {
       "id": 558,
       "name": "RC Celta de Vigo",
@@ -163,25 +177,11 @@
      "lost": 5,
      "played": 12,
      "points": 13,
-     "rank": 12,
+     "rank": 13,
      "team": {
       "id": 263,
       "name": "Deportivo Alavés",
       "shortName": "Alavés"
-     },
-     "won": 3
-    },
-    {
-     "draw": 3,
-     "gd": -1,
-     "lost": 6,
-     "played": 12,
-     "points": 12,
-     "rank": 13,
-     "team": {
-      "id": 80,
-      "name": "RCD Espanyol de Barcelona",
-      "shortName": "Espanyol"
      },
      "won": 3
     },

@@ -2498,6 +2498,27 @@
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
    "utcDate": "2026-11-08T20:00:00Z"
+  },
+  {
+   "away": {
+    "id": 80,
+    "name": "RCD Espanyol de Barcelona",
+    "shortName": "Espanyol"
+   },
+   "home": {
+    "id": 77,
+    "name": "Athletic Club",
+    "shortName": "Athletic"
+   },
+   "id": 564748,
+   "matchday": 13,
+   "score": {
+    "away": 1,
+    "home": 0
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-20T20:00:00Z"
   }
  ]
 }

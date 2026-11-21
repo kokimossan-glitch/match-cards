@@ -172,12 +172,26 @@
      "won": 3
     },
     {
+     "draw": 2,
+     "gd": -8,
+     "lost": 6,
+     "played": 11,
+     "points": 11,
+     "rank": 13,
+     "team": {
+      "id": 531,
+      "name": "ES Troyes AC",
+      "shortName": "Troyes"
+     },
+     "won": 3
+    },
+    {
      "draw": 1,
      "gd": -4,
      "lost": 6,
      "played": 10,
      "points": 10,
-     "rank": 13,
+     "rank": 14,
      "team": {
       "id": 576,
       "name": "RC Strasbourg Alsace",
@@ -191,7 +205,7 @@
      "lost": 6,
      "played": 10,
      "points": 10,
-     "rank": 14,
+     "rank": 15,
      "team": {
       "id": 519,
       "name": "AJ Auxerre",
@@ -205,7 +219,7 @@
      "lost": 4,
      "played": 10,
      "points": 8,
-     "rank": 15,
+     "rank": 16,
      "team": {
       "id": 535,
       "name": "Le Mans FC",
@@ -219,7 +233,7 @@
      "lost": 6,
      "played": 10,
      "points": 8,
-     "rank": 16,
+     "rank": 17,
      "team": {
       "id": 532,
       "name": "Angers SCO",
@@ -229,23 +243,9 @@
     },
     {
      "draw": 2,
-     "gd": -10,
-     "lost": 6,
-     "played": 10,
-     "points": 8,
-     "rank": 17,
-     "team": {
-      "id": 531,
-      "name": "ES Troyes AC",
-      "shortName": "Troyes"
-     },
-     "won": 2
-    },
-    {
-     "draw": 2,
-     "gd": -13,
-     "lost": 8,
-     "played": 10,
+     "gd": -15,
+     "lost": 9,
+     "played": 11,
      "points": 2,
      "rank": 18,
      "team": {

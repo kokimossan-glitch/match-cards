@@ -1700,6 +1700,27 @@
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
    "utcDate": "2026-11-08T18:30:00Z"
+  },
+  {
+   "away": {
+    "id": 1,
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln"
+   },
+   "home": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "id": 565859,
+   "matchday": 10,
+   "score": {
+    "away": 1,
+    "home": 1
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-20T19:30:00Z"
   }
  ]
 }
