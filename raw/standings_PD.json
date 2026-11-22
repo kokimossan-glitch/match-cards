@@ -19,17 +19,17 @@
     },
     {
      "draw": 0,
-     "gd": 21,
+     "gd": 22,
      "lost": 2,
-     "played": 12,
-     "points": 30,
+     "played": 13,
+     "points": 33,
      "rank": 2,
      "team": {
       "id": 86,
       "name": "Real Madrid CF",
       "shortName": "Real Madrid"
      },
-     "won": 10
+     "won": 11
     },
     {
      "draw": 1,
@@ -46,11 +46,11 @@
      "won": 9
     },
     {
-     "draw": 2,
+     "draw": 3,
      "gd": 5,
      "lost": 2,
-     "played": 12,
-     "points": 26,
+     "played": 13,
+     "points": 27,
      "rank": 4,
      "team": {
       "id": 90,
@@ -74,11 +74,11 @@
      "won": 7
     },
     {
-     "draw": 3,
+     "draw": 4,
      "gd": -2,
      "lost": 4,
-     "played": 12,
-     "points": 18,
+     "played": 13,
+     "points": 19,
      "rank": 6,
      "team": {
       "id": 559,
@@ -102,32 +102,32 @@
      "won": 4
     },
     {
+     "draw": 4,
+     "gd": 0,
+     "lost": 5,
+     "played": 13,
+     "points": 16,
+     "rank": 8,
+     "team": {
+      "id": 263,
+      "name": "Deportivo Alavés",
+      "shortName": "Alavés"
+     },
+     "won": 4
+    },
+    {
      "draw": 3,
      "gd": 2,
      "lost": 5,
      "played": 12,
      "points": 15,
-     "rank": 8,
+     "rank": 9,
      "team": {
       "id": 94,
       "name": "Villarreal CF",
       "shortName": "Villarreal"
      },
      "won": 4
-    },
-    {
-     "draw": 6,
-     "gd": 1,
-     "lost": 3,
-     "played": 12,
-     "points": 15,
-     "rank": 9,
-     "team": {
-      "id": 560,
-      "name": "RC Deportivo La Coruña",
-      "shortName": "Deportivo"
-     },
-     "won": 3
     },
     {
      "draw": 3,
@@ -144,12 +144,26 @@
      "won": 4
     },
     {
+     "draw": 6,
+     "gd": -1,
+     "lost": 4,
+     "played": 13,
+     "points": 15,
+     "rank": 11,
+     "team": {
+      "id": 560,
+      "name": "RC Deportivo La Coruña",
+      "shortName": "Deportivo"
+     },
+     "won": 3
+    },
+    {
      "draw": 2,
      "gd": -13,
      "lost": 6,
      "played": 12,
      "points": 14,
-     "rank": 11,
+     "rank": 12,
      "team": {
       "id": 5335,
       "name": "Real Racing Club de Santander",
@@ -159,11 +173,11 @@
     },
     {
      "draw": 7,
-     "gd": 0,
-     "lost": 3,
-     "played": 12,
+     "gd": -1,
+     "lost": 4,
+     "played": 13,
      "points": 13,
-     "rank": 12,
+     "rank": 13,
      "team": {
       "id": 558,
       "name": "RC Celta de Vigo",
@@ -172,24 +186,10 @@
      "won": 2
     },
     {
-     "draw": 4,
-     "gd": -2,
-     "lost": 5,
-     "played": 12,
-     "points": 13,
-     "rank": 13,
-     "team": {
-      "id": 263,
-      "name": "Deportivo Alavés",
-      "shortName": "Alavés"
-     },
-     "won": 3
-    },
-    {
      "draw": 3,
-     "gd": -6,
-     "lost": 5,
-     "played": 11,
+     "gd": -7,
+     "lost": 6,
+     "played": 12,
      "points": 12,
      "rank": 14,
      "team": {
@@ -228,12 +228,26 @@
      "won": 3
     },
     {
+     "draw": 3,
+     "gd": -11,
+     "lost": 7,
+     "played": 13,
+     "points": 12,
+     "rank": 17,
+     "team": {
+      "id": 95,
+      "name": "Valencia CF",
+      "shortName": "Valencia"
+     },
+     "won": 3
+    },
+    {
      "draw": 5,
      "gd": -5,
      "lost": 5,
      "played": 12,
      "points": 11,
-     "rank": 17,
+     "rank": 18,
      "team": {
       "id": 88,
       "name": "Levante UD",
@@ -247,25 +261,11 @@
      "lost": 6,
      "played": 12,
      "points": 10,
-     "rank": 18,
+     "rank": 19,
      "team": {
       "id": 285,
       "name": "Elche CF",
       "shortName": "Elche"
-     },
-     "won": 2
-    },
-    {
-     "draw": 3,
-     "gd": -12,
-     "lost": 7,
-     "played": 12,
-     "points": 9,
-     "rank": 19,
-     "team": {
-      "id": 95,
-      "name": "Valencia CF",
-      "shortName": "Valencia"
      },
      "won": 2
     },

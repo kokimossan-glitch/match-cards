@@ -4,12 +4,26 @@
    "group": "Matchday",
    "rows": [
     {
+     "draw": 3,
+     "gd": 10,
+     "lost": 0,
+     "played": 10,
+     "points": 24,
+     "rank": 1,
+     "team": {
+      "id": 4,
+      "name": "Borussia Dortmund",
+      "shortName": "Dortmund"
+     },
+     "won": 7
+    },
+    {
      "draw": 4,
      "gd": 20,
      "lost": 0,
      "played": 10,
      "points": 22,
-     "rank": 1,
+     "rank": 2,
      "team": {
       "id": 5,
       "name": "FC Bayern München",
@@ -18,60 +32,46 @@
      "won": 6
     },
     {
-     "draw": 3,
-     "gd": 9,
-     "lost": 0,
-     "played": 9,
-     "points": 21,
-     "rank": 2,
-     "team": {
-      "id": 4,
-      "name": "Borussia Dortmund",
-      "shortName": "Dortmund"
-     },
-     "won": 6
-    },
-    {
      "draw": 1,
-     "gd": 10,
+     "gd": 11,
      "lost": 2,
-     "played": 9,
-     "points": 19,
+     "played": 10,
+     "points": 22,
      "rank": 3,
      "team": {
       "id": 17,
       "name": "SC Freiburg",
       "shortName": "Freiburg"
      },
-     "won": 6
+     "won": 7
     },
     {
      "draw": 0,
-     "gd": 14,
+     "gd": 18,
      "lost": 3,
-     "played": 9,
-     "points": 18,
+     "played": 10,
+     "points": 21,
      "rank": 4,
      "team": {
       "id": 721,
       "name": "RB Leipzig",
       "shortName": "RB Leipzig"
      },
-     "won": 6
+     "won": 7
     },
     {
      "draw": 1,
-     "gd": 3,
+     "gd": 7,
      "lost": 3,
-     "played": 9,
-     "points": 16,
+     "played": 10,
+     "points": 19,
      "rank": 5,
      "team": {
       "id": 3,
       "name": "Bayer 04 Leverkusen",
       "shortName": "Leverkusen"
      },
-     "won": 5
+     "won": 6
     },
     {
      "draw": 3,
@@ -88,25 +88,25 @@
      "won": 4
     },
     {
-     "draw": 1,
-     "gd": -1,
-     "lost": 4,
-     "played": 9,
-     "points": 13,
+     "draw": 3,
+     "gd": -4,
+     "lost": 3,
+     "played": 10,
+     "points": 15,
      "rank": 7,
      "team": {
-      "id": 719,
-      "name": "SV 07 Elversberg",
-      "shortName": "Elversberg"
+      "id": 19,
+      "name": "Eintracht Frankfurt",
+      "shortName": "Frankfurt"
      },
      "won": 4
     },
     {
-     "draw": 0,
+     "draw": 1,
      "gd": 0,
      "lost": 5,
-     "played": 9,
-     "points": 12,
+     "played": 10,
+     "points": 13,
      "rank": 8,
      "team": {
       "id": 10,
@@ -116,32 +116,32 @@
      "won": 4
     },
     {
-     "draw": 0,
-     "gd": -1,
+     "draw": 1,
+     "gd": -2,
      "lost": 5,
-     "played": 9,
-     "points": 12,
+     "played": 10,
+     "points": 13,
      "rank": 9,
+     "team": {
+      "id": 719,
+      "name": "SV 07 Elversberg",
+      "shortName": "Elversberg"
+     },
+     "won": 4
+    },
+    {
+     "draw": 0,
+     "gd": -2,
+     "lost": 6,
+     "played": 10,
+     "points": 12,
+     "rank": 10,
      "team": {
       "id": 2,
       "name": "TSG 1899 Hoffenheim",
       "shortName": "Hoffenheim"
      },
      "won": 4
-    },
-    {
-     "draw": 3,
-     "gd": -5,
-     "lost": 3,
-     "played": 9,
-     "points": 12,
-     "rank": 10,
-     "team": {
-      "id": 19,
-      "name": "Eintracht Frankfurt",
-      "shortName": "Frankfurt"
-     },
-     "won": 3
     },
     {
      "draw": 0,
@@ -173,29 +173,29 @@
     },
     {
      "draw": 4,
-     "gd": -3,
-     "lost": 3,
-     "played": 9,
+     "gd": -4,
+     "lost": 4,
+     "played": 10,
      "points": 10,
      "rank": 13,
      "team": {
-      "id": 29,
-      "name": "SC Paderborn 07",
-      "shortName": "SC Paderborn"
+      "id": 1,
+      "name": "1. FC Köln",
+      "shortName": "1. FC Köln"
      },
      "won": 2
     },
     {
      "draw": 4,
-     "gd": -4,
+     "gd": -7,
      "lost": 4,
      "played": 10,
      "points": 10,
      "rank": 14,
      "team": {
-      "id": 1,
-      "name": "1. FC Köln",
-      "shortName": "1. FC Köln"
+      "id": 29,
+      "name": "SC Paderborn 07",
+      "shortName": "SC Paderborn"
      },
      "won": 2
     },
@@ -215,25 +215,11 @@
     },
     {
      "draw": 4,
-     "gd": -14,
-     "lost": 4,
-     "played": 9,
-     "points": 7,
-     "rank": 16,
-     "team": {
-      "id": 28,
-      "name": "1. FC Union Berlin",
-      "shortName": "Union Berlin"
-     },
-     "won": 1
-    },
-    {
-     "draw": 3,
      "gd": -6,
      "lost": 5,
-     "played": 9,
-     "points": 6,
-     "rank": 17,
+     "played": 10,
+     "points": 7,
+     "rank": 16,
      "team": {
       "id": 6,
       "name": "FC Schalke 04",
@@ -242,10 +228,24 @@
      "won": 1
     },
     {
+     "draw": 4,
+     "gd": -18,
+     "lost": 5,
+     "played": 10,
+     "points": 7,
+     "rank": 17,
+     "team": {
+      "id": 28,
+      "name": "1. FC Union Berlin",
+      "shortName": "Union Berlin"
+     },
+     "won": 1
+    },
+    {
      "draw": 1,
-     "gd": -13,
-     "lost": 7,
-     "played": 9,
+     "gd": -14,
+     "lost": 8,
+     "played": 10,
      "points": 4,
      "rank": 18,
      "team": {

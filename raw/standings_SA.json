@@ -5,15 +5,29 @@
    "rows": [
     {
      "draw": 2,
-     "gd": 16,
+     "gd": 19,
      "lost": 0,
-     "played": 11,
-     "points": 29,
+     "played": 12,
+     "points": 32,
      "rank": 1,
      "team": {
       "id": 110,
       "name": "SS Lazio",
       "shortName": "Lazio"
+     },
+     "won": 10
+    },
+    {
+     "draw": 3,
+     "gd": 25,
+     "lost": 0,
+     "played": 12,
+     "points": 30,
+     "rank": 2,
+     "team": {
+      "id": 100,
+      "name": "AS Roma",
+      "shortName": "Roma"
      },
      "won": 9
     },
@@ -23,7 +37,7 @@
      "lost": 1,
      "played": 11,
      "points": 28,
-     "rank": 2,
+     "rank": 3,
      "team": {
       "id": 108,
       "name": "FC Internazionale Milano",
@@ -32,16 +46,16 @@
      "won": 9
     },
     {
-     "draw": 3,
-     "gd": 21,
-     "lost": 0,
-     "played": 11,
-     "points": 27,
-     "rank": 3,
+     "draw": 2,
+     "gd": 10,
+     "lost": 2,
+     "played": 12,
+     "points": 26,
+     "rank": 4,
      "team": {
-      "id": 100,
-      "name": "AS Roma",
-      "shortName": "Roma"
+      "id": 7397,
+      "name": "Como 1907",
+      "shortName": "Como 1907"
      },
      "won": 8
     },
@@ -51,25 +65,11 @@
      "lost": 1,
      "played": 11,
      "points": 24,
-     "rank": 4,
+     "rank": 5,
      "team": {
       "id": 98,
       "name": "AC Milan",
       "shortName": "Milan"
-     },
-     "won": 7
-    },
-    {
-     "draw": 2,
-     "gd": 8,
-     "lost": 2,
-     "played": 11,
-     "points": 23,
-     "rank": 5,
-     "team": {
-      "id": 7397,
-      "name": "Como 1907",
-      "shortName": "Como 1907"
      },
      "won": 7
     },
@@ -89,11 +89,25 @@
     },
     {
      "draw": 3,
+     "gd": 5,
+     "lost": 4,
+     "played": 12,
+     "points": 18,
+     "rank": 7,
+     "team": {
+      "id": 113,
+      "name": "SSC Napoli",
+      "shortName": "Napoli"
+     },
+     "won": 5
+    },
+    {
+     "draw": 3,
      "gd": 3,
      "lost": 3,
      "played": 11,
      "points": 18,
-     "rank": 7,
+     "rank": 8,
      "team": {
       "id": 109,
       "name": "Juventus FC",
@@ -107,7 +121,7 @@
      "lost": 4,
      "played": 11,
      "points": 17,
-     "rank": 8,
+     "rank": 9,
      "team": {
       "id": 103,
       "name": "Bologna FC 1909",
@@ -117,11 +131,11 @@
     },
     {
      "draw": 1,
-     "gd": -5,
-     "lost": 5,
-     "played": 11,
+     "gd": -7,
+     "lost": 6,
+     "played": 12,
      "points": 16,
-     "rank": 9,
+     "rank": 10,
      "team": {
       "id": 104,
       "name": "Cagliari Calcio",
@@ -130,44 +144,30 @@
      "won": 5
     },
     {
-     "draw": 3,
-     "gd": 4,
-     "lost": 4,
-     "played": 11,
-     "points": 15,
-     "rank": 10,
-     "team": {
-      "id": 113,
-      "name": "SSC Napoli",
-      "shortName": "Napoli"
-     },
-     "won": 4
-    },
-    {
      "draw": 2,
-     "gd": -2,
+     "gd": -3,
      "lost": 5,
      "played": 11,
      "points": 14,
      "rank": 11,
      "team": {
-      "id": 586,
-      "name": "Torino FC",
-      "shortName": "Torino"
+      "id": 102,
+      "name": "Atalanta BC",
+      "shortName": "Atalanta"
      },
      "won": 4
     },
     {
      "draw": 2,
      "gd": -3,
-     "lost": 5,
-     "played": 11,
+     "lost": 6,
+     "played": 12,
      "points": 14,
      "rank": 12,
      "team": {
-      "id": 102,
-      "name": "Atalanta BC",
-      "shortName": "Atalanta"
+      "id": 586,
+      "name": "Torino FC",
+      "shortName": "Torino"
      },
      "won": 4
     },
@@ -187,9 +187,9 @@
     },
     {
      "draw": 1,
-     "gd": -10,
-     "lost": 7,
-     "played": 11,
+     "gd": -13,
+     "lost": 8,
+     "played": 12,
      "points": 10,
      "rank": 14,
      "team": {
@@ -215,9 +215,9 @@
     },
     {
      "draw": 2,
-     "gd": -8,
-     "lost": 7,
-     "played": 11,
+     "gd": -12,
+     "lost": 8,
+     "played": 12,
      "points": 8,
      "rank": 16,
      "team": {

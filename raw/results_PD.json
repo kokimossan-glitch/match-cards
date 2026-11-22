@@ -2519,6 +2519,90 @@
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
    "utcDate": "2026-11-20T20:00:00Z"
+  },
+  {
+   "away": {
+    "id": 560,
+    "name": "RC Deportivo La Coruña",
+    "shortName": "Deportivo"
+   },
+   "home": {
+    "id": 263,
+    "name": "Deportivo Alavés",
+    "shortName": "Alavés"
+   },
+   "id": 564755,
+   "matchday": 13,
+   "score": {
+    "away": 1,
+    "home": 3
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-21T13:00:00Z"
+  },
+  {
+   "away": {
+    "id": 95,
+    "name": "Valencia CF",
+    "shortName": "Valencia"
+   },
+   "home": {
+    "id": 87,
+    "name": "Rayo Vallecano de Madrid",
+    "shortName": "Rayo Vallecano"
+   },
+   "id": 564751,
+   "matchday": 13,
+   "score": {
+    "away": 1,
+    "home": 0
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-21T15:15:00Z"
+  },
+  {
+   "away": {
+    "id": 90,
+    "name": "Real Betis Balompié",
+    "shortName": "Real Betis"
+   },
+   "home": {
+    "id": 559,
+    "name": "Sevilla FC",
+    "shortName": "Sevilla FC"
+   },
+   "id": 564756,
+   "matchday": 13,
+   "score": {
+    "away": 1,
+    "home": 1
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-21T17:30:00Z"
+  },
+  {
+   "away": {
+    "id": 558,
+    "name": "RC Celta de Vigo",
+    "shortName": "Celta"
+   },
+   "home": {
+    "id": 86,
+    "name": "Real Madrid CF",
+    "shortName": "Real Madrid"
+   },
+   "id": 564754,
+   "matchday": 13,
+   "score": {
+    "away": 1,
+    "home": 2
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-21T20:00:00Z"
   }
  ]
 }

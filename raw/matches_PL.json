@@ -14,11 +14,11 @@
    "id": 560643,
    "matchday": 11,
    "score": {
-    "away": null,
-    "home": null
+    "away": 1,
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
-   "status": "TIMED",
+   "status": "FINISHED",
    "utcDate": "2026-11-21T12:30:00Z"
   },
   {
@@ -35,11 +35,11 @@
    "id": 560642,
    "matchday": 11,
    "score": {
-    "away": null,
-    "home": null
+    "away": 4,
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
-   "status": "TIMED",
+   "status": "FINISHED",
    "utcDate": "2026-11-21T15:00:00Z"
   },
   {
@@ -56,11 +56,11 @@
    "id": 560644,
    "matchday": 11,
    "score": {
-    "away": null,
-    "home": null
+    "away": 0,
+    "home": 0
    },
    "stage": "REGULAR_SEASON",
-   "status": "TIMED",
+   "status": "FINISHED",
    "utcDate": "2026-11-21T15:00:00Z"
   },
   {
@@ -77,11 +77,11 @@
    "id": 560647,
    "matchday": 11,
    "score": {
-    "away": null,
-    "home": null
+    "away": 0,
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
-   "status": "TIMED",
+   "status": "FINISHED",
    "utcDate": "2026-11-21T15:00:00Z"
   },
   {
@@ -98,11 +98,11 @@
    "id": 560648,
    "matchday": 11,
    "score": {
-    "away": null,
-    "home": null
+    "away": 0,
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
-   "status": "TIMED",
+   "status": "FINISHED",
    "utcDate": "2026-11-21T15:00:00Z"
   },
   {
@@ -119,11 +119,11 @@
    "id": 560650,
    "matchday": 11,
    "score": {
-    "away": null,
-    "home": null
+    "away": 2,
+    "home": 3
    },
    "stage": "REGULAR_SEASON",
-   "status": "TIMED",
+   "status": "FINISHED",
    "utcDate": "2026-11-21T15:00:00Z"
   },
   {
@@ -140,11 +140,11 @@
    "id": 560651,
    "matchday": 11,
    "score": {
-    "away": null,
-    "home": null
+    "away": 2,
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
-   "status": "TIMED",
+   "status": "FINISHED",
    "utcDate": "2026-11-21T17:30:00Z"
   },
   {
@@ -1262,7 +1262,7 @@
   }
  ],
  "window": {
-  "from": "2026-11-14",
-  "to": "2026-12-21"
+  "from": "2026-11-15",
+  "to": "2026-12-22"
  }
 }

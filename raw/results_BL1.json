@@ -1721,6 +1721,132 @@
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
    "utcDate": "2026-11-20T19:30:00Z"
+  },
+  {
+   "away": {
+    "id": 29,
+    "name": "SC Paderborn 07",
+    "shortName": "SC Paderborn"
+   },
+   "home": {
+    "id": 3,
+    "name": "Bayer 04 Leverkusen",
+    "shortName": "Leverkusen"
+   },
+   "id": 565857,
+   "matchday": 10,
+   "score": {
+    "away": 0,
+    "home": 4
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-21T14:30:00Z"
+  },
+  {
+   "away": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "home": {
+    "id": 28,
+    "name": "1. FC Union Berlin",
+    "shortName": "Union Berlin"
+   },
+   "id": 565858,
+   "matchday": 10,
+   "score": {
+    "away": 5,
+    "home": 1
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-21T14:30:00Z"
+  },
+  {
+   "away": {
+    "id": 17,
+    "name": "SC Freiburg",
+    "shortName": "Freiburg"
+   },
+   "home": {
+    "id": 719,
+    "name": "SV 07 Elversberg",
+    "shortName": "Elversberg"
+   },
+   "id": 565860,
+   "matchday": 10,
+   "score": {
+    "away": 1,
+    "home": 0
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-21T14:30:00Z"
+  },
+  {
+   "away": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "home": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "id": 565862,
+   "matchday": 10,
+   "score": {
+    "away": 1,
+    "home": 0
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-21T14:30:00Z"
+  },
+  {
+   "away": {
+    "id": 2,
+    "name": "TSG 1899 Hoffenheim",
+    "shortName": "Hoffenheim"
+   },
+   "home": {
+    "id": 19,
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "id": 565865,
+   "matchday": 10,
+   "score": {
+    "away": 0,
+    "home": 1
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-21T14:30:00Z"
+  },
+  {
+   "away": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "home": {
+    "id": 6,
+    "name": "FC Schalke 04",
+    "shortName": "Schalke"
+   },
+   "id": 565861,
+   "matchday": 10,
+   "score": {
+    "away": 0,
+    "home": 0
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-21T17:30:00Z"
   }
  ]
 }

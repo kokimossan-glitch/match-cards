@@ -2309,6 +2309,90 @@
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
    "utcDate": "2026-11-08T19:45:00Z"
+  },
+  {
+   "away": {
+    "id": 104,
+    "name": "Cagliari Calcio",
+    "shortName": "Cagliari"
+   },
+   "home": {
+    "id": 7397,
+    "name": "Como 1907",
+    "shortName": "Como 1907"
+   },
+   "id": 558525,
+   "matchday": 12,
+   "score": {
+    "away": 0,
+    "home": 2
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-21T14:00:00Z"
+  },
+  {
+   "away": {
+    "id": 5890,
+    "name": "US Lecce",
+    "shortName": "Lecce"
+   },
+   "home": {
+    "id": 110,
+    "name": "SS Lazio",
+    "shortName": "Lazio"
+   },
+   "id": 558528,
+   "matchday": 12,
+   "score": {
+    "away": 0,
+    "home": 3
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-21T14:00:00Z"
+  },
+  {
+   "away": {
+    "id": 100,
+    "name": "AS Roma",
+    "shortName": "Roma"
+   },
+   "home": {
+    "id": 112,
+    "name": "Parma Calcio 1913",
+    "shortName": "Parma"
+   },
+   "id": 558526,
+   "matchday": 12,
+   "score": {
+    "away": 5,
+    "home": 1
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-21T17:00:00Z"
+  },
+  {
+   "away": {
+    "id": 586,
+    "name": "Torino FC",
+    "shortName": "Torino"
+   },
+   "home": {
+    "id": 113,
+    "name": "SSC Napoli",
+    "shortName": "Napoli"
+   },
+   "id": 558527,
+   "matchday": 12,
+   "score": {
+    "away": 0,
+    "home": 1
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-21T19:45:00Z"
   }
  ]
 }

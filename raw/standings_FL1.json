@@ -5,23 +5,23 @@
    "rows": [
     {
      "draw": 2,
-     "gd": 12,
+     "gd": 13,
      "lost": 1,
-     "played": 10,
-     "points": 23,
+     "played": 11,
+     "points": 26,
      "rank": 1,
      "team": {
       "id": 524,
       "name": "Paris Saint-Germain FC",
       "shortName": "PSG"
      },
-     "won": 7
+     "won": 8
     },
     {
      "draw": 3,
-     "gd": 7,
-     "lost": 1,
-     "played": 10,
+     "gd": 6,
+     "lost": 2,
+     "played": 11,
      "points": 21,
      "rank": 2,
      "team": {
@@ -46,12 +46,26 @@
      "won": 6
     },
     {
+     "draw": 2,
+     "gd": 7,
+     "lost": 3,
+     "played": 11,
+     "points": 20,
+     "rank": 4,
+     "team": {
+      "id": 523,
+      "name": "Olympique Lyonnais",
+      "shortName": "Olympique Lyon"
+     },
+     "won": 6
+    },
+    {
      "draw": 0,
      "gd": 8,
      "lost": 4,
      "played": 10,
      "points": 18,
-     "rank": 4,
+     "rank": 5,
      "team": {
       "id": 516,
       "name": "Olympique de Marseille",
@@ -60,26 +74,26 @@
      "won": 6
     },
     {
-     "draw": 2,
-     "gd": 6,
+     "draw": 3,
+     "gd": 7,
      "lost": 3,
-     "played": 10,
-     "points": 17,
-     "rank": 5,
+     "played": 11,
+     "points": 18,
+     "rank": 6,
      "team": {
-      "id": 523,
-      "name": "Olympique Lyonnais",
-      "shortName": "Olympique Lyon"
+      "id": 512,
+      "name": "Stade Brestois 29",
+      "shortName": "Brest"
      },
      "won": 5
     },
     {
      "draw": 2,
-     "gd": 3,
-     "lost": 3,
-     "played": 10,
+     "gd": 2,
+     "lost": 4,
+     "played": 11,
      "points": 17,
-     "rank": 6,
+     "rank": 7,
      "team": {
       "id": 522,
       "name": "OGC Nice",
@@ -88,12 +102,12 @@
      "won": 5
     },
     {
-     "draw": 4,
+     "draw": 5,
      "gd": 2,
      "lost": 2,
-     "played": 10,
-     "points": 16,
-     "rank": 7,
+     "played": 11,
+     "points": 17,
+     "rank": 8,
      "team": {
       "id": 548,
       "name": "AS Monaco FC",
@@ -107,27 +121,13 @@
      "lost": 4,
      "played": 10,
      "points": 16,
-     "rank": 8,
+     "rank": 9,
      "team": {
       "id": 529,
       "name": "Stade Rennais FC 1901",
       "shortName": "Stade Rennais"
      },
      "won": 5
-    },
-    {
-     "draw": 3,
-     "gd": 6,
-     "lost": 3,
-     "played": 10,
-     "points": 15,
-     "rank": 9,
-     "team": {
-      "id": 512,
-      "name": "Stade Brestois 29",
-      "shortName": "Brest"
-     },
-     "won": 4
     },
     {
      "draw": 3,
@@ -144,11 +144,11 @@
      "won": 4
     },
     {
-     "draw": 1,
+     "draw": 2,
      "gd": 2,
      "lost": 5,
-     "played": 10,
-     "points": 13,
+     "played": 11,
+     "points": 14,
      "rank": 11,
      "team": {
       "id": 546,
@@ -158,11 +158,11 @@
      "won": 4
     },
     {
-     "draw": 4,
+     "draw": 5,
      "gd": 1,
      "lost": 3,
-     "played": 10,
-     "points": 13,
+     "played": 11,
+     "points": 14,
      "rank": 12,
      "team": {
       "id": 511,
@@ -186,30 +186,30 @@
      "won": 3
     },
     {
-     "draw": 1,
-     "gd": -4,
+     "draw": 2,
+     "gd": -11,
      "lost": 6,
-     "played": 10,
-     "points": 10,
+     "played": 11,
+     "points": 11,
      "rank": 14,
      "team": {
-      "id": 576,
-      "name": "RC Strasbourg Alsace",
-      "shortName": "Strasbourg"
+      "id": 519,
+      "name": "AJ Auxerre",
+      "shortName": "Auxerre"
      },
      "won": 3
     },
     {
      "draw": 1,
-     "gd": -11,
-     "lost": 6,
-     "played": 10,
+     "gd": -5,
+     "lost": 7,
+     "played": 11,
      "points": 10,
      "rank": 15,
      "team": {
-      "id": 519,
-      "name": "AJ Auxerre",
-      "shortName": "Auxerre"
+      "id": 576,
+      "name": "RC Strasbourg Alsace",
+      "shortName": "Strasbourg"
      },
      "won": 3
     },
