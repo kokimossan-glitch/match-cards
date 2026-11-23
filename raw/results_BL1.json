@@ -1847,6 +1847,48 @@
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
    "utcDate": "2026-11-21T17:30:00Z"
+  },
+  {
+   "away": {
+    "id": 15,
+    "name": "1. FSV Mainz 05",
+    "shortName": "Mainz"
+   },
+   "home": {
+    "id": 16,
+    "name": "FC Augsburg",
+    "shortName": "Augsburg"
+   },
+   "id": 565864,
+   "matchday": 10,
+   "score": {
+    "away": 1,
+    "home": 3
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-22T14:30:00Z"
+  },
+  {
+   "away": {
+    "id": 7,
+    "name": "Hamburger SV",
+    "shortName": "HSV"
+   },
+   "home": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "id": 565863,
+   "matchday": 10,
+   "score": {
+    "away": 0,
+    "home": 4
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-22T16:30:00Z"
   }
  ]
 }

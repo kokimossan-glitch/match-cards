@@ -5,17 +5,17 @@
    "rows": [
     {
      "draw": 0,
-     "gd": 35,
+     "gd": 36,
      "lost": 1,
-     "played": 12,
-     "points": 33,
+     "played": 13,
+     "points": 36,
      "rank": 1,
      "team": {
       "id": 81,
       "name": "FC Barcelona",
       "shortName": "Barça"
      },
-     "won": 11
+     "won": 12
     },
     {
      "draw": 0,
@@ -33,17 +33,17 @@
     },
     {
      "draw": 1,
-     "gd": 13,
+     "gd": 16,
      "lost": 2,
-     "played": 12,
-     "points": 28,
+     "played": 13,
+     "points": 31,
      "rank": 3,
      "team": {
       "id": 78,
       "name": "Club Atlético de Madrid",
       "shortName": "Atleti"
      },
-     "won": 9
+     "won": 10
     },
     {
      "draw": 3,
@@ -61,9 +61,9 @@
     },
     {
      "draw": 1,
-     "gd": 1,
-     "lost": 4,
-     "played": 12,
+     "gd": 0,
+     "lost": 5,
+     "played": 13,
      "points": 22,
      "rank": 5,
      "team": {
@@ -88,12 +88,26 @@
      "won": 5
     },
     {
+     "draw": 2,
+     "gd": -12,
+     "lost": 6,
+     "played": 13,
+     "points": 17,
+     "rank": 7,
+     "team": {
+      "id": 5335,
+      "name": "Real Racing Club de Santander",
+      "shortName": "Santander"
+     },
+     "won": 5
+    },
+    {
      "draw": 4,
      "gd": 3,
      "lost": 4,
      "played": 12,
      "points": 16,
-     "rank": 7,
+     "rank": 8,
      "team": {
       "id": 77,
       "name": "Athletic Club",
@@ -107,7 +121,7 @@
      "lost": 5,
      "played": 13,
      "points": 16,
-     "rank": 8,
+     "rank": 9,
      "team": {
       "id": 263,
       "name": "Deportivo Alavés",
@@ -117,11 +131,11 @@
     },
     {
      "draw": 3,
-     "gd": 2,
-     "lost": 5,
-     "played": 12,
+     "gd": 1,
+     "lost": 6,
+     "played": 13,
      "points": 15,
-     "rank": 9,
+     "rank": 10,
      "team": {
       "id": 94,
       "name": "Villarreal CF",
@@ -135,7 +149,7 @@
      "lost": 6,
      "played": 13,
      "points": 15,
-     "rank": 10,
+     "rank": 11,
      "team": {
       "id": 80,
       "name": "RCD Espanyol de Barcelona",
@@ -149,7 +163,7 @@
      "lost": 4,
      "played": 13,
      "points": 15,
-     "rank": 11,
+     "rank": 12,
      "team": {
       "id": 560,
       "name": "RC Deportivo La Coruña",
@@ -158,16 +172,16 @@
      "won": 3
     },
     {
-     "draw": 2,
-     "gd": -13,
+     "draw": 3,
+     "gd": -10,
      "lost": 6,
-     "played": 12,
-     "points": 14,
-     "rank": 12,
+     "played": 13,
+     "points": 15,
+     "rank": 13,
      "team": {
-      "id": 5335,
-      "name": "Real Racing Club de Santander",
-      "shortName": "Santander"
+      "id": 79,
+      "name": "CA Osasuna",
+      "shortName": "Osasuna"
      },
      "won": 4
     },
@@ -177,7 +191,7 @@
      "lost": 4,
      "played": 13,
      "points": 13,
-     "rank": 13,
+     "rank": 14,
      "team": {
       "id": 558,
       "name": "RC Celta de Vigo",
@@ -191,7 +205,7 @@
      "lost": 6,
      "played": 12,
      "points": 12,
-     "rank": 14,
+     "rank": 15,
      "team": {
       "id": 87,
       "name": "Rayo Vallecano de Madrid",
@@ -201,43 +215,29 @@
     },
     {
      "draw": 3,
-     "gd": -10,
-     "lost": 6,
-     "played": 12,
-     "points": 12,
-     "rank": 15,
-     "team": {
-      "id": 82,
-      "name": "Getafe CF",
-      "shortName": "Getafe"
-     },
-     "won": 3
-    },
-    {
-     "draw": 3,
      "gd": -11,
-     "lost": 6,
-     "played": 12,
+     "lost": 7,
+     "played": 13,
      "points": 12,
      "rank": 16,
      "team": {
-      "id": 79,
-      "name": "CA Osasuna",
-      "shortName": "Osasuna"
+      "id": 95,
+      "name": "Valencia CF",
+      "shortName": "Valencia"
      },
      "won": 3
     },
     {
      "draw": 3,
-     "gd": -11,
+     "gd": -13,
      "lost": 7,
      "played": 13,
      "points": 12,
      "rank": 17,
      "team": {
-      "id": 95,
-      "name": "Valencia CF",
-      "shortName": "Valencia"
+      "id": 82,
+      "name": "Getafe CF",
+      "shortName": "Getafe"
      },
      "won": 3
     },
@@ -271,9 +271,9 @@
     },
     {
      "draw": 5,
-     "gd": -14,
-     "lost": 7,
-     "played": 12,
+     "gd": -15,
+     "lost": 8,
+     "played": 13,
      "points": 5,
      "rank": 20,
      "team": {

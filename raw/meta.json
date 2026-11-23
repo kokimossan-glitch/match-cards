@@ -1,5 +1,7 @@
 {
- "errors": [],
- "generated_at": "2026-11-22T01:31:21+00:00",
+ "errors": [
+  "standings SA: HTTP 404: {\"message\":\"The resource you are looking for does not exist.\",\"error\":404}"
+ ],
+ "generated_at": "2026-11-23T01:56:01+00:00",
  "source": "football-data.org"
 }

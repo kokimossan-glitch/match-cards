@@ -2603,6 +2603,90 @@
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
    "utcDate": "2026-11-21T20:00:00Z"
+  },
+  {
+   "away": {
+    "id": 94,
+    "name": "Villarreal CF",
+    "shortName": "Villarreal"
+   },
+   "home": {
+    "id": 81,
+    "name": "FC Barcelona",
+    "shortName": "Barça"
+   },
+   "id": 564749,
+   "matchday": 13,
+   "score": {
+    "away": 2,
+    "home": 3
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-22T13:00:00Z"
+  },
+  {
+   "away": {
+    "id": 92,
+    "name": "Real Sociedad de Fútbol",
+    "shortName": "Real Sociedad"
+   },
+   "home": {
+    "id": 5335,
+    "name": "Real Racing Club de Santander",
+    "shortName": "Santander"
+   },
+   "id": 564750,
+   "matchday": 13,
+   "score": {
+    "away": 2,
+    "home": 3
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-22T15:15:00Z"
+  },
+  {
+   "away": {
+    "id": 84,
+    "name": "Málaga CF",
+    "shortName": "Málaga"
+   },
+   "home": {
+    "id": 79,
+    "name": "CA Osasuna",
+    "shortName": "Osasuna"
+   },
+   "id": 564752,
+   "matchday": 13,
+   "score": {
+    "away": 0,
+    "home": 1
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-22T17:30:00Z"
+  },
+  {
+   "away": {
+    "id": 78,
+    "name": "Club Atlético de Madrid",
+    "shortName": "Atleti"
+   },
+   "home": {
+    "id": 82,
+    "name": "Getafe CF",
+    "shortName": "Getafe"
+   },
+   "id": 564753,
+   "matchday": 13,
+   "score": {
+    "away": 3,
+    "home": 0
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-22T20:00:00Z"
   }
  ]
 }

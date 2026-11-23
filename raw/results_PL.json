@@ -2246,6 +2246,48 @@
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
    "utcDate": "2026-11-21T17:30:00Z"
+  },
+  {
+   "away": {
+    "id": 397,
+    "name": "Brighton & Hove Albion FC",
+    "shortName": "Brighton Hove"
+   },
+   "home": {
+    "id": 322,
+    "name": "Hull City AFC",
+    "shortName": "Hull City"
+   },
+   "id": 560646,
+   "matchday": 11,
+   "score": {
+    "away": 0,
+    "home": 2
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-22T14:00:00Z"
+  },
+  {
+   "away": {
+    "id": 66,
+    "name": "Manchester United FC",
+    "shortName": "Man United"
+   },
+   "home": {
+    "id": 64,
+    "name": "Liverpool FC",
+    "shortName": "Liverpool"
+   },
+   "id": 560645,
+   "matchday": 11,
+   "score": {
+    "away": 0,
+    "home": 4
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-22T16:30:00Z"
   }
  ]
 }

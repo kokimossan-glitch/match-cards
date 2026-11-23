@@ -19,9 +19,9 @@
     },
     {
      "draw": 1,
-     "gd": 19,
-     "lost": 2,
-     "played": 10,
+     "gd": 17,
+     "lost": 3,
+     "played": 11,
      "points": 22,
      "rank": 2,
      "team": {
@@ -47,29 +47,29 @@
     },
     {
      "draw": 3,
-     "gd": 4,
-     "lost": 3,
-     "played": 11,
-     "points": 18,
-     "rank": 4,
-     "team": {
-      "id": 1044,
-      "name": "AFC Bournemouth",
-      "shortName": "Bournemouth"
-     },
-     "won": 5
-    },
-    {
-     "draw": 3,
-     "gd": 4,
+     "gd": 8,
      "lost": 2,
-     "played": 10,
-     "points": 18,
-     "rank": 5,
+     "played": 11,
+     "points": 21,
+     "rank": 4,
      "team": {
       "id": 64,
       "name": "Liverpool FC",
       "shortName": "Liverpool"
+     },
+     "won": 6
+    },
+    {
+     "draw": 3,
+     "gd": 4,
+     "lost": 3,
+     "played": 11,
+     "points": 18,
+     "rank": 5,
+     "team": {
+      "id": 1044,
+      "name": "AFC Bournemouth",
+      "shortName": "Bournemouth"
      },
      "won": 5
     },
@@ -145,11 +145,25 @@
     },
     {
      "draw": 5,
-     "gd": -3,
+     "gd": 2,
      "lost": 3,
      "played": 11,
      "points": 14,
      "rank": 11,
+     "team": {
+      "id": 322,
+      "name": "Hull City AFC",
+      "shortName": "Hull City"
+     },
+     "won": 3
+    },
+    {
+     "draw": 5,
+     "gd": -3,
+     "lost": 3,
+     "played": 11,
+     "points": 14,
+     "rank": 12,
      "team": {
       "id": 58,
       "name": "Aston Villa FC",
@@ -163,7 +177,7 @@
      "lost": 4,
      "played": 11,
      "points": 13,
-     "rank": 12,
+     "rank": 13,
      "team": {
       "id": 67,
       "name": "Newcastle United FC",
@@ -177,27 +191,13 @@
      "lost": 7,
      "played": 11,
      "points": 12,
-     "rank": 13,
+     "rank": 14,
      "team": {
       "id": 1076,
       "name": "Coventry City FC",
       "shortName": "Coventry City"
      },
      "won": 4
-    },
-    {
-     "draw": 5,
-     "gd": 0,
-     "lost": 3,
-     "played": 10,
-     "points": 11,
-     "rank": 14,
-     "team": {
-      "id": 322,
-      "name": "Hull City AFC",
-      "shortName": "Hull City"
-     },
-     "won": 2
     },
     {
      "draw": 5,
@@ -257,9 +257,9 @@
     },
     {
      "draw": 5,
-     "gd": -5,
-     "lost": 4,
-     "played": 10,
+     "gd": -9,
+     "lost": 5,
+     "played": 11,
      "points": 8,
      "rank": 19,
      "team": {

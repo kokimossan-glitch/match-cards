@@ -161,11 +161,11 @@
    "id": 560646,
    "matchday": 11,
    "score": {
-    "away": null,
-    "home": null
+    "away": 0,
+    "home": 2
    },
    "stage": "REGULAR_SEASON",
-   "status": "TIMED",
+   "status": "FINISHED",
    "utcDate": "2026-11-22T14:00:00Z"
   },
   {
@@ -182,11 +182,11 @@
    "id": 560645,
    "matchday": 11,
    "score": {
-    "away": null,
-    "home": null
+    "away": 0,
+    "home": 4
    },
    "stage": "REGULAR_SEASON",
-   "status": "TIMED",
+   "status": "FINISHED",
    "utcDate": "2026-11-22T16:30:00Z"
   },
   {
@@ -1262,7 +1262,7 @@
   }
  ],
  "window": {
-  "from": "2026-11-15",
-  "to": "2026-12-22"
+  "from": "2026-11-16",
+  "to": "2026-12-23"
  }
 }

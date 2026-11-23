@@ -18,30 +18,30 @@
      "won": 8
     },
     {
+     "draw": 2,
+     "gd": 11,
+     "lost": 2,
+     "played": 11,
+     "points": 23,
+     "rank": 2,
+     "team": {
+      "id": 1045,
+      "name": "Paris FC",
+      "shortName": "Paris FC"
+     },
+     "won": 7
+    },
+    {
      "draw": 3,
      "gd": 6,
      "lost": 2,
      "played": 11,
      "points": 21,
-     "rank": 2,
+     "rank": 3,
      "team": {
       "id": 521,
       "name": "Lille OSC",
       "shortName": "Lille"
-     },
-     "won": 6
-    },
-    {
-     "draw": 2,
-     "gd": 7,
-     "lost": 2,
-     "played": 10,
-     "points": 20,
-     "rank": 3,
-     "team": {
-      "id": 1045,
-      "name": "Paris FC",
-      "shortName": "Paris FC"
      },
      "won": 6
     },
@@ -61,9 +61,9 @@
     },
     {
      "draw": 0,
-     "gd": 8,
-     "lost": 4,
-     "played": 10,
+     "gd": 7,
+     "lost": 5,
+     "played": 11,
      "points": 18,
      "rank": 5,
      "team": {
@@ -116,11 +116,11 @@
      "won": 4
     },
     {
-     "draw": 1,
+     "draw": 2,
      "gd": 0,
      "lost": 4,
-     "played": 10,
-     "points": 16,
+     "played": 11,
+     "points": 17,
      "rank": 9,
      "team": {
       "id": 529,
@@ -130,11 +130,11 @@
      "won": 5
     },
     {
-     "draw": 3,
+     "draw": 4,
      "gd": 1,
      "lost": 3,
-     "played": 10,
-     "points": 15,
+     "played": 11,
+     "points": 16,
      "rank": 10,
      "team": {
       "id": 525,
@@ -172,12 +172,26 @@
      "won": 3
     },
     {
+     "draw": 5,
+     "gd": -6,
+     "lost": 4,
+     "played": 11,
+     "points": 11,
+     "rank": 13,
+     "team": {
+      "id": 535,
+      "name": "Le Mans FC",
+      "shortName": "Le Mans"
+     },
+     "won": 2
+    },
+    {
      "draw": 2,
      "gd": -8,
      "lost": 6,
      "played": 11,
      "points": 11,
-     "rank": 13,
+     "rank": 14,
      "team": {
       "id": 531,
       "name": "ES Troyes AC",
@@ -191,7 +205,7 @@
      "lost": 6,
      "played": 11,
      "points": 11,
-     "rank": 14,
+     "rank": 15,
      "team": {
       "id": 519,
       "name": "AJ Auxerre",
@@ -205,7 +219,7 @@
      "lost": 7,
      "played": 11,
      "points": 10,
-     "rank": 15,
+     "rank": 16,
      "team": {
       "id": 576,
       "name": "RC Strasbourg Alsace",
@@ -214,24 +228,10 @@
      "won": 3
     },
     {
-     "draw": 5,
-     "gd": -7,
-     "lost": 4,
-     "played": 10,
-     "points": 8,
-     "rank": 16,
-     "team": {
-      "id": 535,
-      "name": "Le Mans FC",
-      "shortName": "Le Mans"
-     },
-     "won": 1
-    },
-    {
      "draw": 2,
-     "gd": -10,
-     "lost": 6,
-     "played": 10,
+     "gd": -14,
+     "lost": 7,
+     "played": 11,
      "points": 8,
      "rank": 17,
      "team": {

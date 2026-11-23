@@ -75,17 +75,17 @@
     },
     {
      "draw": 3,
-     "gd": 2,
+     "gd": 6,
      "lost": 2,
-     "played": 9,
-     "points": 15,
+     "played": 10,
+     "points": 18,
      "rank": 6,
      "team": {
       "id": 12,
       "name": "SV Werder Bremen",
       "shortName": "Bremen"
      },
-     "won": 4
+     "won": 5
     },
     {
      "draw": 3,
@@ -130,12 +130,26 @@
      "won": 4
     },
     {
+     "draw": 3,
+     "gd": 2,
+     "lost": 4,
+     "played": 10,
+     "points": 12,
+     "rank": 10,
+     "team": {
+      "id": 16,
+      "name": "FC Augsburg",
+      "shortName": "Augsburg"
+     },
+     "won": 3
+    },
+    {
      "draw": 0,
      "gd": -2,
      "lost": 6,
      "played": 10,
      "points": 12,
-     "rank": 10,
+     "rank": 11,
      "team": {
       "id": 2,
       "name": "TSG 1899 Hoffenheim",
@@ -145,11 +159,11 @@
     },
     {
      "draw": 0,
-     "gd": -10,
-     "lost": 5,
-     "played": 9,
+     "gd": -14,
+     "lost": 6,
+     "played": 10,
      "points": 12,
-     "rank": 11,
+     "rank": 12,
      "team": {
       "id": 7,
       "name": "Hamburger SV",
@@ -159,11 +173,11 @@
     },
     {
      "draw": 1,
-     "gd": -1,
-     "lost": 5,
-     "played": 9,
+     "gd": -3,
+     "lost": 6,
+     "played": 10,
      "points": 10,
-     "rank": 12,
+     "rank": 13,
      "team": {
       "id": 15,
       "name": "1. FSV Mainz 05",
@@ -177,7 +191,7 @@
      "lost": 4,
      "played": 10,
      "points": 10,
-     "rank": 13,
+     "rank": 14,
      "team": {
       "id": 1,
       "name": "1. FC Köln",
@@ -191,25 +205,11 @@
      "lost": 4,
      "played": 10,
      "points": 10,
-     "rank": 14,
+     "rank": 15,
      "team": {
       "id": 29,
       "name": "SC Paderborn 07",
       "shortName": "SC Paderborn"
-     },
-     "won": 2
-    },
-    {
-     "draw": 3,
-     "gd": 0,
-     "lost": 4,
-     "played": 9,
-     "points": 9,
-     "rank": 15,
-     "team": {
-      "id": 16,
-      "name": "FC Augsburg",
-      "shortName": "Augsburg"
      },
      "won": 2
     },
