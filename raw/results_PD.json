@@ -2687,6 +2687,27 @@
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
    "utcDate": "2026-11-22T20:00:00Z"
+  },
+  {
+   "away": {
+    "id": 285,
+    "name": "Elche CF",
+    "shortName": "Elche"
+   },
+   "home": {
+    "id": 88,
+    "name": "Levante UD",
+    "shortName": "Levante"
+   },
+   "id": 564757,
+   "matchday": 13,
+   "score": {
+    "away": 1,
+    "home": 1
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-23T20:00:00Z"
   }
  ]
 }

@@ -203,11 +203,11 @@
    "id": 564757,
    "matchday": 13,
    "score": {
-    "away": null,
-    "home": null
+    "away": 1,
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
-   "status": "TIMED",
+   "status": "FINISHED",
    "utcDate": "2026-11-23T20:00:00Z"
   },
   {
@@ -695,87 +695,24 @@
   },
   {
    "away": {
-    "id": 558,
-    "name": "RC Celta de Vigo",
-    "shortName": "Celta"
+    "id": 559,
+    "name": "Sevilla FC",
+    "shortName": "Sevilla FC"
    },
    "home": {
-    "id": 80,
-    "name": "RCD Espanyol de Barcelona",
-    "shortName": "Espanyol"
+    "id": 285,
+    "name": "Elche CF",
+    "shortName": "Elche"
    },
-   "id": 564778,
+   "id": 564783,
    "matchday": 16,
    "score": {
     "away": null,
     "home": null
    },
    "stage": "REGULAR_SEASON",
-   "status": "SCHEDULED",
-   "utcDate": "2026-12-13T00:00:00Z"
-  },
-  {
-   "away": {
-    "id": 81,
-    "name": "FC Barcelona",
-    "shortName": "Barça"
-   },
-   "home": {
-    "id": 84,
-    "name": "Málaga CF",
-    "shortName": "Málaga"
-   },
-   "id": 564779,
-   "matchday": 16,
-   "score": {
-    "away": null,
-    "home": null
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "SCHEDULED",
-   "utcDate": "2026-12-13T00:00:00Z"
-  },
-  {
-   "away": {
-    "id": 79,
-    "name": "CA Osasuna",
-    "shortName": "Osasuna"
-   },
-   "home": {
-    "id": 86,
-    "name": "Real Madrid CF",
-    "shortName": "Real Madrid"
-   },
-   "id": 564780,
-   "matchday": 16,
-   "score": {
-    "away": null,
-    "home": null
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "SCHEDULED",
-   "utcDate": "2026-12-13T00:00:00Z"
-  },
-  {
-   "away": {
-    "id": 77,
-    "name": "Athletic Club",
-    "shortName": "Athletic"
-   },
-   "home": {
-    "id": 560,
-    "name": "RC Deportivo La Coruña",
-    "shortName": "Deportivo"
-   },
-   "id": 564781,
-   "matchday": 16,
-   "score": {
-    "away": null,
-    "home": null
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "SCHEDULED",
-   "utcDate": "2026-12-13T00:00:00Z"
+   "status": "TIMED",
+   "utcDate": "2026-12-11T20:00:00Z"
   },
   {
    "away": {
@@ -795,29 +732,8 @@
     "home": null
    },
    "stage": "REGULAR_SEASON",
-   "status": "SCHEDULED",
-   "utcDate": "2026-12-13T00:00:00Z"
-  },
-  {
-   "away": {
-    "id": 559,
-    "name": "Sevilla FC",
-    "shortName": "Sevilla FC"
-   },
-   "home": {
-    "id": 285,
-    "name": "Elche CF",
-    "shortName": "Elche"
-   },
-   "id": 564783,
-   "matchday": 16,
-   "score": {
-    "away": null,
-    "home": null
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "SCHEDULED",
-   "utcDate": "2026-12-13T00:00:00Z"
+   "status": "TIMED",
+   "utcDate": "2026-12-12T13:00:00Z"
   },
   {
    "away": {
@@ -837,8 +753,29 @@
     "home": null
    },
    "stage": "REGULAR_SEASON",
-   "status": "SCHEDULED",
-   "utcDate": "2026-12-13T00:00:00Z"
+   "status": "TIMED",
+   "utcDate": "2026-12-12T15:15:00Z"
+  },
+  {
+   "away": {
+    "id": 81,
+    "name": "FC Barcelona",
+    "shortName": "Barça"
+   },
+   "home": {
+    "id": 84,
+    "name": "Málaga CF",
+    "shortName": "Málaga"
+   },
+   "id": 564779,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-12T17:30:00Z"
   },
   {
    "away": {
@@ -858,29 +795,8 @@
     "home": null
    },
    "stage": "REGULAR_SEASON",
-   "status": "SCHEDULED",
-   "utcDate": "2026-12-13T00:00:00Z"
-  },
-  {
-   "away": {
-    "id": 82,
-    "name": "Getafe CF",
-    "shortName": "Getafe"
-   },
-   "home": {
-    "id": 92,
-    "name": "Real Sociedad de Fútbol",
-    "shortName": "Real Sociedad"
-   },
-   "id": 564786,
-   "matchday": 16,
-   "score": {
-    "away": null,
-    "home": null
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "SCHEDULED",
-   "utcDate": "2026-12-13T00:00:00Z"
+   "status": "TIMED",
+   "utcDate": "2026-12-12T20:00:00Z"
   },
   {
    "away": {
@@ -900,8 +816,92 @@
     "home": null
    },
    "stage": "REGULAR_SEASON",
-   "status": "SCHEDULED",
-   "utcDate": "2026-12-13T00:00:00Z"
+   "status": "TIMED",
+   "utcDate": "2026-12-13T13:00:00Z"
+  },
+  {
+   "away": {
+    "id": 77,
+    "name": "Athletic Club",
+    "shortName": "Athletic"
+   },
+   "home": {
+    "id": 560,
+    "name": "RC Deportivo La Coruña",
+    "shortName": "Deportivo"
+   },
+   "id": 564781,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-13T15:15:00Z"
+  },
+  {
+   "away": {
+    "id": 82,
+    "name": "Getafe CF",
+    "shortName": "Getafe"
+   },
+   "home": {
+    "id": 92,
+    "name": "Real Sociedad de Fútbol",
+    "shortName": "Real Sociedad"
+   },
+   "id": 564786,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-13T17:30:00Z"
+  },
+  {
+   "away": {
+    "id": 79,
+    "name": "CA Osasuna",
+    "shortName": "Osasuna"
+   },
+   "home": {
+    "id": 86,
+    "name": "Real Madrid CF",
+    "shortName": "Real Madrid"
+   },
+   "id": 564780,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-13T20:00:00Z"
+  },
+  {
+   "away": {
+    "id": 558,
+    "name": "RC Celta de Vigo",
+    "shortName": "Celta"
+   },
+   "home": {
+    "id": 80,
+    "name": "RCD Espanyol de Barcelona",
+    "shortName": "Espanyol"
+   },
+   "id": 564778,
+   "matchday": 16,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-14T20:00:00Z"
   },
   {
    "away": {
@@ -1115,7 +1115,7 @@
   }
  ],
  "window": {
-  "from": "2026-11-16",
-  "to": "2026-12-23"
+  "from": "2026-11-17",
+  "to": "2026-12-24"
  }
 }

@@ -200,12 +200,26 @@
      "won": 2
     },
     {
+     "draw": 6,
+     "gd": -5,
+     "lost": 5,
+     "played": 13,
+     "points": 12,
+     "rank": 15,
+     "team": {
+      "id": 88,
+      "name": "Levante UD",
+      "shortName": "Levante"
+     },
+     "won": 2
+    },
+    {
      "draw": 3,
      "gd": -7,
      "lost": 6,
      "played": 12,
      "points": 12,
-     "rank": 15,
+     "rank": 16,
      "team": {
       "id": 87,
       "name": "Rayo Vallecano de Madrid",
@@ -219,7 +233,7 @@
      "lost": 7,
      "played": 13,
      "points": 12,
-     "rank": 16,
+     "rank": 17,
      "team": {
       "id": 95,
       "name": "Valencia CF",
@@ -233,7 +247,7 @@
      "lost": 7,
      "played": 13,
      "points": 12,
-     "rank": 17,
+     "rank": 18,
      "team": {
       "id": 82,
       "name": "Getafe CF",
@@ -243,24 +257,10 @@
     },
     {
      "draw": 5,
-     "gd": -5,
-     "lost": 5,
-     "played": 12,
-     "points": 11,
-     "rank": 18,
-     "team": {
-      "id": 88,
-      "name": "Levante UD",
-      "shortName": "Levante"
-     },
-     "won": 2
-    },
-    {
-     "draw": 4,
      "gd": -6,
      "lost": 6,
-     "played": 12,
-     "points": 10,
+     "played": 13,
+     "points": 11,
      "rank": 19,
      "team": {
       "id": 285,

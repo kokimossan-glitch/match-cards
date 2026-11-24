@@ -75,29 +75,29 @@
     },
     {
      "draw": 5,
-     "gd": 5,
+     "gd": 9,
      "lost": 2,
      "played": 11,
      "points": 17,
      "rank": 6,
      "team": {
-      "id": 341,
-      "name": "Leeds United FC",
-      "shortName": "Leeds United"
+      "id": 402,
+      "name": "Brentford FC",
+      "shortName": "Brentford"
      },
      "won": 4
     },
     {
-     "draw": 4,
-     "gd": 2,
+     "draw": 5,
+     "gd": 5,
      "lost": 2,
-     "played": 10,
-     "points": 16,
+     "played": 11,
+     "points": 17,
      "rank": 7,
      "team": {
-      "id": 62,
-      "name": "Everton FC",
-      "shortName": "Everton"
+      "id": 341,
+      "name": "Leeds United FC",
+      "shortName": "Leeds United"
      },
      "won": 4
     },
@@ -116,32 +116,32 @@
      "won": 5
     },
     {
+     "draw": 4,
+     "gd": -2,
+     "lost": 3,
+     "played": 11,
+     "points": 16,
+     "rank": 9,
+     "team": {
+      "id": 62,
+      "name": "Everton FC",
+      "shortName": "Everton"
+     },
+     "won": 4
+    },
+    {
      "draw": 3,
      "gd": 1,
      "lost": 4,
      "played": 11,
      "points": 15,
-     "rank": 9,
+     "rank": 10,
      "team": {
       "id": 73,
       "name": "Tottenham Hotspur FC",
       "shortName": "Tottenham"
      },
      "won": 4
-    },
-    {
-     "draw": 5,
-     "gd": 5,
-     "lost": 2,
-     "played": 10,
-     "points": 14,
-     "rank": 10,
-     "team": {
-      "id": 402,
-      "name": "Brentford FC",
-      "shortName": "Brentford"
-     },
-     "won": 3
     },
     {
      "draw": 5,

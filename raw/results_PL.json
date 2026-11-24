@@ -2288,6 +2288,27 @@
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
    "utcDate": "2026-11-22T16:30:00Z"
+  },
+  {
+   "away": {
+    "id": 62,
+    "name": "Everton FC",
+    "shortName": "Everton"
+   },
+   "home": {
+    "id": 402,
+    "name": "Brentford FC",
+    "shortName": "Brentford"
+   },
+   "id": 560649,
+   "matchday": 11,
+   "score": {
+    "away": 0,
+    "home": 4
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-23T20:00:00Z"
   }
  ]
 }
