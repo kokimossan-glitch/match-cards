@@ -32,11 +32,11 @@
      "won": 9
     },
     {
-     "draw": 1,
+     "draw": 2,
      "gd": 15,
      "lost": 1,
-     "played": 11,
-     "points": 28,
+     "played": 12,
+     "points": 29,
      "rank": 3,
      "team": {
       "id": 108,
@@ -46,12 +46,26 @@
      "won": 9
     },
     {
+     "draw": 3,
+     "gd": 14,
+     "lost": 1,
+     "played": 12,
+     "points": 27,
+     "rank": 4,
+     "team": {
+      "id": 98,
+      "name": "AC Milan",
+      "shortName": "Milan"
+     },
+     "won": 8
+    },
+    {
      "draw": 2,
      "gd": 10,
      "lost": 2,
      "played": 12,
      "points": 26,
-     "rank": 4,
+     "rank": 5,
      "team": {
       "id": 7397,
       "name": "Como 1907",
@@ -61,25 +75,25 @@
     },
     {
      "draw": 3,
-     "gd": 10,
-     "lost": 1,
-     "played": 11,
-     "points": 24,
-     "rank": 5,
+     "gd": 7,
+     "lost": 3,
+     "played": 12,
+     "points": 21,
+     "rank": 6,
      "team": {
-      "id": 98,
-      "name": "AC Milan",
-      "shortName": "Milan"
+      "id": 109,
+      "name": "Juventus FC",
+      "shortName": "Juventus"
      },
-     "won": 7
+     "won": 6
     },
     {
      "draw": 2,
-     "gd": 9,
-     "lost": 3,
-     "played": 11,
+     "gd": 5,
+     "lost": 4,
+     "played": 12,
      "points": 20,
-     "rank": 6,
+     "rank": 7,
      "team": {
       "id": 470,
       "name": "Frosinone Calcio",
@@ -93,7 +107,7 @@
      "lost": 4,
      "played": 12,
      "points": 18,
-     "rank": 7,
+     "rank": 8,
      "team": {
       "id": 113,
       "name": "SSC Napoli",
@@ -103,24 +117,10 @@
     },
     {
      "draw": 3,
-     "gd": 3,
-     "lost": 3,
-     "played": 11,
-     "points": 18,
-     "rank": 8,
-     "team": {
-      "id": 109,
-      "name": "Juventus FC",
-      "shortName": "Juventus"
-     },
-     "won": 5
-    },
-    {
-     "draw": 2,
      "gd": 2,
      "lost": 4,
-     "played": 11,
-     "points": 17,
+     "played": 12,
+     "points": 18,
      "rank": 9,
      "team": {
       "id": 103,
@@ -131,11 +131,25 @@
     },
     {
      "draw": 1,
-     "gd": -7,
+     "gd": -3,
      "lost": 6,
      "played": 12,
      "points": 16,
      "rank": 10,
+     "team": {
+      "id": 107,
+      "name": "Genoa CFC",
+      "shortName": "Genoa"
+     },
+     "won": 5
+    },
+    {
+     "draw": 1,
+     "gd": -7,
+     "lost": 6,
+     "played": 12,
+     "points": 16,
+     "rank": 11,
      "team": {
       "id": 104,
       "name": "Cagliari Calcio",
@@ -144,12 +158,12 @@
      "won": 5
     },
     {
-     "draw": 2,
+     "draw": 3,
      "gd": -3,
      "lost": 5,
-     "played": 11,
-     "points": 14,
-     "rank": 11,
+     "played": 12,
+     "points": 15,
+     "rank": 12,
      "team": {
       "id": 102,
       "name": "Atalanta BC",
@@ -163,7 +177,7 @@
      "lost": 6,
      "played": 12,
      "points": 14,
-     "rank": 12,
+     "rank": 13,
      "team": {
       "id": 586,
       "name": "Torino FC",
@@ -174,16 +188,16 @@
     {
      "draw": 1,
      "gd": -5,
-     "lost": 6,
-     "played": 11,
-     "points": 13,
-     "rank": 13,
+     "lost": 8,
+     "played": 12,
+     "points": 10,
+     "rank": 14,
      "team": {
-      "id": 107,
-      "name": "Genoa CFC",
-      "shortName": "Genoa"
+      "id": 5911,
+      "name": "AC Monza",
+      "shortName": "Monza"
      },
-     "won": 4
+     "won": 3
     },
     {
      "draw": 1,
@@ -191,7 +205,7 @@
      "lost": 8,
      "played": 12,
      "points": 10,
-     "rank": 14,
+     "rank": 15,
      "team": {
       "id": 5890,
       "name": "US Lecce",
@@ -201,11 +215,11 @@
     },
     {
      "draw": 3,
-     "gd": -8,
-     "lost": 6,
-     "played": 11,
+     "gd": -11,
+     "lost": 7,
+     "played": 12,
      "points": 9,
-     "rank": 15,
+     "rank": 16,
      "team": {
       "id": 99,
       "name": "ACF Fiorentina",
@@ -219,7 +233,7 @@
      "lost": 8,
      "played": 12,
      "points": 8,
-     "rank": 16,
+     "rank": 17,
      "team": {
       "id": 112,
       "name": "Parma Calcio 1913",
@@ -229,11 +243,11 @@
     },
     {
      "draw": 2,
-     "gd": -13,
-     "lost": 7,
-     "played": 11,
+     "gd": -15,
+     "lost": 8,
+     "played": 12,
      "points": 8,
-     "rank": 17,
+     "rank": 18,
      "team": {
       "id": 471,
       "name": "US Sassuolo Calcio",
@@ -242,46 +256,32 @@
      "won": 2
     },
     {
-     "draw": 1,
-     "gd": -8,
-     "lost": 8,
-     "played": 11,
-     "points": 7,
-     "rank": 18,
-     "team": {
-      "id": 5911,
-      "name": "AC Monza",
-      "shortName": "Monza"
-     },
-     "won": 2
-    },
-    {
-     "draw": 0,
+     "draw": 3,
      "gd": -13,
-     "lost": 9,
-     "played": 11,
+     "lost": 8,
+     "played": 12,
      "points": 6,
      "rank": 19,
-     "team": {
-      "id": 454,
-      "name": "Venezia FC",
-      "shortName": "Venezia FC"
-     },
-     "won": 2
-    },
-    {
-     "draw": 2,
-     "gd": -13,
-     "lost": 8,
-     "played": 11,
-     "points": 5,
-     "rank": 20,
      "team": {
       "id": 115,
       "name": "Udinese Calcio",
       "shortName": "Udinese"
      },
      "won": 1
+    },
+    {
+     "draw": 0,
+     "gd": -17,
+     "lost": 10,
+     "played": 12,
+     "points": 6,
+     "rank": 20,
+     "team": {
+      "id": 454,
+      "name": "Venezia FC",
+      "shortName": "Venezia FC"
+     },
+     "won": 2
     }
    ]
   }

@@ -1511,6 +1511,195 @@
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
    "utcDate": "2026-11-04T20:00:00Z"
+  },
+  {
+   "away": {
+    "id": 58,
+    "name": "Aston Villa FC",
+    "shortName": "Aston Villa"
+   },
+   "home": {
+    "id": 610,
+    "name": "Galatasaray SK",
+    "shortName": "Galatasaray"
+   },
+   "id": 575395,
+   "matchday": 5,
+   "score": {
+    "away": 0,
+    "home": 1
+   },
+   "stage": "LEAGUE_STAGE",
+   "status": "FINISHED",
+   "utcDate": "2026-11-24T17:45:00Z"
+  },
+  {
+   "away": {
+    "id": 2016,
+    "name": "LASK Linz",
+    "shortName": "LASK"
+   },
+   "home": {
+    "id": 5721,
+    "name": "FK Bodø/Glimt",
+    "shortName": "Bodø/Glimt"
+   },
+   "id": 575396,
+   "matchday": 5,
+   "score": {
+    "away": 0,
+    "home": 1
+   },
+   "stage": "LEAGUE_STAGE",
+   "status": "FINISHED",
+   "utcDate": "2026-11-24T17:45:00Z"
+  },
+  {
+   "away": {
+    "id": 674,
+    "name": "PSV",
+    "shortName": "PSV"
+   },
+   "home": {
+    "id": 86,
+    "name": "Real Madrid CF",
+    "shortName": "Real Madrid"
+   },
+   "id": 575397,
+   "matchday": 5,
+   "score": {
+    "away": 1,
+    "home": 5
+   },
+   "stage": "LEAGUE_STAGE",
+   "status": "FINISHED",
+   "utcDate": "2026-11-24T20:00:00Z"
+  },
+  {
+   "away": {
+    "id": 113,
+    "name": "SSC Napoli",
+    "shortName": "Napoli"
+   },
+   "home": {
+    "id": 65,
+    "name": "Manchester City FC",
+    "shortName": "Man City"
+   },
+   "id": 575398,
+   "matchday": 5,
+   "score": {
+    "away": 2,
+    "home": 2
+   },
+   "stage": "LEAGUE_STAGE",
+   "status": "FINISHED",
+   "utcDate": "2026-11-24T20:00:00Z"
+  },
+  {
+   "away": {
+    "id": 4,
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund"
+   },
+   "home": {
+    "id": 57,
+    "name": "Arsenal FC",
+    "shortName": "Arsenal"
+   },
+   "id": 575399,
+   "matchday": 5,
+   "score": {
+    "away": 1,
+    "home": 1
+   },
+   "stage": "LEAGUE_STAGE",
+   "status": "FINISHED",
+   "utcDate": "2026-11-24T20:00:00Z"
+  },
+  {
+   "away": {
+    "id": 503,
+    "name": "FC Porto",
+    "shortName": "Porto"
+   },
+   "home": {
+    "id": 675,
+    "name": "Feyenoord Rotterdam",
+    "shortName": "Feyenoord"
+   },
+   "id": 575400,
+   "matchday": 5,
+   "score": {
+    "away": 1,
+    "home": 0
+   },
+   "stage": "LEAGUE_STAGE",
+   "status": "FINISHED",
+   "utcDate": "2026-11-24T20:00:00Z"
+  },
+  {
+   "away": {
+    "id": 90,
+    "name": "Real Betis Balompié",
+    "shortName": "Real Betis"
+   },
+   "home": {
+    "id": 7509,
+    "name": "ŠK Slovan Bratislava",
+    "shortName": "Sl. Bratislava"
+   },
+   "id": 575401,
+   "matchday": 5,
+   "score": {
+    "away": 2,
+    "home": 0
+   },
+   "stage": "LEAGUE_STAGE",
+   "status": "FINISHED",
+   "utcDate": "2026-11-24T20:00:00Z"
+  },
+  {
+   "away": {
+    "id": 546,
+    "name": "Racing Club de Lens",
+    "shortName": "RC Lens"
+   },
+   "home": {
+    "id": 721,
+    "name": "RB Leipzig",
+    "shortName": "RB Leipzig"
+   },
+   "id": 575402,
+   "matchday": 5,
+   "score": {
+    "away": 1,
+    "home": 3
+   },
+   "stage": "LEAGUE_STAGE",
+   "status": "FINISHED",
+   "utcDate": "2026-11-24T20:00:00Z"
+  },
+  {
+   "away": {
+    "id": 1899,
+    "name": "PAE AEK",
+    "shortName": "PAE AEK"
+   },
+   "home": {
+    "id": 7397,
+    "name": "Como 1907",
+    "shortName": "Como 1907"
+   },
+   "id": 575403,
+   "matchday": 5,
+   "score": {
+    "away": 0,
+    "home": 1
+   },
+   "stage": "LEAGUE_STAGE",
+   "status": "FINISHED",
+   "utcDate": "2026-11-24T20:00:00Z"
   }
  ]
 }

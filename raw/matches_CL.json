@@ -14,11 +14,11 @@
    "id": 575395,
    "matchday": 5,
    "score": {
-    "away": null,
-    "home": null
+    "away": 0,
+    "home": 1
    },
    "stage": "LEAGUE_STAGE",
-   "status": "TIMED",
+   "status": "FINISHED",
    "utcDate": "2026-11-24T17:45:00Z"
   },
   {
@@ -35,11 +35,11 @@
    "id": 575396,
    "matchday": 5,
    "score": {
-    "away": null,
-    "home": null
+    "away": 0,
+    "home": 1
    },
    "stage": "LEAGUE_STAGE",
-   "status": "TIMED",
+   "status": "FINISHED",
    "utcDate": "2026-11-24T17:45:00Z"
   },
   {
@@ -56,11 +56,11 @@
    "id": 575397,
    "matchday": 5,
    "score": {
-    "away": null,
-    "home": null
+    "away": 1,
+    "home": 5
    },
    "stage": "LEAGUE_STAGE",
-   "status": "TIMED",
+   "status": "FINISHED",
    "utcDate": "2026-11-24T20:00:00Z"
   },
   {
@@ -77,11 +77,11 @@
    "id": 575398,
    "matchday": 5,
    "score": {
-    "away": null,
-    "home": null
+    "away": 2,
+    "home": 2
    },
    "stage": "LEAGUE_STAGE",
-   "status": "TIMED",
+   "status": "FINISHED",
    "utcDate": "2026-11-24T20:00:00Z"
   },
   {
@@ -98,11 +98,11 @@
    "id": 575399,
    "matchday": 5,
    "score": {
-    "away": null,
-    "home": null
+    "away": 1,
+    "home": 1
    },
    "stage": "LEAGUE_STAGE",
-   "status": "TIMED",
+   "status": "FINISHED",
    "utcDate": "2026-11-24T20:00:00Z"
   },
   {
@@ -119,11 +119,11 @@
    "id": 575400,
    "matchday": 5,
    "score": {
-    "away": null,
-    "home": null
+    "away": 1,
+    "home": 0
    },
    "stage": "LEAGUE_STAGE",
-   "status": "TIMED",
+   "status": "FINISHED",
    "utcDate": "2026-11-24T20:00:00Z"
   },
   {
@@ -140,11 +140,11 @@
    "id": 575401,
    "matchday": 5,
    "score": {
-    "away": null,
-    "home": null
+    "away": 2,
+    "home": 0
    },
    "stage": "LEAGUE_STAGE",
-   "status": "TIMED",
+   "status": "FINISHED",
    "utcDate": "2026-11-24T20:00:00Z"
   },
   {
@@ -161,11 +161,11 @@
    "id": 575402,
    "matchday": 5,
    "score": {
-    "away": null,
-    "home": null
+    "away": 1,
+    "home": 3
    },
    "stage": "LEAGUE_STAGE",
-   "status": "TIMED",
+   "status": "FINISHED",
    "utcDate": "2026-11-24T20:00:00Z"
   },
   {
@@ -182,11 +182,11 @@
    "id": 575403,
    "matchday": 5,
    "score": {
-    "away": null,
-    "home": null
+    "away": 0,
+    "home": 1
    },
    "stage": "LEAGUE_STAGE",
-   "status": "TIMED",
+   "status": "FINISHED",
    "utcDate": "2026-11-24T20:00:00Z"
   },
   {
@@ -758,7 +758,7 @@
   }
  ],
  "window": {
-  "from": "2026-11-17",
-  "to": "2026-12-24"
+  "from": "2026-11-18",
+  "to": "2026-12-25"
  }
 }
