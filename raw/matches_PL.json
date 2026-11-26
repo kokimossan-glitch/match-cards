@@ -1259,10 +1259,157 @@
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
    "utcDate": "2026-12-21T20:00:00Z"
+  },
+  {
+   "away": {
+    "id": 341,
+    "name": "Leeds United FC",
+    "shortName": "Leeds United"
+   },
+   "home": {
+    "id": 58,
+    "name": "Aston Villa FC",
+    "shortName": "Aston Villa"
+   },
+   "id": 560702,
+   "matchday": 17,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-26T12:30:00Z"
+  },
+  {
+   "away": {
+    "id": 71,
+    "name": "Sunderland AFC",
+    "shortName": "Sunderland"
+   },
+   "home": {
+    "id": 62,
+    "name": "Everton FC",
+    "shortName": "Everton"
+   },
+   "id": 560705,
+   "matchday": 17,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-26T15:00:00Z"
+  },
+  {
+   "away": {
+    "id": 397,
+    "name": "Brighton & Hove Albion FC",
+    "shortName": "Brighton Hove"
+   },
+   "home": {
+    "id": 63,
+    "name": "Fulham FC",
+    "shortName": "Fulham"
+   },
+   "id": 560708,
+   "matchday": 17,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-26T15:00:00Z"
+  },
+  {
+   "away": {
+    "id": 1044,
+    "name": "AFC Bournemouth",
+    "shortName": "Bournemouth"
+   },
+   "home": {
+    "id": 73,
+    "name": "Tottenham Hotspur FC",
+    "shortName": "Tottenham"
+   },
+   "id": 560709,
+   "matchday": 17,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-26T15:00:00Z"
+  },
+  {
+   "away": {
+    "id": 402,
+    "name": "Brentford FC",
+    "shortName": "Brentford"
+   },
+   "home": {
+    "id": 349,
+    "name": "Ipswich Town FC",
+    "shortName": "Ipswich Town"
+   },
+   "id": 560711,
+   "matchday": 17,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-26T15:00:00Z"
+  },
+  {
+   "away": {
+    "id": 64,
+    "name": "Liverpool FC",
+    "shortName": "Liverpool"
+   },
+   "home": {
+    "id": 322,
+    "name": "Hull City AFC",
+    "shortName": "Hull City"
+   },
+   "id": 560710,
+   "matchday": 17,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-26T17:30:00Z"
+  },
+  {
+   "away": {
+    "id": 65,
+    "name": "Manchester City FC",
+    "shortName": "Man City"
+   },
+   "home": {
+    "id": 67,
+    "name": "Newcastle United FC",
+    "shortName": "Newcastle"
+   },
+   "id": 560707,
+   "matchday": 17,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-26T20:00:00Z"
   }
  ],
  "window": {
-  "from": "2026-11-18",
-  "to": "2026-12-25"
+  "from": "2026-11-19",
+  "to": "2026-12-26"
  }
 }

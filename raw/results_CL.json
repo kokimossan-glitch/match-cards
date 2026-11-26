@@ -1700,6 +1700,195 @@
    "stage": "LEAGUE_STAGE",
    "status": "FINISHED",
    "utcDate": "2026-11-24T20:00:00Z"
+  },
+  {
+   "away": {
+    "id": 81,
+    "name": "FC Barcelona",
+    "shortName": "Barça"
+   },
+   "home": {
+    "id": 10233,
+    "name": "Sabah FK",
+    "shortName": "Sabah FK"
+   },
+   "id": 575404,
+   "matchday": 5,
+   "score": {
+    "away": 4,
+    "home": 1
+   },
+   "stage": "LEAGUE_STAGE",
+   "status": "FINISHED",
+   "utcDate": "2026-11-25T17:45:00Z"
+  },
+  {
+   "away": {
+    "id": 94,
+    "name": "Villarreal CF",
+    "shortName": "Villarreal"
+   },
+   "home": {
+    "id": 930,
+    "name": "SK Slavia Praha",
+    "shortName": "Slavia Praha"
+   },
+   "id": 575405,
+   "matchday": 5,
+   "score": {
+    "away": 1,
+    "home": 0
+   },
+   "stage": "LEAGUE_STAGE",
+   "status": "FINISHED",
+   "utcDate": "2026-11-25T17:45:00Z"
+  },
+  {
+   "away": {
+    "id": 10,
+    "name": "VfB Stuttgart",
+    "shortName": "Stuttgart"
+   },
+   "home": {
+    "id": 108,
+    "name": "FC Internazionale Milano",
+    "shortName": "Inter"
+   },
+   "id": 575406,
+   "matchday": 5,
+   "score": {
+    "away": 0,
+    "home": 2
+   },
+   "stage": "LEAGUE_STAGE",
+   "status": "FINISHED",
+   "utcDate": "2026-11-25T20:00:00Z"
+  },
+  {
+   "away": {
+    "id": 5720,
+    "name": "Viking FK",
+    "shortName": "Viking"
+   },
+   "home": {
+    "id": 78,
+    "name": "Club Atlético de Madrid",
+    "shortName": "Atleti"
+   },
+   "id": 575407,
+   "matchday": 5,
+   "score": {
+    "away": 0,
+    "home": 2
+   },
+   "stage": "LEAGUE_STAGE",
+   "status": "FINISHED",
+   "utcDate": "2026-11-25T20:00:00Z"
+  },
+  {
+   "away": {
+    "id": 100,
+    "name": "AS Roma",
+    "shortName": "Roma"
+   },
+   "home": {
+    "id": 524,
+    "name": "Paris Saint-Germain FC",
+    "shortName": "PSG"
+   },
+   "id": 575408,
+   "matchday": 5,
+   "score": {
+    "away": 2,
+    "home": 2
+   },
+   "stage": "LEAGUE_STAGE",
+   "status": "FINISHED",
+   "utcDate": "2026-11-25T20:00:00Z"
+  },
+  {
+   "away": {
+    "id": 64,
+    "name": "Liverpool FC",
+    "shortName": "Liverpool"
+   },
+   "home": {
+    "id": 851,
+    "name": "Club Brugge KV",
+    "shortName": "Club Brugge"
+   },
+   "id": 575409,
+   "matchday": 5,
+   "score": {
+    "away": 3,
+    "home": 0
+   },
+   "stage": "LEAGUE_STAGE",
+   "status": "FINISHED",
+   "utcDate": "2026-11-25T20:00:00Z"
+  },
+  {
+   "away": {
+    "id": 5,
+    "name": "FC Bayern München",
+    "shortName": "Bayern"
+   },
+   "home": {
+    "id": 521,
+    "name": "Lille OSC",
+    "shortName": "Lille"
+   },
+   "id": 575410,
+   "matchday": 5,
+   "score": {
+    "away": 1,
+    "home": 2
+   },
+   "stage": "LEAGUE_STAGE",
+   "status": "FINISHED",
+   "utcDate": "2026-11-25T20:00:00Z"
+  },
+  {
+   "away": {
+    "id": 66,
+    "name": "Manchester United FC",
+    "shortName": "Man United"
+   },
+   "home": {
+    "id": 498,
+    "name": "Sporting Clube de Portugal",
+    "shortName": "Sporting CP"
+   },
+   "id": 575411,
+   "matchday": 5,
+   "score": {
+    "away": 2,
+    "home": 2
+   },
+   "stage": "LEAGUE_STAGE",
+   "status": "FINISHED",
+   "utcDate": "2026-11-25T20:00:00Z"
+  },
+  {
+   "away": {
+    "id": 613,
+    "name": "Fenerbahçe SK",
+    "shortName": "Fenerbahçe"
+   },
+   "home": {
+    "id": 1887,
+    "name": "FK Shakhtar Donetsk",
+    "shortName": "Shaktar"
+   },
+   "id": 575412,
+   "matchday": 5,
+   "score": {
+    "away": 1,
+    "home": 0
+   },
+   "stage": "LEAGUE_STAGE",
+   "status": "FINISHED",
+   "utcDate": "2026-11-25T20:00:00Z"
   }
  ]
 }
