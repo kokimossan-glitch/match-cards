@@ -5,25 +5,11 @@
    "rows": [
     {
      "draw": 0,
-     "gd": 10,
-     "lost": 0,
-     "played": 5,
-     "points": 15,
-     "rank": 1,
-     "team": {
-      "id": 86,
-      "name": "Real Madrid CF",
-      "shortName": "Real Madrid"
-     },
-     "won": 5
-    },
-    {
-     "draw": 1,
      "gd": 15,
      "lost": 0,
-     "played": 5,
-     "points": 13,
-     "rank": 2,
+     "played": 4,
+     "points": 12,
+     "rank": 1,
      "team": {
       "id": 524,
       "name": "Paris Saint-Germain FC",
@@ -33,123 +19,25 @@
     },
     {
      "draw": 0,
-     "gd": 14,
-     "lost": 1,
-     "played": 5,
-     "points": 12,
-     "rank": 3,
-     "team": {
-      "id": 7397,
-      "name": "Como 1907",
-      "shortName": "Como 1907"
-     },
-     "won": 4
-    },
-    {
-     "draw": 0,
-     "gd": 11,
-     "lost": 1,
-     "played": 5,
-     "points": 12,
-     "rank": 4,
-     "team": {
-      "id": 81,
-      "name": "FC Barcelona",
-      "shortName": "Barça"
-     },
-     "won": 4
-    },
-    {
-     "draw": 0,
-     "gd": 7,
-     "lost": 1,
-     "played": 5,
-     "points": 12,
-     "rank": 5,
-     "team": {
-      "id": 64,
-      "name": "Liverpool FC",
-      "shortName": "Liverpool"
-     },
-     "won": 4
-    },
-    {
-     "draw": 0,
-     "gd": 4,
-     "lost": 1,
-     "played": 5,
-     "points": 12,
-     "rank": 6,
-     "team": {
-      "id": 90,
-      "name": "Real Betis Balompié",
-      "shortName": "Real Betis"
-     },
-     "won": 4
-    },
-    {
-     "draw": 2,
-     "gd": 5,
+     "gd": 6,
      "lost": 0,
-     "played": 5,
-     "points": 11,
-     "rank": 7,
+     "played": 4,
+     "points": 12,
+     "rank": 2,
      "team": {
-      "id": 57,
-      "name": "Arsenal FC",
-      "shortName": "Arsenal"
+      "id": 86,
+      "name": "Real Madrid CF",
+      "shortName": "Real Madrid"
      },
-     "won": 3
+     "won": 4
     },
     {
      "draw": 1,
-     "gd": 5,
+     "gd": 6,
      "lost": 1,
      "played": 5,
      "points": 10,
-     "rank": 8,
-     "team": {
-      "id": 65,
-      "name": "Manchester City FC",
-      "shortName": "Man City"
-     },
-     "won": 3
-    },
-    {
-     "draw": 1,
-     "gd": 4,
-     "lost": 1,
-     "played": 5,
-     "points": 10,
-     "rank": 9,
-     "team": {
-      "id": 498,
-      "name": "Sporting Clube de Portugal",
-      "shortName": "Sporting CP"
-     },
-     "won": 3
-    },
-    {
-     "draw": 1,
-     "gd": 2,
-     "lost": 1,
-     "played": 5,
-     "points": 10,
-     "rank": 10,
-     "team": {
-      "id": 4,
-      "name": "Borussia Dortmund",
-      "shortName": "Dortmund"
-     },
-     "won": 3
-    },
-    {
-     "draw": 0,
-     "gd": 5,
-     "lost": 2,
-     "played": 5,
-     "points": 9,
-     "rank": 11,
+     "rank": 3,
      "team": {
       "id": 58,
       "name": "Aston Villa FC",
@@ -158,26 +46,82 @@
      "won": 3
     },
     {
-     "draw": 0,
-     "gd": 4,
-     "lost": 2,
-     "played": 5,
-     "points": 9,
-     "rank": 12,
+     "draw": 1,
+     "gd": 5,
+     "lost": 0,
+     "played": 4,
+     "points": 10,
+     "rank": 4,
      "team": {
-      "id": 108,
-      "name": "FC Internazionale Milano",
-      "shortName": "Inter"
+      "id": 57,
+      "name": "Arsenal FC",
+      "shortName": "Arsenal"
      },
      "won": 3
     },
     {
      "draw": 0,
-     "gd": 1,
-     "lost": 2,
-     "played": 5,
+     "gd": 13,
+     "lost": 1,
+     "played": 4,
      "points": 9,
-     "rank": 13,
+     "rank": 5,
+     "team": {
+      "id": 7397,
+      "name": "Como 1907",
+      "shortName": "Como 1907"
+     },
+     "won": 3
+    },
+    {
+     "draw": 0,
+     "gd": 8,
+     "lost": 1,
+     "played": 4,
+     "points": 9,
+     "rank": 6,
+     "team": {
+      "id": 81,
+      "name": "FC Barcelona",
+      "shortName": "Barça"
+     },
+     "won": 3
+    },
+    {
+     "draw": 0,
+     "gd": 5,
+     "lost": 1,
+     "played": 4,
+     "points": 9,
+     "rank": 7,
+     "team": {
+      "id": 65,
+      "name": "Manchester City FC",
+      "shortName": "Man City"
+     },
+     "won": 3
+    },
+    {
+     "draw": 0,
+     "gd": 4,
+     "lost": 1,
+     "played": 4,
+     "points": 9,
+     "rank": 8,
+     "team": {
+      "id": 64,
+      "name": "Liverpool FC",
+      "shortName": "Liverpool"
+     },
+     "won": 3
+    },
+    {
+     "draw": 0,
+     "gd": 4,
+     "lost": 1,
+     "played": 4,
+     "points": 9,
+     "rank": 9,
      "team": {
       "id": 851,
       "name": "Club Brugge KV",
@@ -187,25 +131,53 @@
     },
     {
      "draw": 0,
-     "gd": 0,
-     "lost": 2,
-     "played": 5,
+     "gd": 4,
+     "lost": 1,
+     "played": 4,
      "points": 9,
-     "rank": 14,
+     "rank": 10,
      "team": {
-      "id": 610,
-      "name": "Galatasaray SK",
-      "shortName": "Galatasaray"
+      "id": 498,
+      "name": "Sporting Clube de Portugal",
+      "shortName": "Sporting CP"
+     },
+     "won": 3
+    },
+    {
+     "draw": 0,
+     "gd": 2,
+     "lost": 1,
+     "played": 4,
+     "points": 9,
+     "rank": 11,
+     "team": {
+      "id": 90,
+      "name": "Real Betis Balompié",
+      "shortName": "Real Betis"
+     },
+     "won": 3
+    },
+    {
+     "draw": 0,
+     "gd": 2,
+     "lost": 1,
+     "played": 4,
+     "points": 9,
+     "rank": 12,
+     "team": {
+      "id": 4,
+      "name": "Borussia Dortmund",
+      "shortName": "Dortmund"
      },
      "won": 3
     },
     {
      "draw": 2,
-     "gd": 6,
-     "lost": 1,
-     "played": 5,
+     "gd": 7,
+     "lost": 0,
+     "played": 4,
      "points": 8,
-     "rank": 15,
+     "rank": 13,
      "team": {
       "id": 5,
       "name": "FC Bayern München",
@@ -214,26 +186,12 @@
      "won": 2
     },
     {
-     "draw": 2,
-     "gd": -4,
-     "lost": 1,
-     "played": 5,
-     "points": 8,
-     "rank": 16,
-     "team": {
-      "id": 613,
-      "name": "Fenerbahçe SK",
-      "shortName": "Fenerbahçe"
-     },
-     "won": 2
-    },
-    {
      "draw": 1,
-     "gd": 1,
-     "lost": 2,
-     "played": 5,
+     "gd": 3,
+     "lost": 1,
+     "played": 4,
      "points": 7,
-     "rank": 17,
+     "rank": 14,
      "team": {
       "id": 10,
       "name": "VfB Stuttgart",
@@ -247,49 +205,7 @@
      "lost": 2,
      "played": 5,
      "points": 7,
-     "rank": 18,
-     "team": {
-      "id": 78,
-      "name": "Club Atlético de Madrid",
-      "shortName": "Atleti"
-     },
-     "won": 2
-    },
-    {
-     "draw": 1,
-     "gd": 0,
-     "lost": 2,
-     "played": 5,
-     "points": 7,
-     "rank": 19,
-     "team": {
-      "id": 66,
-      "name": "Manchester United FC",
-      "shortName": "Man United"
-     },
-     "won": 2
-    },
-    {
-     "draw": 1,
-     "gd": -4,
-     "lost": 2,
-     "played": 5,
-     "points": 7,
-     "rank": 20,
-     "team": {
-      "id": 5721,
-      "name": "FK Bodø/Glimt",
-      "shortName": "Bodø/Glimt"
-     },
-     "won": 2
-    },
-    {
-     "draw": 0,
-     "gd": 0,
-     "lost": 3,
-     "played": 5,
-     "points": 6,
-     "rank": 21,
+     "rank": 15,
      "team": {
       "id": 2016,
       "name": "LASK Linz",
@@ -298,54 +214,82 @@
      "won": 2
     },
     {
+     "draw": 1,
+     "gd": -1,
+     "lost": 2,
+     "played": 5,
+     "points": 7,
+     "rank": 16,
+     "team": {
+      "id": 610,
+      "name": "Galatasaray SK",
+      "shortName": "Galatasaray"
+     },
+     "won": 2
+    },
+    {
+     "draw": 0,
+     "gd": 2,
+     "lost": 2,
+     "played": 4,
+     "points": 6,
+     "rank": 17,
+     "team": {
+      "id": 108,
+      "name": "FC Internazionale Milano",
+      "shortName": "Inter"
+     },
+     "won": 2
+    },
+    {
      "draw": 0,
      "gd": 0,
-     "lost": 3,
-     "played": 5,
+     "lost": 2,
+     "played": 4,
      "points": 6,
-     "rank": 22,
+     "rank": 18,
      "team": {
-      "id": 503,
-      "name": "FC Porto",
-      "shortName": "Porto"
-     },
-     "won": 2
-    },
-    {
-     "draw": 0,
-     "gd": -4,
-     "lost": 3,
-     "played": 5,
-     "points": 6,
-     "rank": 23,
-     "team": {
-      "id": 721,
-      "name": "RB Leipzig",
-      "shortName": "RB Leipzig"
-     },
-     "won": 2
-    },
-    {
-     "draw": 0,
-     "gd": -5,
-     "lost": 3,
-     "played": 5,
-     "points": 6,
-     "rank": 24,
-     "team": {
-      "id": 94,
-      "name": "Villarreal CF",
-      "shortName": "Villarreal"
+      "id": 66,
+      "name": "Manchester United FC",
+      "shortName": "Man United"
      },
      "won": 2
     },
     {
      "draw": 2,
-     "gd": 2,
+     "gd": -5,
+     "lost": 1,
+     "played": 4,
+     "points": 5,
+     "rank": 19,
+     "team": {
+      "id": 613,
+      "name": "Fenerbahçe SK",
+      "shortName": "Fenerbahçe"
+     },
+     "won": 1
+    },
+    {
+     "draw": 2,
+     "gd": -5,
      "lost": 2,
      "played": 5,
      "points": 5,
-     "rank": 25,
+     "rank": 20,
+     "team": {
+      "id": 5721,
+      "name": "FK Bodø/Glimt",
+      "shortName": "Bodø/Glimt"
+     },
+     "won": 1
+    },
+    {
+     "draw": 1,
+     "gd": 2,
+     "lost": 2,
+     "played": 4,
+     "points": 4,
+     "rank": 21,
      "team": {
       "id": 100,
       "name": "AS Roma",
@@ -355,11 +299,11 @@
     },
     {
      "draw": 1,
-     "gd": -1,
-     "lost": 3,
-     "played": 5,
+     "gd": 0,
+     "lost": 2,
+     "played": 4,
      "points": 4,
-     "rank": 26,
+     "rank": 22,
      "team": {
       "id": 1887,
       "name": "FK Shakhtar Donetsk",
@@ -369,11 +313,11 @@
     },
     {
      "draw": 1,
-     "gd": -3,
-     "lost": 3,
-     "played": 5,
+     "gd": -1,
+     "lost": 2,
+     "played": 4,
      "points": 4,
-     "rank": 27,
+     "rank": 23,
      "team": {
       "id": 5720,
       "name": "Viking FK",
@@ -383,39 +327,25 @@
     },
     {
      "draw": 1,
-     "gd": -5,
-     "lost": 3,
-     "played": 5,
+     "gd": -1,
+     "lost": 2,
+     "played": 4,
      "points": 4,
-     "rank": 28,
+     "rank": 24,
      "team": {
-      "id": 113,
-      "name": "SSC Napoli",
-      "shortName": "Napoli"
+      "id": 78,
+      "name": "Club Atlético de Madrid",
+      "shortName": "Atleti"
      },
      "won": 1
     },
     {
      "draw": 1,
-     "gd": -5,
-     "lost": 3,
-     "played": 5,
+     "gd": -1,
+     "lost": 2,
+     "played": 4,
      "points": 4,
-     "rank": 29,
-     "team": {
-      "id": 521,
-      "name": "Lille OSC",
-      "shortName": "Lille"
-     },
-     "won": 1
-    },
-    {
-     "draw": 1,
-     "gd": -5,
-     "lost": 3,
-     "played": 5,
-     "points": 4,
-     "rank": 30,
+     "rank": 25,
      "team": {
       "id": 674,
       "name": "PSV",
@@ -425,11 +355,53 @@
     },
     {
      "draw": 0,
-     "gd": -7,
-     "lost": 4,
-     "played": 5,
+     "gd": -1,
+     "lost": 3,
+     "played": 4,
      "points": 3,
-     "rank": 31,
+     "rank": 26,
+     "team": {
+      "id": 503,
+      "name": "FC Porto",
+      "shortName": "Porto"
+     },
+     "won": 1
+    },
+    {
+     "draw": 0,
+     "gd": -5,
+     "lost": 3,
+     "played": 4,
+     "points": 3,
+     "rank": 27,
+     "team": {
+      "id": 113,
+      "name": "SSC Napoli",
+      "shortName": "Napoli"
+     },
+     "won": 1
+    },
+    {
+     "draw": 0,
+     "gd": -6,
+     "lost": 3,
+     "played": 4,
+     "points": 3,
+     "rank": 28,
+     "team": {
+      "id": 94,
+      "name": "Villarreal CF",
+      "shortName": "Villarreal"
+     },
+     "won": 1
+    },
+    {
+     "draw": 0,
+     "gd": -6,
+     "lost": 3,
+     "played": 4,
+     "points": 3,
+     "rank": 29,
      "team": {
       "id": 1899,
       "name": "PAE AEK",
@@ -439,9 +411,37 @@
     },
     {
      "draw": 0,
-     "gd": -8,
-     "lost": 4,
-     "played": 5,
+     "gd": -6,
+     "lost": 3,
+     "played": 4,
+     "points": 3,
+     "rank": 29,
+     "team": {
+      "id": 721,
+      "name": "RB Leipzig",
+      "shortName": "RB Leipzig"
+     },
+     "won": 1
+    },
+    {
+     "draw": 0,
+     "gd": -6,
+     "lost": 3,
+     "played": 4,
+     "points": 3,
+     "rank": 31,
+     "team": {
+      "id": 10233,
+      "name": "Sabah FK",
+      "shortName": "Sabah FK"
+     },
+     "won": 1
+    },
+    {
+     "draw": 0,
+     "gd": -7,
+     "lost": 3,
+     "played": 4,
      "points": 3,
      "rank": 32,
      "team": {
@@ -453,25 +453,11 @@
     },
     {
      "draw": 0,
-     "gd": -9,
-     "lost": 4,
-     "played": 5,
+     "gd": -12,
+     "lost": 3,
+     "played": 4,
      "points": 3,
      "rank": 33,
-     "team": {
-      "id": 10233,
-      "name": "Sabah FK",
-      "shortName": "Sabah FK"
-     },
-     "won": 1
-    },
-    {
-     "draw": 0,
-     "gd": -14,
-     "lost": 4,
-     "played": 5,
-     "points": 3,
-     "rank": 34,
      "team": {
       "id": 546,
       "name": "Racing Club de Lens",
@@ -481,11 +467,11 @@
     },
     {
      "draw": 1,
-     "gd": -5,
-     "lost": 4,
-     "played": 5,
+     "gd": -4,
+     "lost": 3,
+     "played": 4,
      "points": 1,
-     "rank": 35,
+     "rank": 34,
      "team": {
       "id": 930,
       "name": "SK Slavia Praha",
@@ -494,10 +480,24 @@
      "won": 0
     },
     {
+     "draw": 1,
+     "gd": -6,
+     "lost": 3,
+     "played": 4,
+     "points": 1,
+     "rank": 35,
+     "team": {
+      "id": 521,
+      "name": "Lille OSC",
+      "shortName": "Lille"
+     },
+     "won": 0
+    },
+    {
      "draw": 0,
-     "gd": -18,
-     "lost": 5,
-     "played": 5,
+     "gd": -16,
+     "lost": 4,
+     "played": 4,
      "points": 0,
      "rank": 36,
      "team": {

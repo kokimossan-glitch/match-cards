@@ -1406,10 +1406,73 @@
    "stage": "REGULAR_SEASON",
    "status": "TIMED",
    "utcDate": "2026-12-26T20:00:00Z"
+  },
+  {
+   "away": {
+    "id": 61,
+    "name": "Chelsea FC",
+    "shortName": "Chelsea"
+   },
+   "home": {
+    "id": 1076,
+    "name": "Coventry City FC",
+    "shortName": "Coventry City"
+   },
+   "id": 560706,
+   "matchday": 17,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-27T14:00:00Z"
+  },
+  {
+   "away": {
+    "id": 351,
+    "name": "Nottingham Forest FC",
+    "shortName": "Nottingham"
+   },
+   "home": {
+    "id": 66,
+    "name": "Manchester United FC",
+    "shortName": "Man United"
+   },
+   "id": 560703,
+   "matchday": 17,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-27T16:30:00Z"
+  },
+  {
+   "away": {
+    "id": 57,
+    "name": "Arsenal FC",
+    "shortName": "Arsenal"
+   },
+   "home": {
+    "id": 354,
+    "name": "Crystal Palace FC",
+    "shortName": "Crystal Palace"
+   },
+   "id": 560704,
+   "matchday": 17,
+   "score": {
+    "away": null,
+    "home": null
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "TIMED",
+   "utcDate": "2026-12-27T19:00:00Z"
   }
  ],
  "window": {
-  "from": "2026-11-19",
-  "to": "2026-12-26"
+  "from": "2026-11-20",
+  "to": "2026-12-27"
  }
 }
