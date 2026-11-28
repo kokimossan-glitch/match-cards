@@ -2,27 +2,6 @@
  "matches": [
   {
    "away": {
-    "id": 1,
-    "name": "1. FC Köln",
-    "shortName": "1. FC Köln"
-   },
-   "home": {
-    "id": 5,
-    "name": "FC Bayern München",
-    "shortName": "Bayern"
-   },
-   "id": 565859,
-   "matchday": 10,
-   "score": {
-    "away": 1,
-    "home": 1
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "FINISHED",
-   "utcDate": "2026-11-20T19:30:00Z"
-  },
-  {
-   "away": {
     "id": 29,
     "name": "SC Paderborn 07",
     "shortName": "SC Paderborn"
@@ -203,11 +182,11 @@
    "id": 565869,
    "matchday": 11,
    "score": {
-    "away": null,
-    "home": null
+    "away": 3,
+    "home": 3
    },
    "stage": "REGULAR_SEASON",
-   "status": "TIMED",
+   "status": "FINISHED",
    "utcDate": "2026-11-27T19:30:00Z"
   },
   {
@@ -947,7 +926,7 @@
   }
  ],
  "window": {
-  "from": "2026-11-20",
-  "to": "2026-12-27"
+  "from": "2026-11-21",
+  "to": "2026-12-28"
  }
 }

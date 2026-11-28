@@ -74,30 +74,30 @@
      "won": 7
     },
     {
+     "draw": 2,
+     "gd": -10,
+     "lost": 6,
+     "played": 14,
+     "points": 20,
+     "rank": 6,
+     "team": {
+      "id": 5335,
+      "name": "Real Racing Club de Santander",
+      "shortName": "Santander"
+     },
+     "won": 6
+    },
+    {
      "draw": 4,
      "gd": -2,
      "lost": 4,
      "played": 13,
      "points": 19,
-     "rank": 6,
+     "rank": 7,
      "team": {
       "id": 559,
       "name": "Sevilla FC",
       "shortName": "Sevilla FC"
-     },
-     "won": 5
-    },
-    {
-     "draw": 2,
-     "gd": -12,
-     "lost": 6,
-     "played": 13,
-     "points": 17,
-     "rank": 7,
-     "team": {
-      "id": 5335,
-      "name": "Real Racing Club de Santander",
-      "shortName": "Santander"
      },
      "won": 5
     },
@@ -201,9 +201,9 @@
     },
     {
      "draw": 6,
-     "gd": -5,
-     "lost": 5,
-     "played": 13,
+     "gd": -7,
+     "lost": 6,
+     "played": 14,
      "points": 12,
      "rank": 15,
      "team": {

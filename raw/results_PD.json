@@ -2708,6 +2708,27 @@
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
    "utcDate": "2026-11-23T20:00:00Z"
+  },
+  {
+   "away": {
+    "id": 5335,
+    "name": "Real Racing Club de Santander",
+    "shortName": "Santander"
+   },
+   "home": {
+    "id": 88,
+    "name": "Levante UD",
+    "shortName": "Levante"
+   },
+   "id": 564765,
+   "matchday": 14,
+   "score": {
+    "away": 3,
+    "home": 1
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-27T20:00:00Z"
   }
  ]
 }

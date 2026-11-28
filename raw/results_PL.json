@@ -2309,6 +2309,27 @@
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
    "utcDate": "2026-11-23T20:00:00Z"
+  },
+  {
+   "away": {
+    "id": 61,
+    "name": "Chelsea FC",
+    "shortName": "Chelsea"
+   },
+   "home": {
+    "id": 351,
+    "name": "Nottingham Forest FC",
+    "shortName": "Nottingham"
+   },
+   "id": 560658,
+   "matchday": 12,
+   "score": {
+    "away": 2,
+    "home": 3
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-27T20:00:00Z"
   }
  ]
 }

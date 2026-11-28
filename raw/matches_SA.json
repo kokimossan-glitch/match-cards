@@ -224,11 +224,11 @@
    "id": 558515,
    "matchday": 13,
    "score": {
-    "away": null,
-    "home": null
+    "away": 0,
+    "home": 0
    },
    "stage": "REGULAR_SEASON",
-   "status": "TIMED",
+   "status": "FINISHED",
    "utcDate": "2026-11-27T19:45:00Z"
   },
   {
@@ -1052,7 +1052,7 @@
   }
  ],
  "window": {
-  "from": "2026-11-20",
-  "to": "2026-12-27"
+  "from": "2026-11-21",
+  "to": "2026-12-28"
  }
 }

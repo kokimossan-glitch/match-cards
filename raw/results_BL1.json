@@ -1889,6 +1889,27 @@
    "stage": "REGULAR_SEASON",
    "status": "FINISHED",
    "utcDate": "2026-11-22T16:30:00Z"
+  },
+  {
+   "away": {
+    "id": 18,
+    "name": "Borussia Mönchengladbach",
+    "shortName": "M'gladbach"
+   },
+   "home": {
+    "id": 12,
+    "name": "SV Werder Bremen",
+    "shortName": "Bremen"
+   },
+   "id": 565869,
+   "matchday": 11,
+   "score": {
+    "away": 3,
+    "home": 3
+   },
+   "stage": "REGULAR_SEASON",
+   "status": "FINISHED",
+   "utcDate": "2026-11-27T19:30:00Z"
   }
  ]
 }

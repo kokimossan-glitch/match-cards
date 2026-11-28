@@ -103,9 +103,9 @@
     },
     {
      "draw": 1,
-     "gd": 0,
-     "lost": 5,
-     "played": 11,
+     "gd": -1,
+     "lost": 6,
+     "played": 12,
      "points": 16,
      "rank": 8,
      "team": {
@@ -186,12 +186,26 @@
      "won": 3
     },
     {
+     "draw": 3,
+     "gd": -5,
+     "lost": 6,
+     "played": 12,
+     "points": 12,
+     "rank": 14,
+     "team": {
+      "id": 351,
+      "name": "Nottingham Forest FC",
+      "shortName": "Nottingham"
+     },
+     "won": 3
+    },
+    {
      "draw": 0,
      "gd": -8,
      "lost": 7,
      "played": 11,
      "points": 12,
-     "rank": 14,
+     "rank": 15,
      "team": {
       "id": 1076,
       "name": "Coventry City FC",
@@ -205,7 +219,7 @@
      "lost": 4,
      "played": 11,
      "points": 11,
-     "rank": 15,
+     "rank": 16,
      "team": {
       "id": 63,
       "name": "Fulham FC",
@@ -219,27 +233,13 @@
      "lost": 6,
      "played": 11,
      "points": 11,
-     "rank": 16,
+     "rank": 17,
      "team": {
       "id": 349,
       "name": "Ipswich Town FC",
       "shortName": "Ipswich Town"
      },
      "won": 3
-    },
-    {
-     "draw": 3,
-     "gd": -6,
-     "lost": 6,
-     "played": 11,
-     "points": 9,
-     "rank": 17,
-     "team": {
-      "id": 351,
-      "name": "Nottingham Forest FC",
-      "shortName": "Nottingham"
-     },
-     "won": 2
     },
     {
      "draw": 3,

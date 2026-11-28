@@ -2,27 +2,6 @@
  "matches": [
   {
    "away": {
-    "id": 533,
-    "name": "Le Havre AC",
-    "shortName": "Le Havre"
-   },
-   "home": {
-    "id": 531,
-    "name": "ES Troyes AC",
-    "shortName": "Troyes"
-   },
-   "id": 559622,
-   "matchday": 11,
-   "score": {
-    "away": 1,
-    "home": 3
-   },
-   "stage": "REGULAR_SEASON",
-   "status": "FINISHED",
-   "utcDate": "2026-11-20T19:45:00Z"
-  },
-  {
-   "away": {
     "id": 524,
     "name": "Paris Saint-Germain FC",
     "shortName": "PSG"
@@ -203,11 +182,11 @@
    "id": 559616,
    "matchday": 12,
    "score": {
-    "away": null,
-    "home": null
+    "away": 0,
+    "home": 1
    },
    "stage": "REGULAR_SEASON",
-   "status": "TIMED",
+   "status": "FINISHED",
    "utcDate": "2026-11-27T19:45:00Z"
   },
   {
@@ -758,7 +737,7 @@
   }
  ],
  "window": {
-  "from": "2026-11-20",
-  "to": "2026-12-27"
+  "from": "2026-11-21",
+  "to": "2026-12-28"
  }
 }

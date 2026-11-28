@@ -224,11 +224,11 @@
    "id": 560658,
    "matchday": 12,
    "score": {
-    "away": null,
-    "home": null
+    "away": 2,
+    "home": 3
    },
    "stage": "REGULAR_SEASON",
-   "status": "TIMED",
+   "status": "FINISHED",
    "utcDate": "2026-11-27T20:00:00Z"
   },
   {
@@ -1472,7 +1472,7 @@
   }
  ],
  "window": {
-  "from": "2026-11-20",
-  "to": "2026-12-27"
+  "from": "2026-11-21",
+  "to": "2026-12-28"
  }
 }

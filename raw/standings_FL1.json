@@ -19,9 +19,9 @@
     },
     {
      "draw": 2,
-     "gd": 11,
-     "lost": 2,
-     "played": 11,
+     "gd": 10,
+     "lost": 3,
+     "played": 12,
      "points": 23,
      "rank": 2,
      "team": {
@@ -33,11 +33,25 @@
     },
     {
      "draw": 3,
+     "gd": 8,
+     "lost": 3,
+     "played": 12,
+     "points": 21,
+     "rank": 3,
+     "team": {
+      "id": 512,
+      "name": "Stade Brestois 29",
+      "shortName": "Brest"
+     },
+     "won": 6
+    },
+    {
+     "draw": 3,
      "gd": 6,
      "lost": 2,
      "played": 11,
      "points": 21,
-     "rank": 3,
+     "rank": 4,
      "team": {
       "id": 521,
       "name": "Lille OSC",
@@ -51,7 +65,7 @@
      "lost": 3,
      "played": 11,
      "points": 20,
-     "rank": 4,
+     "rank": 5,
      "team": {
       "id": 523,
       "name": "Olympique Lyonnais",
@@ -65,27 +79,13 @@
      "lost": 5,
      "played": 11,
      "points": 18,
-     "rank": 5,
+     "rank": 6,
      "team": {
       "id": 516,
       "name": "Olympique de Marseille",
       "shortName": "Marseille"
      },
      "won": 6
-    },
-    {
-     "draw": 3,
-     "gd": 7,
-     "lost": 3,
-     "played": 11,
-     "points": 18,
-     "rank": 6,
-     "team": {
-      "id": 512,
-      "name": "Stade Brestois 29",
-      "shortName": "Brest"
-     },
-     "won": 5
     },
     {
      "draw": 2,

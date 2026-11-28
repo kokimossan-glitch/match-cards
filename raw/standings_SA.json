@@ -102,30 +102,30 @@
      "won": 6
     },
     {
-     "draw": 3,
-     "gd": 5,
+     "draw": 4,
+     "gd": 2,
      "lost": 4,
-     "played": 12,
-     "points": 18,
+     "played": 13,
+     "points": 19,
      "rank": 8,
      "team": {
-      "id": 113,
-      "name": "SSC Napoli",
-      "shortName": "Napoli"
+      "id": 103,
+      "name": "Bologna FC 1909",
+      "shortName": "Bologna"
      },
      "won": 5
     },
     {
      "draw": 3,
-     "gd": 2,
+     "gd": 5,
      "lost": 4,
      "played": 12,
      "points": 18,
      "rank": 9,
      "team": {
-      "id": 103,
-      "name": "Bologna FC 1909",
-      "shortName": "Bologna"
+      "id": 113,
+      "name": "SSC Napoli",
+      "shortName": "Napoli"
      },
      "won": 5
     },
@@ -256,32 +256,32 @@
      "won": 2
     },
     {
-     "draw": 3,
-     "gd": -13,
-     "lost": 8,
-     "played": 12,
-     "points": 6,
-     "rank": 19,
-     "team": {
-      "id": 115,
-      "name": "Udinese Calcio",
-      "shortName": "Udinese"
-     },
-     "won": 1
-    },
-    {
-     "draw": 0,
+     "draw": 1,
      "gd": -17,
      "lost": 10,
-     "played": 12,
-     "points": 6,
-     "rank": 20,
+     "played": 13,
+     "points": 7,
+     "rank": 19,
      "team": {
       "id": 454,
       "name": "Venezia FC",
       "shortName": "Venezia FC"
      },
      "won": 2
+    },
+    {
+     "draw": 3,
+     "gd": -13,
+     "lost": 8,
+     "played": 12,
+     "points": 6,
+     "rank": 20,
+     "team": {
+      "id": 115,
+      "name": "Udinese Calcio",
+      "shortName": "Udinese"
+     },
+     "won": 1
     }
    ]
   }
